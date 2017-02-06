@@ -35,4 +35,4 @@ Documentation is split across a file for each executable, to improve diffs.
 `is_export` indicates if that module is exported, if false, it is imported.
 
 `name` is either not present or is `null` when the name for the symbol is unknown.
-`hex_id` and `encoded_id` are included for human convenience and are not used.
+`hex_id` and `encoded_id` are included for human convenience and are not used by tools.
