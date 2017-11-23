@@ -951,6 +951,18 @@
               "name": "sceAudioInSetConnections"
             },
             {
+              "id": 12522311376322146007,
+              "hex_id": "ADC82FD9C883AED7",
+              "encoded_id": "rcgv2ciDrtc",
+              "name": "sceAudioInSetDevConnection"
+            },
+            {
+              "id": 13045325301346779066,
+              "hex_id": "B50A4E3E9630BFBA",
+              "encoded_id": "tQpOPpYwv7o",
+              "name": "sceAudioInSetPortConnections"
+            },
+            {
               "id": 3838661561121534164,
               "hex_id": "3545AA5A0B9870D4",
               "encoded_id": "NUWqWguYcNQ",
@@ -960,25 +972,13 @@
               "id": 6001239458408916400,
               "hex_id": "5348AF7DD28565B0",
               "encoded_id": "U0ivfdKFZbA",
-              "name": null
+              "name": "sceAudioInSetSparkParam"
             },
             {
               "id": 7688324027167904665,
               "hex_id": "6AB269F7DD719399",
               "encoded_id": "arJp991xk5k",
-              "name": null
-            },
-            {
-              "id": 12522311376322146007,
-              "hex_id": "ADC82FD9C883AED7",
-              "encoded_id": "rcgv2ciDrtc",
-              "name": null
-            },
-            {
-              "id": 13045325301346779066,
-              "hex_id": "B50A4E3E9630BFBA",
-              "encoded_id": "tQpOPpYwv7o",
-              "name": null
+              "name": "sceAudioInSetUserMute"
             }
           ]
         }
@@ -1004,22 +1004,22 @@
               "name": "sceAudioOutSetConnections"
             },
             {
+              "id": 1958240623963626317,
+              "hex_id": "1B2D1178E8175B4D",
+              "encoded_id": "Gy0ReOgXW00",
+              "name": "sceAudioOutSetPortConnections"
+            },
+            {
               "id": 11605852648580516365,
               "hex_id": "A110457E522B0A0D",
               "encoded_id": "oRBFflIrCg0",
               "name": "sceAudioOutSetPortStatuses"
             },
             {
-              "id": 1958240623963626317,
-              "hex_id": "1B2D1178E8175B4D",
-              "encoded_id": "Gy0ReOgXW00",
-              "name": null
-            },
-            {
               "id": 8607940035029030369,
               "hex_id": "77758BDAE3C4D5E1",
               "encoded_id": "d3WL2uPE1eE",
-              "name": null
+              "name": "sceAudioOutSetSparkParam"
             },
             {
               "id": 17840690741040206375,
@@ -1038,6 +1038,18 @@
           "name": "libSceAvSetting",
           "is_export": false,
           "symbols": [
+            {
+              "id": 9642789947945479942,
+              "hex_id": "85D2125E32FF6F06",
+              "encoded_id": "hdISXjL-bwY",
+              "name": "sceAvSettingNotifyAudioOutMode"
+            },
+            {
+              "id": 15691197870214668086,
+              "hex_id": "D9C25553D282DF36",
+              "encoded_id": "2cJVU9KC3zY",
+              "name": "sceAvSettingNotifyVideoOutMode"
+            },
             {
               "id": 1190741789208438236,
               "hex_id": "10865D5934FB65DC",
@@ -1069,21 +1081,9 @@
               "name": null
             },
             {
-              "id": 9642789947945479942,
-              "hex_id": "85D2125E32FF6F06",
-              "encoded_id": "hdISXjL-bwY",
-              "name": null
-            },
-            {
               "id": 15088546456747353221,
               "hex_id": "D165490F5367A485",
               "encoded_id": "0WVJD1NnpIU",
-              "name": null
-            },
-            {
-              "id": 15691197870214668086,
-              "hex_id": "D9C25553D282DF36",
-              "encoded_id": "2cJVU9KC3zY",
               "name": null
             },
             {
@@ -1107,7 +1107,7 @@
               "id": 3842155116035008442,
               "hex_id": "355213B8AF3767BA",
               "encoded_id": "NVITuK83Z7o",
-              "name": null
+              "name": "sceCameraSetProcessFocusByHandle"
             },
             {
               "id": 10749297585521836945,
@@ -1173,6 +1173,24 @@
           "is_export": false,
           "symbols": [
             {
+              "id": 11350750751689046719,
+              "hex_id": "9D85F7AB786C7ABF",
+              "encoded_id": "nYX3q3hser8",
+              "name": "sceHidControlDisconnectPort"
+            },
+            {
+              "id": 4453908634779999895,
+              "hex_id": "3DCF764E361B5E97",
+              "encoded_id": "Pc92TjYbXpc",
+              "name": "sceHidControlGetSparkState"
+            },
+            {
+              "id": 16935748387907191242,
+              "hex_id": "EB07DD6DEA9A41CA",
+              "encoded_id": "6wfdbeqaQco",
+              "name": "sceHidControlSetUserColor"
+            },
+            {
               "id": 97777183616441602,
               "hex_id": "015B5FD498989D02",
               "encoded_id": "AVtf1JiYnQI",
@@ -1188,12 +1206,6 @@
               "id": 4097299145219051293,
               "hex_id": "38DC87DD394B0F1D",
               "encoded_id": "ONyH3TlLDx0",
-              "name": null
-            },
-            {
-              "id": 4453908634779999895,
-              "hex_id": "3DCF764E361B5E97",
-              "encoded_id": "Pc92TjYbXpc",
               "name": null
             },
             {
@@ -1221,12 +1233,6 @@
               "name": null
             },
             {
-              "id": 11350750751689046719,
-              "hex_id": "9D85F7AB786C7ABF",
-              "encoded_id": "nYX3q3hser8",
-              "name": null
-            },
-            {
               "id": 13502261476030236204,
               "hex_id": "BB61AB463F39462C",
               "encoded_id": "u2GrRj85Riw",
@@ -1236,12 +1242,6 @@
               "id": 13659389879689781815,
               "hex_id": "BD8FE6B99B79A237",
               "encoded_id": "vY-muZt5ojc",
-              "name": null
-            },
-            {
-              "id": 16935748387907191242,
-              "hex_id": "EB07DD6DEA9A41CA",
-              "encoded_id": "6wfdbeqaQco",
               "name": null
             }
           ]
@@ -1643,6 +1643,12 @@
               "name": "sceNetDhcpStart"
             },
             {
+              "id": 5695052471213057876,
+              "hex_id": "4F08E40C83DD6754",
+              "encoded_id": "TwjkDIPdZ1Q",
+              "name": "sceNetDuplicateIpStart"
+            },
+            {
               "id": 3915791832260055920,
               "hex_id": "3657AFECB83C9370",
               "encoded_id": "Nlev7Lg8k3A",
@@ -1652,12 +1658,6 @@
               "id": 4622644898590830461,
               "hex_id": "4026EF0B1F472F7D",
               "encoded_id": "QCbvCx9HL30",
-              "name": null
-            },
-            {
-              "id": 5695052471213057876,
-              "hex_id": "4F08E40C83DD6754",
-              "encoded_id": "TwjkDIPdZ1Q",
               "name": null
             }
           ]
