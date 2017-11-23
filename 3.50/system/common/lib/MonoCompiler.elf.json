@@ -7,10 +7,10 @@
     "libSceSysmodule.prx",
     "libSceSystemService.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -75,7 +75,7 @@
     },
     {
       "name": "libmonocompiler",
-      "modules": [
+      "libraries": [
         {
           "name": "libmonocompiler",
           "is_export": false,
@@ -302,7 +302,7 @@
     },
     {
       "name": "libmonocompilerbridge",
-      "modules": [
+      "libraries": [
         {
           "name": "libmonocompilerbridge",
           "is_export": false,
@@ -451,7 +451,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -540,7 +540,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -563,7 +563,7 @@
     },
     {
       "name": "libSceSystemService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSystemService",
           "is_export": false,

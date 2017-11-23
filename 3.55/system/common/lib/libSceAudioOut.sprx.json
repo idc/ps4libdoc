@@ -8,10 +8,10 @@
     "libSceMbus.prx",
     "libSceSysUtil.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceAudioOut",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAudioDeviceControl",
           "is_export": true,
@@ -472,7 +472,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -609,7 +609,7 @@
     },
     {
       "name": "libSceAvSetting",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAvSetting",
           "is_export": false,
@@ -644,7 +644,7 @@
     },
     {
       "name": "libSceIpmi",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceIpmi",
           "is_export": false,
@@ -673,7 +673,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -768,7 +768,7 @@
     },
     {
       "name": "libSceMbus",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceMbus",
           "is_export": false,
@@ -857,7 +857,7 @@
     },
     {
       "name": "libSceSysUtil",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysUtil",
           "is_export": false,

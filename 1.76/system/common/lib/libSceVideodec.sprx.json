@@ -5,10 +5,10 @@
     "libSceLibcInternal.prx",
     "libSceVdecCore.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceVideodec",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideodec",
           "is_export": true,
@@ -61,7 +61,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -150,7 +150,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -185,7 +185,7 @@
     },
     {
       "name": "libSceVdecCore",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVdecCore",
           "is_export": false,

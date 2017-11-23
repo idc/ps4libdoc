@@ -4,10 +4,10 @@
     "libkernel.prx",
     "libMonoVirtualMachine.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libc",
-      "modules": [
+      "libraries": [
         {
           "name": "libc",
           "is_export": false,
@@ -30,7 +30,7 @@
     },
     {
       "name": "libmonovm",
-      "modules": [
+      "libraries": [
         {
           "name": "libmonovm",
           "is_export": false,

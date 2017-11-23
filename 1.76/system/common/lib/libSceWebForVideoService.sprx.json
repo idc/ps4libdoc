@@ -7,10 +7,10 @@
     "libSceSysmodule.prx",
     "libSceWebKit2ForVideoService.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceWebForVideoService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceWebForVideoService",
           "is_export": true,
@@ -87,7 +87,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -176,7 +176,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -457,7 +457,7 @@
     },
     {
       "name": "libSceOrbisCompat",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceOrbisCompatForVideoService",
           "is_export": false,
@@ -498,7 +498,7 @@
     },
     {
       "name": "libScePsm",
-      "modules": [
+      "libraries": [
         {
           "name": "libScePsm",
           "is_export": false,
@@ -545,7 +545,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -562,7 +562,7 @@
     },
     {
       "name": "libSceWebKit2",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceWebKit2ForVideoService",
           "is_export": false,

@@ -9,10 +9,10 @@
     "libSceVideodec.prx",
     "libSceVideodec2.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceAvPlayer",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAvPlayer",
           "is_export": true,
@@ -149,7 +149,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -358,7 +358,7 @@
     },
     {
       "name": "libSceAudiodec",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAudiodec",
           "is_export": false,
@@ -399,7 +399,7 @@
     },
     {
       "name": "libSceAvPlayerStreaming",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAvPlayerStreaming",
           "is_export": false,
@@ -596,7 +596,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -757,7 +757,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -792,7 +792,7 @@
     },
     {
       "name": "libSceVideodec",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideodec",
           "is_export": false,
@@ -839,7 +839,7 @@
     },
     {
       "name": "libSceVideodec2",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideodec2",
           "is_export": false,

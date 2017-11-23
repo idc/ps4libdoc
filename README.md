@@ -10,12 +10,12 @@ Documentation is split across a file for each executable, to improve diffs.
   "shared_object_names": [
     "<imported shared object name>"
   ],
-  "libraries": [
+  "modules": [
     {
-      "name": "<library name>",
-      "modules": [
+      "name": "<module name>",
+      "libraries": [
         {
-          "name": "<module name>",
+          "name": "<library name>",
           "is_export": false,
           "symbols": [
             {
@@ -32,7 +32,7 @@ Documentation is split across a file for each executable, to improve diffs.
 }
 ```
 
-`is_export` indicates if that module is exported, if false, it is imported.
+`is_export` indicates if that library is exported, if false, it is imported.
 
 `name` is either not present or is `null` when the name for the symbol is unknown.
 `hex_id` and `encoded_id` are included for human convenience and are not used by tools.

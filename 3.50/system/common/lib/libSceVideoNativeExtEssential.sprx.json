@@ -10,10 +10,10 @@
     "libSceVdecCore.prx",
     "libSceVideoCoreServerInterface.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceVideoNativeExtEssential",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideoNativeExtEssential",
           "is_export": true,
@@ -60,7 +60,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -293,7 +293,7 @@
     },
     {
       "name": "libSceAudiodec",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAudiodec",
           "is_export": false,
@@ -328,7 +328,7 @@
     },
     {
       "name": "libSceAudiodecCpu",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAudiodecCpu",
           "is_export": false,
@@ -363,7 +363,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -548,7 +548,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -589,7 +589,7 @@
     },
     {
       "name": "libSceSystemService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSystemServiceActivateMpeg2",
           "is_export": false,
@@ -606,7 +606,7 @@
     },
     {
       "name": "libSceVdecCore",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVdecCore",
           "is_export": false,
@@ -677,7 +677,7 @@
     },
     {
       "name": "libSceVideoCoreServerInterface",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideoCoreServerInterface",
           "is_export": false,

@@ -24,10 +24,10 @@
     "libSceVideoCoreServerInterface.prx",
     "libSceVideoOut.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceTtsCoreJp",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceTtsCoreJp",
           "is_export": true,
@@ -140,7 +140,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -325,7 +325,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

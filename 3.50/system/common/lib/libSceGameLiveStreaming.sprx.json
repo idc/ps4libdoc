@@ -5,10 +5,10 @@
     "libSceLibcInternal.prx",
     "libSceSystemService.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceGameLiveStreaming",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceGameLiveStreaming",
           "is_export": true,
@@ -253,7 +253,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -372,7 +372,7 @@
     },
     {
       "name": "libSceIpmi",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceIpmi",
           "is_export": false,
@@ -395,7 +395,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -514,7 +514,7 @@
     },
     {
       "name": "libSceSystemService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSystemService",
           "is_export": false,

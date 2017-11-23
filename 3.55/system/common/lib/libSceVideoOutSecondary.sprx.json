@@ -5,10 +5,10 @@
     "libSceLibcInternal.prx",
     "libSceVideoOut.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceVideoOutSecondary",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideoOutSecondary",
           "is_export": true,
@@ -25,7 +25,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -204,7 +204,7 @@
     },
     {
       "name": "libSceAvcap",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAvcap",
           "is_export": false,
@@ -245,7 +245,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -298,7 +298,7 @@
     },
     {
       "name": "libSceVideoOut",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideoOut",
           "is_export": false,

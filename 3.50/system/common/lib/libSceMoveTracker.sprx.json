@@ -6,10 +6,10 @@
     "libSceLibcInternal.prx",
     "libSceMove.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceMoveTracker",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceMoveTracker",
           "is_export": true,
@@ -128,7 +128,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -205,7 +205,7 @@
     },
     {
       "name": "libSceGnmDriver",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceGnmDriver",
           "is_export": false,
@@ -696,7 +696,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -1445,7 +1445,7 @@
     },
     {
       "name": "libSceMove",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceMove",
           "is_export": false,

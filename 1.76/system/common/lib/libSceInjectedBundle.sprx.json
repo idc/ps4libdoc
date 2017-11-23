@@ -10,10 +10,10 @@
     "libSceSysmodule.prx",
     "libSceWebKit2.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceInjectedBundle",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceInjectedBundle",
           "is_export": true,
@@ -30,7 +30,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -89,7 +89,7 @@
     },
     {
       "name": "libSceImeDialog",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceImeDialog",
           "is_export": false,
@@ -130,7 +130,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -411,7 +411,7 @@
     },
     {
       "name": "libScePerf",
-      "modules": [
+      "libraries": [
         {
           "name": "libScePerf",
           "is_export": false,
@@ -452,7 +452,7 @@
     },
     {
       "name": "libScePigletv2VSH",
-      "modules": [
+      "libraries": [
         {
           "name": "libScePigletv2VSH",
           "is_export": false,
@@ -487,7 +487,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -504,7 +504,7 @@
     },
     {
       "name": "libSceWebKit2",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceWebKit2",
           "is_export": false,

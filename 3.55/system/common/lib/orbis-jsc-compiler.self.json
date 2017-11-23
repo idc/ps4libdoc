@@ -7,10 +7,10 @@
     "libSceSysmodule.prx",
     "libSceSystemService.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -57,7 +57,7 @@
     },
     {
       "name": "libSceJscCompiler",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceJscCompiler",
           "is_export": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -193,7 +193,7 @@
     },
     {
       "name": "libSceManxWtf",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceManxWtf",
           "is_export": false,
@@ -210,7 +210,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,

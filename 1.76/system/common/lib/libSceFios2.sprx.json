@@ -5,10 +5,10 @@
     "libSceDiscMap.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceFios2",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceFios2",
           "is_export": true,
@@ -1009,7 +1009,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -1386,7 +1386,7 @@
     },
     {
       "name": "libSceDiscMap",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceDiscMap",
           "is_export": false,
@@ -1409,7 +1409,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

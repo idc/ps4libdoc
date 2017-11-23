@@ -3,10 +3,10 @@
   "shared_object_names": [
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": true,
@@ -6365,7 +6365,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

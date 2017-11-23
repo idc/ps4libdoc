@@ -5,10 +5,10 @@
     "libSceLibcInternal.prx",
     "libSceVideoOut.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceGnmDriver_sys",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceGnmDriver_sys",
           "is_export": true,
@@ -139,7 +139,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -246,7 +246,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -329,7 +329,7 @@
     },
     {
       "name": "libSceVideoOut",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideoOut",
           "is_export": false,

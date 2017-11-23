@@ -5,10 +5,10 @@
     "libSceRtc.prx",
     "libSceSysmodule.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -91,7 +91,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -174,7 +174,7 @@
     },
     {
       "name": "libSceRtc",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRtc",
           "is_export": false,

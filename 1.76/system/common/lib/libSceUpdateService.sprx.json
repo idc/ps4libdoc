@@ -6,10 +6,10 @@
     "libSceLibcInternal.prx",
     "libSceRegMgr.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceUpdateService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceUpdateService",
           "is_export": true,
@@ -230,7 +230,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -301,7 +301,7 @@
     },
     {
       "name": "libSceIpmi",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceIpmi",
           "is_export": false,
@@ -324,7 +324,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -443,7 +443,7 @@
     },
     {
       "name": "libSceRegMgr",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRegMgr",
           "is_export": false,

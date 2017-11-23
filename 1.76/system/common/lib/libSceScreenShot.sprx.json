@@ -6,10 +6,10 @@
     "libSceLibcInternal.prx",
     "libSceSysUtil.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceScreenShot",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceScreenShot",
           "is_export": true,
@@ -86,7 +86,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -157,7 +157,7 @@
     },
     {
       "name": "libSceIpmi",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceIpmi",
           "is_export": false,
@@ -192,7 +192,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -311,7 +311,7 @@
     },
     {
       "name": "libSceSysUtil",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysUtil",
           "is_export": false,

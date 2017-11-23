@@ -13,10 +13,10 @@
     "libSceSystemService.prx",
     "libSceWebKit2Secure.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceInjectedBundle",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceInjectedBundle",
           "is_export": true,
@@ -33,7 +33,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -176,7 +176,7 @@
     },
     {
       "name": "libSceImeDialog",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceImeDialog",
           "is_export": false,
@@ -217,7 +217,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -420,7 +420,7 @@
     },
     {
       "name": "libScePerf",
-      "modules": [
+      "libraries": [
         {
           "name": "libScePerf",
           "is_export": false,
@@ -461,7 +461,7 @@
     },
     {
       "name": "libScePigletv2VSH",
-      "modules": [
+      "libraries": [
         {
           "name": "libScePigletv2VSH",
           "is_export": false,
@@ -496,7 +496,7 @@
     },
     {
       "name": "libSceRegMgr",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRegMgr",
           "is_export": false,
@@ -519,7 +519,7 @@
     },
     {
       "name": "libSceRtc",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRtc",
           "is_export": false,
@@ -536,7 +536,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -565,7 +565,7 @@
     },
     {
       "name": "libSceSystemService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceShellCoreUtil",
           "is_export": false,
@@ -582,7 +582,7 @@
     },
     {
       "name": "libSceWebKit2Secure",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceWebKit2Secure",
           "is_export": false,

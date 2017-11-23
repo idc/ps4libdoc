@@ -4,10 +4,10 @@
     "libkernel.prx",
     "libSceFios2.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libc",
-      "modules": [
+      "libraries": [
         {
           "name": "libc",
           "is_export": true,
@@ -12588,7 +12588,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -12989,7 +12989,7 @@
     },
     {
       "name": "libSceFios2",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceFios2",
           "is_export": false,

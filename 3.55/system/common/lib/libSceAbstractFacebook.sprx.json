@@ -8,10 +8,10 @@
     "libSceRtc.prx",
     "libSceSsl.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceAbstractFacebook",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAbstractFacebook",
           "is_export": true,
@@ -532,7 +532,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -621,7 +621,7 @@
     },
     {
       "name": "libSceAbstractStorage",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAbstractStorage",
           "is_export": false,
@@ -902,7 +902,7 @@
     },
     {
       "name": "libSceHttp",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceHttp",
           "is_export": false,
@@ -919,7 +919,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

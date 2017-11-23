@@ -7,10 +7,10 @@
     "libSceRegMgr.prx",
     "libSceSysmodule.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libmonocompilerbridge",
-      "modules": [
+      "libraries": [
         {
           "name": "libmonocompilerbridge",
           "is_export": true,
@@ -1509,7 +1509,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -1772,7 +1772,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -2101,7 +2101,7 @@
     },
     {
       "name": "libSceNet",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNet",
           "is_export": false,
@@ -2154,7 +2154,7 @@
     },
     {
       "name": "libSceRegMgr",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRegMgr",
           "is_export": false,

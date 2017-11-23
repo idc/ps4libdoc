@@ -6,10 +6,10 @@
     "libSceLibcInternal.prx",
     "libSceRtc.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceAbstractTwitter",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAbstractTwitter",
           "is_export": true,
@@ -458,7 +458,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -547,7 +547,7 @@
     },
     {
       "name": "libSceAbstractStorage",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAbstractStorage",
           "is_export": false,
@@ -834,7 +834,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -1019,7 +1019,7 @@
     },
     {
       "name": "libSceRtc",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRtc",
           "is_export": false,

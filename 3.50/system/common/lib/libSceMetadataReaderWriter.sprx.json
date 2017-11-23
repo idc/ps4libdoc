@@ -4,10 +4,10 @@
     "libSceJson2.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceMetadataReaderWriter",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceMetadataReaderWriter",
           "is_export": true,
@@ -264,7 +264,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -377,7 +377,7 @@
     },
     {
       "name": "libSceJson",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceJson2",
           "is_export": false,
@@ -604,7 +604,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

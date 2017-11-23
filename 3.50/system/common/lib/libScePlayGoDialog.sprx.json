@@ -10,10 +10,10 @@
     "libSceSysUtil.prx",
     "libSceUserService.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libScePlayGoDialog",
-      "modules": [
+      "libraries": [
         {
           "name": "libScePlayGoDialog",
           "is_export": true,
@@ -66,7 +66,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -131,7 +131,7 @@
     },
     {
       "name": "libSceCommonDialog",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceCommonDialog",
           "is_export": false,
@@ -238,7 +238,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -303,7 +303,7 @@
     },
     {
       "name": "libScePlayGo",
-      "modules": [
+      "libraries": [
         {
           "name": "libScePlayGo",
           "is_export": false,
@@ -320,7 +320,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,

@@ -5,10 +5,10 @@
     "libSceIpmi.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceAppContentUtil",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAppContent",
           "is_export": true,
@@ -169,7 +169,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -240,7 +240,7 @@
     },
     {
       "name": "libSceIpmi",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceIpmi",
           "is_export": false,
@@ -263,7 +263,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

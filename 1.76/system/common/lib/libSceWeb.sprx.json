@@ -9,10 +9,10 @@
     "libSceUserService.prx",
     "libSceWebKit2.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceWeb",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceWeb",
           "is_export": true,
@@ -89,7 +89,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -202,7 +202,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -483,7 +483,7 @@
     },
     {
       "name": "libSceOrbisCompat",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceOrbisCompat",
           "is_export": false,
@@ -524,7 +524,7 @@
     },
     {
       "name": "libScePsm",
-      "modules": [
+      "libraries": [
         {
           "name": "libScePsm",
           "is_export": false,
@@ -571,7 +571,7 @@
     },
     {
       "name": "libSceWebKit2",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceWebKit2",
           "is_export": false,

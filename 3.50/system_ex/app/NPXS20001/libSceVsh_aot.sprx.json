@@ -4,10 +4,10 @@
     "libMonoVirtualMachine.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libmonovm",
-      "modules": [
+      "libraries": [
         {
           "name": "libmonovm",
           "is_export": false,
@@ -24,7 +24,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

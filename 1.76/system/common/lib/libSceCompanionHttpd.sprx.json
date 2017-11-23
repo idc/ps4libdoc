@@ -6,10 +6,10 @@
     "libSceMbus.prx",
     "libSceNet.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceCompanionHttpd",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceCompanionHttpd",
           "is_export": true,
@@ -92,7 +92,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -679,7 +679,7 @@
     },
     {
       "name": "libSceIpmi",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceIpmi",
           "is_export": false,
@@ -708,7 +708,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -929,7 +929,7 @@
     },
     {
       "name": "libSceMbus",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceMbus",
           "is_export": false,
@@ -970,7 +970,7 @@
     },
     {
       "name": "libSceNet",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNet",
           "is_export": false,

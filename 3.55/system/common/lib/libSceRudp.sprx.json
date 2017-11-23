@@ -7,10 +7,10 @@
     "libSceNetCtl.prx",
     "libSceRtc.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceRudp",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRudp",
           "is_export": true,
@@ -243,7 +243,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -530,7 +530,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -703,7 +703,7 @@
     },
     {
       "name": "libSceNet",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNet",
           "is_export": false,
@@ -912,7 +912,7 @@
     },
     {
       "name": "libSceNetCtl",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNetCtl",
           "is_export": false,
@@ -935,7 +935,7 @@
     },
     {
       "name": "libSceRtc",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRtc",
           "is_export": false,

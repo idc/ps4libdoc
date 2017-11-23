@@ -6,10 +6,10 @@
     "libSceLibcInternal.prx",
     "libSceSysmodule.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceShareUtility",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceShareUtility",
           "is_export": true,
@@ -152,7 +152,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -277,7 +277,7 @@
     },
     {
       "name": "libSceContentExport",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceContentExport",
           "is_export": false,
@@ -306,7 +306,7 @@
     },
     {
       "name": "libSceIpmi",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceIpmi",
           "is_export": false,
@@ -335,7 +335,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

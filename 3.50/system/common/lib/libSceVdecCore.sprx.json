@@ -9,10 +9,10 @@
     "libSceVdecSavc2.prx",
     "libSceVdecShevc.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceVdecCore",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVdecCore",
           "is_export": true,
@@ -137,7 +137,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -472,7 +472,7 @@
     },
     {
       "name": "libSceGnmDriver",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceGnmDriver",
           "is_export": false,
@@ -807,7 +807,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -944,7 +944,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -967,7 +967,7 @@
     },
     {
       "name": "libSceVdecSavc",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVdecSavc",
           "is_export": false,
@@ -1002,7 +1002,7 @@
     },
     {
       "name": "libSceVdecSavc2",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVdecSavc2",
           "is_export": false,
@@ -1037,7 +1037,7 @@
     },
     {
       "name": "libSceVdecShevc",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVdecShevc",
           "is_export": false,

@@ -6,10 +6,10 @@
     "libSceLibcInternal.prx",
     "ulobjmgr.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceUlt",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceUlt",
           "is_export": true,
@@ -404,7 +404,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -523,7 +523,7 @@
     },
     {
       "name": "libSceFiber",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceFiber",
           "is_export": false,
@@ -576,7 +576,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -647,7 +647,7 @@
     },
     {
       "name": "ulobjmgr",
-      "modules": [
+      "libraries": [
         {
           "name": "ulobjmgr",
           "is_export": false,

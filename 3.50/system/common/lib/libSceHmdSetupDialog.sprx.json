@@ -8,10 +8,10 @@
     "libSceSysUtil.prx",
     "libSceUserService.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceHmdSetupDialog",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceHmdSetupDialog",
           "is_export": true,
@@ -64,7 +64,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -147,7 +147,7 @@
     },
     {
       "name": "libSceCommonDialog",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceCommonDialog",
           "is_export": false,
@@ -254,7 +254,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

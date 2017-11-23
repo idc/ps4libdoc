@@ -6,10 +6,10 @@
     "libSceLibcInternal.prx",
     "libSceRtc.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceJpegParser",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceJpegParser",
           "is_export": true,
@@ -596,7 +596,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -805,7 +805,7 @@
     },
     {
       "name": "libSceAbstractStorage",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAbstractStorage",
           "is_export": false,
@@ -834,7 +834,7 @@
     },
     {
       "name": "libSceImageUtil",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceImageUtil",
           "is_export": false,
@@ -959,7 +959,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

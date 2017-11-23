@@ -4,10 +4,10 @@
     "libkernel.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceNet",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNet",
           "is_export": true,
@@ -1206,7 +1206,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -1475,7 +1475,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

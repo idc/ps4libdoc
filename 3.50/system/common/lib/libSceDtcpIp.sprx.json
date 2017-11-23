@@ -8,10 +8,10 @@
     "libSceSystemService.prx",
     "libswctrl.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceDtcpIp",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceDtcpIp",
           "is_export": true,
@@ -154,7 +154,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -345,7 +345,7 @@
     },
     {
       "name": "libSceHttp",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceHttp",
           "is_export": false,
@@ -440,7 +440,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -535,7 +535,7 @@
     },
     {
       "name": "libSceNet",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNet",
           "is_export": false,
@@ -558,7 +558,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -581,7 +581,7 @@
     },
     {
       "name": "libswctrl",
-      "modules": [
+      "libraries": [
         {
           "name": "libswctrl",
           "is_export": false,

@@ -5,10 +5,10 @@
     "libSceFreeTypeFull-PRX.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -43,7 +43,7 @@
     },
     {
       "name": "libSceFreeType",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceFreeType",
           "is_export": false,
@@ -312,7 +312,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

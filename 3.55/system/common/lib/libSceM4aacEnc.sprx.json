@@ -5,10 +5,10 @@
     "libSceAjm.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceM4aacEnc",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceM4aacEnc",
           "is_export": true,
@@ -61,7 +61,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -84,7 +84,7 @@
     },
     {
       "name": "libSceAjm",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAjm",
           "is_export": false,
@@ -155,7 +155,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

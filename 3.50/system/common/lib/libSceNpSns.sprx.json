@@ -6,10 +6,10 @@
     "libSceNpCommon.prx",
     "libSceNpManager.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceNpManager",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNpSns",
           "is_export": true,
@@ -236,7 +236,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -259,7 +259,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -312,7 +312,7 @@
     },
     {
       "name": "libSceNpCommon",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNpCommon",
           "is_export": false,

@@ -7,10 +7,10 @@
     "libSceSysmodule.prx",
     "libSceSystemService.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libScePlayReady",
-      "modules": [
+      "libraries": [
         {
           "name": "libScePlayReady",
           "is_export": true,
@@ -309,7 +309,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -518,7 +518,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -643,7 +643,7 @@
     },
     {
       "name": "libSceRtc",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRtc",
           "is_export": false,
@@ -672,7 +672,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -707,7 +707,7 @@
     },
     {
       "name": "libSceSystemService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceShellCoreUtil",
           "is_export": false,

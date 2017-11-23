@@ -32,10 +32,10 @@
     "libSceWebForVideoService.prx",
     "libSceWebKit2ForVideoService.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -112,7 +112,7 @@
     },
     {
       "name": "libSceJson",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceJson2",
           "is_export": false,
@@ -315,7 +315,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -464,7 +464,7 @@
     },
     {
       "name": "libSceNetCtl",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNetCtl",
           "is_export": false,
@@ -493,7 +493,7 @@
     },
     {
       "name": "libScePsm",
-      "modules": [
+      "libraries": [
         {
           "name": "libScePsm",
           "is_export": false,
@@ -588,7 +588,7 @@
     },
     {
       "name": "libSceRemoteplay",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRemoteplay",
           "is_export": false,
@@ -629,7 +629,7 @@
     },
     {
       "name": "libSceScreenShot",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceScreenShot",
           "is_export": false,
@@ -652,7 +652,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -693,7 +693,7 @@
     },
     {
       "name": "libSceSystemService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceShellCoreUtil",
           "is_export": false,
@@ -722,7 +722,7 @@
     },
     {
       "name": "libSceUserService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceUserService",
           "is_export": false,
@@ -2419,7 +2419,7 @@
     },
     {
       "name": "libSceVideoCoreServerInterface",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideoCoreServerInterface",
           "is_export": false,
@@ -2448,7 +2448,7 @@
     },
     {
       "name": "libSceWebForVideoService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceWebForVideoService",
           "is_export": false,

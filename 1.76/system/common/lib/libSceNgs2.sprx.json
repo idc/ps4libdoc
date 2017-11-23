@@ -5,10 +5,10 @@
     "libSceFios2.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceNgs2",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNgs2",
           "is_export": true,
@@ -259,7 +259,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -342,7 +342,7 @@
     },
     {
       "name": "libSceAjm",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAjm",
           "is_export": false,
@@ -413,7 +413,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

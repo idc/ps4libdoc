@@ -6,10 +6,10 @@
     "libSceGnmDriver_padebug.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceDepth",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceDepth",
           "is_export": true,
@@ -230,7 +230,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -379,7 +379,7 @@
     },
     {
       "name": "libSceCamera",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceCamera",
           "is_export": false,
@@ -414,7 +414,7 @@
     },
     {
       "name": "libSceGnmDriver",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceGnmDriver",
           "is_export": false,
@@ -695,7 +695,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

@@ -4,10 +4,10 @@
     "libkernel.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libCprm",
-      "modules": [
+      "libraries": [
         {
           "name": "libCprm",
           "is_export": true,
@@ -192,7 +192,7 @@
     },
     {
       "name": "libCss",
-      "modules": [
+      "libraries": [
         {
           "name": "libCss",
           "is_export": false,
@@ -323,7 +323,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -364,7 +364,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

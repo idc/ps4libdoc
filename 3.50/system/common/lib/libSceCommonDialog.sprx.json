@@ -7,10 +7,10 @@
     "libSceSystemService.prx",
     "libSceUserService.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceCommonDialog",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceCommonDialog",
           "is_export": true,
@@ -189,7 +189,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -302,7 +302,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -391,7 +391,7 @@
     },
     {
       "name": "libSceRegMgr",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRegMgr",
           "is_export": false,
@@ -408,7 +408,7 @@
     },
     {
       "name": "libSceSystemService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLncUtil",
           "is_export": false,
@@ -503,7 +503,7 @@
     },
     {
       "name": "libSceUserService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceUserService",
           "is_export": false,

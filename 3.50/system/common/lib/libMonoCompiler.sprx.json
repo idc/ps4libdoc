@@ -6,10 +6,10 @@
     "libMonoCompilerBridge.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libmonocompiler",
-      "modules": [
+      "libraries": [
         {
           "name": "libmonocompiler",
           "is_export": true,
@@ -626,7 +626,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -961,7 +961,7 @@
     },
     {
       "name": "libmonocompilerbridge",
-      "modules": [
+      "libraries": [
         {
           "name": "libmonocompilerbridge",
           "is_export": false,
@@ -1992,7 +1992,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

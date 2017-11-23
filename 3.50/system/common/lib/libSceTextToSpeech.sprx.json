@@ -26,10 +26,10 @@
     "libSceVideoCoreServerInterface.prx",
     "libSceVideoOut.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceTextToSpeech",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceTextToSpeech",
           "is_export": true,
@@ -82,7 +82,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -357,7 +357,7 @@
     },
     {
       "name": "libSceAudioOut",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAudioOut",
           "is_export": false,
@@ -398,7 +398,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -775,7 +775,7 @@
     },
     {
       "name": "libSceMbus",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceMbus",
           "is_export": false,
@@ -810,7 +810,7 @@
     },
     {
       "name": "libSceRegMgr",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRegMgr",
           "is_export": false,
@@ -827,7 +827,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -850,7 +850,7 @@
     },
     {
       "name": "libSceTtsCoreEnUs",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceTtsCoreEnUs",
           "is_export": false,
@@ -945,7 +945,7 @@
     },
     {
       "name": "libSceTtsCoreJp",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceTtsCoreJp",
           "is_export": false,

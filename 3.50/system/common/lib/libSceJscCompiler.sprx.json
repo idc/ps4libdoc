@@ -5,10 +5,10 @@
     "libSceLibcInternal.prx",
     "libSceManxWtf.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceJscCompiler",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceJscCompiler",
           "is_export": true,
@@ -25,7 +25,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -294,7 +294,7 @@
     },
     {
       "name": "libSceJitBridge",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceJitBridge",
           "is_export": false,
@@ -395,7 +395,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -820,7 +820,7 @@
     },
     {
       "name": "libSceManxWtf",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceManxWtf",
           "is_export": false,

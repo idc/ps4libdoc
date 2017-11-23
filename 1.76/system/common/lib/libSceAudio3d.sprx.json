@@ -8,10 +8,10 @@
     "libSceSysmodule.prx",
     "libSceUsbd.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceAudio3d",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAudio3d",
           "is_export": true,
@@ -106,7 +106,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -213,7 +213,7 @@
     },
     {
       "name": "libSceAudioOut",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAudioOut",
           "is_export": false,
@@ -248,7 +248,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -463,7 +463,7 @@
     },
     {
       "name": "libSceNet",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNet",
           "is_export": false,
@@ -540,7 +540,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -563,7 +563,7 @@
     },
     {
       "name": "libSceUsbd",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceUsbd",
           "is_export": false,

@@ -7,10 +7,10 @@
     "libSceNetCtl.prx",
     "libSceSysmodule.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceSulphaDrv",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSulphaDrv",
           "is_export": true,
@@ -69,7 +69,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -260,7 +260,7 @@
     },
     {
       "name": "libSceAudiodReport",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAudiodReport",
           "is_export": false,
@@ -283,7 +283,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -372,7 +372,7 @@
     },
     {
       "name": "libSceNet",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNet",
           "is_export": false,

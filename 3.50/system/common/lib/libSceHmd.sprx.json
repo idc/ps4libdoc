@@ -11,10 +11,10 @@
     "libSceUsbd.prx",
     "libSceVideoOut.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceHmd",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceHmd",
           "is_export": true,
@@ -961,7 +961,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -1254,7 +1254,7 @@
     },
     {
       "name": "libSceGnmDriver",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceGnmDriver",
           "is_export": false,
@@ -1769,7 +1769,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -1888,7 +1888,7 @@
     },
     {
       "name": "libSceMbus",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceMbus",
           "is_export": false,
@@ -1923,7 +1923,7 @@
     },
     {
       "name": "libSceRegMgr",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRegMgr",
           "is_export": false,
@@ -1940,7 +1940,7 @@
     },
     {
       "name": "libSceSysUtil",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysUtil",
           "is_export": false,
@@ -1957,7 +1957,7 @@
     },
     {
       "name": "libSceVideoOut",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideoOut",
           "is_export": false,

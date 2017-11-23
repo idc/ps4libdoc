@@ -4,10 +4,10 @@
     "libSceLibcInternal.prx",
     "libSceMusicCoreServerClientJsEx.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceCustomMusicService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceCustomMusicService",
           "is_export": true,
@@ -36,7 +36,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -155,7 +155,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -316,7 +316,7 @@
     },
     {
       "name": "libSceMusicCoreServerClientJsEx",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceMusicCoreServerClientJsEx",
           "is_export": false,

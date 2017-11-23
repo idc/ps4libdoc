@@ -5,10 +5,10 @@
     "libMonoVirtualMachineBridge.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -175,7 +175,7 @@
     },
     {
       "name": "libmonovm",
-      "modules": [
+      "libraries": [
         {
           "name": "libmonovm",
           "is_export": false,
@@ -384,7 +384,7 @@
     },
     {
       "name": "libmonovmbridge",
-      "modules": [
+      "libraries": [
         {
           "name": "libmonovmbridge",
           "is_export": false,
@@ -419,7 +419,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

@@ -5,10 +5,10 @@
     "libSceIpmi.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceConvertKeycode",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceConvertKeycode",
           "is_export": true,
@@ -31,7 +31,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

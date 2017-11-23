@@ -43,10 +43,10 @@
     "libSceVideoOut.prx",
     "libSceWeb.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -789,7 +789,7 @@
     },
     {
       "name": "libSceAudioOut",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAudioOut",
           "is_export": false,
@@ -830,7 +830,7 @@
     },
     {
       "name": "libSceDipsw",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceDipsw",
           "is_export": false,
@@ -859,7 +859,7 @@
     },
     {
       "name": "libSceErrorDialog",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceErrorDialog",
           "is_export": false,
@@ -918,7 +918,7 @@
     },
     {
       "name": "libSceHttp",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceHttp",
           "is_export": false,
@@ -1025,7 +1025,7 @@
     },
     {
       "name": "libSceIpmi",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceIpmi",
           "is_export": false,
@@ -1054,7 +1054,7 @@
     },
     {
       "name": "libSceJson",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceJson2",
           "is_export": false,
@@ -1167,7 +1167,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -1724,7 +1724,7 @@
     },
     {
       "name": "libSceMarlin",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceMarlin",
           "is_export": false,
@@ -1813,7 +1813,7 @@
     },
     {
       "name": "libSceMbus",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceMbus",
           "is_export": false,
@@ -1872,7 +1872,7 @@
     },
     {
       "name": "libSceMouse",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceMouse",
           "is_export": false,
@@ -1907,7 +1907,7 @@
     },
     {
       "name": "libSceNet",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNet",
           "is_export": false,
@@ -1942,7 +1942,7 @@
     },
     {
       "name": "libSceNetCtl",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNetBwe",
           "is_export": false,
@@ -2211,7 +2211,7 @@
     },
     {
       "name": "libSceNpManager",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNpManager",
           "is_export": false,
@@ -2246,7 +2246,7 @@
     },
     {
       "name": "libScePad",
-      "modules": [
+      "libraries": [
         {
           "name": "libScePad",
           "is_export": false,
@@ -2281,7 +2281,7 @@
     },
     {
       "name": "libScePsm",
-      "modules": [
+      "libraries": [
         {
           "name": "libScePsm",
           "is_export": false,
@@ -2382,7 +2382,7 @@
     },
     {
       "name": "libSceRegMgr",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRegMgr",
           "is_export": false,
@@ -2477,7 +2477,7 @@
     },
     {
       "name": "libSceRemoteplay",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRemoteplay",
           "is_export": false,
@@ -2500,7 +2500,7 @@
     },
     {
       "name": "libSceRtc",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRtc",
           "is_export": false,
@@ -2625,7 +2625,7 @@
     },
     {
       "name": "libSceScreenShot",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceScreenShot",
           "is_export": false,
@@ -2642,7 +2642,7 @@
     },
     {
       "name": "libSceShareUtility",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceShareUtility",
           "is_export": false,
@@ -2665,7 +2665,7 @@
     },
     {
       "name": "libSceShellUIUtil",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceShellUIUtil",
           "is_export": false,
@@ -2688,7 +2688,7 @@
     },
     {
       "name": "libSceSsl",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSsl",
           "is_export": false,
@@ -2717,7 +2717,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -2752,7 +2752,7 @@
     },
     {
       "name": "libSceSystemService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAppMessaging",
           "is_export": false,
@@ -3795,7 +3795,7 @@
     },
     {
       "name": "libSceSysUtil",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysUtil",
           "is_export": false,
@@ -3932,7 +3932,7 @@
     },
     {
       "name": "libSceTtsCoreEnUs",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceTtsCoreEnUs",
           "is_export": false,
@@ -4027,7 +4027,7 @@
     },
     {
       "name": "libSceTtsCoreJp",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceTtsCoreJp",
           "is_export": false,
@@ -4116,7 +4116,7 @@
     },
     {
       "name": "libSceUserService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceUserService",
           "is_export": false,
@@ -5819,7 +5819,7 @@
     },
     {
       "name": "libSceVideoCoreServerInterface",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideoCoreServerInterface",
           "is_export": false,
@@ -5872,7 +5872,7 @@
     },
     {
       "name": "libSceWeb",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceWeb",
           "is_export": false,

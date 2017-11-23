@@ -4,10 +4,10 @@
     "libSceLibcInternal.prx",
     "libSceVoice.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceVoiceQoS",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVoiceQoS",
           "is_export": true,
@@ -138,7 +138,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -185,7 +185,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -238,7 +238,7 @@
     },
     {
       "name": "libSceVoice",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVoice",
           "is_export": false,

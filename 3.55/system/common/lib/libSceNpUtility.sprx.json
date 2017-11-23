@@ -9,10 +9,10 @@
     "libSceNpCommon.prx",
     "libSceNpManager.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceNpUtility",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNpUtility",
           "is_export": true,
@@ -515,7 +515,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -610,7 +610,7 @@
     },
     {
       "name": "libSceHttp",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceHttp",
           "is_export": false,
@@ -813,7 +813,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -992,7 +992,7 @@
     },
     {
       "name": "libSceNet",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNet",
           "is_export": false,
@@ -1033,7 +1033,7 @@
     },
     {
       "name": "libSceNetCtl",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNetCtl",
           "is_export": false,
@@ -1062,7 +1062,7 @@
     },
     {
       "name": "libSceNpCommon",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNpCommon",
           "is_export": false,
@@ -1421,7 +1421,7 @@
     },
     {
       "name": "libSceNpManager",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNpManager",
           "is_export": false,

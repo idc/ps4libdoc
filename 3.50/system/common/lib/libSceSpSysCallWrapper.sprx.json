@@ -5,10 +5,10 @@
     "libSceLibcInternal.prx",
     "libSceNet.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceSpSysCallWrapper",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSpSysCallWrapper",
           "is_export": true,
@@ -325,7 +325,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -516,7 +516,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -539,7 +539,7 @@
     },
     {
       "name": "libSceNet",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceNet",
           "is_export": false,

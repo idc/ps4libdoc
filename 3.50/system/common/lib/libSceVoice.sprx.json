@@ -6,10 +6,10 @@
     "libSceAudioOut.prx",
     "libSceLibcInternal.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceVoice",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVoice",
           "is_export": true,
@@ -188,7 +188,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -361,7 +361,7 @@
     },
     {
       "name": "libSceAjm",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAjm",
           "is_export": false,
@@ -432,7 +432,7 @@
     },
     {
       "name": "libSceAudioIn",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAudioIn",
           "is_export": false,
@@ -473,7 +473,7 @@
     },
     {
       "name": "libSceAudioOut",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAudioOut",
           "is_export": false,
@@ -526,7 +526,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,

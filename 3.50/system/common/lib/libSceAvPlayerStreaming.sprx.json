@@ -7,10 +7,10 @@
     "libSceRtc.prx",
     "libSceSsl.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libSceAvPlayerStreaming",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAvPlayerStreaming",
           "is_export": true,
@@ -219,7 +219,7 @@
     },
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -386,7 +386,7 @@
     },
     {
       "name": "libSceHttp",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceHttp",
           "is_export": false,
@@ -583,7 +583,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -1086,7 +1086,7 @@
     },
     {
       "name": "libSceRtc",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceRtc",
           "is_export": false,
@@ -1115,7 +1115,7 @@
     },
     {
       "name": "libSceSsl",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSsl",
           "is_export": false,

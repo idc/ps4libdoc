@@ -9,10 +9,10 @@
     "libSceVideodec2.prx",
     "libSceVideoRecording.prx"
   ],
-  "libraries": [
+  "modules": [
     {
       "name": "libkernel",
-      "modules": [
+      "libraries": [
         {
           "name": "libkernel",
           "is_export": false,
@@ -293,7 +293,7 @@
     },
     {
       "name": "libSceAudiodec",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceAudiodec",
           "is_export": false,
@@ -334,7 +334,7 @@
     },
     {
       "name": "libSceGnmDriver",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceGnmDriver",
           "is_export": false,
@@ -609,7 +609,7 @@
     },
     {
       "name": "libSceLibcInternal",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLibcInternal",
           "is_export": false,
@@ -848,7 +848,7 @@
     },
     {
       "name": "libSceSysmodule",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceSysmodule",
           "is_export": false,
@@ -877,7 +877,7 @@
     },
     {
       "name": "libSceSystemService",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceLncUtil",
           "is_export": false,
@@ -900,7 +900,7 @@
     },
     {
       "name": "libSceVideodec2",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideodec2",
           "is_export": false,
@@ -965,7 +965,7 @@
     },
     {
       "name": "libSceVideoRecording",
-      "modules": [
+      "libraries": [
         {
           "name": "libSceVideoRecording",
           "is_export": false,
