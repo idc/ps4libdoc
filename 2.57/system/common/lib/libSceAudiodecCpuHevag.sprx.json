@@ -1,0 +1,78 @@
+{
+  "shared_object_name": "libSceAudiodecCpuHevag.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceAudiodecCpuHevag",
+      "libraries": [
+        {
+          "name": "libSceAudiodecCpuHevag",
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 10772671697699919013,
+              "hex_id": "958037D53F4ED4A5",
+              "encoded_id": "lYA31T9O1KU",
+              "name": "audiodeccpuinternal_core_ops_hevag2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "libraries": [
+        {
+          "name": "libkernel",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "name": "__stack_chk_guard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 1006747189132769736,
+              "hex_id": "0DF8AF3C0AE1B9C8",
+              "encoded_id": "DfivPArhucg",
+              "name": "memcmp"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

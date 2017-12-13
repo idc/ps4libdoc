@@ -1,0 +1,991 @@
+{
+  "shared_object_name": "libSceInjectedBundle.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceImeDialog.prx",
+    "libSceLibcInternal.prx",
+    "libSceOrbisCompat.prx",
+    "libScePerf.prx",
+    "libScePigletv2VSH.prx",
+    "libSceRegMgr.prx",
+    "libSceRtc.prx",
+    "libSceSysmodule.prx",
+    "libSceWebKit2.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceInjectedBundle",
+      "libraries": [
+        {
+          "name": "libSceInjectedBundle",
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 8849540060348272317,
+              "hex_id": "7ACFE1CC4AA5CEBD",
+              "encoded_id": "es-hzEqlzr0",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "libraries": [
+        {
+          "name": "libkernel",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 3387195667630959360,
+              "hex_id": "2F01BC8379E2AB00",
+              "encoded_id": "LwG8g3niqwA",
+              "name": "sceKernelDlsym"
+            },
+            {
+              "id": 10469286581837221812,
+              "hex_id": "914A60AD722BCFB4",
+              "encoded_id": "kUpgrXIrz7Q",
+              "name": "sceKernelGetModuleInfo"
+            },
+            {
+              "id": 2516499897535227928,
+              "hex_id": "22EC6752E5E4E818",
+              "encoded_id": "IuxnUuXk6Bg",
+              "name": "sceKernelGetModuleList"
+            },
+            {
+              "id": 18272368695409511548,
+              "hex_id": "FD947E846EDA0C7C",
+              "encoded_id": "-ZR+hG7aDHw",
+              "name": "sceKernelSleep"
+            },
+            {
+              "id": 12490964173816356775,
+              "hex_id": "AD58D1BC72745FA7",
+              "encoded_id": "rVjRvHJ0X6c",
+              "name": "sceKernelVirtualQuery"
+            },
+            {
+              "id": 16809735917717999038,
+              "hex_id": "E9482DC15FB4CDBE",
+              "encoded_id": "6UgtwV+0zb4",
+              "name": "scePthreadCreate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceImeDialog",
+      "libraries": [
+        {
+          "name": "libSceImeDialog",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 11536446409941613739,
+              "hex_id": "A019B0E31AE67CAB",
+              "encoded_id": "oBmw4xrmfKs",
+              "name": "sceImeDialogAbort"
+            },
+            {
+              "id": 14361244492830328407,
+              "hex_id": "C74D63C6EFAFC657",
+              "encoded_id": "x01jxu+vxlc",
+              "name": "sceImeDialogGetResult"
+            },
+            {
+              "id": 2306095963650027542,
+              "hex_id": "2000E60F8B527016",
+              "encoded_id": "IADmD4tScBY",
+              "name": "sceImeDialogGetStatus"
+            },
+            {
+              "id": 2962963993237268938,
+              "hex_id": "291E900DAB2E29CA",
+              "encoded_id": "KR6QDasuKco",
+              "name": "sceImeDialogInitInternal"
+            },
+            {
+              "id": 9449944371452140748,
+              "hex_id": "8324F2567F9B5CCC",
+              "encoded_id": "gyTyVn+bXMw",
+              "name": "sceImeDialogTerm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 8210088211479762842,
+              "hex_id": "71F017BABBDF979A",
+              "encoded_id": "cfAXurvfl5o",
+              "name": "__cxa_allocate_exception"
+            },
+            {
+              "id": 13171837702886641551,
+              "hex_id": "B6CBC49A77A7CF8F",
+              "encoded_id": "tsvEmnenz48",
+              "name": "__cxa_atexit"
+            },
+            {
+              "id": 15980201713096405538,
+              "hex_id": "DDC514CA94333222",
+              "encoded_id": "3cUUypQzMiI",
+              "name": "__cxa_begin_catch"
+            },
+            {
+              "id": 13457489863942505736,
+              "hex_id": "BAC29BBAFCB68508",
+              "encoded_id": "usKbuvy2hQg",
+              "name": "__cxa_call_unexpected"
+            },
+            {
+              "id": 10772531233308316765,
+              "hex_id": "957FB814D524945D",
+              "encoded_id": "lX+4FNUklF0",
+              "name": "__cxa_end_catch"
+            },
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 15880793502959808828,
+              "hex_id": "DC63E98D0740313C",
+              "encoded_id": "3GPpjQdAMTw",
+              "name": "__cxa_guard_acquire"
+            },
+            {
+              "id": 17775740718153119521,
+              "hex_id": "F6B01E00D4F6B721",
+              "encoded_id": "9rAeANT2tyE",
+              "name": "__cxa_guard_release"
+            },
+            {
+              "id": 7259597366616481562,
+              "hex_id": "64BF455789895F1A",
+              "encoded_id": "ZL9FV4mJXxo",
+              "name": "__cxa_rethrow"
+            },
+            {
+              "id": 13712245002923886994,
+              "hex_id": "BE4BAE2DF8674992",
+              "encoded_id": "vkuuLfhnSZI",
+              "name": "__cxa_throw"
+            },
+            {
+              "id": 6846246476638031582,
+              "hex_id": "5F02C0E5C4C78EDE",
+              "encoded_id": "XwLA5cTHjt4",
+              "name": "__gxx_personality_v0"
+            },
+            {
+              "id": 8326403715744237632,
+              "hex_id": "738D5410756D8840",
+              "encoded_id": "c41UEHVtiEA",
+              "name": "_Stod"
+            },
+            {
+              "id": 14868568335454751040,
+              "hex_id": "CE57C41FC166C940",
+              "encoded_id": "zlfEH8FmyUA",
+              "name": "_Stoul"
+            },
+            {
+              "id": 9177474192994476905,
+              "hex_id": "7F5CF02778C02369",
+              "encoded_id": "f1zwJ3jAI2k",
+              "name": "_Unwind_Resume"
+            },
+            {
+              "id": 3509893966030264529,
+              "hex_id": "30B5A5F7448558D1",
+              "encoded_id": "MLWl90SFWNE",
+              "name": "_ZdaPv"
+            },
+            {
+              "id": 14980096904033348633,
+              "hex_id": "CFE3FEC429D62C19",
+              "encoded_id": "z+P+xCnWLBk",
+              "name": "_ZdlPv"
+            },
+            {
+              "id": 9644938409774083380,
+              "hex_id": "85D9B461F31AED34",
+              "encoded_id": "hdm0YfMa7TQ",
+              "name": "_Znam"
+            },
+            {
+              "id": 8978464314348367017,
+              "hex_id": "7C99E9B955416CA9",
+              "encoded_id": "fJnpuVVBbKk",
+              "name": "_Znwm"
+            },
+            {
+              "id": 8736302346086039989,
+              "hex_id": "793D94B264DEC1B5",
+              "encoded_id": "eT2UsmTewbU",
+              "name": "_ZSt11_Xbad_allocv"
+            },
+            {
+              "id": 4338643021245763566,
+              "hex_id": "3C35F4D73894CFEE",
+              "encoded_id": "PDX01ziUz+4",
+              "name": "_ZSt13_Syserror_mapi"
+            },
+            {
+              "id": 13043032518080565850,
+              "hex_id": "B50228F8620F925A",
+              "encoded_id": "tQIo+GIPklo",
+              "name": "_ZSt14_Xlength_errorPKc"
+            },
+            {
+              "id": 11759743805476159782,
+              "hex_id": "A33300AF6F01C126",
+              "encoded_id": "ozMAr28BwSY",
+              "name": "_ZSt14_Xout_of_rangePKc"
+            },
+            {
+              "id": 3477591441803991725,
+              "hex_id": "3042E2FDC2AA5AAD",
+              "encoded_id": "MELi-cKqWq0",
+              "name": "_ZSt19_Xbad_function_callv"
+            },
+            {
+              "id": 12216127934387058098,
+              "hex_id": "A98867A1EBDDF5B2",
+              "encoded_id": "qYhnoevd9bI",
+              "name": "_ZSt9terminatev"
+            },
+            {
+              "id": 5394778704020846074,
+              "hex_id": "4ADE1AA6070135FA",
+              "encoded_id": "St4apgcBNfo",
+              "name": "_ZTIi"
+            },
+            {
+              "id": 8008946142773550110,
+              "hex_id": "6F257E1569409C1E",
+              "encoded_id": "byV+FWlAnB4",
+              "name": "_ZTVN10__cxxabiv117__class_type_infoE"
+            },
+            {
+              "id": 11934352498219105519,
+              "hex_id": "A59F565DC0A53CEF",
+              "encoded_id": "pZ9WXcClPO8",
+              "name": "_ZTVN10__cxxabiv120__si_class_type_infoE"
+            },
+            {
+              "id": 13440794502107408237,
+              "hex_id": "BA874B632522A76D",
+              "encoded_id": "uodLYyUip20",
+              "name": "fclose"
+            },
+            {
+              "id": 14260101637949278365,
+              "hex_id": "C5E60EE2EEEEC89D",
+              "encoded_id": "xeYO4u7uyJ0",
+              "name": "fopen"
+            },
+            {
+              "id": 10786259999654564973,
+              "hex_id": "95B07E52566A546D",
+              "encoded_id": "lbB+UlZqVG0",
+              "name": "fread"
+            },
+            {
+              "id": 13008767002086125649,
+              "hex_id": "B4886CAA3D2AB051",
+              "encoded_id": "tIhsqj0qsFE",
+              "name": "free"
+            },
+            {
+              "id": 12855191684865155219,
+              "hex_id": "B266D0BA47F16093",
+              "encoded_id": "smbQukfxYJM",
+              "name": "getenv"
+            },
+            {
+              "id": 9297117245426667155,
+              "hex_id": "8105FEE060D08E93",
+              "encoded_id": "gQX+4GDQjpM",
+              "name": "malloc"
+            },
+            {
+              "id": 3090505151423818366,
+              "hex_id": "2AE3AE0F9F21AA7E",
+              "encoded_id": "KuOuD58hqn4",
+              "name": "malloc_stats_fast"
+            },
+            {
+              "id": 6146537585558633499,
+              "hex_id": "554CE35E49CF3C1B",
+              "encoded_id": "VUzjXknPPBs",
+              "name": "mbstowcs"
+            },
+            {
+              "id": 1006747189132769736,
+              "hex_id": "0DF8AF3C0AE1B9C8",
+              "encoded_id": "DfivPArhucg",
+              "name": "memcmp"
+            },
+            {
+              "id": 4860863683521237115,
+              "hex_id": "437541C425E1507B",
+              "encoded_id": "Q3VBxCXhUHs",
+              "name": "memcpy"
+            },
+            {
+              "id": 17941924494238559728,
+              "hex_id": "F8FE854461F82DF0",
+              "encoded_id": "+P6FRGH4LfA",
+              "name": "memmove"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "name": "Need_sceLibcInternal"
+            },
+            {
+              "id": 9640958307794899731,
+              "hex_id": "85CB90803E775313",
+              "encoded_id": "hcuQgD53UxM",
+              "name": "printf"
+            },
+            {
+              "id": 6993289136798851207,
+              "hex_id": "610D276AFA7E6087",
+              "encoded_id": "YQ0navp+YIc",
+              "name": "puts"
+            },
+            {
+              "id": 8698495712930102709,
+              "hex_id": "78B743C3A974FDB5",
+              "encoded_id": "eLdDw6l0-bU",
+              "name": "snprintf"
+            },
+            {
+              "id": 13097983827646551988,
+              "hex_id": "B5C562E528AF17B4",
+              "encoded_id": "tcVi5SivF7Q",
+              "name": "sprintf"
+            },
+            {
+              "id": 11654877136638287869,
+              "hex_id": "A1BE71016E259FFD",
+              "encoded_id": "ob5xAW4ln-0",
+              "name": "strchr"
+            },
+            {
+              "id": 4248854281417786081,
+              "hex_id": "3AF6F675224E02E1",
+              "encoded_id": "Ovb2dSJOAuE",
+              "name": "strcmp"
+            },
+            {
+              "id": 10341780252942172940,
+              "hex_id": "8F856258D1C4830C",
+              "encoded_id": "j4ViWNHEgww",
+              "name": "strlen"
+            },
+            {
+              "id": 6505764993987342853,
+              "hex_id": "5A491ECB02C97205",
+              "encoded_id": "WkkeywLJcgU",
+              "name": "wcslen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libScePerf",
+      "libraries": [
+        {
+          "name": "libScePerf",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 1277367034785508542,
+              "hex_id": "11BA1E8CE42F2CBE",
+              "encoded_id": "EboejOQvLL4",
+              "name": "sceRazorCpuIsCapturing"
+            },
+            {
+              "id": 7104717243456413164,
+              "hex_id": "629906B0C5CFDDEC",
+              "encoded_id": "YpkGsMXP3ew",
+              "name": "sceRazorCpuPopMarker"
+            },
+            {
+              "id": 14920316139672948002,
+              "hex_id": "CF0F9C7A51BBCD22",
+              "encoded_id": "zw+celG7zSI",
+              "name": "sceRazorCpuPushMarker"
+            },
+            {
+              "id": 15506403604869662398,
+              "hex_id": "D731CFEC1417C6BE",
+              "encoded_id": "1zHP7BQXxr4",
+              "name": "sceRazorCpuStartCapture"
+            },
+            {
+              "id": 11084783383770933963,
+              "hex_id": "99D50FC201D1AACB",
+              "encoded_id": "mdUPwgHRqss",
+              "name": "sceRazorCpuStopCapture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libScePigletv2VSH",
+      "libraries": [
+        {
+          "name": "libScePigletv2VSH",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 15525657928406353012,
+              "hex_id": "D77637A09EE34474",
+              "encoded_id": "13Y3oJ7jRHQ",
+              "name": "eglGetCurrentDisplay"
+            },
+            {
+              "id": 15332920120924054117,
+              "hex_id": "D4C9799CD91E2265",
+              "encoded_id": "1Ml5nNkeImU",
+              "name": "eglGetProcAddress"
+            },
+            {
+              "id": 15999967652502764918,
+              "hex_id": "DE0B4DCEF92AFD76",
+              "encoded_id": "3gtNzvkq-XY",
+              "name": "scePigletGetConfigurationVSH"
+            },
+            {
+              "id": 16928886957147449264,
+              "hex_id": "EAEF7CFE938467B0",
+              "encoded_id": "6u98-pOEZ7A",
+              "name": "scePigletGetUsageVSH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceRegMgr",
+      "libraries": [
+        {
+          "name": "libSceRegMgr",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 8405876926328534126,
+              "hex_id": "74A7AC873B76F46E",
+              "encoded_id": "dKeshzt29G4",
+              "name": "sceRegMgrNonSysGetInt"
+            },
+            {
+              "id": 911295783409758914,
+              "hex_id": "0CA592AFCF7332C2",
+              "encoded_id": "DKWSr89zMsI",
+              "name": "sceRegMgrNonSysGetStr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceRtc",
+      "libraries": [
+        {
+          "name": "libSceRtc",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 14767114266067083476,
+              "hex_id": "CCEF542F7A8820D4",
+              "encoded_id": "zO9UL3qIINQ",
+              "name": "sceRtcGetCurrentNetworkTick"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceSysmodule",
+      "libraries": [
+        {
+          "name": "libSceSysmodule",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 9495572494758995882,
+              "hex_id": "83C70CDFD11467AA",
+              "encoded_id": "g8cM39EUZ6o",
+              "name": "sceSysmoduleLoadModule"
+            },
+            {
+              "id": 16129806873209053225,
+              "hex_id": "DFD895E44D47A029",
+              "encoded_id": "39iV5E1HoCk",
+              "name": "sceSysmoduleLoadModuleInternal"
+            },
+            {
+              "id": 13652206723903098983,
+              "hex_id": "BD7661AED2719067",
+              "encoded_id": "vXZhrtJxkGc",
+              "name": "sceSysmoduleUnloadModuleInternal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceWebKit2",
+      "libraries": [
+        {
+          "name": "libSceWebKit2",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 947103584118967784,
+              "hex_id": "0D24C9B118E90DE8",
+              "encoded_id": "DSTJsRjpDeg",
+              "name": "JSClassCreate"
+            },
+            {
+              "id": 4942057387622088528,
+              "hex_id": "4495B70288CF3F50",
+              "encoded_id": "RJW3AojPP1A",
+              "name": "JSContextGetGlobalObject"
+            },
+            {
+              "id": 10808846205861156396,
+              "hex_id": "9600BC5B442ED62C",
+              "encoded_id": "lgC8W0Qu1iw",
+              "name": "JSObjectCallAsFunction"
+            },
+            {
+              "id": 3300053910080713313,
+              "hex_id": "2DCC258BF9FFF261",
+              "encoded_id": "Lcwli-n-8mE",
+              "name": "JSObjectCopyPropertyNames"
+            },
+            {
+              "id": 2912773670027376571,
+              "hex_id": "286C40386917B7BB",
+              "encoded_id": "KGxAOGkXt7s",
+              "name": "JSObjectDeleteProperty"
+            },
+            {
+              "id": 3494215499728851351,
+              "hex_id": "307DF27BDE009197",
+              "encoded_id": "MH3ye94AkZc",
+              "name": "JSObjectGetPrivate"
+            },
+            {
+              "id": 11878633540873523925,
+              "hex_id": "A4D962450CCE92D5",
+              "encoded_id": "pNliRQzOktU",
+              "name": "JSObjectGetProperty"
+            },
+            {
+              "id": 9352586640687916169,
+              "hex_id": "81CB0FFF61446489",
+              "encoded_id": "gcsP-2FEZIk",
+              "name": "JSObjectIsFunction"
+            },
+            {
+              "id": 13750001223664138956,
+              "hex_id": "BED1D14325AFFACC",
+              "encoded_id": "vtHRQyWv+sw",
+              "name": "JSObjectMake"
+            },
+            {
+              "id": 5651836517089318080,
+              "hex_id": "4E6F5B5E19B094C0",
+              "encoded_id": "Tm9bXhmwlMA",
+              "name": "JSObjectMakeFunctionWithCallback"
+            },
+            {
+              "id": 14950415564998854604,
+              "hex_id": "CF7A8BBEE43A47CC",
+              "encoded_id": "z3qLvuQ6R8w",
+              "name": "JSObjectSetProperty"
+            },
+            {
+              "id": 9249315123602281592,
+              "hex_id": "805C2B1995F65478",
+              "encoded_id": "gFwrGZX2VHg",
+              "name": "JSPropertyNameArrayGetCount"
+            },
+            {
+              "id": 9592122827478844253,
+              "hex_id": "851E10E3EDCAC35D",
+              "encoded_id": "hR4Q4+3Kw10",
+              "name": "JSPropertyNameArrayRelease"
+            },
+            {
+              "id": 1889647046466868444,
+              "hex_id": "1A395FFA1B8614DC",
+              "encoded_id": "Gjlf+huGFNw",
+              "name": "JSStringCreateWithCharacters"
+            },
+            {
+              "id": 9719717936636907064,
+              "hex_id": "86E35FF7523C4E38",
+              "encoded_id": "huNf91I8Tjg",
+              "name": "JSStringCreateWithUTF8CString"
+            },
+            {
+              "id": 894268267309604448,
+              "hex_id": "0C69144046E49E60",
+              "encoded_id": "DGkUQEbknmA",
+              "name": "JSStringGetMaximumUTF8CStringSize"
+            },
+            {
+              "id": 3937690294850120230,
+              "hex_id": "36A57C75DC0B6A26",
+              "encoded_id": "NqV8ddwLaiY",
+              "name": "JSStringGetUTF8CString"
+            },
+            {
+              "id": 5985543209737176804,
+              "hex_id": "5310EBD62422C6E4",
+              "encoded_id": "UxDr1iQixuQ",
+              "name": "JSStringIsEqual"
+            },
+            {
+              "id": 3922587962350701126,
+              "hex_id": "366FD4F810230A46",
+              "encoded_id": "Nm-U+BAjCkY",
+              "name": "JSStringRelease"
+            },
+            {
+              "id": 6877832868468274759,
+              "hex_id": "5F72F88DB58EB647",
+              "encoded_id": "X3L4jbWOtkc",
+              "name": "JSStringRetain"
+            },
+            {
+              "id": 10268084410877695607,
+              "hex_id": "8E7F905E7A175677",
+              "encoded_id": "jn+QXnoXVnc",
+              "name": "JSValueIsObject"
+            },
+            {
+              "id": 2472153947228007980,
+              "hex_id": "224EDAEABE9AEE2C",
+              "encoded_id": "Ik7a6r6a7iw",
+              "name": "JSValueIsString"
+            },
+            {
+              "id": 6927549921887285556,
+              "hex_id": "602399F341E07134",
+              "encoded_id": "YCOZ80HgcTQ",
+              "name": "JSValueMakeBoolean"
+            },
+            {
+              "id": 7287351903822176318,
+              "hex_id": "6521DFF24C96603E",
+              "encoded_id": "ZSHf8kyWYD4",
+              "name": "JSValueMakeNull"
+            },
+            {
+              "id": 8160229812886403181,
+              "hex_id": "713EF5C7B2A5786D",
+              "encoded_id": "cT71x7KleG0",
+              "name": "JSValueMakeNumber"
+            },
+            {
+              "id": 15124964479473892575,
+              "hex_id": "D1E6AB0EFF713CDF",
+              "encoded_id": "0earDv9xPN8",
+              "name": "JSValueMakeString"
+            },
+            {
+              "id": 11157343222708233428,
+              "hex_id": "9AD6D88C02A2E4D4",
+              "encoded_id": "mtbYjAKi5NQ",
+              "name": "JSValueMakeUndefined"
+            },
+            {
+              "id": 12278701834799484146,
+              "hex_id": "AA66B6436E290CF2",
+              "encoded_id": "qma2Q24pDPI",
+              "name": "JSValueToObject"
+            },
+            {
+              "id": 17704920493794655580,
+              "hex_id": "F5B483626929FD5C",
+              "encoded_id": "9bSDYmkp-Vw",
+              "name": "JSValueToStringCopy"
+            },
+            {
+              "id": 14960713757503216386,
+              "hex_id": "CF9F21E5AE475B02",
+              "encoded_id": "z58h5a5HWwI",
+              "name": "WKArrayCreate"
+            },
+            {
+              "id": 3341213784070737243,
+              "hex_id": "2E5E603BEE2CCD5B",
+              "encoded_id": "Ll5gO+4szVs",
+              "name": "WKArrayGetItemAtIndex"
+            },
+            {
+              "id": 15682114746235618106,
+              "hex_id": "D9A21046384A033A",
+              "encoded_id": "2aIQRjhKAzo",
+              "name": "WKBundleClearApplicationCache"
+            },
+            {
+              "id": 13854886740106867895,
+              "hex_id": "C04672157356F4B7",
+              "encoded_id": "wEZyFXNW9Lc",
+              "name": "WKBundleFrameConvertMonotonicTimeToDocumentTime"
+            },
+            {
+              "id": 14920927383711251585,
+              "hex_id": "CF11C866A981FC81",
+              "encoded_id": "zxHIZqmB-IE",
+              "name": "WKBundleFrameEnableHTMLTile"
+            },
+            {
+              "id": 15828764657336540577,
+              "hex_id": "DBAB119769CD5DA1",
+              "encoded_id": "26sRl2nNXaE",
+              "name": "WKBundleFrameForJavaScriptContext"
+            },
+            {
+              "id": 13295756019753172604,
+              "hex_id": "B88403A7F1A63E7C",
+              "encoded_id": "uIQDp-GmPnw",
+              "name": "WKBundleFrameGetACMemoryInfo"
+            },
+            {
+              "id": 8686777407921632645,
+              "hex_id": "788DA2072A0EB585",
+              "encoded_id": "eI2iByoOtYU",
+              "name": "WKBundleFrameGetJavaScriptContext"
+            },
+            {
+              "id": 8531032684110691787,
+              "hex_id": "76645106DFAA3DCB",
+              "encoded_id": "dmRRBt+qPcs",
+              "name": "WKBundleFrameGetJavaScriptContextForWorld"
+            },
+            {
+              "id": 1774300684395332932,
+              "hex_id": "189F9512621DC544",
+              "encoded_id": "GJ+VEmIdxUQ",
+              "name": "WKBundleFrameIsMainFrame"
+            },
+            {
+              "id": 15864339900870927027,
+              "hex_id": "DC2975164377A2B3",
+              "encoded_id": "3Cl1FkN3orM",
+              "name": "WKBundleFrameRegisterAsyncImageDecoder"
+            },
+            {
+              "id": 13606291811445613654,
+              "hex_id": "BCD342503385A456",
+              "encoded_id": "vNNCUDOFpFY",
+              "name": "WKBundleGarbageCollectJavaScriptObjects"
+            },
+            {
+              "id": 8606975282009220764,
+              "hex_id": "77721E6AD2BA269C",
+              "encoded_id": "d3IeatK6Jpw",
+              "name": "WKBundleGetFastMallocStatistics"
+            },
+            {
+              "id": 2693127030825434602,
+              "hex_id": "255FE8C4075A3DEA",
+              "encoded_id": "JV-oxAdaPeo",
+              "name": "WKBundleGetJavaScriptHeapStatistics"
+            },
+            {
+              "id": 2539030022549733928,
+              "hex_id": "233C725A68210228",
+              "encoded_id": "IzxyWmghAig",
+              "name": "WKBundleGetJavaScriptObjectsCount"
+            },
+            {
+              "id": 17277517158571359414,
+              "hex_id": "EFC61250C55CBCB6",
+              "encoded_id": "78YSUMVcvLY",
+              "name": "WKBundlePageGetMainFrame"
+            },
+            {
+              "id": 8957611563741272217,
+              "hex_id": "7C4FD441FCBAD899",
+              "encoded_id": "fE-UQfy62Jk",
+              "name": "WKBundlePageSetPageLoaderClient"
+            },
+            {
+              "id": 11770999167366807526,
+              "hex_id": "A35AFD6096513FE6",
+              "encoded_id": "o1r9YJZRP+Y",
+              "name": "WKBundlePageSetResourceLoadClient"
+            },
+            {
+              "id": 7209331082180950236,
+              "hex_id": "640CB06C2D93F8DC",
+              "encoded_id": "ZAywbC2T+Nw",
+              "name": "WKBundlePostMessage"
+            },
+            {
+              "id": 12349189548381974255,
+              "hex_id": "AB61227727462EEF",
+              "encoded_id": "q2EidydGLu8",
+              "name": "WKBundlePostSynchronousMessage"
+            },
+            {
+              "id": 15646825525886625946,
+              "hex_id": "D924B0EA54FCA89A",
+              "encoded_id": "2SSw6lT8qJo",
+              "name": "WKBundleScriptWorldNormalWorld"
+            },
+            {
+              "id": 16800295328885282132,
+              "hex_id": "E926A396FFDC9554",
+              "encoded_id": "6Sajlv-clVQ",
+              "name": "WKBundleSetClient"
+            },
+            {
+              "id": 5439245040715764738,
+              "hex_id": "4B7C148BD22B1402",
+              "encoded_id": "S3wUi9IrFAI",
+              "name": "WKBundleSetGarbageCollectClient"
+            },
+            {
+              "id": 5413625508414591759,
+              "hex_id": "4B210FB7A00B930F",
+              "encoded_id": "SyEPt6ALkw8",
+              "name": "WKBundleShutdownProcess"
+            },
+            {
+              "id": 5029667937711113242,
+              "hex_id": "45CCF8574D71441A",
+              "encoded_id": "Rcz4V01xRBo",
+              "name": "WKErrorCopyFailingURL"
+            },
+            {
+              "id": 17955559432806652927,
+              "hex_id": "F92EF62BE7DADBFF",
+              "encoded_id": "+S72K+fa2-8",
+              "name": "WKErrorCopyLocalizedDescription"
+            },
+            {
+              "id": 2819151571978376929,
+              "hex_id": "271FA36B0FC156E1",
+              "encoded_id": "Jx+jaw-BVuE",
+              "name": "WKErrorGetErrorCode"
+            },
+            {
+              "id": 9022305808307171214,
+              "hex_id": "7D35AB549717AF8E",
+              "encoded_id": "fTWrVJcXr44",
+              "name": "WKGetTypeID"
+            },
+            {
+              "id": 10881507562033442557,
+              "hex_id": "9702E17997BAEEFD",
+              "encoded_id": "lwLheZe67v0",
+              "name": "WKRelease"
+            },
+            {
+              "id": 6187418201290030235,
+              "hex_id": "55DE20125CADBC9B",
+              "encoded_id": "Vd4gElytvJs",
+              "name": "WKStringCopyJSString"
+            },
+            {
+              "id": 7389688731365448077,
+              "hex_id": "668D72BFB9BE998D",
+              "encoded_id": "Zo1yv7m+mY0",
+              "name": "WKStringCreateWithJSString"
+            },
+            {
+              "id": 10442725704491556130,
+              "hex_id": "90EC03B3470F5D22",
+              "encoded_id": "kOwDs0cPXSI",
+              "name": "WKStringCreateWithUTF8CString"
+            },
+            {
+              "id": 3012453180307805119,
+              "hex_id": "29CE6234F2BE13BF",
+              "encoded_id": "Kc5iNPK+E78",
+              "name": "WKStringGetMaximumUTF8CStringSize"
+            },
+            {
+              "id": 6012605543003135510,
+              "hex_id": "537110E29D3F1E16",
+              "encoded_id": "U3EQ4p0-HhY",
+              "name": "WKStringGetTypeID"
+            },
+            {
+              "id": 14569637973304668138,
+              "hex_id": "CA31C08B20DDEFEA",
+              "encoded_id": "yjHAiyDd7+o",
+              "name": "WKStringGetUTF8CString"
+            },
+            {
+              "id": 9937276784820325075,
+              "hex_id": "89E84C95F9F38AD3",
+              "encoded_id": "iehMlfnzitM",
+              "name": "WKStringIsEqualToUTF8CString"
+            },
+            {
+              "id": 7573028960240642111,
+              "hex_id": "6918CDB738E3A83F",
+              "encoded_id": "aRjNtzjjqD8",
+              "name": "WKURLCopyString"
+            },
+            {
+              "id": 17493794012781918644,
+              "hex_id": "F2C670F7F1B8B9B4",
+              "encoded_id": "8sZw9-G4ubQ",
+              "name": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
