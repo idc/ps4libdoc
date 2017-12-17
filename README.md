@@ -1,7 +1,10 @@
 # PS4LibDoc
 PS4 library documentation.
 
-### JSON Format
+## See also
+* [ps4_nid_resolver_ida](https://github.com/Thunder07/ps4_nid_resolver_ida), a plugin for IDA which makes use of ps4libdoc.
+
+## JSON Format
 Documentation is split across a file for each executable, to improve diffs.
 
 ```json
