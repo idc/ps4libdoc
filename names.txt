@@ -5096,6 +5096,7 @@ sceApplicationDeclareShellCore
 sceApplicationExitSpawn
 sceApplicationExitSpawn2
 sceApplicationFinalize
+sceApplicationGetAppInfoByAppId
 sceApplicationGetCoredumpDirAndFileName
 sceApplicationGetCoredumpDirPath
 sceApplicationGetCoredumpState
@@ -5126,6 +5127,7 @@ sceApplicationSendResultOfDebuggerTitleIdLaunchRequest
 sceApplicationSetApplicationFocus
 sceApplicationSetControllerFocus
 sceApplicationSetControllerFocusPermissionToSubProcess
+sceApplicationSetMemoryPstate
 sceApplicationSignalShellCoreHeartBeat
 sceApplicationSuspend
 sceApplicationSwitchToBaseMode
@@ -5300,6 +5302,8 @@ sceCameraGetWhiteBalance
 sceCameraIsAttached
 sceCameraIsValidFrameData
 sceCameraOpen
+sceCameraRemoveAppModuleFocus
+sceCameraSetAppModuleFocus
 sceCameraSetAttribute
 sceCameraSetAttributeInternal
 sceCameraSetAutoExposureGain
@@ -5348,8 +5352,10 @@ sceCompanionUtilOptParamInitialize
 sceCompanionUtilTerminate
 sceCompositorCheckCrash
 sceCompositorFlush
+sceCompositorMapAnotherProcess
 sceCompositorResetZoomCommand
 sceCompositorSetGameSufaceControlCommand
+sceCompositorSetResolutionCommand
 sceCompositorSetZoomCommand
 sceCompositorSystemConfig
 sceCompsoitorGetRenderingTime
@@ -6462,6 +6468,7 @@ sceKernelSwitchToNeoMode
 sceKernelSync
 sceKernelTerminateSysCore
 sceKernelTitleWorkaroundIsEnabled
+sceKernelTitleWorkdaroundIsEnabled
 sceKernelTriggerUserEvent
 sceKernelTruncate
 sceKernelUnlink
@@ -7733,6 +7740,15 @@ scePngEncDelete
 scePngEncEncode
 scePngEncQueryMemorySize
 scePsmExecute
+ScePsmMonoStringToUtf8
+scePsmUtilFinalize
+scePsmUtilGetDebugAssetManagerSize
+scePsmUtilGetEmojiAssetManagerSize
+scePsmUtilGetHighResoImageAssetManagerSize
+scePsmUtilGetLabelAssetManagerSize
+scePsmUtilGetOffscreenAssetManagerSize
+scePsmUtilGetSystemAssetManagerSize
+scePsmUtilInitialize
 scePssInternalOrbisControllerScan
 scePthreadAtfork
 scePthreadAttrDestroy
@@ -7841,6 +7857,7 @@ scePthreadRwlockUnlock
 scePthreadRwlockWrlock
 scePthreadSelf
 scePthreadSetaffinity
+scePthreadSetBesteffort
 scePthreadSetcancelstate
 scePthreadSetcanceltype
 scePthreadSetconcurrency
@@ -8863,8 +8880,10 @@ sceVdecCoreSetDecodeInput
 sceVdecCoreSyncDecode
 sceVideoCoreAcquireDecoderResource
 sceVideoCoreAddStream
+sceVideoCoreChangeActiveStatus
 sceVideoCoreChangeDisplayStatus
 sceVideoCoreDeleteStream
+sceVideoCoreGetCanvasHandle
 sceVideoCoreGetPlayStatus
 sceVideoCoreGetPlayStatus2
 sceVideoCoreReleaseDecoderResource
