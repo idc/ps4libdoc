@@ -577,6 +577,7 @@ _new_setup
 _Nnl
 _open
 _openat
+_OrbisTextureImage2DCanvas
 _PathLocale
 _PJP_C_Copyright
 _PJP_CPP_Copyright
@@ -4338,9 +4339,11 @@ glDisable
 glDisableVertexAttribArray
 glDrawArrays
 glDrawArraysInstanced
+glDrawArraysInstancedEXT
 glDrawBuffers
 glDrawElements
 glDrawElementsInstanced
+glDrawElementsInstancedEXT
 glDrawRangeElements
 glEnable
 glEnableVertexAttribArray
@@ -4389,6 +4392,9 @@ glGetProgramBinary
 glGetProgramInfoLog
 glGetProgramiv
 glGetQueryiv
+glGetQueryObjecti64vEXT
+glGetQueryObjectivEXT
+glGetQueryObjectui64vEXT
 glGetQueryObjectuiv
 glGetQueryObjectuivEXT
 glGetRenderbufferParameteriv
@@ -4435,10 +4441,12 @@ glLineWidth
 glLinkProgram
 glMapBufferRange
 glPauseTransformFeedback
+glPigletGetShaderBinarySCE
 glPixelStorei
 glPolygonOffset
 glProgramBinary
 glProgramParameteri
+glQueryCounterEXT
 glReadBuffer
 glReadPixels
 glReleaseShaderCompiler
@@ -4518,6 +4526,7 @@ glVertexAttrib3fv
 glVertexAttrib4f
 glVertexAttrib4fv
 glVertexAttribDivisor
+glVertexAttribDivisorEXT
 glVertexAttribI4i
 glVertexAttribI4iv
 glVertexAttribI4ui
@@ -7792,6 +7801,7 @@ scePadTrackerUpdate
 scePigletAllocateSystemMemory
 scePigletAllocateVideoMemory
 scePigletGetConfigurationVSH
+scePigletGetInteger
 scePigletGetUsageVSH
 scePigletReleaseSystemMemory
 scePigletReleaseVideoMemory
