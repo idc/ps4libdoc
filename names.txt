@@ -1233,6 +1233,8 @@ _ZN15AbstractStorage7StorageC2ERKSbIcSt11char_traitsIcENS_8StlAllocIcEEE
 _ZN15AbstractStorage7StorageD0Ev
 _ZN15AbstractStorage7StorageD1Ev
 _ZN15AbstractStorage7StorageD2Ev
+_ZN19JITSharedDataMemory9sbrk_infoE
+_ZN19JITSharedTextMemory9sbrk_infoE
 _ZN23sceMetadataReaderWriter10initializeEv
 _ZN23sceMetadataReaderWriter11_storageHddE
 _ZN23sceMetadataReaderWriter11getMimeTypeERKSsRSt6vectorIjSaIjEE
@@ -3699,7 +3701,10 @@ clock_gettime
 clock_settime
 close
 closedir
+coil_signal_semaphore
+coil_wait_semaphore
 comm_init
+compile
 connect
 copysign
 copysignf
@@ -4601,6 +4606,7 @@ j1
 j1f
 jn
 jnf
+jpeg_read_header
 jpeg_std_error
 jrand48
 JSCheckScriptSyntax
@@ -4826,6 +4832,15 @@ modff
 modfl
 module_start
 module_stop
+mono_defaults
+mono_domain_get
+mono_error_ok
+mono_privileges_finish_init
+mono_profiler_events
+mono_shared_hashtable_new_gc
+mono_string_from_utf16
+mono_string_new_wrapper
+mono_string_to_utf8
 mount
 mprotect
 mrand48
@@ -4964,6 +4979,7 @@ pthread_create_name_np
 pthread_detach
 pthread_equal
 pthread_exit
+pthread_get_user_context_np
 pthread_getaffinity_np
 pthread_getconcurrency
 pthread_getcpuclockid
@@ -5041,6 +5057,7 @@ pthread_spin_trylock
 pthread_spin_unlock
 pthread_suspend_all_np
 pthread_suspend_np
+pthread_suspend_user_context_np
 pthread_switch_add_np
 pthread_switch_delete_np
 pthread_testcancel
@@ -5162,6 +5179,7 @@ sceAppInstUtilAppCancelableUnInstallByUser
 sceAppInstUtilAppCancelUnInstall
 sceAppInstUtilAppConvertAppDiscToDownload
 sceAppInstUtilAppConvertAppDownloadToDisc
+sceAppInstUtilAppDestroyMetadata
 sceAppInstUtilAppDestroyPkg
 sceAppInstUtilAppExists
 sceAppInstUtilAppGetAddcontInfo
@@ -5362,6 +5380,7 @@ sceAvPlayerGetStreamInfo
 sceAvPlayerGetVideoData
 sceAvPlayerGetVideoDataEx
 sceAvPlayerInit
+sceAvPlayerInitEx
 sceAvPlayerIsActive
 sceAvPlayerJumpToTime
 sceAvPlayerPause
@@ -5401,6 +5420,7 @@ sceBackupRestoreUtilInitialize
 sceBackupRestoreUtilRestoreData
 sceBackupRestoreUtilTerminate
 sceBluetoothHidGetDeviceInfo
+sceCameraAudioOpen
 sceCameraChangeAppModuleState
 sceCameraClose
 sceCameraGetAttribute
@@ -5423,6 +5443,7 @@ sceCameraGetWhiteBalance
 sceCameraIsAttached
 sceCameraIsValidFrameData
 sceCameraOpen
+sceCameraOpenByModuleId
 sceCameraRemoveAppModuleFocus
 sceCameraSetAppModuleFocus
 sceCameraSetAttribute
@@ -5432,6 +5453,7 @@ sceCameraSetAutoWhiteBalance
 sceCameraSetConfig
 sceCameraSetConfigInternal
 sceCameraSetContrast
+sceCameraSetDebugStop
 sceCameraSetDefectivePixelCancellation
 sceCameraSetDefectivePixelCancellationInternal
 sceCameraSetExposureGain
@@ -5446,6 +5468,7 @@ sceCameraSetVideoSync
 sceCameraSetVideoSyncInternal
 sceCameraSetWhiteBalance
 sceCameraStart
+sceCameraStartByHandle
 sceCameraStop
 sceCommonDialogInitialize
 sceCommonDialogIsUsed
@@ -5472,13 +5495,29 @@ sceCompanionUtilInitialize
 sceCompanionUtilOptParamInitialize
 sceCompanionUtilTerminate
 sceCompositorCheckCrash
+sceCompositorCommandGpuPerfBegin
 sceCompositorFlush
+sceCompositorFlushWithRepeat
+sceCompositorGetRemainedCommandNum
 sceCompositorMapAnotherProcess
+sceCompositorReleaseLocalStall
 sceCompositorResetZoomCommand
+sceCompositorSetCursorImageAddress
+sceCompositorSetEndOfFrameCommand
+sceCompositorSetFlipCommand
 sceCompositorSetGameSufaceControlCommand
+sceCompositorSetGnmContextCommand
+sceCompositorSetIndirectCompositionCommand
+sceCompositorSetInvisibleCanvasCommand
+sceCompositorSetLocalStallCommand
+sceCompositorSetMorpheusState
+sceCompositorSetPostEventCommand
 sceCompositorSetResolutionCommand
 sceCompositorSetZoomCommand
 sceCompositorSystemConfig
+sceCompositorWaitEvent
+sceCompositorWaitPostEvent
+sceCompsoitorGetGpuClock
 sceCompsoitorGetRenderingTime
 sceContentDeleteById
 sceContentDeleteByPath
@@ -5658,6 +5697,7 @@ sceDepthValidateCurrentCalibrationData
 sceDepthWaitAndExecutePostProcess
 sceDiscMapBitmapInfoServerStart
 sceDiscMapBitmapInfoServerStop
+sceDiscMapIsRequestOnHDD
 sceErrorDialogClose
 sceErrorDialogGetStatus
 sceErrorDialogInitialize
@@ -5681,6 +5721,7 @@ sceFiosArchiveGetMountBufferSize
 sceFiosArchiveGetMountBufferSizeSync
 sceFiosArchiveMount
 sceFiosArchiveMountSync
+sceFiosArchiveMountWithOrder
 sceFiosArchiveSetDecompressorThreadCount
 sceFiosArchiveUnmount
 sceFiosArchiveUnmountSync
@@ -6305,6 +6346,9 @@ sceHttpUriParse
 sceHttpUriSweepPath
 sceHttpUriUnescape
 sceHttpWaitRequest
+sceImeBackendAllConfirm
+sceImeBackendGetCandidateList
+sceImeBackendPartConfirm
 sceImeClose
 sceImeConfigGet
 sceImeConfigSet
@@ -6604,6 +6648,7 @@ sceKernelWaitSema
 sceKernelWrite
 sceKernelWriteDipswData
 sceKernelWritev
+sceKeyboardOpen
 sceKeyboardPadEmulateClose
 sceKeyboardPadEmulateOpen
 sceLibcFopenWithFD
@@ -6767,6 +6812,7 @@ sceM4aacEncEncode
 sceM4aacEncFlush
 sceMbusAcquireControl
 sceMbusAcquireControlList
+sceMbusAcquireControlWithStateFlag
 sceMbusAddHandle
 sceMbusBindDeviceWithUserId
 sceMbusCheckEvent
@@ -6908,8 +6954,11 @@ sceNetConfigGetDefaultRoute
 sceNetConfigGetDefaultRoute6
 sceNetConfigGetIfaddr
 sceNetConfigGetIfaddr6
+sceNetConfigRoutingShowRoutingConfig
+sceNetConfigRoutingStart
 sceNetConfigSetDefaultRoute
 sceNetConfigSetDefaultRoute6
+sceNetConfigSetDefaultScope
 sceNetConfigSetIfaddr
 sceNetConfigSetIfaddr6
 sceNetConfigSetIfmtu
@@ -8193,6 +8242,7 @@ sceSaveDataTerminate
 sceSaveDataTransferringMount
 sceSaveDataUmount
 sceSaveDataUmountWithBackup
+sceSblACMgrCheckPlatformDLL
 sceScreenShotCapture
 sceScreenShotDisable
 sceScreenShotDisableNotification
@@ -8233,6 +8283,8 @@ sceSdmaQueryWorkingBufferSize
 sceSdmaTryFlush
 sceSdmaUnmapUserVAddress
 sceSdmaWaitForEvent
+sceShareFactoryUtilBackToGameFromShareFactory
+sceShareFactoryUtilGetLaunchStatusOfShareFactory
 sceSharePlayGetCurrentConnectionInfo
 sceSharePlayInitialize
 sceSharePlaySetProhibition
@@ -8495,6 +8547,10 @@ sceSystemGestureUpdateAllTouchRecognizer
 sceSystemGestureUpdatePrimitiveTouchRecognizer
 sceSystemGestureUpdateTouchRecognizer
 sceSystemGestureUpdateTouchRecognizerRectangle
+sceSystemServiceActivateHevcGetStatus
+sceSystemServiceActivateHevcInit
+sceSystemServiceActivateHevcStart
+sceSystemServiceActivateHevcTerm
 sceSystemServiceAddLocalProcess
 sceSystemServiceAddLocalProcessForPs2Emu
 sceSystemServiceAddLocalProcessForPsmKit
@@ -8589,6 +8645,8 @@ sceSysUtilSendSystemNotificationWithUserId
 sceSysUtilSendSystemNotificationWithUserName
 sceSysUtilSendSystemNotificationWithUserNameInfo
 sceSysUtilSendTrcCheckNotificationRequest
+sceTsOpenFile
+sceTsStartFileStreaming
 sceUltConditionVariableDestroy
 sceUltConditionVariableSignal
 sceUltConditionVariableSignalAll
@@ -8635,6 +8693,8 @@ sceUltUlthreadTryJoin
 sceUltUlthreadYield
 sceUltWaitingQueueResourcePoolDestroy
 sceUltWaitingQueueResourcePoolGetWorkAreaSize
+sceUpsrvInitialize
+sceUpsrvTerminate
 sceUsbdAllocTransfer
 sceUsbdAttachKernelDriver
 sceUsbdBulkTransfer
@@ -8698,9 +8758,12 @@ sceUsbdUnrefDevice
 sceUsbdWaitForEvent
 sceUsbStorageGetDeviceInfo
 sceUsbStorageGetDeviceList
+sceUsbStorageInit
 sceUsbStorageIsExist
+sceUsbStorageRegisterCallback
 sceUsbStorageRequestMap
 sceUsbStorageRequestUnmap
+sceUsbStorageUnregisterCallback
 sceUserServiceCreateGuestUser
 sceUserServiceCreateKratosUser
 sceUserServiceCreateSharePlayClientUser
@@ -8859,6 +8922,7 @@ sceUserServiceIsKratosUser
 sceUserServiceIsLoggedIn
 sceUserServiceIsSharePlayClientUser
 sceUserServiceIsUserStorageAccountBound
+sceUserServiceRegisterEventCallback
 sceUserServiceSetAccessibilityKeyremapData
 sceUserServiceSetAccessibilityKeyremapEnable
 sceUserServiceSetAccessibilityZoom
@@ -8990,6 +9054,7 @@ sceUserServiceSetVolumeForMorpheusSidetone
 sceUserServiceSetVolumeForOtherDevices
 sceUserServiceSetVolumeForSidetone
 sceUserServiceTerminate
+sceUserServiceUnregisterEventCallback
 sceVdecCoreCreateDecoder
 sceVdecCoreDeleteDecoder
 sceVdecCoreFlushDecodeOutput
@@ -9008,6 +9073,7 @@ sceVideoCoreDeleteStream
 sceVideoCoreGetCanvasHandle
 sceVideoCoreGetPlayStatus
 sceVideoCoreGetPlayStatus2
+sceVideoCoreRegistEventCallback
 sceVideoCoreReleaseDecoderResource
 sceVideoCoreSetInitializeInfo
 sceVideoCoreSetPlaybackRange
@@ -9672,6 +9738,7 @@ WKBundleHitTestResultGetImageRect
 WKBundleHitTestResultGetIsSelected
 WKBundleHitTestResultGetTargetFrame
 WKBundleHitTestResultGetTypeID
+WKBundleInitialize
 WKBundleInspectorClose
 WKBundleInspectorEvaluateScriptForTest
 WKBundleInspectorGetTypeID
