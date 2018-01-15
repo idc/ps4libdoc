@@ -25,6 +25,7 @@ Documentation is split across a file for each executable, to improve diffs.
               "id": 9819116604689812748,
               "hex_id": "884482872EAD0D0C",
               "encoded_id": "iESChy6tDQw",
+              "type": "<symbol type>",
               "name": "<symbol name>"
             }
           ]
@@ -37,5 +38,6 @@ Documentation is split across a file for each executable, to improve diffs.
 
 `is_export` indicates if that library is exported, if false, it is imported.
 
-`name` is either not present or is `null` when the name for the symbol is unknown.
-`hex_id` and `encoded_id` are included for human convenience and are not used by tools.
+* `type` when not present is `Function`. Can be `Function`, `Object`, `TLS`, or `Unknown11` (TBD).
+* `name` is either not present or is `null` when the name for the symbol is unknown.
+* `hex_id` and `encoded_id` are included for human convenience and are not used by tools.
