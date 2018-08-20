@@ -5,6 +5,7 @@
     "libSceGnmDriver.prx",
     "libSceLibcInternal.prx",
     "libSceSysmodule.prx",
+    "libSceSystemService.prx",
     "libSceVdecSavc.prx",
     "libSceVdecSavc2.prx",
     "libSceVdecShevc.prx"
@@ -192,12 +193,6 @@
               "name": "fstat"
             },
             {
-              "id": 2198554145645331479,
-              "hex_id": "1E82D558D6A70417",
-              "encoded_id": "HoLVWNanBBc",
-              "name": "getpid"
-            },
-            {
               "id": 16784639565416636374,
               "hex_id": "E8EF04C183A01FD6",
               "encoded_id": "6O8EwYOgH9Y",
@@ -246,12 +241,6 @@
               "name": "sceKernelDeleteEqueue"
             },
             {
-              "id": 2013980669527154085,
-              "hex_id": "1BF318BF97AB5DA5",
-              "encoded_id": "G-MYv5erXaU",
-              "name": "sceKernelGetAppInfo"
-            },
-            {
               "id": 6349717562011184837,
               "hex_id": "581EBA7AFBBC6EC5",
               "encoded_id": "WB66evu8bsU",
@@ -262,6 +251,18 @@
               "hex_id": "5AC95C2B51507062",
               "encoded_id": "WslcK1FQcGI",
               "name": "sceKernelIsNeoMode"
+            },
+            {
+              "id": 13628737565072908598,
+              "hex_id": "BD23009B77316136",
+              "encoded_id": "vSMAm3cxYTY",
+              "name": "sceKernelMprotect"
+            },
+            {
+              "id": 12490964173816356775,
+              "hex_id": "AD58D1BC72745FA7",
+              "encoded_id": "rVjRvHJ0X6c",
+              "name": "sceKernelVirtualQuery"
             },
             {
               "id": 9168357056915475053,
@@ -791,6 +792,12 @@
               "name": "sceRazorIsLoaded"
             },
             {
+              "id": 1195328802079548933,
+              "hex_id": "1096A9365DBEA605",
+              "encoded_id": "EJapNl2+pgU",
+              "name": null
+            },
+            {
               "id": 1465175592083639653,
               "hex_id": "145559702BB7CD65",
               "encoded_id": "FFVZcCu3zWU",
@@ -800,6 +807,18 @@
               "id": 3889929945001159369,
               "hex_id": "35FBCEACDCF2EAC9",
               "encoded_id": "NfvOrNzy6sk",
+              "name": null
+            },
+            {
+              "id": 8497192725826252493,
+              "hex_id": "75EC17C39AE82ECD",
+              "encoded_id": "dewXw5roLs0",
+              "name": null
+            },
+            {
+              "id": 9077793677625107211,
+              "hex_id": "7DFACD40EB21A30B",
+              "encoded_id": "ffrNQOshows",
               "name": null
             }
           ]
@@ -964,6 +983,35 @@
               "hex_id": "DFD895E44D47A029",
               "encoded_id": "39iV5E1HoCk",
               "name": "sceSysmoduleLoadModuleInternal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceSystemService",
+      "libraries": [
+        {
+          "name": "libSceSystemServiceActivateHevc",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 18116740496583822121,
+              "hex_id": "FB6B977EBAD00B29",
+              "encoded_id": "+2uXfrrQCyk",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "libSceSystemServiceActivateHevcSoft",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 9220466245089534829,
+              "hex_id": "7FF5AD32A20AA36D",
+              "encoded_id": "f-WtMqIKo20",
+              "name": null
             }
           ]
         }

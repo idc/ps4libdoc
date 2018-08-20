@@ -4,8 +4,8 @@
     "libSceLibcInternal.prx",
     "libSceNet.prx",
     "libSceOrbisCompat.prx",
-    "libScePerf.prx",
     "libScePigletv2VSH.prx",
+    "libSceRazorCpu.prx",
     "libSceRegMgr.prx",
     "libSceSysCore.prx",
     "libSceSysmodule.prx",
@@ -58,6 +58,12 @@
               "name": "_open"
             },
             {
+              "id": 2198554145645331479,
+              "hex_id": "1E82D558D6A70417",
+              "encoded_id": "HoLVWNanBBc",
+              "name": "getpid"
+            },
+            {
               "id": 1336251812889512446,
               "hex_id": "128B51F1ADC049FE",
               "encoded_id": "EotR8a3ASf4",
@@ -70,12 +76,6 @@
               "name": "pthread_setprio"
             },
             {
-              "id": 3387195667630959360,
-              "hex_id": "2F01BC8379E2AB00",
-              "encoded_id": "LwG8g3niqwA",
-              "name": "sceKernelDlsym"
-            },
-            {
               "id": 1120452288367944406,
               "hex_id": "0F8CA56B7BF1E2D6",
               "encoded_id": "D4yla3vx4tY",
@@ -86,12 +86,6 @@
               "hex_id": "ACD46D9B5BA2A326",
               "encoded_id": "rNRtm1uioyY",
               "name": "sceKernelHasNeoMode"
-            },
-            {
-              "id": 14068095488279325055,
-              "hex_id": "C33BEA4F852A297F",
-              "encoded_id": "wzvqT4UqKX8",
-              "name": "sceKernelLoadStartModule"
             },
             {
               "id": 18272368695409511548,
@@ -220,6 +214,12 @@
               "name": "getenv"
             },
             {
+              "id": 1006747189132769736,
+              "hex_id": "0DF8AF3C0AE1B9C8",
+              "encoded_id": "DfivPArhucg",
+              "name": "memcmp"
+            },
+            {
               "id": 4860863683521237115,
               "hex_id": "437541C425E1507B",
               "encoded_id": "Q3VBxCXhUHs",
@@ -327,22 +327,9 @@
               "name": "_ZN4Manx6System21defaultThreadPriorityEv"
             },
             {
-              "id": 7899435973538202388,
-              "hex_id": "6DA06F2A38AFC314",
-              "encoded_id": "baBvKjivwxQ",
-              "name": "_ZN4Manx7RunLoop4initEv"
-            },
-            {
               "id": 4689300166026770680,
               "hex_id": "4113BDA7F134B8F8",
               "encoded_id": "QRO9p-E0uPg",
-              "name": null
-            },
-            {
-              "id": 10665433802587293735,
-              "hex_id": "94033B891AA8C827",
-              "encoded_id": "lAM7iRqoyCc",
-              "type": "Object",
               "name": null
             }
           ]
@@ -350,10 +337,27 @@
       ]
     },
     {
-      "name": "libScePerf",
+      "name": "libScePigletv2VSH",
       "libraries": [
         {
-          "name": "libScePerf",
+          "name": "libScePigletv2VSH",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 3734730244055261905,
+              "hex_id": "33D46D5E98D262D1",
+              "encoded_id": "M9RtXpjSYtE",
+              "name": "scePigletSetConfigurationVSH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceRazorCpu",
+      "libraries": [
+        {
+          "name": "libSceRazorCpu",
           "is_export": false,
           "symbols": [
             {
@@ -379,23 +383,6 @@
               "hex_id": "031ECD8CECDCB483",
               "encoded_id": "Ax7NjOzctIM",
               "name": "sceRazorCpuSync"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "libScePigletv2VSH",
-      "libraries": [
-        {
-          "name": "libScePigletv2VSH",
-          "is_export": false,
-          "symbols": [
-            {
-              "id": 3734730244055261905,
-              "hex_id": "33D46D5E98D262D1",
-              "encoded_id": "M9RtXpjSYtE",
-              "name": "scePigletSetConfigurationVSH"
             }
           ]
         }
@@ -448,6 +435,12 @@
           "name": "libSceSysmodule",
           "is_export": false,
           "symbols": [
+            {
+              "id": 9495572494758995882,
+              "hex_id": "83C70CDFD11467AA",
+              "encoded_id": "g8cM39EUZ6o",
+              "name": "sceSysmoduleLoadModule"
+            },
             {
               "id": 670797720578825438,
               "hex_id": "094F26F90B3E1CDE",

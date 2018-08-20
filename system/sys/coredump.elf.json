@@ -5,6 +5,7 @@
     "libSceDipsw.prx",
     "libSceHmd.prx",
     "libSceLibcInternal.prx",
+    "libScePad.prx",
     "libSceRegMgr.prx",
     "libSceRtc.prx",
     "libSceSysCore.prx",
@@ -63,6 +64,12 @@
               "name": "dup2"
             },
             {
+              "id": 1154134472006602237,
+              "hex_id": "10044F2FFAFC8DFD",
+              "encoded_id": "EARPL-r8jf0",
+              "name": "getfsstat"
+            },
+            {
               "id": 9406074181223055486,
               "hex_id": "828916A1DEC6007E",
               "encoded_id": "gokWod7GAH4",
@@ -85,12 +92,6 @@
               "hex_id": "C2E0ABA081A3B768",
               "encoded_id": "wuCroIGjt2g",
               "name": "open"
-            },
-            {
-              "id": 189259624450299762,
-              "hex_id": "02A062A02DAF1772",
-              "encoded_id": "AqBioC2vF3I",
-              "name": "read"
             },
             {
               "id": 1386881698613172097,
@@ -303,52 +304,10 @@
               "name": "scePthreadAttrSetschedpolicy"
             },
             {
-              "id": 2623386285031266272,
-              "hex_id": "246823ED4BEB97E0",
-              "encoded_id": "JGgj7Uvrl+A",
-              "name": "scePthreadCondBroadcast"
-            },
-            {
-              "id": 9503678745557494216,
-              "hex_id": "83E3D977686269C8",
-              "encoded_id": "g+PZd2hiacg",
-              "name": "scePthreadCondDestroy"
-            },
-            {
-              "id": 15651976670597459549,
-              "hex_id": "D936FDDAABA9AE5D",
-              "encoded_id": "2Tb92quprl0",
-              "name": "scePthreadCondInit"
-            },
-            {
-              "id": 10392196010001576657,
-              "hex_id": "90387F35FC6032D1",
-              "encoded_id": "kDh-NfxgMtE",
-              "name": "scePthreadCondSignal"
-            },
-            {
-              "id": 11794735720428417773,
-              "hex_id": "A3AF51A583BF32ED",
-              "encoded_id": "o69RpYO-Mu0",
-              "name": "scePthreadCondSignalto"
-            },
-            {
-              "id": 6386129730126560526,
-              "hex_id": "58A0172785C13D0E",
-              "encoded_id": "WKAXJ4XBPQ4",
-              "name": "scePthreadCondWait"
-            },
-            {
               "id": 16809735917717999038,
               "hex_id": "E9482DC15FB4CDBE",
               "encoded_id": "6UgtwV+0zb4",
               "name": "scePthreadCreate"
-            },
-            {
-              "id": 16330522048065978326,
-              "hex_id": "E2A1AB47A7A83FD6",
-              "encoded_id": "4qGrR6eoP9Y",
-              "name": "scePthreadDetach"
             },
             {
               "id": 16017117689982828683,
@@ -441,6 +400,12 @@
               "name": "write"
             },
             {
+              "id": 769562563688191445,
+              "hex_id": "0AAE09130912D5D5",
+              "encoded_id": "Cq4JEwkS1dU",
+              "name": null
+            },
+            {
               "id": 822308324908933217,
               "hex_id": "0B696D10920B2061",
               "encoded_id": "C2ltEJILIGE",
@@ -450,6 +415,12 @@
               "id": 832993833273944401,
               "hex_id": "0B8F637A5C626951",
               "encoded_id": "C49jelxiaVE",
+              "name": null
+            },
+            {
+              "id": 1187482243454037991,
+              "hex_id": "107AC8CF12296FE7",
+              "encoded_id": "EHrIzxIpb+c",
               "name": null
             },
             {
@@ -974,6 +945,12 @@
               "name": null
             },
             {
+              "id": 17721681619615512730,
+              "hex_id": "F5F00F8A1FC0789A",
+              "encoded_id": "9fAPih-AeJo",
+              "name": null
+            },
+            {
               "id": 17943191631916600218,
               "hex_id": "F90305B8DD268B9A",
               "encoded_id": "+QMFuN0mi5o",
@@ -1279,6 +1256,12 @@
               "name": "snprintf"
             },
             {
+              "id": 15346355108179245418,
+              "hex_id": "D4F934A99406796A",
+              "encoded_id": "1Pk0qZQGeWo",
+              "name": "sscanf"
+            },
+            {
               "id": 98695067700224284,
               "hex_id": "015EA2A4235AE11C",
               "encoded_id": "AV6ipCNa4Rw",
@@ -1315,6 +1298,12 @@
               "name": "strlen"
             },
             {
+              "id": 10410133101907995133,
+              "hex_id": "907838E6A3C2E9FD",
+              "encoded_id": "kHg45qPC6f0",
+              "name": "strncat"
+            },
+            {
               "id": 7632249581959732014,
               "hex_id": "69EB328EB1D55B2E",
               "encoded_id": "aesyjrHVWy4",
@@ -1333,10 +1322,10 @@
               "name": "strnlen"
             },
             {
-              "id": 6807999456434619740,
-              "hex_id": "5E7ADF6F6FD6855C",
-              "encoded_id": "Xnrfb2-WhVw",
-              "name": "strnstr"
+              "id": 13702395469551725152,
+              "hex_id": "BE28B014C68D6A60",
+              "encoded_id": "viiwFMaNamA",
+              "name": "strstr"
             },
             {
               "id": 11058995181982134520,
@@ -1361,6 +1350,35 @@
               "hex_id": "43657E8AABE3802D",
               "encoded_id": "Q2V+iqvjgC0",
               "name": "vsnprintf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libScePad",
+      "libraries": [
+        {
+          "name": "libScePad",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 719472670843999790,
+              "hex_id": "09FC14950B42162E",
+              "encoded_id": "CfwUlQtCFi4",
+              "name": "scePadMbusInit"
+            },
+            {
+              "id": 12948042224494273675,
+              "hex_id": "B3B0AFCD2FBD648B",
+              "encoded_id": "s7CvzS+9ZIs",
+              "name": null
+            },
+            {
+              "id": 16063791153480055955,
+              "hex_id": "DEEE0CF1C93DBC93",
+              "encoded_id": "3u4M8ck9vJM",
+              "name": null
             }
           ]
         }

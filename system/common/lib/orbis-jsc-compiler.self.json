@@ -1,13 +1,41 @@
 {
   "shared_object_names": [
     "libkernel.prx",
+    "libSceJitBridge.prx",
     "libSceJscCompiler.prx",
     "libSceLibcInternal.prx",
-    "libSceManxWtf.prx",
-    "libSceSysmodule.prx",
-    "libSceSystemService.prx"
+    "libSceSysmodule.prx"
   ],
   "modules": [
+    {
+      "name": "orbis-jsc-compiler",
+      "libraries": [
+        {
+          "name": "orbis-jsc-compiler",
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 14294343015128506845,
+              "hex_id": "C65FB53CD25221DD",
+              "encoded_id": "xl+1PNJSId0",
+              "name": "_ZN4Manx6System19setVirtualRangeNameEPvmPKc"
+            },
+            {
+              "id": 3672727658668651154,
+              "hex_id": "32F82658BBB27292",
+              "encoded_id": "MvgmWLuycpI",
+              "name": "_ZN4Manx6System21defaultThreadPriorityEv"
+            },
+            {
+              "id": 646718911728468830,
+              "hex_id": "08F99B6C7B1A435E",
+              "encoded_id": "CPmbbHsaQ14",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "libkernel",
       "libraries": [
@@ -41,6 +69,18 @@
               "name": "pthread_setprio"
             },
             {
+              "id": 14068095488279325055,
+              "hex_id": "C33BEA4F852A297F",
+              "encoded_id": "wzvqT4UqKX8",
+              "name": "sceKernelLoadStartModule"
+            },
+            {
+              "id": 892564695714737557,
+              "hex_id": "0C6306DC9B21AD95",
+              "encoded_id": "DGMG3JshrZU",
+              "name": "sceKernelSetVirtualRangeName"
+            },
+            {
               "id": 4658820607905645035,
               "hex_id": "40A774A8CE7C41EB",
               "encoded_id": "QKd0qM58Qes",
@@ -58,10 +98,10 @@
           "is_export": false,
           "symbols": [
             {
-              "id": 9910637415160019447,
-              "hex_id": "8989A838644EF9F7",
-              "encoded_id": "iYmoOGRO+fc",
-              "name": "compile"
+              "id": 13260406496630344573,
+              "hex_id": "B8066D73B8EF0B7D",
+              "encoded_id": "uAZtc7jvC30",
+              "name": null
             }
           ]
         }
@@ -187,23 +227,12 @@
               "encoded_id": "CZNm+oNmB-I",
               "type": "Object",
               "name": "optreset"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "libSceManxWtf",
-      "libraries": [
-        {
-          "name": "libSceManxWtf",
-          "is_export": false,
-          "symbols": [
+            },
             {
-              "id": 646718911728468830,
-              "hex_id": "08F99B6C7B1A435E",
-              "encoded_id": "CPmbbHsaQ14",
-              "name": null
+              "id": 3712681799803938760,
+              "hex_id": "3386186D215F27C8",
+              "encoded_id": "M4YYbSFfJ8g",
+              "name": "setenv"
             }
           ]
         }

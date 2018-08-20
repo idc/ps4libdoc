@@ -6,9 +6,9 @@
     "libSceAvPlayerStreaming.prx",
     "libSceLibcInternal.prx",
     "libSceSysmodule.prx",
-    "libSceSystemService.prx",
     "libSceVideodec.prx",
-    "libSceVideodec2.prx"
+    "libSceVideodec2.prx",
+    "libSceVideoDecoderArbitration.prx"
   ],
   "modules": [
     {
@@ -167,6 +167,12 @@
               "hex_id": "6A08A0FE20D1AD31",
               "encoded_id": "agig-iDRrTE",
               "name": null
+            },
+            {
+              "id": 10663044820741485425,
+              "hex_id": "93FABEC4EC5D7371",
+              "encoded_id": "k-q+xOxdc3E",
+              "name": null
             }
           ]
         }
@@ -193,6 +199,12 @@
               "name": "__stack_chk_guard"
             },
             {
+              "id": 2198554145645331479,
+              "hex_id": "1E82D558D6A70417",
+              "encoded_id": "HoLVWNanBBc",
+              "name": "getpid"
+            },
+            {
               "id": 5813464972379181691,
               "hex_id": "50AD939760D6527B",
               "encoded_id": "UK2Tl2DWUns",
@@ -203,6 +215,12 @@
               "hex_id": "901C023EC617FE6E",
               "encoded_id": "kBwCPsYX-m4",
               "name": "sceKernelFstat"
+            },
+            {
+              "id": 2013980669527154085,
+              "hex_id": "1BF318BF97AB5DA5",
+              "encoded_id": "G-MYv5erXaU",
+              "name": "sceKernelGetAppInfo"
             },
             {
               "id": 6349717562011184837,
@@ -860,53 +878,6 @@
       ]
     },
     {
-      "name": "libSceSystemService",
-      "libraries": [
-        {
-          "name": "libSceSystemServiceActivateHevc",
-          "is_export": false,
-          "symbols": [
-            {
-              "id": 18434063822573182464,
-              "hex_id": "FFD2F360F75A9E00",
-              "encoded_id": "-9LzYPdangA",
-              "name": "sceSystemServiceActivateHevcGetStatus"
-            },
-            {
-              "id": 434825520048923185,
-              "hex_id": "0608CF81B5CA6231",
-              "encoded_id": "BgjPgbXKYjE",
-              "name": "sceSystemServiceActivateHevcInit"
-            },
-            {
-              "id": 1428025613731796000,
-              "hex_id": "13D15DBACCA49420",
-              "encoded_id": "E9FdusyklCA",
-              "name": "sceSystemServiceActivateHevcStart"
-            },
-            {
-              "id": 13009092277800410775,
-              "hex_id": "B489948064921E97",
-              "encoded_id": "tImUgGSSHpc",
-              "name": "sceSystemServiceActivateHevcTerm"
-            },
-            {
-              "id": 6156486975734537180,
-              "hex_id": "55703C4934F9DBDC",
-              "encoded_id": "VXA8STT529w",
-              "name": null
-            },
-            {
-              "id": 15596492685496462964,
-              "hex_id": "D871DF76B4FEAE74",
-              "encoded_id": "2HHfdrT+rnQ",
-              "name": null
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "libSceVideodec",
       "libraries": [
         {
@@ -1036,6 +1007,35 @@
               "id": 10570125689376297013,
               "hex_id": "92B0A14FC2815035",
               "encoded_id": "krChT8KBUDU",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceVideoDecoderArbitration",
+      "libraries": [
+        {
+          "name": "libSceVideoDecoderArbitration",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4390848251892304258,
+              "hex_id": "3CEF6D38ACAF8982",
+              "encoded_id": "PO9tOKyviYI",
+              "name": null
+            },
+            {
+              "id": 6648767849383430491,
+              "hex_id": "5C452B21E089895B",
+              "encoded_id": "XEUrIeCJiVs",
+              "name": null
+            },
+            {
+              "id": 10267027759322157356,
+              "hex_id": "8E7BCF599D78D12C",
+              "encoded_id": "jnvPWZ140Sw",
               "name": null
             }
           ]

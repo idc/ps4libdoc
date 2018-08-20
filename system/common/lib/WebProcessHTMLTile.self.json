@@ -4,8 +4,8 @@
     "libSceLibcInternal.prx",
     "libSceNet.prx",
     "libSceOrbisCompat.prx",
-    "libScePerf.prx",
     "libScePigletv2VSH.prx",
+    "libSceRazorCpu.prx",
     "libSceRegMgr.prx",
     "libSceSysCore.prx",
     "libSceSysmodule.prx",
@@ -56,6 +56,12 @@
               "hex_id": "E9CDEB09513F7D35",
               "encoded_id": "6c3rCVE-fTU",
               "name": "_open"
+            },
+            {
+              "id": 2198554145645331479,
+              "hex_id": "1E82D558D6A70417",
+              "encoded_id": "HoLVWNanBBc",
+              "name": "getpid"
             },
             {
               "id": 1336251812889512446,
@@ -249,12 +255,6 @@
               "name": "_ZN4Manx6System21defaultThreadPriorityEv"
             },
             {
-              "id": 7899435973538202388,
-              "hex_id": "6DA06F2A38AFC314",
-              "encoded_id": "baBvKjivwxQ",
-              "name": "_ZN4Manx7RunLoop4initEv"
-            },
-            {
               "id": 646718911728468830,
               "hex_id": "08F99B6C7B1A435E",
               "encoded_id": "CPmbbHsaQ14",
@@ -312,10 +312,22 @@
           "is_export": false,
           "symbols": [
             {
+              "id": 9495572494758995882,
+              "hex_id": "83C70CDFD11467AA",
+              "encoded_id": "g8cM39EUZ6o",
+              "name": "sceSysmoduleLoadModule"
+            },
+            {
               "id": 670797720578825438,
               "hex_id": "094F26F90B3E1CDE",
               "encoded_id": "CU8m+Qs+HN4",
               "name": "sceSysmoduleLoadModuleByNameInternal"
+            },
+            {
+              "id": 16129806873209053225,
+              "hex_id": "DFD895E44D47A029",
+              "encoded_id": "39iV5E1HoCk",
+              "name": "sceSysmoduleLoadModuleInternal"
             }
           ]
         }

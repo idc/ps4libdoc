@@ -145,6 +145,18 @@
               "name": null
             }
           ]
+        },
+        {
+          "name": "libSceSharePlayCompat",
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 4101313783821715515,
+              "hex_id": "38EACB281D1B483B",
+              "encoded_id": "OOrLKB0bSDs",
+              "name": "sceSharePlayGetCurrentConnectionInfo"
+            }
+          ]
         }
       ]
     },
@@ -175,28 +187,34 @@
               "name": "sceKernelUsleep"
             },
             {
-              "id": 15629729862101927441,
-              "hex_id": "D8E7F47FEDE68611",
-              "encoded_id": "2Of0f+3mhhE",
-              "name": "scePthreadMutexDestroy"
+              "id": 297136898404751312,
+              "hex_id": "041FA46F4F1397D0",
+              "encoded_id": "BB+kb08Tl9A",
+              "name": "scePthreadRwlockDestroy"
             },
             {
-              "id": 8244460636280417242,
-              "hex_id": "726A3544862F6BDA",
-              "encoded_id": "cmo1RIYva9o",
-              "name": "scePthreadMutexInit"
+              "id": 16808208326300721712,
+              "hex_id": "E942C06B47EAE230",
+              "encoded_id": "6ULAa0fq4jA",
+              "name": "scePthreadRwlockInit"
             },
             {
-              "id": 17672887709872455390,
-              "hex_id": "F542B5BCB6507EDE",
-              "encoded_id": "9UK1vLZQft4",
-              "name": "scePthreadMutexLock"
+              "id": 4260232425772934925,
+              "hex_id": "3B1F62D1CECBE70D",
+              "encoded_id": "Ox9i0c7L5w0",
+              "name": "scePthreadRwlockRdlock"
             },
             {
-              "id": 13149901319649172397,
-              "hex_id": "B67DD5943D211BAD",
-              "encoded_id": "tn3VlD0hG60",
-              "name": "scePthreadMutexUnlock"
+              "id": 17924181641358915289,
+              "hex_id": "F8BF7C3C86C6B6D9",
+              "encoded_id": "+L98PIbGttk",
+              "name": "scePthreadRwlockUnlock"
+            },
+            {
+              "id": 11143961164264897026,
+              "hex_id": "9AA74DA2BAC1FA02",
+              "encoded_id": "mqdNorrB+gI",
+              "name": "scePthreadRwlockWrlock"
             }
           ]
         }
@@ -244,6 +262,12 @@
           "name": "libSceLibcInternal",
           "is_export": false,
           "symbols": [
+            {
+              "id": 13171837702886641551,
+              "hex_id": "B6CBC49A77A7CF8F",
+              "encoded_id": "tsvEmnenz48",
+              "name": "__cxa_atexit"
+            },
             {
               "id": 2262984834435268711,
               "hex_id": "1F67BCB7949C4067",

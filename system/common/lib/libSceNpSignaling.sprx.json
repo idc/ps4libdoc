@@ -165,6 +165,42 @@
               "name": "sceNpSignalingTerminateConnection"
             }
           ]
+        },
+        {
+          "name": "libSceNpSignalingCompat",
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 15081379868256371011,
+              "hex_id": "D14BD315EA260143",
+              "encoded_id": "0UvTFeomAUM",
+              "name": "sceNpSignalingActivateConnection"
+            },
+            {
+              "id": 16656038831412787142,
+              "hex_id": "E7262311D778B7C6",
+              "encoded_id": "5yYjEdd4t8Y",
+              "name": "sceNpSignalingCreateContext"
+            },
+            {
+              "id": 1805136041500463198,
+              "hex_id": "190D21AA6CE3D05E",
+              "encoded_id": "GQ0hqmzj0F4",
+              "name": "sceNpSignalingGetConnectionFromNpId"
+            },
+            {
+              "id": 62454254401642416,
+              "hex_id": "00DDE1D040525FB0",
+              "encoded_id": "AN3h0EBSX7A",
+              "name": "sceNpSignalingGetConnectionInfo"
+            },
+            {
+              "id": 14724524601778093057,
+              "hex_id": "CC58051C877BBC01",
+              "encoded_id": "zFgFHId7vAE",
+              "name": "sceNpSignalingGetPeerNetInfo"
+            }
+          ]
         }
       ]
     },
@@ -762,18 +798,6 @@
               "name": "sceNpCalloutTermCtx"
             },
             {
-              "id": 10071498323441413342,
-              "hex_id": "8BC5265D34AAECDE",
-              "encoded_id": "i8UmXTSq7N4",
-              "name": "sceNpCmpNpId"
-            },
-            {
-              "id": 5605860130695711015,
-              "hex_id": "4DCC041676A48927",
-              "encoded_id": "TcwEFnakiSc",
-              "name": "sceNpCmpNpIdInOrder"
-            },
-            {
               "id": 9084457232440794956,
               "hex_id": "7E1279B8ACDC9F4C",
               "encoded_id": "fhJ5uKzcn0w",
@@ -844,6 +868,24 @@
               "hex_id": "9B39482EC171D1C5",
               "encoded_id": "mzlILsFx0cU",
               "name": null
+            }
+          ]
+        },
+        {
+          "name": "libSceNpCommonCompat",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 10071498323441413342,
+              "hex_id": "8BC5265D34AAECDE",
+              "encoded_id": "i8UmXTSq7N4",
+              "name": "sceNpCmpNpId"
+            },
+            {
+              "id": 5605860130695711015,
+              "hex_id": "4DCC041676A48927",
+              "encoded_id": "TcwEFnakiSc",
+              "name": "sceNpCmpNpIdInOrder"
             }
           ]
         }

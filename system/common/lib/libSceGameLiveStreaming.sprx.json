@@ -3,7 +3,9 @@
     "libkernel.prx",
     "libSceIpmi.prx",
     "libSceLibcInternal.prx",
-    "libSceSystemService.prx"
+    "libSceSysmodule.prx",
+    "libSceSystemService.prx",
+    "libSceSysUtil.prx"
   ],
   "modules": [
     {
@@ -194,6 +196,12 @@
               "name": null
             },
             {
+              "id": 2039980508132781854,
+              "hex_id": "1C4F7776BFF9AF1E",
+              "encoded_id": "HE93dr-5rx4",
+              "name": null
+            },
+            {
               "id": 4336442712023523586,
               "hex_id": "3C2E23ABCEFE6102",
               "encoded_id": "PC4jq87+YQI",
@@ -206,9 +214,39 @@
               "name": null
             },
             {
+              "id": 8040150398000550186,
+              "hex_id": "6F945A303D89D12A",
+              "encoded_id": "b5RaMD2J0So",
+              "name": null
+            },
+            {
               "id": 8283318662116606504,
               "hex_id": "72F4426FB0D30228",
               "encoded_id": "cvRCb7DTAig",
+              "name": null
+            },
+            {
+              "id": 9119298799168784148,
+              "hex_id": "7E8E41F1151A0714",
+              "encoded_id": "fo5B8RUaBxQ",
+              "name": null
+            },
+            {
+              "id": 9238201939362569450,
+              "hex_id": "8034AFB7BF07DCEA",
+              "encoded_id": "gDSvt78H3Oo",
+              "name": null
+            },
+            {
+              "id": 9518179633559026417,
+              "hex_id": "84175DF27EA4BAF1",
+              "encoded_id": "hBdd8n6kuvE",
+              "name": null
+            },
+            {
+              "id": 9983059097434077728,
+              "hex_id": "8A8AF35B4A4A3A20",
+              "encoded_id": "iorzW0pKOiA",
               "name": null
             },
             {
@@ -221,6 +259,12 @@
               "id": 11264624896826170810,
               "hex_id": "9C53FCA93F585DBA",
               "encoded_id": "nFP8qT9YXbo",
+              "name": null
+            },
+            {
+              "id": 13407399295958449765,
+              "hex_id": "BA10A69FCD6CFE65",
+              "encoded_id": "uhCmn81s-mU",
               "name": null
             },
             {
@@ -260,6 +304,18 @@
               "name": null
             }
           ]
+        },
+        {
+          "name": "libSceGameLiveStreamingCompat",
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 14611259798923996663,
+              "hex_id": "CAC59F5F93CF6DF7",
+              "encoded_id": "ysWfX5PPbfc",
+              "name": null
+            }
+          ]
         }
       ]
     },
@@ -288,6 +344,12 @@
               "hex_id": "7E022C435D316150",
               "encoded_id": "fgIsQ10xYVA",
               "name": "sceKernelChmod"
+            },
+            {
+              "id": 17215081135755774893,
+              "hex_id": "EEE8411564404BAD",
+              "encoded_id": "7uhBFWRAS60",
+              "name": "sceKernelClearEventFlag"
             },
             {
               "id": 5813464972379181691,
@@ -326,10 +388,22 @@
               "name": "sceKernelOpenEventFlag"
             },
             {
+              "id": 17752032925555582496,
+              "hex_id": "F65BE3E438C76620",
+              "encoded_id": "9lvj5DjHZiA",
+              "name": "sceKernelPollEventFlag"
+            },
+            {
               "id": 724565714254637493,
               "hex_id": "0A0E2CAD9E9329B5",
               "encoded_id": "Cg4srZ6TKbU",
               "name": "sceKernelRead"
+            },
+            {
+              "id": 2371658385778719648,
+              "hex_id": "20E9D2BC7CEABBA0",
+              "encoded_id": "IOnSvHzqu6A",
+              "name": "sceKernelSetEventFlag"
             },
             {
               "id": 8745832147713755264,
@@ -539,6 +613,29 @@
               "hex_id": "F720D63311057495",
               "encoded_id": "9yDWMxEFdJU",
               "name": "strrchr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceSysmodule",
+      "libraries": [
+        {
+          "name": "libSceSysmodule",
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 16129806873209053225,
+              "hex_id": "DFD895E44D47A029",
+              "encoded_id": "39iV5E1HoCk",
+              "name": "sceSysmoduleLoadModuleInternal"
+            },
+            {
+              "id": 13652206723903098983,
+              "hex_id": "BD7661AED2719067",
+              "encoded_id": "vXZhrtJxkGc",
+              "name": "sceSysmoduleUnloadModuleInternal"
             }
           ]
         }
