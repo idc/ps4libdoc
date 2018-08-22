@@ -5754,8 +5754,10 @@ pthread_rwlock_unlock
 pthread_rwlock_wrlock
 pthread_rwlockattr_destroy
 pthread_rwlockattr_getpshared
+pthread_rwlockattr_gettype_np
 pthread_rwlockattr_init
 pthread_rwlockattr_setpshared
+pthread_rwlockattr_settype_np
 pthread_self
 pthread_set_name_np
 pthread_setaffinity_np
@@ -6011,6 +6013,7 @@ sceAudio3dAudioOutOpen
 sceAudio3dAudioOutOutput
 sceAudio3dAudioOutOutputs
 sceAudio3dBedWrite
+sceAudio3dBedWrite2
 sceAudio3dCreateSpeakerArray
 sceAudio3dDeleteSpeakerArray
 sceAudio3dGetDefaultOpenParameters
@@ -6054,6 +6057,7 @@ sceAudiodecInitLibrary
 sceAudiodecTermLibrary
 sceAudioInChangeAppModuleState
 sceAudioInClose
+sceAudioInGetGain
 sceAudioInGetRerouteCount
 sceAudioInGetSilentState
 sceAudioInHqOpen
@@ -6121,6 +6125,7 @@ sceAvPlayerPause
 sceAvPlayerPostInit
 sceAvPlayerPrintf
 sceAvPlayerResume
+sceAvPlayerSetAvSyncMode
 sceAvPlayerSetLogCallback
 sceAvPlayerSetLooping
 sceAvPlayerSetTrickSpeed
@@ -6397,6 +6402,7 @@ sceCoredumpGetStopInfoCpu
 sceCoredumpGetStopInfoGpu
 sceCoredumpGetThreadContextInfo
 sceCoredumpRegisterCoredumpHandler
+sceCoredumpSetUserDataType
 sceCoredumpUnregisterCoredumpHandler
 sceCoredumpWriteUserData
 sceDataTransferHostNotifyEasySignInReady
@@ -6608,6 +6614,10 @@ sceFiosDebugDumpDH
 sceFiosDebugDumpError
 sceFiosDebugDumpFH
 sceFiosDebugDumpOp
+sceFiosDebugSetProfileCallback
+sceFiosDebugSetTraceMask
+sceFiosDebugStatisticsPrint
+sceFiosDebugStatisticsReset
 sceFiosDelete
 sceFiosDeleteSync
 sceFiosDHClose
@@ -6908,6 +6918,8 @@ sceGameLiveStreamingTerminate
 sceGnmAddEqEvent
 sceGnmAreSubmitsAllowed
 sceGnmBeginWorkload
+sceGnmComputeWaitOnAddress
+sceGnmComputeWaitSemaphore
 sceGnmCreateWorkloadStream
 sceGnmDebugHardwareStatus
 sceGnmDeleteEqEvent
@@ -6968,6 +6980,7 @@ sceGnmInsertWaitFlipDone
 sceGnmIsUserPaEnabled
 sceGnmLogicalCuIndexToPhysicalCuIndex
 sceGnmLogicalCuMaskToPhysicalCuMask
+sceGnmLogicalTcaUnitToPhysical
 sceGnmMapComputeQueue
 sceGnmMapComputeQueueWithPriority
 sceGnmQueryResourceRegistrationUserMemoryRequirements
@@ -7372,6 +7385,7 @@ sceKernelEventLogPread
 sceKernelEventLogWrite
 sceKernelFchmod
 sceKernelFcntl
+sceKernelFdatasync
 sceKernelFlock
 sceKernelFstat
 sceKernelFsync
@@ -7470,6 +7484,11 @@ sceKernelMapFlexibleMemory
 sceKernelMapNamedDirectMemory
 sceKernelMapNamedFlexibleMemory
 sceKernelMapNamedSystemFlexibleMemory
+sceKernelMemoryPoolBatch
+sceKernelMemoryPoolCommit
+sceKernelMemoryPoolDecommit
+sceKernelMemoryPoolExpand
+sceKernelMemoryPoolReserve
 sceKernelMkdir
 sceKernelMlock
 sceKernelMlockall
@@ -8484,6 +8503,7 @@ sceNpPartyGetState
 sceNpPartyGetStateAsUser
 sceNpPartyGetStateAsUserA
 sceNpPartyInitialize
+sceNpPartyJoin
 sceNpPartyLeave
 sceNpPartyRegisterHandler
 sceNpPartyRegisterHandlerA
@@ -8550,6 +8570,7 @@ sceNpScoreRecordScoreAsync
 sceNpScoreSanitizeComment
 sceNpScoreSanitizeCommentAsync
 sceNpScoreSetPlayerCharacterId
+sceNpScoreSetThreadParam
 sceNpScoreSetTimeout
 sceNpScoreWaitAsync
 sceNpServerErrorJsonParse
@@ -8756,6 +8777,7 @@ sceNpTusSetMultiSlotVariableAAsync
 sceNpTusSetMultiSlotVariableAsync
 sceNpTusSetMultiSlotVariableVUser
 sceNpTusSetMultiSlotVariableVUserAsync
+sceNpTusSetThreadParam
 sceNpTusSetTimeout
 sceNpTusTryAndSetVariable
 sceNpTusTryAndSetVariableA
@@ -9089,8 +9111,10 @@ scePthreadResume
 scePthreadResumeAll
 scePthreadRwlockattrDestroy
 scePthreadRwlockattrGetpshared
+scePthreadRwlockattrGettype
 scePthreadRwlockattrInit
 scePthreadRwlockattrSetpshared
+scePthreadRwlockattrSettype
 scePthreadRwlockDestroy
 scePthreadRwlockInit
 scePthreadRwlockRdlock
@@ -9121,13 +9145,24 @@ sceRazorCaptureCommandBuffersOnlyImmediate
 sceRazorCaptureCommandBuffersOnlySinceLastFlip
 sceRazorCaptureImmediate
 sceRazorCaptureSinceLastFlip
+sceRazorCpuEndLogicalFileAccess
+sceRazorCpuFlushOccurred
 sceRazorCpuInit
+sceRazorCpuInitDataTags
 sceRazorCpuIsCapturing
+sceRazorCpuPlotValue
 sceRazorCpuPopMarker
 sceRazorCpuPushMarker
+sceRazorCpuPushMarkerStatic
+sceRazorCpuResizeTaggedBuffer
+sceRazorCpuShutdownDataTags
 sceRazorCpuStartCapture
 sceRazorCpuStopCapture
 sceRazorCpuSync
+sceRazorCpuTagArray
+sceRazorCpuTagBuffer
+sceRazorCpuUnTagBuffer
+sceRazorCpuWriteBookmark
 sceRazorIsLoaded
 sceRegMgrBackupNeedMem
 sceRegMgrBackupPullData
