@@ -4,6 +4,15 @@ PS4 library documentation.
 ## See also
 * [ps4_nid_resolver_ida](https://github.com/Thunder07/ps4_nid_resolver_ida), a plugin for IDA which makes use of ps4libdoc.
 
+## Available versions
+* [1.06](https://github.com/idc/ps4libdoc/tree/1.06)
+* [1.76](https://github.com/idc/ps4libdoc/tree/1.76)
+* [2.57](https://github.com/idc/ps4libdoc/tree/2.57)
+* [3.55](https://github.com/idc/ps4libdoc/tree/3.55)
+* [3.70](https://github.com/idc/ps4libdoc/tree/3.70)
+* [4.05](https://github.com/idc/ps4libdoc/tree/4.05)
+* [4.55](https://github.com/idc/ps4libdoc/tree/4.55)
+
 ## JSON Format
 Documentation is split across a file for each executable, to improve diffs.
 
