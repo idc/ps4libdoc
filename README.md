@@ -16,9 +16,12 @@ Documentation is split across a file for each executable, to improve diffs.
   "modules": [
     {
       "name": "<module name>",
+      "version_major": 0,
+      "version_minor": 0,
       "libraries": [
         {
           "name": "<library name>",
+          "version": 0,
           "is_export": false,
           "symbols": [
             {
