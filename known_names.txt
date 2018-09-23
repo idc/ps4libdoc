@@ -11,6 +11,10 @@ __ashlti3
 __ashrdi3
 __ashrti3
 __atomic_compare_exchange
+__atomic_compare_exchange_1
+__atomic_compare_exchange_2
+__atomic_compare_exchange_4
+__atomic_compare_exchange_8
 __atomic_compare_exchange_n
 __atomic_exchange
 __atomic_exchange_1
@@ -662,7 +666,9 @@ _sceFiberInitializeImpl
 _sceFiberInitializeWithInternalOptionImpl
 _sceKernelRtldSetApplicationHeapAPI
 _sceLibcGetMallocParam
+_sceNpAllocatorStrdup
 _sceNpAllocatorStrdupImpl
+_sceNpAllocatorStrndup
 _sceNpAllocatorStrndupImpl
 _sceNpIpcCreateMemoryFromKernel
 _sceNpIpcCreateMemoryFromPool
@@ -2079,6 +2085,7 @@ _ZN6WebKit17ChildProcessProxyC2Ev
 _ZN6WebKit17ChildProcessProxyD2Ev
 _ZN7CoreIPC10Attachment6decodeERNS_15ArgumentDecoderERS0_
 _ZN7CoreIPC10AttachmentC1Ei
+_ZN7CoreIPC10AttachmentC1Eim
 _ZN7CoreIPC10AttachmentC1Ev
 _ZN7CoreIPC10Connection10invalidateEv
 _ZN7CoreIPC10Connection11sendMessageEN3WTF10PassOwnPtrINS_14MessageEncoderEEEj
@@ -2201,6 +2208,7 @@ _ZNK3sce2np7RingBuf6IsFullEv
 _ZNK3sce2np7RingBuf7IsEmptyEv
 _ZNK3sce2np8JsonBool3GetEv
 _ZNK3sce2np8NpCommId7IsEmptyEv
+_ZNK3sce2np9HttpTrans6IsInitEv
 _ZNK3sce2np9JsonValue7GetBoolEv
 _ZNK3sce2np9JsonValue7GetNullEv
 _ZNK3sce2np9JsonValue7GetTypeEv
@@ -3816,6 +3824,12 @@ bemp2sys_logprintf_getlevel
 bemp2sys_logprintf_setfunc
 bemp2sys_logprintf_setlevel
 bemp2sys_memmanager_set
+bemp2sys_psdecoder_create
+bemp2sys_psdecoder_destroy
+bemp2sys_psdecoder_init
+bemp2sys_psdecoder_readpacket
+bemp2sys_psdecoder_release
+bemp2sys_psdecoder_sendmessage
 bemp2sys_tsdecoder_create
 bemp2sys_tsdecoder_destroy
 bemp2sys_tsdecoder_init
@@ -5125,12 +5139,28 @@ jpeg_default_qtables
 jpeg_destroy
 jpeg_destroy_compress
 jpeg_destroy_decompress
+jpeg_fdct_10x5
 jpeg_fdct_12x12
+jpeg_fdct_12x6
 jpeg_fdct_13x13
 jpeg_fdct_14x14
+jpeg_fdct_14x7
+jpeg_fdct_16x8
+jpeg_fdct_1x2
+jpeg_fdct_2x1
+jpeg_fdct_2x4
+jpeg_fdct_3x6
+jpeg_fdct_4x2
 jpeg_fdct_4x4
+jpeg_fdct_4x8
+jpeg_fdct_5x10
+jpeg_fdct_6x12
+jpeg_fdct_6x3
 jpeg_fdct_6x6
+jpeg_fdct_7x14
 jpeg_fdct_7x7
+jpeg_fdct_8x16
+jpeg_fdct_8x4
 jpeg_fdct_float
 jpeg_fdct_ifast
 jpeg_fdct_islow
@@ -5571,6 +5601,7 @@ mono_security_set_mode
 mono_set_assemblies_path
 mono_set_defaults
 mono_set_dirs
+mono_shared_hashtable_new
 mono_shared_hashtable_new_gc
 mono_stack_walk_no_il
 mono_string_chars
@@ -5784,6 +5815,7 @@ nexttoward
 nexttowardf
 nexttowardl
 nmount
+nn_bind
 nn_close
 nn_connect
 nn_errno
@@ -6367,6 +6399,7 @@ sceAvSettingNotifyVideoOutMode
 sceAvSettingOpenLoopbackBuffers
 sceAvSettingRemoveProcessOutputMode
 sceAvSettingSetVideoOutModeAny
+sceAvSettingSetVideoOutModeAny_
 sceAvSettingSetVideoOutputColorEffect
 sceBackupRestoreUtilBackupData
 sceBackupRestoreUtilCancelBackupData
@@ -7965,6 +7998,7 @@ sceMbusAddHandleByDeviceId
 sceMbusAddHandleByUserId
 sceMbusBindDeviceWithUserId
 sceMbusCheckEvent
+sceMbusConvertToLocalDeviceId
 sceMbusConvertToLocalDeviceId2
 sceMbusDisableBgmForShellUi
 sceMbusDisconnectDevice
@@ -7977,6 +8011,7 @@ sceMbusEventReceive
 sceMbusGetControlStatus
 sceMbusGetDeviceDescription
 sceMbusGetDeviceInfo
+sceMbusGetDeviceInfo_
 sceMbusGetDeviceInfoByCondition
 sceMbusGetSimulatedHandleStatusInfo
 sceMbusGetSparkState
@@ -8496,6 +8531,8 @@ sceNpIntCheckPlus
 sceNpIntIsOnlineIdString
 sceNpIntIsValidOnlineId
 sceNpIntToHex
+sceNpIpc2ClientInit
+sceNpIpc2ClientTerm
 sceNpIpcClientInit
 sceNpIpcClientInitInternal
 sceNpIpcClientTerm
@@ -9502,6 +9539,7 @@ sceRtcIsLeapYear
 sceRtcParseDateTime
 sceRtcParseRFC3339
 sceRtcSetConf
+sceRtcSetCurrentNetworkTick
 sceRtcSetCurrentTick
 sceRtcSetDosTime
 sceRtcSetTick
@@ -9562,6 +9600,7 @@ sceSaveDataClearProgress
 sceSaveDataCopy5
 sceSaveDataDelete
 sceSaveDataDelete5
+sceSaveDataDeleteCloudData
 sceSaveDataDialogClose
 sceSaveDataDialogGetResult
 sceSaveDataDialogGetStatus
