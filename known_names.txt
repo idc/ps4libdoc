@@ -4959,6 +4959,7 @@ glViewport
 glWaitSync
 gmtime
 gmtime_s
+gp_trace
 htonl
 htons
 htopdw
@@ -5069,6 +5070,7 @@ jinit_master_decompress
 jinit_memory_mgr
 jinit_merged_upsampler
 jinit_upsampler
+jit_area
 jn
 jnf
 jpeg_abort
@@ -5271,6 +5273,8 @@ JSWeakObjectMapCreate
 JSWeakObjectMapGet
 JSWeakObjectMapRemove
 JSWeakObjectMapSet
+JVM_Exit
+JVM_InvokeMethod
 JVM_RawMonitorCreate
 JVM_StopThread
 jzero_far
@@ -5741,6 +5745,10 @@ nexttoward
 nexttowardf
 nexttowardl
 nmount
+nn_close
+nn_connect
+nn_errno
+nn_send
 nrand48
 ntohl
 ntohs
@@ -6226,6 +6234,7 @@ sceAudioInHqOpen
 sceAudioInHqOpenEx
 sceAudioInInit
 sceAudioInInput
+sceAudioInInputs
 sceAudioInOpen
 sceAudioInOpenEx
 sceAudioInSetConnections
@@ -6340,6 +6349,7 @@ sceCameraAudioOpen
 sceCameraChangeAppModuleState
 sceCameraClose
 sceCameraCloseByHandle
+sceCameraDeviceOpen
 sceCameraGetAttribute
 sceCameraGetAutoExposureGain
 sceCameraGetAutoWhiteBalance
@@ -7182,6 +7192,8 @@ sceGnmSubmitAndFlipCommandBuffersForWorkload
 sceGnmSubmitCommandBuffers
 sceGnmSubmitCommandBuffersForWorkload
 sceGnmSubmitDone
+sceGnmSysClose
+sceGnmSysOpen
 sceGnmUnmapComputeQueue
 sceGnmUnregisterAllResourcesForOwner
 sceGnmUnregisterOwnerAndResources
@@ -8368,6 +8380,7 @@ sceNpCreateAsyncRequest
 sceNpCreateRequest
 sceNpCreateThread
 sceNpDeleteRequest
+sceNpEulaDialogCheckVersion
 sceNpFreeImpl
 sceNpFreeKernelMemory
 sceNpFriendListDialogClose
@@ -8853,6 +8866,7 @@ sceNpTrophyIntGetProgress
 sceNpTrophyIntGetRunningTitle
 sceNpTrophyIntGetRunningTitles
 sceNpTrophyIntGetTrpIconByUri
+sceNpTrophyIntNetSyncTitle
 sceNpTrophyIntNetSyncTitles
 sceNpTrophyRegisterContext
 sceNpTrophyShowTrophyList
@@ -9498,6 +9512,7 @@ sceSaveDataBackup
 sceSaveDataCheckBackupData
 sceSaveDataCheckBackupDataInternal
 sceSaveDataClearProgress
+sceSaveDataCopy5
 sceSaveDataDelete
 sceSaveDataDelete5
 sceSaveDataDialogClose
@@ -9512,6 +9527,7 @@ sceSaveDataDialogTerminate
 sceSaveDataDialogUpdateStatus
 sceSaveDataDirNameSearch
 sceSaveDataDirNameSearchInternal
+sceSaveDataDownload
 sceSaveDataGetEventResult
 sceSaveDataGetMountInfo
 sceSaveDataGetParam
@@ -9538,6 +9554,7 @@ sceSaveDataTerminate
 sceSaveDataTransferringMount
 sceSaveDataUmount
 sceSaveDataUmountWithBackup
+sceSaveDataUpload
 sceSblACMgrCheckPlatformDLL
 sceScreenShotCapture
 sceScreenShotDisable
