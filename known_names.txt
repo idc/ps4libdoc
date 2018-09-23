@@ -1514,6 +1514,7 @@ _ZN3sce2np6ObjectdlEPvR14SceNpAllocator
 _ZN3sce2np6Thread12DoThreadMainEv
 _ZN3sce2np6Thread4ctorEv
 _ZN3sce2np6Thread4dtorEv
+_ZN3sce2np6Thread4InitEPKcimm
 _ZN3sce2np6Thread4InitEPKNS1_5ParamE
 _ZN3sce2np6Thread4JoinEPi
 _ZN3sce2np6Thread5StartEv
@@ -1585,6 +1586,7 @@ _ZN3sce2np9RefObject7ReleaseEv
 _ZN3sce2np9RefObjectC2Ev
 _ZN3sce2np9RefObjectD0Ev
 _ZN3sce2np9RefObjectD2Ev
+_ZN3sce2np9Semaphore4WaitEj
 _ZN3sce2np9Semaphore7DestroyEv
 _ZN3sce2np9SemaphoreC1Ev
 _ZN3sce2np9SemaphoreC2Ev
@@ -3767,6 +3769,7 @@ _ZZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_bRSt8
 _ZZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_bRSt8ios_basewRKSbIwS2_SaIwEEE4_Src
 _ZZNSt13basic_filebufIcSt11char_traitsIcEE5_InitEP7__sFILENS2_7_InitflEE7_Stinit
 _ZZNSt13basic_filebufIwSt11char_traitsIwEE5_InitEP7__sFILENS2_7_InitflEE7_Stinit
+AacsDecrypt
 abort
 abort_handler_s
 abs
@@ -3828,6 +3831,7 @@ bemp2sys_psdecoder_create
 bemp2sys_psdecoder_destroy
 bemp2sys_psdecoder_init
 bemp2sys_psdecoder_readpacket
+bemp2sys_psdecoder_release
 bemp2sys_psdecoder_release
 bemp2sys_psdecoder_sendmessage
 bemp2sys_tsdecoder_create
@@ -3978,6 +3982,7 @@ chroot
 clearerr
 clearerr_unlocked
 clock
+clock_1700
 clock_getres
 clock_gettime
 clock_settime
@@ -5819,8 +5824,11 @@ nn_bind
 nn_close
 nn_connect
 nn_errno
+nn_poll
 nn_send
+nn_shutdown
 nn_strerror
+nn_term
 nrand48
 ntohl
 ntohs
@@ -6400,6 +6408,7 @@ sceAvSettingOpenLoopbackBuffers
 sceAvSettingRemoveProcessOutputMode
 sceAvSettingSetVideoOutModeAny
 sceAvSettingSetVideoOutModeAny_
+sceAvSettingSetVideoOutModeAny_
 sceAvSettingSetVideoOutputColorEffect
 sceBackupRestoreUtilBackupData
 sceBackupRestoreUtilCancelBackupData
@@ -6654,6 +6663,7 @@ sceCoredumpRegisterCoredumpHandler
 sceCoredumpSetUserDataType
 sceCoredumpUnregisterCoredumpHandler
 sceCoredumpWriteUserData
+sceDataTransferHostLaunch
 sceDataTransferHostNotifyEasySignInReady
 sceDataTransferInitialize
 sceDataTransferTargetAbortBindSavedata
@@ -8436,6 +8446,7 @@ sceNpCheckNpAvailability
 sceNpCheckNpAvailabilityA
 sceNpCheckNpReachability
 sceNpCheckPlus
+sceNpClearEventFlag
 sceNpCmpNpId
 sceNpCmpNpIdInOrder
 sceNpCmpOnlineId
@@ -8458,9 +8469,13 @@ sceNpCondSignalTo
 sceNpCondTimedwait
 sceNpCondWait
 sceNpCreateAsyncRequest
+sceNpCreateEventFlag
 sceNpCreateRequest
+sceNpCreateSema
 sceNpCreateThread
+sceNpDeleteEventFlag
 sceNpDeleteRequest
+sceNpDeleteSema
 sceNpEulaDialogCheckVersion
 sceNpFreeImpl
 sceNpFreeKernelMemory
@@ -8781,6 +8796,8 @@ sceNpPartyShowInvitationList
 sceNpPartyShowInvitationListA
 sceNpPartyTerminate
 sceNpPollAsync
+sceNpPollEventFlag
+sceNpPollSema
 sceNpProfileDialogClose
 sceNpProfileDialogGetResult
 sceNpProfileDialogGetStatus
@@ -8858,6 +8875,7 @@ sceNpServiceCheckerIntIsCached
 sceNpServiceClientInit
 sceNpServiceClientTerm
 sceNpSetContentRestriction
+sceNpSetEventFlag
 sceNpSetGamePresenceOnline
 sceNpSetGamePresenceOnlineA
 sceNpSetNpTitleId
@@ -8887,6 +8905,7 @@ sceNpSignalingInitialize
 sceNpSignalingSetContextOption
 sceNpSignalingTerminate
 sceNpSignalingTerminateConnection
+sceNpSignalSema
 sceNpSnsFacebookAbortRequest
 sceNpSnsFacebookCreateRequest
 sceNpSnsFacebookDeleteRequest
@@ -9092,6 +9111,8 @@ sceNpUtilXmlEscape
 sceNpUtilXmlGetOneChar
 sceNpUtilXmlUnescape
 sceNpWaitAsync
+sceNpWaitEventFlag
+sceNpWaitSema
 sceNpWebApiAbortHandle
 sceNpWebApiAbortRequest
 sceNpWebApiAddHttpRequestHeader
@@ -10573,6 +10594,7 @@ sceVdecswTrySyncDecodeInput
 sceVdecswTrySyncDecodeOutput
 sceVencCoreDeleteEncoder
 sceVencCoreSetInvalidFrame
+sceVencCoreSetPasteImage
 sceVencCoreSetPicParams
 sceVencCoreSetPictureType
 sceVencCoreSetPrivacyGuard
