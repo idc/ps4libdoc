@@ -13,6 +13,8 @@ PS4 library documentation.
 * [4.05](https://github.com/idc/ps4libdoc/tree/4.05)
 * [4.55](https://github.com/idc/ps4libdoc/tree/4.55)
 
+And [misc](https://github.com/idc/ps4libdoc/tree/misc), for things that fall outside of system versions.
+
 ## JSON Format
 Documentation is split across a file for each executable, to improve diffs.
 
