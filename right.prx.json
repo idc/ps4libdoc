@@ -1,0 +1,90 @@
+{
+  "shared_object_names": [
+    "libkernel.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceGameRight",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceGameRight",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 16772776053398814107,
+              "hex_id": "E8C4DEF46003BD9B",
+              "encoded_id": "6MTe9GADvZs",
+              "name": "sceGameRightGetLogoPngImage"
+            },
+            {
+              "id": 11912787356483379623,
+              "hex_id": "A552B8FBEBF4E1A7",
+              "encoded_id": "pVK4++v04ac",
+              "name": "sceGameRightGetLogoPngImageSizeInBytes"
+            },
+            {
+              "id": 17747344974610347403,
+              "hex_id": "F64B3C3995F6B58B",
+              "encoded_id": "9ks8OZX2tYs",
+              "name": "sceGameRightGetString"
+            },
+            {
+              "id": 18334767507953830064,
+              "hex_id": "FE722DE81EF648B0",
+              "encoded_id": "-nIt6B72SLA",
+              "name": "sceGameRightGetStringSizeInBytes"
+            },
+            {
+              "id": 15335935764813518753,
+              "hex_id": "D4D4305327EB17A1",
+              "encoded_id": "1NQwUyfrF6E",
+              "name": "sceGameRightGetVersion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 11006530361642092802,
+              "hex_id": "98BF0D0C7F3A8902",
+              "encoded_id": "mL8NDH86iQI",
+              "name": "sceKernelMapNamedFlexibleMemory"
+            },
+            {
+              "id": 8145075439958835433,
+              "hex_id": "71091EF54B8140E9",
+              "encoded_id": "cQke9UuBQOk",
+              "name": "sceKernelMunmap"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
