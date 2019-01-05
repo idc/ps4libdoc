@@ -7998,6 +7998,7 @@ sceFontWritingRefersRenderStepCharacter
 sceFontWritingSetMaskInvisible
 sceFsCheckFormat
 sceFsCreateExfatPartition
+sceFsCreatePfsSaveDataImage
 sceFsCreatePfsTrophyDataImage
 sceFsDeviceAlignedPread
 sceFsDeviceAlignedPwrite
@@ -8013,6 +8014,7 @@ sceFsExtUSBSchedInsertForHDD
 sceFsGetAttribute
 sceFsGetDeviceSectorsize
 sceFsInitCreatePfsSaveDataOpt
+sceFsInitCreatePfsTrophyDataOpt
 sceFsInitMountDownloadDataOpt
 sceFsInitMountGamePkgOpt
 sceFsInitMountLwfsCompatOpt
@@ -8020,6 +8022,7 @@ sceFsInitMountLwfsOpt
 sceFsInitMountSaveDataOpt
 sceFsInitUmountDownloadDataOpt
 sceFsInitUmountGamePkgOpt
+sceFsInitUmountLwfsCompatOpt
 sceFsInitUmountLwfsOpt
 sceFsInitUmountSaveDataOpt
 sceFsISSchedConfigCurrentThread
@@ -8034,6 +8037,7 @@ sceFsLvdDisableLayer
 sceFsLvdEnableLayer
 sceFsLvdSetDiscIdentity
 sceFsLvdWaitResumed
+sceFsMlfsMount
 sceFsMlfsMountWithFlags
 sceFsMlfsUmount
 sceFsMountDownloadData
@@ -8041,6 +8045,7 @@ sceFsMountGamePkg
 sceFsMountLwfs
 sceFsMountLwfsCompat
 sceFsMountPartiallyCryptedDownloadData
+sceFsMountSaveData
 sceFsUfsAllocateDownloadData
 sceFsUfsCheckCleanFlag
 sceFsUfsCheckFixedCylinderGroupSize
@@ -8053,12 +8058,14 @@ sceFsUfsGrowfs
 sceFsUfsLargewriteFsck
 sceFsUfsLargewriteFsckWithMM
 sceFsUfsMkfs
+sceFsUfsMkfsForExternalHDD
 sceFsUfsMkfsWithFixedCylinderGroupSize
 sceFsUfsMkLwfs
 sceFsUfsSeekHoleInFile
 sceFsUmountDownloadData
 sceFsUmountGamePkg
 sceFsUmountLwfs
+sceFsUmountLwfsCompat
 sceFsUmountSaveData
 sceGameCustomDataDialogClose
 sceGameCustomDataDialogGetResult
