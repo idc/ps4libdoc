@@ -2054,13 +2054,13 @@
               "id": 967359251401746799,
               "hex_id": "0D6CC01D25FD296F",
               "encoded_id": "DWzAHSX9KW8",
-              "name": null
+              "name": "sceLibreSslInit"
             },
             {
               "id": 11486380578015744398,
               "hex_id": "9F67D2473B93118E",
               "encoded_id": "n2fSRzuTEY4",
-              "name": null
+              "name": "sceLibreSslTerm"
             }
           ]
         }
@@ -2076,6 +2076,12 @@
           "version": 1,
           "is_export": false,
           "symbols": [
+            {
+              "id": 14157836102521353754,
+              "hex_id": "C47ABCEC7EFC761A",
+              "encoded_id": "xHq87H78dho",
+              "name": "sceNetBandwidthControlGetDataTraffic"
+            },
             {
               "id": 17121948589726535941,
               "hex_id": "ED9D6186C1269105",
@@ -2237,12 +2243,6 @@
               "hex_id": "7131A473AFD30652",
               "encoded_id": "cTGkc6-TBlI",
               "name": "sceNetTerm"
-            },
-            {
-              "id": 14157836102521353754,
-              "hex_id": "C47ABCEC7EFC761A",
-              "encoded_id": "xHq87H78dho",
-              "name": null
             }
           ]
         }
@@ -2335,28 +2335,28 @@
           "is_export": false,
           "symbols": [
             {
-              "id": 5368234293943547868,
-              "hex_id": "4A7FCCA5F19337DC",
-              "encoded_id": "Sn-MpfGTN9w",
-              "name": null
-            },
-            {
-              "id": 14216308207809040274,
-              "hex_id": "C54A78FE67ED8F92",
-              "encoded_id": "xUp4-mftj5I",
-              "name": null
-            },
-            {
               "id": 14970948638841965441,
               "hex_id": "CFC37E77B0CB0B81",
               "encoded_id": "z8N+d7DLC4E",
-              "name": null
+              "name": "sceOpusCeltDecCreate"
             },
             {
               "id": 16860449090009138304,
               "hex_id": "E9FC591DEB8D8480",
               "encoded_id": "6fxZHeuNhIA",
-              "name": null
+              "name": "sceOpusCeltDecDecode"
+            },
+            {
+              "id": 5368234293943547868,
+              "hex_id": "4A7FCCA5F19337DC",
+              "encoded_id": "Sn-MpfGTN9w",
+              "name": "sceOpusCeltDecDestroy"
+            },
+            {
+              "id": 14216308207809040274,
+              "hex_id": "C54A78FE67ED8F92",
+              "encoded_id": "xUp4-mftj5I",
+              "name": "sceOpusCeltDecGetSize"
             }
           ]
         }
@@ -2376,31 +2376,31 @@
               "id": 707964030802476311,
               "hex_id": "09D33188F9BC3D17",
               "encoded_id": "CdMxiPm8PRc",
-              "name": null
-            },
-            {
-              "id": 6452567681430785847,
-              "hex_id": "598C201E7CD90F37",
-              "encoded_id": "WYwgHnzZDzc",
-              "name": null
+              "name": "sceOpusCeltEncCreate"
             },
             {
               "id": 6732175637316189187,
               "hex_id": "5D6D7E12D3C53C03",
               "encoded_id": "XW1+EtPFPAM",
-              "name": null
+              "name": "sceOpusCeltEncCtl"
             },
             {
               "id": 8995001358939590965,
               "hex_id": "7CD4AA1411C01135",
               "encoded_id": "fNSqFBHAETU",
-              "name": null
+              "name": "sceOpusCeltEncDestroy"
             },
             {
               "id": 13155745040166800731,
               "hex_id": "B692986972BFCD5B",
               "encoded_id": "tpKYaXK-zVs",
-              "name": null
+              "name": "sceOpusCeltEncEncode"
+            },
+            {
+              "id": 6452567681430785847,
+              "hex_id": "598C201E7CD90F37",
+              "encoded_id": "WYwgHnzZDzc",
+              "name": "sceOpusCeltEncGetSize"
             }
           ]
         }
@@ -2469,6 +2469,12 @@
           "is_export": false,
           "symbols": [
             {
+              "id": 11498728975500262999,
+              "hex_id": "9F93B114912F3E57",
+              "encoded_id": "n5OxFJEvPlc",
+              "name": "sceRemoteplayGetRemoteplayStatus"
+            },
+            {
               "id": 10616304295136606415,
               "hex_id": "9354B082431238CF",
               "encoded_id": "k1SwgkMSOM8",
@@ -2479,12 +2485,6 @@
               "hex_id": "04EC326CA55ADC3A",
               "encoded_id": "BOwybKVa3Do",
               "name": "sceRemoteplayTerminate"
-            },
-            {
-              "id": 11498728975500262999,
-              "hex_id": "9F93B114912F3E57",
-              "encoded_id": "n5OxFJEvPlc",
-              "name": null
             }
           ]
         }
