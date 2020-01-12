@@ -22,6 +22,18 @@
               "name": "sceSysmoduleGetModuleHandleInternal"
             },
             {
+              "id": 16281983571661706350,
+              "hex_id": "E1F539CAF3A4546E",
+              "encoded_id": "4fU5yvOkVG4",
+              "name": "sceSysmoduleGetModuleInfoForUnwind"
+            },
+            {
+              "id": 8275310361179816424,
+              "hex_id": "72D7CEEDD43B81E8",
+              "encoded_id": "ctfO7dQ7geg",
+              "name": "sceSysmoduleIsCalledFromSysModule"
+            },
+            {
               "id": 11425231878993628017,
               "hex_id": "9E8E93DC47E24B71",
               "encoded_id": "no6T3EfiS3E",
@@ -64,6 +76,12 @@
               "name": "sceSysmoduleLoadModuleInternalWithArg"
             },
             {
+              "id": 10781214800407215757,
+              "hex_id": "959E91BD5974BE8D",
+              "encoded_id": "lZ6RvVl0vo0",
+              "name": "sceSysmoduleMapLibcForLibkernel"
+            },
+            {
               "id": 928795743994877617,
               "hex_id": "0CE3BECEE5B596B1",
               "encoded_id": "DOO+zuW1lrE",
@@ -92,24 +110,6 @@
               "hex_id": "68A6BA61F04A66CE",
               "encoded_id": "aKa6YfBKZs4",
               "name": "sceSysmoduleUnloadModuleInternalWithArg"
-            },
-            {
-              "id": 8275310361179816424,
-              "hex_id": "72D7CEEDD43B81E8",
-              "encoded_id": "ctfO7dQ7geg",
-              "name": null
-            },
-            {
-              "id": 10781214800407215757,
-              "hex_id": "959E91BD5974BE8D",
-              "encoded_id": "lZ6RvVl0vo0",
-              "name": null
-            },
-            {
-              "id": 16281983571661706350,
-              "hex_id": "E1F539CAF3A4546E",
-              "encoded_id": "4fU5yvOkVG4",
-              "name": null
             }
           ]
         }
@@ -143,6 +143,30 @@
               "encoded_id": "f7uOxY9mM1U",
               "type": "Object",
               "name": "__stack_chk_guard"
+            },
+            {
+              "id": 11354107899487633748,
+              "hex_id": "9D91E4FA5A6AC154",
+              "encoded_id": "nZHk+lpqwVQ",
+              "name": "__sys_dynlib_load_prx"
+            },
+            {
+              "id": 11272445419737494858,
+              "hex_id": "9C6FC562A16EB54A",
+              "encoded_id": "nG-FYqFutUo",
+              "name": "__sys_get_proc_type_info"
+            },
+            {
+              "id": 17067552433590887872,
+              "hex_id": "ECDC2082B589E5C0",
+              "encoded_id": "7NwggrWJ5cA",
+              "name": "__sys_regmgr_call"
+            },
+            {
+              "id": 10174692398051604905,
+              "hex_id": "8D33C4D404BBB9A9",
+              "encoded_id": "jTPE1AS7uak",
+              "name": "__sys_workaround8849"
             },
             {
               "id": 3808714225574690525,
@@ -229,10 +253,22 @@
               "name": "sceKernelGetCompiledSdkVersion"
             },
             {
+              "id": 13875592012444006887,
+              "hex_id": "C090016B55F8F9E7",
+              "encoded_id": "wJABa1X4+ec",
+              "name": "sceKernelGetExecutableModuleHandle"
+            },
+            {
               "id": 2623297511407571098,
               "hex_id": "2467D330139D509A",
               "encoded_id": "JGfTMBOdUJo",
               "name": "sceKernelGetFsSandboxRandomWord"
+            },
+            {
+              "id": 15201029610881700816,
+              "hex_id": "D2F4E7E480CC53D0",
+              "encoded_id": "0vTn5IDMU9A",
+              "name": "sceKernelGetMainSocId"
             },
             {
               "id": 10469286581837221812,
@@ -263,6 +299,12 @@
               "hex_id": "5AC95C2B51507062",
               "encoded_id": "WslcK1FQcGI",
               "name": "sceKernelIsNeoMode"
+            },
+            {
+              "id": 1877436760585801061,
+              "hex_id": "1A0DFEC962FA0D65",
+              "encoded_id": "Gg3+yWL6DWU",
+              "name": "sceKernelLoadStartModuleForSysmodule"
             },
             {
               "id": 14870571211096510509,
@@ -325,57 +367,15 @@
               "name": "sysctl"
             },
             {
-              "id": 1877436760585801061,
-              "hex_id": "1A0DFEC962FA0D65",
-              "encoded_id": "Gg3+yWL6DWU",
-              "name": null
-            },
-            {
               "id": 8018425812813558665,
               "hex_id": "6F472BCB16933389",
               "encoded_id": "b0cryxaTM4k",
               "name": null
             },
             {
-              "id": 10174692398051604905,
-              "hex_id": "8D33C4D404BBB9A9",
-              "encoded_id": "jTPE1AS7uak",
-              "name": null
-            },
-            {
-              "id": 11272445419737494858,
-              "hex_id": "9C6FC562A16EB54A",
-              "encoded_id": "nG-FYqFutUo",
-              "name": null
-            },
-            {
-              "id": 11354107899487633748,
-              "hex_id": "9D91E4FA5A6AC154",
-              "encoded_id": "nZHk+lpqwVQ",
-              "name": null
-            },
-            {
-              "id": 13875592012444006887,
-              "hex_id": "C090016B55F8F9E7",
-              "encoded_id": "wJABa1X4+ec",
-              "name": null
-            },
-            {
-              "id": 15201029610881700816,
-              "hex_id": "D2F4E7E480CC53D0",
-              "encoded_id": "0vTn5IDMU9A",
-              "name": null
-            },
-            {
               "id": 15787430227390113705,
               "hex_id": "DB1838257BDA27A9",
               "encoded_id": "2xg4JXvaJ6k",
-              "name": null
-            },
-            {
-              "id": 17067552433590887872,
-              "hex_id": "ECDC2082B589E5C0",
-              "encoded_id": "7NwggrWJ5cA",
               "name": null
             }
           ]

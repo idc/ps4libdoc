@@ -680,7 +680,7 @@
               "id": 7423604956567978365,
               "hex_id": "6705F1604510417D",
               "encoded_id": "ZwXxYEUQQX0",
-              "name": null
+              "name": "sceAppInstUtilAppInstallSharePlayLinkByUser"
             }
           ]
         }
@@ -726,7 +726,7 @@
               "id": 12545406835889568283,
               "hex_id": "AE1A3D0C7FF47A1B",
               "encoded_id": "rho9DH-0ehs",
-              "name": null
+              "name": "sceAudioOutSetVolumeDown"
             }
           ]
         }
@@ -1925,7 +1925,7 @@
               "id": 5425724580658245071,
               "hex_id": "4B4C0BC2673D6DCF",
               "encoded_id": "S0wLwmc9bc8",
-              "name": null
+              "name": "sceMbusSetDuckingSetting"
             }
           ]
         }
@@ -2090,6 +2090,12 @@
           "is_export": false,
           "symbols": [
             {
+              "id": 4108673162867119807,
+              "hex_id": "3904F07912E016BF",
+              "encoded_id": "OQTweRLgFr8",
+              "name": "sceNpEventGetCurrentNetworkTick"
+            },
+            {
               "id": 12787215023691174757,
               "hex_id": "B175505081A69365",
               "encoded_id": "sXVQUIGmk2U",
@@ -2100,12 +2106,6 @@
               "hex_id": "9BD273652A035456",
               "encoded_id": "m9JzZSoDVFY",
               "name": "sceNpSetPlatformType"
-            },
-            {
-              "id": 4108673162867119807,
-              "hex_id": "3904F07912E016BF",
-              "encoded_id": "OQTweRLgFr8",
-              "name": null
             }
           ]
         },
@@ -2139,6 +2139,36 @@
               "hex_id": "3B32AF4EF8376585",
               "encoded_id": "OzKvTvg3ZYU",
               "name": "sceNpAbortRequest"
+            },
+            {
+              "id": 15116884602169651968,
+              "hex_id": "D1C9F673F6E4F300",
+              "encoded_id": "0cn2c-bk8wA",
+              "name": "sceNpAsmClientAbortRequest"
+            },
+            {
+              "id": 13034120289129314294,
+              "hex_id": "B4E27F586143B7F6",
+              "encoded_id": "tOJ-WGFDt-Y",
+              "name": "sceNpAsmClientCreateRequest2"
+            },
+            {
+              "id": 1798152054879082174,
+              "hex_id": "18F451C45334D6BE",
+              "encoded_id": "GPRRxFM01r4",
+              "name": "sceNpAsmClientCreateResourceContext"
+            },
+            {
+              "id": 15493270975364487361,
+              "hex_id": "D70327DD7F7858C1",
+              "encoded_id": "1wMn3X94WME",
+              "name": "sceNpAsmClientDeleteRequest"
+            },
+            {
+              "id": 2886103816415300648,
+              "hex_id": "280D80213A554C28",
+              "encoded_id": "KA2AITpVTCg",
+              "name": "sceNpAsmClientDeleteResourceContext"
             },
             {
               "id": 8134318843655463589,
@@ -2279,51 +2309,21 @@
               "name": "sceNpRegisterStateCallbackA"
             },
             {
+              "id": 5519885377138293523,
+              "hex_id": "4C9A928141337B13",
+              "encoded_id": "TJqSgUEzexM",
+              "name": "sceNpSetNpTitleIdVsh"
+            },
+            {
               "id": 3709846093091091456,
               "hex_id": "337C055DB610B400",
               "encoded_id": "M3wFXbYQtAA",
               "name": "sceNpUnregisterStateCallbackA"
             },
             {
-              "id": 1798152054879082174,
-              "hex_id": "18F451C45334D6BE",
-              "encoded_id": "GPRRxFM01r4",
-              "name": null
-            },
-            {
-              "id": 2886103816415300648,
-              "hex_id": "280D80213A554C28",
-              "encoded_id": "KA2AITpVTCg",
-              "name": null
-            },
-            {
-              "id": 5519885377138293523,
-              "hex_id": "4C9A928141337B13",
-              "encoded_id": "TJqSgUEzexM",
-              "name": null
-            },
-            {
               "id": 6063537906593607401,
               "hex_id": "542603999CA0AEE9",
               "encoded_id": "VCYDmZygruk",
-              "name": null
-            },
-            {
-              "id": 13034120289129314294,
-              "hex_id": "B4E27F586143B7F6",
-              "encoded_id": "tOJ-WGFDt-Y",
-              "name": null
-            },
-            {
-              "id": 15116884602169651968,
-              "hex_id": "D1C9F673F6E4F300",
-              "encoded_id": "0cn2c-bk8wA",
-              "name": null
-            },
-            {
-              "id": 15493270975364487361,
-              "hex_id": "D70327DD7F7858C1",
-              "encoded_id": "1wMn3X94WME",
               "name": null
             }
           ]
@@ -2359,10 +2359,22 @@
               "name": "sceNpMatching2DestroyContext"
             },
             {
+              "id": 11373671427192406086,
+              "hex_id": "9DD765E719D04046",
+              "encoded_id": "nddl5xnQQEY",
+              "name": "sceNpMatching2GetRoomJoinedSlotMaskLocal"
+            },
+            {
               "id": 3319310648684841748,
               "hex_id": "2E108F72D2080B14",
               "encoded_id": "LhCPctIICxQ",
               "name": "sceNpMatching2GetServerId"
+            },
+            {
+              "id": 10783908161616813138,
+              "hex_id": "95A823565F9B1C52",
+              "encoded_id": "lagjVl+bHFI",
+              "name": "sceNpMatching2GetWorldIdArrayForAllServers"
             },
             {
               "id": 12435370023424534050,
@@ -2443,28 +2455,16 @@
               "name": "sceNpMatching2SetRoomDataInternal"
             },
             {
+              "id": 10145608532249143915,
+              "hex_id": "8CCC7134D2E1EA6B",
+              "encoded_id": "jMxxNNLh6ms",
+              "name": "sceNpMatching2SetRoomDataInternalExt"
+            },
+            {
               "id": 3650861928154959662,
               "hex_id": "32AA77949FAC8F2E",
               "encoded_id": "Mqp3lJ+sjy4",
               "name": "sceNpMatching2Terminate"
-            },
-            {
-              "id": 10145608532249143915,
-              "hex_id": "8CCC7134D2E1EA6B",
-              "encoded_id": "jMxxNNLh6ms",
-              "name": null
-            },
-            {
-              "id": 10783908161616813138,
-              "hex_id": "95A823565F9B1C52",
-              "encoded_id": "lagjVl+bHFI",
-              "name": null
-            },
-            {
-              "id": 11373671427192406086,
-              "hex_id": "9DD765E719D04046",
-              "encoded_id": "nddl5xnQQEY",
-              "name": null
             }
           ]
         },
@@ -2536,6 +2536,18 @@
               "name": "sceNpAppInfoIntDestroyRequest"
             },
             {
+              "id": 12961275755076808720,
+              "hex_id": "B3DFB3A0A13C7010",
+              "encoded_id": "s9+zoKE8cBA",
+              "name": "sceNpAppInfoIntFinalize"
+            },
+            {
+              "id": 10925985564027369901,
+              "hex_id": "97A0E5FB6CE5B9AD",
+              "encoded_id": "l6Dl+2zlua0",
+              "name": "sceNpAppInfoIntInitialize"
+            },
+            {
               "id": 10590016712854603638,
               "hex_id": "92F74C178F260776",
               "encoded_id": "kvdMF48mB3Y",
@@ -2578,10 +2590,22 @@
               "name": "sceNpServiceCheckerIntDestroyRequest"
             },
             {
+              "id": 3252786145993728790,
+              "hex_id": "2D2437C40A44A316",
+              "encoded_id": "LSQ3xApEoxY",
+              "name": "sceNpServiceCheckerIntFinalize"
+            },
+            {
               "id": 13872763401826767495,
               "hex_id": "C085F4D01AEC9287",
               "encoded_id": "wIX00Brskoc",
               "name": "sceNpServiceCheckerIntGetAvailability"
+            },
+            {
+              "id": 12483794083133331994,
+              "hex_id": "AD3F58939E491A1A",
+              "encoded_id": "rT9Yk55JGho",
+              "name": "sceNpServiceCheckerIntInitialize"
             },
             {
               "id": 12531468901228383015,
@@ -2642,30 +2666,6 @@
               "hex_id": "263E2692914EDA01",
               "encoded_id": "Jj4mkpFO2gE",
               "name": "sceNpWordFilterSanitizeComment"
-            },
-            {
-              "id": 3252786145993728790,
-              "hex_id": "2D2437C40A44A316",
-              "encoded_id": "LSQ3xApEoxY",
-              "name": null
-            },
-            {
-              "id": 10925985564027369901,
-              "hex_id": "97A0E5FB6CE5B9AD",
-              "encoded_id": "l6Dl+2zlua0",
-              "name": null
-            },
-            {
-              "id": 12483794083133331994,
-              "hex_id": "AD3F58939E491A1A",
-              "encoded_id": "rT9Yk55JGho",
-              "name": null
-            },
-            {
-              "id": 12961275755076808720,
-              "hex_id": "B3DFB3A0A13C7010",
-              "encoded_id": "s9+zoKE8cBA",
-              "name": null
             }
           ]
         },
@@ -2779,6 +2779,12 @@
               "name": "sceNpWebApiIntInitialize"
             },
             {
+              "id": 12824763951699416140,
+              "hex_id": "B1FAB6DD9547544C",
+              "encoded_id": "sfq23ZVHVEw",
+              "name": "sceNpWebApiIntRegisterServicePushEventCallbackA"
+            },
+            {
               "id": 651701729418153679,
               "hex_id": "090B4F45217A0ECF",
               "encoded_id": "CQtPRSF6Ds8",
@@ -2813,12 +2819,6 @@
               "hex_id": "3EA098DB914CCCFB",
               "encoded_id": "PqCY25FMzPs",
               "name": "sceNpWebApiUnregisterExtdPushEventCallback"
-            },
-            {
-              "id": 12824763951699416140,
-              "hex_id": "B1FAB6DD9547544C",
-              "encoded_id": "sfq23ZVHVEw",
-              "name": null
             }
           ]
         },
@@ -3076,6 +3076,12 @@
               "name": "sceSharePlayInitialize"
             },
             {
+              "id": 18185127882640372142,
+              "hex_id": "FC5E8D75D7D4B1AE",
+              "encoded_id": "-F6NddfUsa4",
+              "name": "sceSharePlayStartStandby"
+            },
+            {
               "id": 12494477527517284264,
               "hex_id": "AD654D1CD9C4C7A8",
               "encoded_id": "rWVNHNnEx6g",
@@ -3088,22 +3094,16 @@
               "name": "sceSharePlayStopStandby"
             },
             {
+              "id": 7523648666667173189,
+              "hex_id": "68695E99AF89C545",
+              "encoded_id": "aGlema+JxUU",
+              "name": "sceSharePlayStopStreaming"
+            },
+            {
               "id": 5882514298871389836,
               "hex_id": "51A2E39682629E8C",
               "encoded_id": "UaLjloJinow",
               "name": "sceSharePlayTerminate"
-            },
-            {
-              "id": 7523648666667173189,
-              "hex_id": "68695E99AF89C545",
-              "encoded_id": "aGlema+JxUU",
-              "name": null
-            },
-            {
-              "id": 18185127882640372142,
-              "hex_id": "FC5E8D75D7D4B1AE",
-              "encoded_id": "-F6NddfUsa4",
-              "name": null
             }
           ]
         }
@@ -3233,6 +3233,12 @@
               "name": "sceLncUtilInitialize"
             },
             {
+              "id": 2335901118578289278,
+              "hex_id": "206AC9B0F34BEA7E",
+              "encoded_id": "IGrJsPNL6n4",
+              "name": "sceLncUtilIsAppLaunched"
+            },
+            {
               "id": 6300113620317006566,
               "hex_id": "576E7FF54F986AE6",
               "encoded_id": "V25-9U+YauY",
@@ -3243,12 +3249,6 @@
               "hex_id": "702A1DF81DC47612",
               "encoded_id": "cCod+B3EdhI",
               "name": "sceLncUtilTerminate"
-            },
-            {
-              "id": 2335901118578289278,
-              "hex_id": "206AC9B0F34BEA7E",
-              "encoded_id": "IGrJsPNL6n4",
-              "name": null
             }
           ]
         },
@@ -3276,6 +3276,18 @@
               "name": "sceShellCoreUtilGetAppLaunchedParamString"
             },
             {
+              "id": 3606767392980953851,
+              "hex_id": "320DCFD59E176AFB",
+              "encoded_id": "Mg3P1Z4Xavs",
+              "name": "sceShellCoreUtilGetCloudClientStatus"
+            },
+            {
+              "id": 3108636961599702188,
+              "hex_id": "2B2418D8A7CCC4AC",
+              "encoded_id": "KyQY2KfMxKw",
+              "name": "sceShellCoreUtilIsGameLiveStreamingOnAir"
+            },
+            {
               "id": 16274616242756521123,
               "hex_id": "E1DB0D3F054E0CA3",
               "encoded_id": "4dsNPwVODKM",
@@ -3297,25 +3309,13 @@
               "id": 965300637661451980,
               "hex_id": "0D656FD0C944D6CC",
               "encoded_id": "DWVv0MlE1sw",
-              "name": null
-            },
-            {
-              "id": 3108636961599702188,
-              "hex_id": "2B2418D8A7CCC4AC",
-              "encoded_id": "KyQY2KfMxKw",
-              "name": null
-            },
-            {
-              "id": 3606767392980953851,
-              "hex_id": "320DCFD59E176AFB",
-              "encoded_id": "Mg3P1Z4Xavs",
-              "name": null
+              "name": "sceShellCoreUtilTickHeartBeat"
             },
             {
               "id": 6274738121130722063,
               "hex_id": "571459138099430F",
               "encoded_id": "VxRZE4CZQw8",
-              "name": null
+              "name": "sceShellCoreUtilTriggerPapcRecalculation"
             }
           ]
         },
@@ -3376,6 +3376,42 @@
               "name": "sceUserServiceGetLoginUserIdList"
             },
             {
+              "id": 10768859876440130088,
+              "hex_id": "9572AD00732BC228",
+              "encoded_id": "lXKtAHMrwig",
+              "name": "sceUserServiceGetParentalBdAge"
+            },
+            {
+              "id": 13208515517397347363,
+              "hex_id": "B74E12E1A0B42C23",
+              "encoded_id": "t04S4aC0LCM",
+              "name": "sceUserServiceGetParentalBrowser"
+            },
+            {
+              "id": 16643973132692614373,
+              "hex_id": "E6FB45617149ECE5",
+              "encoded_id": "5vtFYXFJ7OU",
+              "name": "sceUserServiceGetParentalDvd"
+            },
+            {
+              "id": 8633627640202133294,
+              "hex_id": "77D0CE98893DFF2E",
+              "encoded_id": "d9DOmIk9-y4",
+              "name": "sceUserServiceGetParentalDvdRegion"
+            },
+            {
+              "id": 4168247803141172151,
+              "hex_id": "39D8974AEA082BB7",
+              "encoded_id": "OdiXSuoIK7c",
+              "name": "sceUserServiceGetParentalGame"
+            },
+            {
+              "id": 14518443323554562470,
+              "hex_id": "C97BDF47E01C81A6",
+              "encoded_id": "yXvfR+AcgaY",
+              "name": "sceUserServiceGetParentalMorpheus"
+            },
+            {
               "id": 5900331142323082476,
               "hex_id": "51E22FE9A35794EC",
               "encoded_id": "UeIv6aNXlOw",
@@ -3392,6 +3428,156 @@
               "hex_id": "C8046741E5B385D3",
               "encoded_id": "yARnQeWzhdM",
               "name": "sceUserServiceGetPartySettingFlags"
+            },
+            {
+              "id": 11193836596100392992,
+              "hex_id": "9B587F13A054E820",
+              "encoded_id": "m1h-E6BU6CA",
+              "name": "sceUserServiceGetPbtcAdditionalTime"
+            },
+            {
+              "id": 2216797318456770615,
+              "hex_id": "1EC3A56A81A78037",
+              "encoded_id": "HsOlaoGngDc",
+              "name": "sceUserServiceGetPbtcFlag"
+            },
+            {
+              "id": 15869439964390002646,
+              "hex_id": "DC3B939155DA8FD6",
+              "encoded_id": "3DuTkVXaj9Y",
+              "name": "sceUserServiceGetPbtcFridayDuration"
+            },
+            {
+              "id": 16560650122140178911,
+              "hex_id": "E5D33F8B43B1D9DF",
+              "encoded_id": "5dM-i0Ox2d8",
+              "name": "sceUserServiceGetPbtcFridayHoursEnd"
+            },
+            {
+              "id": 13675032014748991968,
+              "hex_id": "BDC77929FB3541E0",
+              "encoded_id": "vcd5Kfs1QeA",
+              "name": "sceUserServiceGetPbtcFridayHoursStart"
+            },
+            {
+              "id": 4869841408110034256,
+              "hex_id": "439526F58AE2FD50",
+              "encoded_id": "Q5Um9Yri-VA",
+              "name": "sceUserServiceGetPbtcMode"
+            },
+            {
+              "id": 3925969663967962668,
+              "hex_id": "367BD89BD3C5262C",
+              "encoded_id": "NnvYm9PFJiw",
+              "name": "sceUserServiceGetPbtcMondayDuration"
+            },
+            {
+              "id": 16384856406796703703,
+              "hex_id": "E362B4175EE697D7",
+              "encoded_id": "42K0F17ml9c",
+              "name": "sceUserServiceGetPbtcMondayHoursEnd"
+            },
+            {
+              "id": 6551003443939188106,
+              "hex_id": "5AE9D6EC6E5B1D8A",
+              "encoded_id": "WunW7G5bHYo",
+              "name": "sceUserServiceGetPbtcMondayHoursStart"
+            },
+            {
+              "id": 1002503521308898357,
+              "hex_id": "0DE99BA421B1F435",
+              "encoded_id": "DembpCGx9DU",
+              "name": "sceUserServiceGetPbtcSaturdayDuration"
+            },
+            {
+              "id": 720309303925373006,
+              "hex_id": "09FF0D7EDCE1784E",
+              "encoded_id": "Cf8NftzheE4",
+              "name": "sceUserServiceGetPbtcSaturdayHoursEnd"
+            },
+            {
+              "id": 18111969159249455725,
+              "hex_id": "FB5AA3FD2FE4EA6D",
+              "encoded_id": "+1qj-S-k6m0",
+              "name": "sceUserServiceGetPbtcSaturdayHoursStart"
+            },
+            {
+              "id": 2689503062374944231,
+              "hex_id": "255308C91F2F0DE7",
+              "encoded_id": "JVMIyR8vDec",
+              "name": "sceUserServiceGetPbtcSundayDuration"
+            },
+            {
+              "id": 2875207638509478524,
+              "hex_id": "27E6CA1D1CD8E27C",
+              "encoded_id": "J+bKHRzY4nw",
+              "name": "sceUserServiceGetPbtcSundayHoursEnd"
+            },
+            {
+              "id": 2875271322169115731,
+              "hex_id": "27E704089EC20453",
+              "encoded_id": "J+cECJ7CBFM",
+              "name": "sceUserServiceGetPbtcSundayHoursStart"
+            },
+            {
+              "id": 14985808255677842653,
+              "hex_id": "CFF84935D7CB44DD",
+              "encoded_id": "z-hJNdfLRN0",
+              "name": "sceUserServiceGetPbtcThursdayDuration"
+            },
+            {
+              "id": 451346269985338547,
+              "hex_id": "0643810A8D2C74B3",
+              "encoded_id": "BkOBCo0sdLM",
+              "name": "sceUserServiceGetPbtcThursdayHoursEnd"
+            },
+            {
+              "id": 5745767164635895532,
+              "hex_id": "4FBD10CB3A39D6EC",
+              "encoded_id": "T70Qyzo51uw",
+              "name": "sceUserServiceGetPbtcThursdayHoursStart"
+            },
+            {
+              "id": 5832408212404790941,
+              "hex_id": "50F0E05E2575669D",
+              "encoded_id": "UPDgXiV1Zp0",
+              "name": "sceUserServiceGetPbtcTuesdayDuration"
+            },
+            {
+              "id": 3069041499064323819,
+              "hex_id": "2A976CFBA0A94EEB",
+              "encoded_id": "Kpds+6CpTus",
+              "name": "sceUserServiceGetPbtcTuesdayHoursEnd"
+            },
+            {
+              "id": 7723851277929804379,
+              "hex_id": "6B30A1D086F3F25B",
+              "encoded_id": "azCh0Ibz8ls",
+              "name": "sceUserServiceGetPbtcTuesdayHoursStart"
+            },
+            {
+              "id": 3904916303182796086,
+              "hex_id": "36310CB048D79536",
+              "encoded_id": "NjEMsEjXlTY",
+              "name": "sceUserServiceGetPbtcTzOffset"
+            },
+            {
+              "id": 6269424853583569636,
+              "hex_id": "570178AFFFDAA2E4",
+              "encoded_id": "VwF4r--aouQ",
+              "name": "sceUserServiceGetPbtcWednesdayDuration"
+            },
+            {
+              "id": 11462111070517531399,
+              "hex_id": "9F11994A2E451307",
+              "encoded_id": "nxGZSi5FEwc",
+              "name": "sceUserServiceGetPbtcWednesdayHoursEnd"
+            },
+            {
+              "id": 17106831859694746243,
+              "hex_id": "ED67ACF0C570BA83",
+              "encoded_id": "7Wes8MVwuoM",
+              "name": "sceUserServiceGetPbtcWednesdayHoursStart"
             },
             {
               "id": 10859240822361112250,
@@ -3442,6 +3628,42 @@
               "name": "sceUserServiceRegisterEventCallback"
             },
             {
+              "id": 2926278375412086228,
+              "hex_id": "289C3AADA85835D4",
+              "encoded_id": "KJw6rahYNdQ",
+              "name": "sceUserServiceSetParentalBdAge"
+            },
+            {
+              "id": 16876069740941967908,
+              "hex_id": "EA33D80421908224",
+              "encoded_id": "6jPYBCGQgiQ",
+              "name": "sceUserServiceSetParentalBrowser"
+            },
+            {
+              "id": 5854466853469932183,
+              "hex_id": "513F3E95BE5FCA97",
+              "encoded_id": "UT8+lb5fypc",
+              "name": "sceUserServiceSetParentalDvd"
+            },
+            {
+              "id": 3790435213816593208,
+              "hex_id": "349A54BE8FAB7B38",
+              "encoded_id": "NJpUvo+rezg",
+              "name": "sceUserServiceSetParentalDvdRegion"
+            },
+            {
+              "id": 9300564377906243906,
+              "hex_id": "81123E0673C0E942",
+              "encoded_id": "gRI+BnPA6UI",
+              "name": "sceUserServiceSetParentalGame"
+            },
+            {
+              "id": 11124278976184074267,
+              "hex_id": "9A6160CA35CC401B",
+              "encoded_id": "mmFgyjXMQBs",
+              "name": "sceUserServiceSetParentalMorpheus"
+            },
+            {
               "id": 7407454430792326777,
               "hex_id": "66CC908EF5451E79",
               "encoded_id": "ZsyQjvVFHnk",
@@ -3460,6 +3682,156 @@
               "name": "sceUserServiceSetPartySettingFlags"
             },
             {
+              "id": 8568392338984625111,
+              "hex_id": "76E90B6F5D5B63D7",
+              "encoded_id": "dukLb11bY9c",
+              "name": "sceUserServiceSetPbtcAdditionalTime"
+            },
+            {
+              "id": 2642802687909058707,
+              "hex_id": "24AD1F0AE0445893",
+              "encoded_id": "JK0fCuBEWJM",
+              "name": "sceUserServiceSetPbtcFlag"
+            },
+            {
+              "id": 4993049008600124891,
+              "hex_id": "454ADF9E77BA0DDB",
+              "encoded_id": "RUrfnne6Dds",
+              "name": "sceUserServiceSetPbtcFridayDuration"
+            },
+            {
+              "id": 7019293397736624716,
+              "hex_id": "61698A27CA56124C",
+              "encoded_id": "YWmKJ8pWEkw",
+              "name": "sceUserServiceSetPbtcFridayHoursEnd"
+            },
+            {
+              "id": 1784199890402485094,
+              "hex_id": "18C2C058E3BB2366",
+              "encoded_id": "GMLAWOO7I2Y",
+              "name": "sceUserServiceSetPbtcFridayHoursStart"
+            },
+            {
+              "id": 17836044969134480558,
+              "hex_id": "F7865C6667275CAE",
+              "encoded_id": "94ZcZmcnXK4",
+              "name": "sceUserServiceSetPbtcMode"
+            },
+            {
+              "id": 5371766691765655365,
+              "hex_id": "4A8C595866F79745",
+              "encoded_id": "SoxZWGb3l0U",
+              "name": "sceUserServiceSetPbtcMondayDuration"
+            },
+            {
+              "id": 13263323097019559783,
+              "hex_id": "B810CA15AB15AF67",
+              "encoded_id": "uBDKFasVr2c",
+              "name": "sceUserServiceSetPbtcMondayHoursEnd"
+            },
+            {
+              "id": 17109778775246756344,
+              "hex_id": "ED7225250419D9F8",
+              "encoded_id": "7XIlJQQZ2fg",
+              "name": "sceUserServiceSetPbtcMondayHoursStart"
+            },
+            {
+              "id": 4988559495348557018,
+              "hex_id": "453AEC6E352714DA",
+              "encoded_id": "RTrsbjUnFNo",
+              "name": "sceUserServiceSetPbtcSaturdayDuration"
+            },
+            {
+              "id": 17511495770930344544,
+              "hex_id": "F305549FB00EF260",
+              "encoded_id": "8wVUn7AO8mA",
+              "name": "sceUserServiceSetPbtcSaturdayHoursEnd"
+            },
+            {
+              "id": 12061565591119547305,
+              "hex_id": "A7634A000DC14BA9",
+              "encoded_id": "p2NKAA3BS6k",
+              "name": "sceUserServiceSetPbtcSaturdayHoursStart"
+            },
+            {
+              "id": 9541421730771308659,
+              "hex_id": "8469F082F2D11073",
+              "encoded_id": "hGnwgvLREHM",
+              "name": "sceUserServiceSetPbtcSundayDuration"
+            },
+            {
+              "id": 12582497741311213000,
+              "hex_id": "AE9E0307E2027DC8",
+              "encoded_id": "rp4DB+ICfcg",
+              "name": "sceUserServiceSetPbtcSundayHoursEnd"
+            },
+            {
+              "id": 8158912326281222809,
+              "hex_id": "713A4788718C5A99",
+              "encoded_id": "cTpHiHGMWpk",
+              "name": "sceUserServiceSetPbtcSundayHoursStart"
+            },
+            {
+              "id": 5177987051357853333,
+              "hex_id": "47DBE7C9FFC1D695",
+              "encoded_id": "R9vnyf-B1pU",
+              "name": "sceUserServiceSetPbtcThursdayDuration"
+            },
+            {
+              "id": 6591596045250653623,
+              "hex_id": "5B7A0DADEC08EDB7",
+              "encoded_id": "W3oNrewI7bc",
+              "name": "sceUserServiceSetPbtcThursdayHoursEnd"
+            },
+            {
+              "id": 2661152795226370612,
+              "hex_id": "24EE505E2C817234",
+              "encoded_id": "JO5QXiyBcjQ",
+              "name": "sceUserServiceSetPbtcThursdayHoursStart"
+            },
+            {
+              "id": 7025609789487244931,
+              "hex_id": "617FFAE158E4E683",
+              "encoded_id": "YX-64Vjk5oM",
+              "name": "sceUserServiceSetPbtcTuesdayDuration"
+            },
+            {
+              "id": 3661768659599369383,
+              "hex_id": "32D13731ED1424A7",
+              "encoded_id": "MtE3Me0UJKc",
+              "name": "sceUserServiceSetPbtcTuesdayHoursEnd"
+            },
+            {
+              "id": 7833980389030748878,
+              "hex_id": "6CB7E3A8598DE2CE",
+              "encoded_id": "bLfjqFmN4s4",
+              "name": "sceUserServiceSetPbtcTuesdayHoursStart"
+            },
+            {
+              "id": 2218286059605442017,
+              "hex_id": "1EC8EF6B10FBBDE1",
+              "encoded_id": "HsjvaxD7veE",
+              "name": "sceUserServiceSetPbtcTzOffset"
+            },
+            {
+              "id": 1344261494764456152,
+              "hex_id": "12A7C6B510ABC8D8",
+              "encoded_id": "EqfGtRCryNg",
+              "name": "sceUserServiceSetPbtcWednesdayDuration"
+            },
+            {
+              "id": 13371672927298025998,
+              "hex_id": "B991B9AE644E7A0E",
+              "encoded_id": "uZG5rmROeg4",
+              "name": "sceUserServiceSetPbtcWednesdayHoursEnd"
+            },
+            {
+              "id": 8374037713415058380,
+              "hex_id": "74368EEECBD433CC",
+              "encoded_id": "dDaO7svUM8w",
+              "name": "sceUserServiceSetPbtcWednesdayHoursStart"
+            },
+            {
               "id": 633174220308695551,
               "hex_id": "08C97C99426F49FF",
               "encoded_id": "CMl8mUJvSf8",
@@ -3476,378 +3848,6 @@
               "hex_id": "B295BFFF2A0B43DA",
               "encoded_id": "spW--yoLQ9o",
               "name": "sceUserServiceUnregisterEventCallback"
-            },
-            {
-              "id": 451346269985338547,
-              "hex_id": "0643810A8D2C74B3",
-              "encoded_id": "BkOBCo0sdLM",
-              "name": null
-            },
-            {
-              "id": 720309303925373006,
-              "hex_id": "09FF0D7EDCE1784E",
-              "encoded_id": "Cf8NftzheE4",
-              "name": null
-            },
-            {
-              "id": 1002503521308898357,
-              "hex_id": "0DE99BA421B1F435",
-              "encoded_id": "DembpCGx9DU",
-              "name": null
-            },
-            {
-              "id": 1344261494764456152,
-              "hex_id": "12A7C6B510ABC8D8",
-              "encoded_id": "EqfGtRCryNg",
-              "name": null
-            },
-            {
-              "id": 1784199890402485094,
-              "hex_id": "18C2C058E3BB2366",
-              "encoded_id": "GMLAWOO7I2Y",
-              "name": null
-            },
-            {
-              "id": 2216797318456770615,
-              "hex_id": "1EC3A56A81A78037",
-              "encoded_id": "HsOlaoGngDc",
-              "name": null
-            },
-            {
-              "id": 2218286059605442017,
-              "hex_id": "1EC8EF6B10FBBDE1",
-              "encoded_id": "HsjvaxD7veE",
-              "name": null
-            },
-            {
-              "id": 2642802687909058707,
-              "hex_id": "24AD1F0AE0445893",
-              "encoded_id": "JK0fCuBEWJM",
-              "name": null
-            },
-            {
-              "id": 2661152795226370612,
-              "hex_id": "24EE505E2C817234",
-              "encoded_id": "JO5QXiyBcjQ",
-              "name": null
-            },
-            {
-              "id": 2689503062374944231,
-              "hex_id": "255308C91F2F0DE7",
-              "encoded_id": "JVMIyR8vDec",
-              "name": null
-            },
-            {
-              "id": 2875207638509478524,
-              "hex_id": "27E6CA1D1CD8E27C",
-              "encoded_id": "J+bKHRzY4nw",
-              "name": null
-            },
-            {
-              "id": 2875271322169115731,
-              "hex_id": "27E704089EC20453",
-              "encoded_id": "J+cECJ7CBFM",
-              "name": null
-            },
-            {
-              "id": 2926278375412086228,
-              "hex_id": "289C3AADA85835D4",
-              "encoded_id": "KJw6rahYNdQ",
-              "name": null
-            },
-            {
-              "id": 3069041499064323819,
-              "hex_id": "2A976CFBA0A94EEB",
-              "encoded_id": "Kpds+6CpTus",
-              "name": null
-            },
-            {
-              "id": 3661768659599369383,
-              "hex_id": "32D13731ED1424A7",
-              "encoded_id": "MtE3Me0UJKc",
-              "name": null
-            },
-            {
-              "id": 3790435213816593208,
-              "hex_id": "349A54BE8FAB7B38",
-              "encoded_id": "NJpUvo+rezg",
-              "name": null
-            },
-            {
-              "id": 3904916303182796086,
-              "hex_id": "36310CB048D79536",
-              "encoded_id": "NjEMsEjXlTY",
-              "name": null
-            },
-            {
-              "id": 3925969663967962668,
-              "hex_id": "367BD89BD3C5262C",
-              "encoded_id": "NnvYm9PFJiw",
-              "name": null
-            },
-            {
-              "id": 4168247803141172151,
-              "hex_id": "39D8974AEA082BB7",
-              "encoded_id": "OdiXSuoIK7c",
-              "name": null
-            },
-            {
-              "id": 4869841408110034256,
-              "hex_id": "439526F58AE2FD50",
-              "encoded_id": "Q5Um9Yri-VA",
-              "name": null
-            },
-            {
-              "id": 4988559495348557018,
-              "hex_id": "453AEC6E352714DA",
-              "encoded_id": "RTrsbjUnFNo",
-              "name": null
-            },
-            {
-              "id": 4993049008600124891,
-              "hex_id": "454ADF9E77BA0DDB",
-              "encoded_id": "RUrfnne6Dds",
-              "name": null
-            },
-            {
-              "id": 5177987051357853333,
-              "hex_id": "47DBE7C9FFC1D695",
-              "encoded_id": "R9vnyf-B1pU",
-              "name": null
-            },
-            {
-              "id": 5371766691765655365,
-              "hex_id": "4A8C595866F79745",
-              "encoded_id": "SoxZWGb3l0U",
-              "name": null
-            },
-            {
-              "id": 5745767164635895532,
-              "hex_id": "4FBD10CB3A39D6EC",
-              "encoded_id": "T70Qyzo51uw",
-              "name": null
-            },
-            {
-              "id": 5832408212404790941,
-              "hex_id": "50F0E05E2575669D",
-              "encoded_id": "UPDgXiV1Zp0",
-              "name": null
-            },
-            {
-              "id": 5854466853469932183,
-              "hex_id": "513F3E95BE5FCA97",
-              "encoded_id": "UT8+lb5fypc",
-              "name": null
-            },
-            {
-              "id": 6269424853583569636,
-              "hex_id": "570178AFFFDAA2E4",
-              "encoded_id": "VwF4r--aouQ",
-              "name": null
-            },
-            {
-              "id": 6551003443939188106,
-              "hex_id": "5AE9D6EC6E5B1D8A",
-              "encoded_id": "WunW7G5bHYo",
-              "name": null
-            },
-            {
-              "id": 6591596045250653623,
-              "hex_id": "5B7A0DADEC08EDB7",
-              "encoded_id": "W3oNrewI7bc",
-              "name": null
-            },
-            {
-              "id": 7019293397736624716,
-              "hex_id": "61698A27CA56124C",
-              "encoded_id": "YWmKJ8pWEkw",
-              "name": null
-            },
-            {
-              "id": 7025609789487244931,
-              "hex_id": "617FFAE158E4E683",
-              "encoded_id": "YX-64Vjk5oM",
-              "name": null
-            },
-            {
-              "id": 7723851277929804379,
-              "hex_id": "6B30A1D086F3F25B",
-              "encoded_id": "azCh0Ibz8ls",
-              "name": null
-            },
-            {
-              "id": 7833980389030748878,
-              "hex_id": "6CB7E3A8598DE2CE",
-              "encoded_id": "bLfjqFmN4s4",
-              "name": null
-            },
-            {
-              "id": 8158912326281222809,
-              "hex_id": "713A4788718C5A99",
-              "encoded_id": "cTpHiHGMWpk",
-              "name": null
-            },
-            {
-              "id": 8374037713415058380,
-              "hex_id": "74368EEECBD433CC",
-              "encoded_id": "dDaO7svUM8w",
-              "name": null
-            },
-            {
-              "id": 8568392338984625111,
-              "hex_id": "76E90B6F5D5B63D7",
-              "encoded_id": "dukLb11bY9c",
-              "name": null
-            },
-            {
-              "id": 8633627640202133294,
-              "hex_id": "77D0CE98893DFF2E",
-              "encoded_id": "d9DOmIk9-y4",
-              "name": null
-            },
-            {
-              "id": 9300564377906243906,
-              "hex_id": "81123E0673C0E942",
-              "encoded_id": "gRI+BnPA6UI",
-              "name": null
-            },
-            {
-              "id": 9541421730771308659,
-              "hex_id": "8469F082F2D11073",
-              "encoded_id": "hGnwgvLREHM",
-              "name": null
-            },
-            {
-              "id": 10768859876440130088,
-              "hex_id": "9572AD00732BC228",
-              "encoded_id": "lXKtAHMrwig",
-              "name": null
-            },
-            {
-              "id": 11124278976184074267,
-              "hex_id": "9A6160CA35CC401B",
-              "encoded_id": "mmFgyjXMQBs",
-              "name": null
-            },
-            {
-              "id": 11193836596100392992,
-              "hex_id": "9B587F13A054E820",
-              "encoded_id": "m1h-E6BU6CA",
-              "name": null
-            },
-            {
-              "id": 11462111070517531399,
-              "hex_id": "9F11994A2E451307",
-              "encoded_id": "nxGZSi5FEwc",
-              "name": null
-            },
-            {
-              "id": 12061565591119547305,
-              "hex_id": "A7634A000DC14BA9",
-              "encoded_id": "p2NKAA3BS6k",
-              "name": null
-            },
-            {
-              "id": 12582497741311213000,
-              "hex_id": "AE9E0307E2027DC8",
-              "encoded_id": "rp4DB+ICfcg",
-              "name": null
-            },
-            {
-              "id": 13208515517397347363,
-              "hex_id": "B74E12E1A0B42C23",
-              "encoded_id": "t04S4aC0LCM",
-              "name": null
-            },
-            {
-              "id": 13263323097019559783,
-              "hex_id": "B810CA15AB15AF67",
-              "encoded_id": "uBDKFasVr2c",
-              "name": null
-            },
-            {
-              "id": 13371672927298025998,
-              "hex_id": "B991B9AE644E7A0E",
-              "encoded_id": "uZG5rmROeg4",
-              "name": null
-            },
-            {
-              "id": 13675032014748991968,
-              "hex_id": "BDC77929FB3541E0",
-              "encoded_id": "vcd5Kfs1QeA",
-              "name": null
-            },
-            {
-              "id": 14518443323554562470,
-              "hex_id": "C97BDF47E01C81A6",
-              "encoded_id": "yXvfR+AcgaY",
-              "name": null
-            },
-            {
-              "id": 14985808255677842653,
-              "hex_id": "CFF84935D7CB44DD",
-              "encoded_id": "z-hJNdfLRN0",
-              "name": null
-            },
-            {
-              "id": 15869439964390002646,
-              "hex_id": "DC3B939155DA8FD6",
-              "encoded_id": "3DuTkVXaj9Y",
-              "name": null
-            },
-            {
-              "id": 16384856406796703703,
-              "hex_id": "E362B4175EE697D7",
-              "encoded_id": "42K0F17ml9c",
-              "name": null
-            },
-            {
-              "id": 16560650122140178911,
-              "hex_id": "E5D33F8B43B1D9DF",
-              "encoded_id": "5dM-i0Ox2d8",
-              "name": null
-            },
-            {
-              "id": 16643973132692614373,
-              "hex_id": "E6FB45617149ECE5",
-              "encoded_id": "5vtFYXFJ7OU",
-              "name": null
-            },
-            {
-              "id": 16876069740941967908,
-              "hex_id": "EA33D80421908224",
-              "encoded_id": "6jPYBCGQgiQ",
-              "name": null
-            },
-            {
-              "id": 17106831859694746243,
-              "hex_id": "ED67ACF0C570BA83",
-              "encoded_id": "7Wes8MVwuoM",
-              "name": null
-            },
-            {
-              "id": 17109778775246756344,
-              "hex_id": "ED7225250419D9F8",
-              "encoded_id": "7XIlJQQZ2fg",
-              "name": null
-            },
-            {
-              "id": 17511495770930344544,
-              "hex_id": "F305549FB00EF260",
-              "encoded_id": "8wVUn7AO8mA",
-              "name": null
-            },
-            {
-              "id": 17836044969134480558,
-              "hex_id": "F7865C6667275CAE",
-              "encoded_id": "94ZcZmcnXK4",
-              "name": null
-            },
-            {
-              "id": 18111969159249455725,
-              "hex_id": "FB5AA3FD2FE4EA6D",
-              "encoded_id": "+1qj-S-k6m0",
-              "name": null
             }
           ]
         }
