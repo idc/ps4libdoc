@@ -292,6 +292,12 @@
               "name": "sceHttpGetNonblock"
             },
             {
+              "id": 9675737131003081580,
+              "hex_id": "86471FA8097EF36C",
+              "encoded_id": "hkcfqAl+82w",
+              "name": "sceHttpGetRegisteredCtxIds"
+            },
+            {
               "id": 14619729061332622987,
               "hex_id": "CAE3B61F652F9E8B",
               "encoded_id": "yuO2H2Uvnos",
@@ -562,6 +568,12 @@
               "name": "sceHttpSetSendTimeOut"
             },
             {
+              "id": 4387196990758936444,
+              "hex_id": "3CE2746B31D95F7C",
+              "encoded_id": "POJ0azHZX3w",
+              "name": "sceHttpSetSocketCreationCallback"
+            },
+            {
               "id": 17106656690473625036,
               "hex_id": "ED670DA0023D65CC",
               "encoded_id": "7WcNoAI9Zcw",
@@ -584,6 +596,12 @@
               "hex_id": "0CAF86A1708D4F4E",
               "encoded_id": "DK+GoXCNT04",
               "name": "sceHttpsLoadCert"
+            },
+            {
+              "id": 10180644222630901204,
+              "hex_id": "8D48E9FB2A8C35D4",
+              "encoded_id": "jUjp+yqMNdQ",
+              "name": "sceHttpsSetMinSslVersion"
             },
             {
               "id": 9717784184308517791,
@@ -674,24 +692,6 @@
               "hex_id": "A884A30C7AF138D7",
               "encoded_id": "qISjDHrxONc",
               "name": "sceHttpWaitRequest"
-            },
-            {
-              "id": 4387196990758936444,
-              "hex_id": "3CE2746B31D95F7C",
-              "encoded_id": "POJ0azHZX3w",
-              "name": null
-            },
-            {
-              "id": 9675737131003081580,
-              "hex_id": "86471FA8097EF36C",
-              "encoded_id": "hkcfqAl+82w",
-              "name": null
-            },
-            {
-              "id": 10180644222630901204,
-              "hex_id": "8D48E9FB2A8C35D4",
-              "encoded_id": "jUjp+yqMNdQ",
-              "name": null
             }
           ]
         }
@@ -1418,10 +1418,22 @@
               "name": "sceSslRecv"
             },
             {
+              "id": 16664575111916447489,
+              "hex_id": "E74476C586986701",
+              "encoded_id": "50R2xYaYZwE",
+              "name": "sceSslReuseConnection"
+            },
+            {
               "id": 12076064734557666390,
               "hex_id": "A796CCE4F3EE7C56",
               "encoded_id": "p5bM5PPufFY",
               "name": "sceSslSend"
+            },
+            {
+              "id": 4712085754698437640,
+              "hex_id": "4164B10737FA9408",
+              "encoded_id": "QWSxBzf6lAg",
+              "name": "sceSslSetMinSslVersion"
             },
             {
               "id": 7829090915320353508,
@@ -1440,18 +1452,6 @@
               "hex_id": "510FB742EEEFDDC0",
               "encoded_id": "UQ+3Qu7v3cA",
               "name": "sceSslUnloadCert"
-            },
-            {
-              "id": 4712085754698437640,
-              "hex_id": "4164B10737FA9408",
-              "encoded_id": "QWSxBzf6lAg",
-              "name": null
-            },
-            {
-              "id": 16664575111916447489,
-              "hex_id": "E74476C586986701",
-              "encoded_id": "50R2xYaYZwE",
-              "name": null
             }
           ]
         }
@@ -1471,7 +1471,7 @@
               "id": 8275310361179816424,
               "hex_id": "72D7CEEDD43B81E8",
               "encoded_id": "ctfO7dQ7geg",
-              "name": null
+              "name": "sceSysmoduleIsCalledFromSysModule"
             }
           ]
         }
