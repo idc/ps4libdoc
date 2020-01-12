@@ -125,6 +125,12 @@
               "name": "sceUserServiceGetEvent"
             },
             {
+              "id": 16070230399002278720,
+              "hex_id": "DF04ED677736FB40",
+              "encoded_id": "3wTtZ3c2+0A",
+              "name": "sceUserServiceGetEventVsh"
+            },
+            {
               "id": 13336623686212318998,
               "hex_id": "B915349507BEF716",
               "encoded_id": "uRU0lQe+9xY",
@@ -393,6 +399,18 @@
               "hex_id": "EF97309F5CB67DF9",
               "encoded_id": "75cwn1y2ffk",
               "name": "sceUserServiceGetGlsMessageFilterLevel"
+            },
+            {
+              "id": 11819441729029743967,
+              "hex_id": "A40717A1663F255F",
+              "encoded_id": "pAcXoWY-JV8",
+              "name": "sceUserServiceGetGlsSortOrder"
+            },
+            {
+              "id": 1289518140780495563,
+              "hex_id": "11E549EAB8A4C2CB",
+              "encoded_id": "EeVJ6rikwss",
+              "name": "sceUserServiceGetGlsSortOrderGame"
             },
             {
               "id": 7015747169724374318,
@@ -827,6 +845,12 @@
               "name": "sceUserServiceLogin"
             },
             {
+              "id": 15942587542660742377,
+              "hex_id": "DD3F72E710DC7CE9",
+              "encoded_id": "3T9y5xDcfOk",
+              "name": "sceUserServiceLogout"
+            },
+            {
               "id": 14042851956239471424,
               "hex_id": "C2E23B73B50D9340",
               "encoded_id": "wuI7c7UNk0A",
@@ -1157,6 +1181,18 @@
               "name": "sceUserServiceSetGlsMessageFilterLevel"
             },
             {
+              "id": 1709149196310298418,
+              "hex_id": "17B81E237A383F32",
+              "encoded_id": "F7geI3o4PzI",
+              "name": "sceUserServiceSetGlsSortOrder"
+            },
+            {
+              "id": 14167027335019136064,
+              "hex_id": "C49B644D13108440",
+              "encoded_id": "xJtkTRMQhEA",
+              "name": "sceUserServiceSetGlsSortOrderGame"
+            },
+            {
               "id": 6435200737549171654,
               "hex_id": "594E6CF9C3F33BC6",
               "encoded_id": "WU5s+cPzO8Y",
@@ -1481,51 +1517,15 @@
               "name": "sceUserServiceUnregisterEventCallback"
             },
             {
-              "id": 1289518140780495563,
-              "hex_id": "11E549EAB8A4C2CB",
-              "encoded_id": "EeVJ6rikwss",
-              "name": null
-            },
-            {
-              "id": 1709149196310298418,
-              "hex_id": "17B81E237A383F32",
-              "encoded_id": "F7geI3o4PzI",
-              "name": null
-            },
-            {
-              "id": 11819441729029743967,
-              "hex_id": "A40717A1663F255F",
-              "encoded_id": "pAcXoWY-JV8",
-              "name": null
-            },
-            {
-              "id": 14167027335019136064,
-              "hex_id": "C49B644D13108440",
-              "encoded_id": "xJtkTRMQhEA",
-              "name": null
-            },
-            {
               "id": 14940960653779185877,
               "hex_id": "CF58F48DD398B0D5",
               "encoded_id": "z1j0jdOYsNU",
               "name": null
             },
             {
-              "id": 15942587542660742377,
-              "hex_id": "DD3F72E710DC7CE9",
-              "encoded_id": "3T9y5xDcfOk",
-              "name": null
-            },
-            {
               "id": 16018603807982137349,
               "hex_id": "DE4D834B0C7EB005",
               "encoded_id": "3k2DSwx+sAU",
-              "name": null
-            },
-            {
-              "id": 16070230399002278720,
-              "hex_id": "DF04ED677736FB40",
-              "encoded_id": "3wTtZ3c2+0A",
               "name": null
             }
           ]
@@ -1536,16 +1536,16 @@
           "is_export": true,
           "symbols": [
             {
-              "id": 803698989563170978,
-              "hex_id": "0B274FF90B40D0A2",
-              "encoded_id": "CydP+QtA0KI",
-              "name": null
-            },
-            {
               "id": 4524285400968558307,
               "hex_id": "3EC97D99FB3776E3",
               "encoded_id": "Psl9mfs3duM",
-              "name": null
+              "name": "sceUserServiceInitializeForShellCore"
+            },
+            {
+              "id": 803698989563170978,
+              "hex_id": "0B274FF90B40D0A2",
+              "encoded_id": "CydP+QtA0KI",
+              "name": "sceUserServiceTerminateForShellCore"
             }
           ]
         }

@@ -33,6 +33,12 @@
               "name": "sceVdecCoreDeleteDecoder"
             },
             {
+              "id": 897367740687907900,
+              "hex_id": "0C741734A898FC3C",
+              "encoded_id": "DHQXNKiY-Dw",
+              "name": "sceVdecCoreFinalizeComputeResource"
+            },
+            {
               "id": 8019885157706027875,
               "hex_id": "6F4C5B0F4C7ED363",
               "encoded_id": "b0xbD0x+02M",
@@ -45,10 +51,22 @@
               "name": "sceVdecCoreGetDecodeOutput"
             },
             {
+              "id": 2088108914357297907,
+              "hex_id": "1CFA73FE8C97E2F3",
+              "encoded_id": "HPpz-oyX4vM",
+              "name": "sceVdecCoreInitializeComputeResource"
+            },
+            {
               "id": 17115294515424144778,
               "hex_id": "ED85BDAE5A0C2D8A",
               "encoded_id": "7YW9rloMLYo",
               "name": "sceVdecCoreMapMemoryBlock"
+            },
+            {
+              "id": 14917937974625063428,
+              "hex_id": "CF07298C9ED65204",
+              "encoded_id": "zwcpjJ7WUgQ",
+              "name": "sceVdecCoreQueryComputeResourceInfo"
             },
             {
               "id": 5986824775234683992,
@@ -81,28 +99,10 @@
               "name": "sceVdecCoreSyncDecode"
             },
             {
-              "id": 897367740687907900,
-              "hex_id": "0C741734A898FC3C",
-              "encoded_id": "DHQXNKiY-Dw",
-              "name": null
-            },
-            {
-              "id": 2088108914357297907,
-              "hex_id": "1CFA73FE8C97E2F3",
-              "encoded_id": "HPpz-oyX4vM",
-              "name": null
-            },
-            {
               "id": 9873109933056997771,
               "hex_id": "8904552C943E398B",
               "encoded_id": "iQRVLJQ+OYs",
-              "name": null
-            },
-            {
-              "id": 14917937974625063428,
-              "hex_id": "CF07298C9ED65204",
-              "encoded_id": "zwcpjJ7WUgQ",
-              "name": null
+              "name": "sceVdecCoreTrySyncDecode"
             }
           ]
         }
@@ -222,6 +222,18 @@
               "name": "sceKernelGetCompiledSdkVersion"
             },
             {
+              "id": 15201029610881700816,
+              "hex_id": "D2F4E7E480CC53D0",
+              "encoded_id": "0vTn5IDMU9A",
+              "name": "sceKernelGetMainSocId"
+            },
+            {
+              "id": 8077896433043693744,
+              "hex_id": "701A7401DFF6E0B0",
+              "encoded_id": "cBp0Ad-24LA",
+              "name": "sceKernelProtectDirectMemoryForPID"
+            },
+            {
               "id": 9168357056915475053,
               "hex_id": "7F3C8C2ACF648A6D",
               "encoded_id": "fzyMKs9kim0",
@@ -334,18 +346,6 @@
               "hex_id": "14DE2068F9AE155F",
               "encoded_id": "FN4gaPmuFV8",
               "name": "write"
-            },
-            {
-              "id": 8077896433043693744,
-              "hex_id": "701A7401DFF6E0B0",
-              "encoded_id": "cBp0Ad-24LA",
-              "name": null
-            },
-            {
-              "id": 15201029610881700816,
-              "hex_id": "D2F4E7E480CC53D0",
-              "encoded_id": "0vTn5IDMU9A",
-              "name": null
             }
           ]
         }
