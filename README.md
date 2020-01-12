@@ -13,8 +13,11 @@ PS4 library documentation.
 * [4.05](https://github.com/idc/ps4libdoc/tree/4.05)
 * [4.55](https://github.com/idc/ps4libdoc/tree/4.55)
 * [5.05](https://github.com/idc/ps4libdoc/tree/5.05)
+* [7.00](https://github.com/idc/ps4libdoc/tree/7.00)
 
-And [misc](https://github.com/idc/ps4libdoc/tree/misc), for things that fall outside of system versions.
+## Other
+* [misc](https://github.com/idc/ps4libdoc/tree/misc), for things that fall outside of system versions.
+* [header](https://github.com/idc/ps4libdoc/tree/header), for a header using a macro name of `PS4LIBDOC_NAME` for all known symbol names.
 
 ## JSON Format
 Documentation is split across a file for each executable, to improve diffs.
