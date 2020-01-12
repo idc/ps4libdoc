@@ -149,6 +149,12 @@
               "name": "sceUserServiceGetEventUiFlag"
             },
             {
+              "id": 16070230399002278720,
+              "hex_id": "DF04ED677736FB40",
+              "encoded_id": "3wTtZ3c2+0A",
+              "name": "sceUserServiceGetEventVsh"
+            },
+            {
               "id": 13336623686212318998,
               "hex_id": "B915349507BEF716",
               "encoded_id": "uRU0lQe+9xY",
@@ -953,6 +959,12 @@
               "name": "sceUserServiceLogin"
             },
             {
+              "id": 15942587542660742377,
+              "hex_id": "DD3F72E710DC7CE9",
+              "encoded_id": "3T9y5xDcfOk",
+              "name": "sceUserServiceLogout"
+            },
+            {
               "id": 14042851956239471424,
               "hex_id": "C2E23B73B50D9340",
               "encoded_id": "wuI7c7UNk0A",
@@ -1731,18 +1743,6 @@
               "hex_id": "B295BFFF2A0B43DA",
               "encoded_id": "spW--yoLQ9o",
               "name": "sceUserServiceUnregisterEventCallback"
-            },
-            {
-              "id": 15942587542660742377,
-              "hex_id": "DD3F72E710DC7CE9",
-              "encoded_id": "3T9y5xDcfOk",
-              "name": null
-            },
-            {
-              "id": 16070230399002278720,
-              "hex_id": "DF04ED677736FB40",
-              "encoded_id": "3wTtZ3c2+0A",
-              "name": null
             }
           ]
         },
@@ -1752,16 +1752,16 @@
           "is_export": true,
           "symbols": [
             {
-              "id": 803698989563170978,
-              "hex_id": "0B274FF90B40D0A2",
-              "encoded_id": "CydP+QtA0KI",
-              "name": null
-            },
-            {
               "id": 4524285400968558307,
               "hex_id": "3EC97D99FB3776E3",
               "encoded_id": "Psl9mfs3duM",
-              "name": null
+              "name": "sceUserServiceInitializeForShellCore"
+            },
+            {
+              "id": 803698989563170978,
+              "hex_id": "0B274FF90B40D0A2",
+              "encoded_id": "CydP+QtA0KI",
+              "name": "sceUserServiceTerminateForShellCore"
             }
           ]
         }
@@ -1819,6 +1819,12 @@
               "hex_id": "2467D330139D509A",
               "encoded_id": "JGfTMBOdUJo",
               "name": "sceKernelGetFsSandboxRandomWord"
+            },
+            {
+              "id": 4586727179454733882,
+              "hex_id": "3FA7541175075E3A",
+              "encoded_id": "P6dUEXUHXjo",
+              "name": "sceKernelSetCallRecord"
             },
             {
               "id": 15436042836469058247,
@@ -1921,12 +1927,6 @@
               "hex_id": "B67DD5943D211BAD",
               "encoded_id": "tn3VlD0hG60",
               "name": "scePthreadMutexUnlock"
-            },
-            {
-              "id": 4586727179454733882,
-              "hex_id": "3FA7541175075E3A",
-              "encoded_id": "P6dUEXUHXjo",
-              "name": null
             }
           ]
         }
