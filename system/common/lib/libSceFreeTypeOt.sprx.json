@@ -10,89 +10,15 @@
   ],
   "modules": [
     {
-      "name": "libkernel",
-      "version_major": 1,
-      "version_minor": 1,
-      "libraries": [
-        {
-          "name": "libkernel",
-          "version": 1,
-          "is_export": false,
-          "symbols": [
-            {
-              "id": 4246298716624633464,
-              "hex_id": "3AEDE22F569BBE78",
-              "encoded_id": "Ou3iL1abvng",
-              "name": "__stack_chk_fail"
-            },
-            {
-              "id": 9204107242627281749,
-              "hex_id": "7FBB8EC58F663355",
-              "encoded_id": "f7uOxY9mM1U",
-              "type": "Object",
-              "name": "__stack_chk_guard"
-            },
-            {
-              "id": 16018922103450253604,
-              "hex_id": "DE4EA4C7FCCE3924",
-              "encoded_id": "3k6kx-zOOSQ",
-              "name": "sceKernelMlock"
-            },
-            {
-              "id": 14195918306765624009,
-              "hex_id": "C502087C9F3AD2C9",
-              "encoded_id": "xQIIfJ860sk",
-              "name": "sceKernelMunlock"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "libSceFreeType",
       "version_major": 1,
       "version_minor": 1,
       "libraries": [
         {
-          "name": "libkernel",
-          "version": 1,
-          "is_export": false,
-          "symbols": [
-            {
-              "id": 406320615641613263,
-              "hex_id": "05A38A72783C83CF",
-              "encoded_id": "BaOKcng8g88",
-              "type": "Unknown11",
-              "name": "module_start"
-            },
-            {
-              "id": 3067176389404768116,
-              "hex_id": "2A90CCACF1EFB774",
-              "encoded_id": "KpDMrPHvt3Q",
-              "type": "Unknown11",
-              "name": "module_stop"
-            }
-          ]
-        },
-        {
           "name": "libSceFreeType",
           "version": 1,
-          "is_export": false,
+          "is_export": true,
           "symbols": [
-            {
-              "id": 15794871273488875212,
-              "hex_id": "DB32A7BD09537ECC",
-              "encoded_id": "2zKnvQlTfsw",
-              "type": "Object",
-              "name": "autofit_module_class"
-            },
-            {
-              "id": 10997852531981085694,
-              "hex_id": "98A0389BD4DCEBFE",
-              "encoded_id": "mKA4m9Tc6-4",
-              "type": "Object",
-              "name": "bdf_driver_class"
-            },
             {
               "id": 5572827703232465210,
               "hex_id": "4D56A9451DA0893A",
@@ -1079,20 +1005,6 @@
               "hex_id": "F1C9D5C75C87F7F2",
               "encoded_id": "8cnVx1yH9-I",
               "name": "FT_Raccess_Guess"
-            },
-            {
-              "id": 11655682939329098084,
-              "hex_id": "A1C14DE0FD4AB164",
-              "encoded_id": "ocFN4P1KsWQ",
-              "type": "Object",
-              "name": "ft_raster1_renderer_class"
-            },
-            {
-              "id": 13239229755919693793,
-              "hex_id": "B7BB31518D5FF7E1",
-              "encoded_id": "t7sxUY1f9+E",
-              "type": "Object",
-              "name": "ft_raster5_renderer_class"
             },
             {
               "id": 2113483886885899115,
@@ -2204,34 +2116,6 @@
               "name": "otv_module_class"
             },
             {
-              "id": 6703289042494337863,
-              "hex_id": "5D06DDDE5CA4B347",
-              "encoded_id": "XQbd3lyks0c",
-              "type": "Object",
-              "name": "pcf_driver_class"
-            },
-            {
-              "id": 12457880472225546642,
-              "hex_id": "ACE34848E9478192",
-              "encoded_id": "rONISOlHgZI",
-              "type": "Object",
-              "name": "pfr_driver_class"
-            },
-            {
-              "id": 5857112209367193258,
-              "hex_id": "5148A485A8EF56AA",
-              "encoded_id": "UUikhajvVqo",
-              "type": "Object",
-              "name": "psaux_module_class"
-            },
-            {
-              "id": 364808414498478585,
-              "hex_id": "05100F51F54159F9",
-              "encoded_id": "BRAPUfVBWfk",
-              "type": "Object",
-              "name": "pshinter_module_class"
-            },
-            {
               "id": 14619717042470027672,
               "hex_id": "CAE3AB3109268198",
               "encoded_id": "yuOrMQkmgZg",
@@ -2244,27 +2128,6 @@
               "encoded_id": "6wWrq5tb+yk",
               "type": "Object",
               "name": "sfnt_module_class"
-            },
-            {
-              "id": 1643214134900745015,
-              "hex_id": "16CDDE8CB0A8E337",
-              "encoded_id": "Fs3ejLCo4zc",
-              "type": "Object",
-              "name": "t1_driver_class"
-            },
-            {
-              "id": 8342515000798162727,
-              "hex_id": "73C6913153F12F27",
-              "encoded_id": "c8aRMVPxLyc",
-              "type": "Object",
-              "name": "t1cid_driver_class"
-            },
-            {
-              "id": 10815281873765708935,
-              "hex_id": "9617998FF786B487",
-              "encoded_id": "lheZj-eGtIc",
-              "type": "Object",
-              "name": "t42_driver_class"
             },
             {
               "id": 14497022486353800839,
@@ -2337,17 +2200,161 @@
               "name": "tt_driver_class"
             },
             {
+              "id": 5202769778564647809,
+              "hex_id": "4833F38C537BCB81",
+              "encoded_id": "SDPzjFN7y4E",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 406320615641613263,
+              "hex_id": "05A38A72783C83CF",
+              "encoded_id": "BaOKcng8g88",
+              "type": "Unknown11",
+              "name": "module_start"
+            },
+            {
+              "id": 3067176389404768116,
+              "hex_id": "2A90CCACF1EFB774",
+              "encoded_id": "KpDMrPHvt3Q",
+              "type": "Unknown11",
+              "name": "module_stop"
+            }
+          ]
+        },
+        {
+          "name": "libSceFreeType",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 15794871273488875212,
+              "hex_id": "DB32A7BD09537ECC",
+              "encoded_id": "2zKnvQlTfsw",
+              "type": "Object",
+              "name": "autofit_module_class"
+            },
+            {
+              "id": 10997852531981085694,
+              "hex_id": "98A0389BD4DCEBFE",
+              "encoded_id": "mKA4m9Tc6-4",
+              "type": "Object",
+              "name": "bdf_driver_class"
+            },
+            {
+              "id": 11655682939329098084,
+              "hex_id": "A1C14DE0FD4AB164",
+              "encoded_id": "ocFN4P1KsWQ",
+              "type": "Object",
+              "name": "ft_raster1_renderer_class"
+            },
+            {
+              "id": 13239229755919693793,
+              "hex_id": "B7BB31518D5FF7E1",
+              "encoded_id": "t7sxUY1f9+E",
+              "type": "Object",
+              "name": "ft_raster5_renderer_class"
+            },
+            {
+              "id": 6703289042494337863,
+              "hex_id": "5D06DDDE5CA4B347",
+              "encoded_id": "XQbd3lyks0c",
+              "type": "Object",
+              "name": "pcf_driver_class"
+            },
+            {
+              "id": 12457880472225546642,
+              "hex_id": "ACE34848E9478192",
+              "encoded_id": "rONISOlHgZI",
+              "type": "Object",
+              "name": "pfr_driver_class"
+            },
+            {
+              "id": 5857112209367193258,
+              "hex_id": "5148A485A8EF56AA",
+              "encoded_id": "UUikhajvVqo",
+              "type": "Object",
+              "name": "psaux_module_class"
+            },
+            {
+              "id": 364808414498478585,
+              "hex_id": "05100F51F54159F9",
+              "encoded_id": "BRAPUfVBWfk",
+              "type": "Object",
+              "name": "pshinter_module_class"
+            },
+            {
+              "id": 1643214134900745015,
+              "hex_id": "16CDDE8CB0A8E337",
+              "encoded_id": "Fs3ejLCo4zc",
+              "type": "Object",
+              "name": "t1_driver_class"
+            },
+            {
+              "id": 8342515000798162727,
+              "hex_id": "73C6913153F12F27",
+              "encoded_id": "c8aRMVPxLyc",
+              "type": "Object",
+              "name": "t1cid_driver_class"
+            },
+            {
+              "id": 10815281873765708935,
+              "hex_id": "9617998FF786B487",
+              "encoded_id": "lheZj-eGtIc",
+              "type": "Object",
+              "name": "t42_driver_class"
+            },
+            {
               "id": 16465834422078178863,
               "hex_id": "E482652ACA5E862F",
               "encoded_id": "5IJlKspehi8",
               "type": "Object",
               "name": "winfnt_driver_class"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
             },
             {
-              "id": 5202769778564647809,
-              "hex_id": "4833F38C537BCB81",
-              "encoded_id": "SDPzjFN7y4E",
-              "name": null
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 16018922103450253604,
+              "hex_id": "DE4EA4C7FCCE3924",
+              "encoded_id": "3k6kx-zOOSQ",
+              "name": "sceKernelMlock"
+            },
+            {
+              "id": 14195918306765624009,
+              "hex_id": "C502087C9F3AD2C9",
+              "encoded_id": "xQIIfJ860sk",
+              "name": "sceKernelMunlock"
             }
           ]
         }
