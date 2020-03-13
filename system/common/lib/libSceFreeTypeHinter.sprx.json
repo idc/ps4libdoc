@@ -7,49 +7,31 @@
   ],
   "modules": [
     {
-      "name": "libkernel",
-      "version_major": 1,
-      "version_minor": 1,
-      "libraries": [
-        {
-          "name": "libkernel",
-          "version": 1,
-          "is_export": false,
-          "symbols": [
-            {
-              "id": 4246298716624633464,
-              "hex_id": "3AEDE22F569BBE78",
-              "encoded_id": "Ou3iL1abvng",
-              "name": "__stack_chk_fail"
-            },
-            {
-              "id": 9204107242627281749,
-              "hex_id": "7FBB8EC58F663355",
-              "encoded_id": "f7uOxY9mM1U",
-              "type": "Object",
-              "name": "__stack_chk_guard"
-            },
-            {
-              "id": 16018922103450253604,
-              "hex_id": "DE4EA4C7FCCE3924",
-              "encoded_id": "3k6kx-zOOSQ",
-              "name": "sceKernelMlock"
-            },
-            {
-              "id": 14195918306765624009,
-              "hex_id": "C502087C9F3AD2C9",
-              "encoded_id": "xQIIfJ860sk",
-              "name": "sceKernelMunlock"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "libSceFreeType",
       "version_major": 1,
       "version_minor": 1,
       "libraries": [
+        {
+          "name": "libSceFreeType",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 15794871273488875212,
+              "hex_id": "DB32A7BD09537ECC",
+              "encoded_id": "2zKnvQlTfsw",
+              "type": "Object",
+              "name": "autofit_module_class"
+            },
+            {
+              "id": 364808414498478585,
+              "hex_id": "05100F51F54159F9",
+              "encoded_id": "BRAPUfVBWfk",
+              "type": "Object",
+              "name": "pshinter_module_class"
+            }
+          ]
+        },
         {
           "name": "libkernel",
           "version": 1,
@@ -76,13 +58,6 @@
           "version": 1,
           "is_export": false,
           "symbols": [
-            {
-              "id": 15794871273488875212,
-              "hex_id": "DB32A7BD09537ECC",
-              "encoded_id": "2zKnvQlTfsw",
-              "type": "Object",
-              "name": "autofit_module_class"
-            },
             {
               "id": 4586227934367618207,
               "hex_id": "3FA58E01E6F4949F",
@@ -256,13 +231,45 @@
               "hex_id": "83545CD0C41D746D",
               "encoded_id": "g1Rc0MQddG0",
               "name": "FT_Vector_Transform"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
             },
             {
-              "id": 364808414498478585,
-              "hex_id": "05100F51F54159F9",
-              "encoded_id": "BRAPUfVBWfk",
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
               "type": "Object",
-              "name": "pshinter_module_class"
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 16018922103450253604,
+              "hex_id": "DE4EA4C7FCCE3924",
+              "encoded_id": "3k6kx-zOOSQ",
+              "name": "sceKernelMlock"
+            },
+            {
+              "id": 14195918306765624009,
+              "hex_id": "C502087C9F3AD2C9",
+              "encoded_id": "xQIIfJ860sk",
+              "name": "sceKernelMunlock"
             }
           ]
         }
