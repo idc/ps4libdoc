@@ -1,0 +1,932 @@
+﻿{
+  "shared_object_name": "libSceFont-module.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceFont",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceFont",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 667280303605101910,
+              "hex_id": "0942A7E695FF3556",
+              "encoded_id": "CUKn5pX-NVY",
+              "name": "sceFontAttachDeviceCacheBuffer"
+            },
+            {
+              "id": 15917781091861033608,
+              "hex_id": "DCE7519128CE7288",
+              "encoded_id": "3OdRkSjOcog",
+              "name": "sceFontBindRenderer"
+            },
+            {
+              "id": 16731247068849384879,
+              "hex_id": "E83154902C102DAF",
+              "encoded_id": "6DFUkCwQLa8",
+              "name": "sceFontCharacterGetBidiLevel"
+            },
+            {
+              "id": 8250782910212646481,
+              "hex_id": "7280AB57A216A651",
+              "encoded_id": "coCrV6IWplE",
+              "name": "sceFontCharacterGetSyllableStringState"
+            },
+            {
+              "id": 14762235111910164564,
+              "hex_id": "CCDDFE9EE0344854",
+              "encoded_id": "zN3+nuA0SFQ",
+              "name": "sceFontCharacterGetTextFontCode"
+            },
+            {
+              "id": 11175724472580484090,
+              "hex_id": "9B1826323FCCABFA",
+              "encoded_id": "mxgmMj-Mq-o",
+              "name": "sceFontCharacterGetTextOrder"
+            },
+            {
+              "id": 18230175328165878769,
+              "hex_id": "FCFE97DF946ADBF1",
+              "encoded_id": "-P6X35Rq2-E",
+              "name": "sceFontCharacterLooksFormatCharacters"
+            },
+            {
+              "id": 5306478045435660780,
+              "hex_id": "49A465AADA9A09EC",
+              "encoded_id": "SaRlqtqaCew",
+              "name": "sceFontCharacterLooksWhiteSpace"
+            },
+            {
+              "id": 16747380406547729845,
+              "hex_id": "E86AA5BF929D4DB5",
+              "encoded_id": "6Gqlv5KdTbU",
+              "name": "sceFontCharacterRefersTextBack"
+            },
+            {
+              "id": 452824242736781276,
+              "hex_id": "0648C13FE602D7DC",
+              "encoded_id": "BkjBP+YC19w",
+              "name": "sceFontCharacterRefersTextNext"
+            },
+            {
+              "id": 10760385826646865320,
+              "hex_id": "955491E5FB6F35A8",
+              "encoded_id": "lVSR5ftvNag",
+              "name": "sceFontCharactersRefersTextCodes"
+            },
+            {
+              "id": 2581821888856483178,
+              "hex_id": "23D479542E9E656A",
+              "encoded_id": "I9R5VC6eZWo",
+              "name": "sceFontClearDeviceCache"
+            },
+            {
+              "id": 13777053165530994841,
+              "hex_id": "BF31ECDC2F255899",
+              "encoded_id": "vzHs3C8lWJk",
+              "name": "sceFontCloseFont"
+            },
+            {
+              "id": 3644135601454356202,
+              "hex_id": "32929205A60A96EA",
+              "encoded_id": "MpKSBaYKluo",
+              "name": "sceFontControl"
+            },
+            {
+              "id": 11343124062660366952,
+              "hex_id": "9D6ADF3C8E0E9268",
+              "encoded_id": "nWrfPI4Okmg",
+              "name": "sceFontCreateLibrary"
+            },
+            {
+              "id": 11502040093247306745,
+              "hex_id": "9F9F74863E4E7BF9",
+              "encoded_id": "n590hj5Oe-k",
+              "name": "sceFontCreateLibraryWithEdition"
+            },
+            {
+              "id": 13517511913622827725,
+              "hex_id": "BB97D977729972CD",
+              "encoded_id": "u5fZd3KZcs0",
+              "name": "sceFontCreateRenderer"
+            },
+            {
+              "id": 6459434166031637922,
+              "hex_id": "59A4852684565DA2",
+              "encoded_id": "WaSFJoRWXaI",
+              "name": "sceFontCreateRendererWithEdition"
+            },
+            {
+              "id": 3525677201840556929,
+              "hex_id": "30EDB8BC38664B81",
+              "encoded_id": "MO24vDhmS4E",
+              "name": "sceFontCreateString"
+            },
+            {
+              "id": 8181576086412373184,
+              "hex_id": "718ACC1A4D70ACC0",
+              "encoded_id": "cYrMGk1wrMA",
+              "name": "sceFontCreateWords"
+            },
+            {
+              "id": 17202097769482031911,
+              "hex_id": "EEBA20C7DD841327",
+              "encoded_id": "7rogx92EEyc",
+              "name": "sceFontCreateWritingLine"
+            },
+            {
+              "id": 17446894619951018505,
+              "hex_id": "F21FD2381FDAB209",
+              "encoded_id": "8h-SOB-asgk",
+              "name": "sceFontDefineAttribute"
+            },
+            {
+              "id": 3202314719809837737,
+              "hex_id": "2C70E84565451AA9",
+              "encoded_id": "LHDoRWVFGqk",
+              "name": "sceFontDeleteGlyph"
+            },
+            {
+              "id": 1545851672329239099,
+              "hex_id": "1573F7E7DCA0BA3B",
+              "encoded_id": "FXP359ygujs",
+              "name": "sceFontDestroyLibrary"
+            },
+            {
+              "id": 8867642174348179275,
+              "hex_id": "7B103193254BB74B",
+              "encoded_id": "exAxkyVLt0s",
+              "name": "sceFontDestroyRenderer"
+            },
+            {
+              "id": 5269381383737206980,
+              "hex_id": "49209A733BB668C4",
+              "encoded_id": "SSCaczu2aMQ",
+              "name": "sceFontDestroyString"
+            },
+            {
+              "id": 9611024665378211494,
+              "hex_id": "856138030362C6A6",
+              "encoded_id": "hWE4AwNixqY",
+              "name": "sceFontDestroyWords"
+            },
+            {
+              "id": 4343985638115329419,
+              "hex_id": "3C48EFEC2543458B",
+              "encoded_id": "PEjv7CVDRYs",
+              "name": "sceFontDestroyWritingLine"
+            },
+            {
+              "id": 5973531467945246537,
+              "hex_id": "52E63F38917E7F49",
+              "encoded_id": "UuY-OJF+f0k",
+              "name": "sceFontDettachDeviceCacheBuffer"
+            },
+            {
+              "id": 864146610700654380,
+              "hex_id": "0BFE10C394AB972C",
+              "encoded_id": "C-4Qw5Srlyw",
+              "name": "sceFontGenerateCharGlyph"
+            },
+            {
+              "id": 16594771716860099571,
+              "hex_id": "E64C78F420253BF3",
+              "encoded_id": "5kx49CAlO-M",
+              "name": "sceFontGetAttribute"
+            },
+            {
+              "id": 4072171955624024086,
+              "hex_id": "388342D17F471816",
+              "encoded_id": "OINC0X9HGBY",
+              "name": "sceFontGetCharGlyphCode"
+            },
+            {
+              "id": 3449438436658786897,
+              "hex_id": "2FDEDDFB73A03251",
+              "encoded_id": "L97d+3OgMlE",
+              "name": "sceFontGetCharGlyphMetrics"
+            },
+            {
+              "id": 14588472425459328640,
+              "hex_id": "CA74AA60BF15A680",
+              "encoded_id": "ynSqYL8VpoA",
+              "name": "sceFontGetEffectSlant"
+            },
+            {
+              "id": 8626437832954480444,
+              "hex_id": "77B74381163E073C",
+              "encoded_id": "d7dDgRY+Bzw",
+              "name": "sceFontGetEffectWeight"
+            },
+            {
+              "id": 7214539304411939951,
+              "hex_id": "641F3145E991446F",
+              "encoded_id": "ZB8xRemRRG8",
+              "name": "sceFontGetFontGlyphsCount"
+            },
+            {
+              "id": 16248275389212274137,
+              "hex_id": "E17D786122B82DD9",
+              "encoded_id": "4X14YSK4Ldk",
+              "name": "sceFontGetFontGlyphsOutlineProfile"
+            },
+            {
+              "id": 8772821717734479770,
+              "hex_id": "79BF52DF3365579A",
+              "encoded_id": "eb9S3zNlV5o",
+              "name": "sceFontGetFontMetrics"
+            },
+            {
+              "id": 13124093695540628456,
+              "hex_id": "B62225AE81A48BE8",
+              "encoded_id": "tiIlroGki+g",
+              "name": "sceFontGetFontResolution"
+            },
+            {
+              "id": 16002819846503411617,
+              "hex_id": "DE156FDD23682FA1",
+              "encoded_id": "3hVv3SNoL6E",
+              "name": "sceFontGetFontStyleInformation"
+            },
+            {
+              "id": 9319118815533067761,
+              "hex_id": "815429301B81EDF1",
+              "encoded_id": "gVQpMBuB7fE",
+              "name": "sceFontGetGlyphExpandBufferState"
+            },
+            {
+              "id": 9974441591284627619,
+              "hex_id": "8A6C55C7C966F8A3",
+              "encoded_id": "imxVx8lm+KM",
+              "name": "sceFontGetHorizontalLayout"
+            },
+            {
+              "id": 12698920717599710961,
+              "hex_id": "B03BA11C63611EF1",
+              "encoded_id": "sDuhHGNhHvE",
+              "name": "sceFontGetKerning"
+            },
+            {
+              "id": 3402899489690534388,
+              "hex_id": "2F39870E795CC1F4",
+              "encoded_id": "LzmHDnlcwfQ",
+              "name": "sceFontGetLibrary"
+            },
+            {
+              "id": 471973587835939323,
+              "hex_id": "068CC97A3E53E9FB",
+              "encoded_id": "BozJej5T6fs",
+              "name": "sceFontGetPixelResolution"
+            },
+            {
+              "id": 2381108395723450004,
+              "hex_id": "210B657862CBE694",
+              "encoded_id": "IQtleGLL5pQ",
+              "name": "sceFontGetRenderCharGlyphMetrics"
+            },
+            {
+              "id": 1920425969725923525,
+              "hex_id": "1AA6B93E9EF2E0C5",
+              "encoded_id": "Gqa5Pp7y4MU",
+              "name": "sceFontGetRenderEffectSlant"
+            },
+            {
+              "id": 14016225817657549192,
+              "hex_id": "C283A31EB9232188",
+              "encoded_id": "woOjHrkjIYg",
+              "name": "sceFontGetRenderEffectWeight"
+            },
+            {
+              "id": 12620183039818391221,
+              "hex_id": "AF23E59C30C8DEB5",
+              "encoded_id": "ryPlnDDI3rU",
+              "name": "sceFontGetRenderScaledKerning"
+            },
+            {
+              "id": 1264944161474587497,
+              "hex_id": "118DFC034D65AB69",
+              "encoded_id": "EY38A01lq2k",
+              "name": "sceFontGetRenderScalePixel"
+            },
+            {
+              "id": 1461030369283346538,
+              "hex_id": "14469F614731106A",
+              "encoded_id": "FEafYUcxEGo",
+              "name": "sceFontGetRenderScalePoint"
+            },
+            {
+              "id": 17370709416638548627,
+              "hex_id": "F111282E33460A93",
+              "encoded_id": "8REoLjNGCpM",
+              "name": "sceFontGetResolutionDpi"
+            },
+            {
+              "id": 740110063683581951,
+              "hex_id": "0A45662E808D37FF",
+              "encoded_id": "CkVmLoCNN-8",
+              "name": "sceFontGetScalePixel"
+            },
+            {
+              "id": 1909937932076789129,
+              "hex_id": "1A81766E107B2D89",
+              "encoded_id": "GoF2bhB7LYk",
+              "name": "sceFontGetScalePoint"
+            },
+            {
+              "id": 2501149376741436016,
+              "hex_id": "22B5DE1B42DCEA70",
+              "encoded_id": "IrXeG0Lc6nA",
+              "name": "sceFontGetScriptLanguage"
+            },
+            {
+              "id": 17292030714093057292,
+              "hex_id": "EFF9A2513EA9350C",
+              "encoded_id": "7-miUT6pNQw",
+              "name": "sceFontGetTypographicDesign"
+            },
+            {
+              "id": 15860224712614273755,
+              "hex_id": "DC1AD658553EE2DB",
+              "encoded_id": "3BrWWFU+4ts",
+              "name": "sceFontGetVerticalLayout"
+            },
+            {
+              "id": 17581180494796817897,
+              "hex_id": "F3FCE682CC6405E9",
+              "encoded_id": "8-zmgsxkBek",
+              "name": "sceFontGlyphDefineAttribute"
+            },
+            {
+              "id": 11596196546780615213,
+              "hex_id": "A0EDF751EC78522D",
+              "encoded_id": "oO33Uex4Ui0",
+              "name": "sceFontGlyphGetAttribute"
+            },
+            {
+              "id": 4429642974067607437,
+              "hex_id": "3D7940D0CF1AC78D",
+              "encoded_id": "PXlA0M8ax40",
+              "name": "sceFontGlyphGetGlyphForm"
+            },
+            {
+              "id": 6721572255326907724,
+              "hex_id": "5D47D25A92E1AD4C",
+              "encoded_id": "XUfSWpLhrUw",
+              "name": "sceFontGlyphGetMetricsForm"
+            },
+            {
+              "id": 11446704247632467700,
+              "hex_id": "9EDADCDDB11696F4",
+              "encoded_id": "ntrc3bEWlvQ",
+              "name": "sceFontGlyphRefersMetrics"
+            },
+            {
+              "id": 17745549326250380475,
+              "hex_id": "F644DB179F538CBB",
+              "encoded_id": "9kTbF59TjLs",
+              "name": "sceFontGlyphRefersMetricsHorizontal"
+            },
+            {
+              "id": 11283398589852421875,
+              "hex_id": "9C96AF3C474C0EF3",
+              "encoded_id": "nJavPEdMDvM",
+              "name": "sceFontGlyphRefersMetricsHorizontalAdvance"
+            },
+            {
+              "id": 2605848611990059467,
+              "hex_id": "2429D581981CB9CB",
+              "encoded_id": "JCnVgZgcucs",
+              "name": "sceFontGlyphRefersMetricsHorizontalX"
+            },
+            {
+              "id": 5140006354392351958,
+              "hex_id": "4754F88BE0CE84D6",
+              "encoded_id": "R1T4i+DOhNY",
+              "name": "sceFontGlyphRefersOutline"
+            },
+            {
+              "id": 5073612276940512947,
+              "hex_id": "4669177C17199EB3",
+              "encoded_id": "RmkXfBcZnrM",
+              "name": "sceFontGlyphRenderImage"
+            },
+            {
+              "id": 12646816432310502507,
+              "hex_id": "AF82848A1B70C46B",
+              "encoded_id": "r4KEihtwxGs",
+              "name": "sceFontGlyphRenderImageHorizontal"
+            },
+            {
+              "id": 11488011932063865032,
+              "hex_id": "9F6D9DFC721D98C8",
+              "encoded_id": "n22d-HIdmMg",
+              "name": "sceFontGlyphRenderImageVertical"
+            },
+            {
+              "id": 13986723463158324686,
+              "hex_id": "C21AD2E2892C5DCE",
+              "encoded_id": "whrS4oksXc4",
+              "name": "sceFontMemoryInit"
+            },
+            {
+              "id": 9775142719050778695,
+              "hex_id": "87A8488315C48847",
+              "encoded_id": "h6hIgxXEiEc",
+              "name": "sceFontMemoryTerm"
+            },
+            {
+              "id": 5113259157329423889,
+              "hex_id": "46F5F21CC5222E11",
+              "encoded_id": "RvXyHMUiLhE",
+              "name": "sceFontOpenFontFile"
+            },
+            {
+              "id": 2823906350164450309,
+              "hex_id": "273087DD20859C05",
+              "encoded_id": "JzCH3SCFnAU",
+              "name": "sceFontOpenFontInstance"
+            },
+            {
+              "id": 2987339530631484245,
+              "hex_id": "29752979BAC59355",
+              "encoded_id": "KXUpebrFk1U",
+              "name": "sceFontOpenFontMemory"
+            },
+            {
+              "id": 8117225227509976524,
+              "hex_id": "70A62D5667924DCC",
+              "encoded_id": "cKYtVmeSTcw",
+              "name": "sceFontOpenFontSet"
+            },
+            {
+              "id": 7450956761571785625,
+              "hex_id": "67671DB2A247FB99",
+              "encoded_id": "Z2cdsqJH+5k",
+              "name": "sceFontRebindRenderer"
+            },
+            {
+              "id": 15883689586445960271,
+              "hex_id": "DC6E338602AEC44F",
+              "encoded_id": "3G4zhgKuxE8",
+              "name": "sceFontRenderCharGlyphImage"
+            },
+            {
+              "id": 10378447876343317402,
+              "hex_id": "9007A75B2D59C39A",
+              "encoded_id": "kAenWy1Zw5o",
+              "name": "sceFontRenderCharGlyphImageHorizontal"
+            },
+            {
+              "id": 10062463739273205473,
+              "hex_id": "8BA50D7528A0D6E1",
+              "encoded_id": "i6UNdSig1uE",
+              "name": "sceFontRenderCharGlyphImageVertical"
+            },
+            {
+              "id": 9355386675559144914,
+              "hex_id": "81D5029D4D201DD2",
+              "encoded_id": "gdUCnU0gHdI",
+              "name": "sceFontRenderSurfaceInit"
+            },
+            {
+              "id": 13626871996199376123,
+              "hex_id": "BD1C5FE1DD2E94FB",
+              "encoded_id": "vRxf4d0ulPs",
+              "name": "sceFontRenderSurfaceSetScissor"
+            },
+            {
+              "id": 15139694312441417250,
+              "hex_id": "D21AFFC37D128E22",
+              "encoded_id": "0hr-w30SjiI",
+              "name": "sceFontRenderSurfaceSetStyleFrame"
+            },
+            {
+              "id": 5533633803993714096,
+              "hex_id": "4CCB6AA054238DB0",
+              "encoded_id": "TMtqoFQjjbA",
+              "name": "sceFontSetEffectSlant"
+            },
+            {
+              "id": 13783936704643090330,
+              "hex_id": "BF4A616706B8479A",
+              "encoded_id": "v0phZwa4R5o",
+              "name": "sceFontSetEffectWeight"
+            },
+            {
+              "id": 10531743704469633978,
+              "hex_id": "92284519825E7BBA",
+              "encoded_id": "kihFGYJee7o",
+              "name": "sceFontSetFontsOpenMode"
+            },
+            {
+              "id": 2546394992584206273,
+              "hex_id": "23569CC11ED0A7C1",
+              "encoded_id": "I1acwR7Qp8E",
+              "name": "sceFontSetResolutionDpi"
+            },
+            {
+              "id": 3985968458950082481,
+              "hex_id": "37510131E1A17FB1",
+              "encoded_id": "N1EBMeGhf7E",
+              "name": "sceFontSetScalePixel"
+            },
+            {
+              "id": 12902454473306605729,
+              "hex_id": "B30EB9FBBC1708A1",
+              "encoded_id": "sw65+7wXCKE",
+              "name": "sceFontSetScalePoint"
+            },
+            {
+              "id": 4545418406581106980,
+              "hex_id": "3F1491F547C9F924",
+              "encoded_id": "PxSR9UfJ+SQ",
+              "name": "sceFontSetScriptLanguage"
+            },
+            {
+              "id": 5366911666220539403,
+              "hex_id": "4A7B19B9ADF99E0B",
+              "encoded_id": "SnsZua35ngs",
+              "name": "sceFontSetTypographicDesign"
+            },
+            {
+              "id": 10898556020948130117,
+              "hex_id": "973F72F5414ED945",
+              "encoded_id": "lz9y9UFO2UU",
+              "name": "sceFontSetupRenderEffectSlant"
+            },
+            {
+              "id": 6665794392838549556,
+              "hex_id": "5C81A8AEF2EEB034",
+              "encoded_id": "XIGorvLusDQ",
+              "name": "sceFontSetupRenderEffectWeight"
+            },
+            {
+              "id": 16929456038980696514,
+              "hex_id": "EAF18292440939C2",
+              "encoded_id": "6vGCkkQJOcI",
+              "name": "sceFontSetupRenderScalePixel"
+            },
+            {
+              "id": 11296824980861582894,
+              "hex_id": "9CC662778A037E2E",
+              "encoded_id": "nMZid4oDfi4",
+              "name": "sceFontSetupRenderScalePoint"
+            },
+            {
+              "id": 4159359133279868636,
+              "hex_id": "39B90318306C56DC",
+              "encoded_id": "ObkDGDBsVtw",
+              "name": "sceFontStringGetTerminateCode"
+            },
+            {
+              "id": 17879274671033420958,
+              "hex_id": "F81FF195B8960C9E",
+              "encoded_id": "+B-xlbiWDJ4",
+              "name": "sceFontStringGetTerminateOrder"
+            },
+            {
+              "id": 11771222024114662108,
+              "hex_id": "A35BC810779BEADC",
+              "encoded_id": "o1vIEHeb6tw",
+              "name": "sceFontStringGetWritingForm"
+            },
+            {
+              "id": 9704777251368980475,
+              "hex_id": "86AE4B7DF423CFFB",
+              "encoded_id": "hq5LffQjz-s",
+              "name": "sceFontStringRefersRenderCharacters"
+            },
+            {
+              "id": 215041625341036697,
+              "hex_id": "02FBFB380A600899",
+              "encoded_id": "Avv7OApgCJk",
+              "name": "sceFontStringRefersTextCharacters"
+            },
+            {
+              "id": 10729788426185572794,
+              "hex_id": "94E7DDB989E381BA",
+              "encoded_id": "lOfduYnjgbo",
+              "name": "sceFontStyleFrameGetEffectSlant"
+            },
+            {
+              "id": 2055081296928856671,
+              "hex_id": "1C851D8D1FFE5A5F",
+              "encoded_id": "HIUdjR-+Wl8",
+              "name": "sceFontStyleFrameGetEffectWeight"
+            },
+            {
+              "id": 6137339697287108421,
+              "hex_id": "552C35F00AB39745",
+              "encoded_id": "VSw18Aqzl0U",
+              "name": "sceFontStyleFrameGetResolutionDpi"
+            },
+            {
+              "id": 15638726057465189816,
+              "hex_id": "D907EA7DE2DB95B8",
+              "encoded_id": "2QfqfeLblbg",
+              "name": "sceFontStyleFrameGetScalePixel"
+            },
+            {
+              "id": 17230122544015731904,
+              "hex_id": "EF1DB12A2881ECC0",
+              "encoded_id": "7x2xKiiB7MA",
+              "name": "sceFontStyleFrameGetScalePoint"
+            },
+            {
+              "id": 10785417666698350599,
+              "hex_id": "95AD803969C71007",
+              "encoded_id": "la2AOWnHEAc",
+              "name": "sceFontStyleFrameInit"
+            },
+            {
+              "id": 16131379784653244453,
+              "hex_id": "DFDE2C72492C8825",
+              "encoded_id": "394sckksiCU",
+              "name": "sceFontStyleFrameSetEffectSlant"
+            },
+            {
+              "id": 9055678852617209445,
+              "hex_id": "7DAC3BEFFA440665",
+              "encoded_id": "faw77-pEBmU",
+              "name": "sceFontStyleFrameSetEffectWeight"
+            },
+            {
+              "id": 8367195377856714447,
+              "hex_id": "741E3FDD677096CF",
+              "encoded_id": "dB4-3Wdwls8",
+              "name": "sceFontStyleFrameSetResolutionDpi"
+            },
+            {
+              "id": 8479762717563856894,
+              "hex_id": "75AE2B438FFEA7FE",
+              "encoded_id": "da4rQ4-+p-4",
+              "name": "sceFontStyleFrameSetScalePixel"
+            },
+            {
+              "id": 4314302850816081291,
+              "hex_id": "3BDF7B95AC58FD8B",
+              "encoded_id": "O997laxY-Ys",
+              "name": "sceFontStyleFrameSetScalePoint"
+            },
+            {
+              "id": 8451426940071925257,
+              "hex_id": "7549800640275609",
+              "encoded_id": "dUmABkAnVgk",
+              "name": "sceFontStyleFrameUnsetEffectSlant"
+            },
+            {
+              "id": 9730922401285961132,
+              "hex_id": "870B2E5E098A75AC",
+              "encoded_id": "hwsuXgmKdaw",
+              "name": "sceFontStyleFrameUnsetEffectWeight"
+            },
+            {
+              "id": 7918386771630440806,
+              "hex_id": "6DE3C2D0BD2F4166",
+              "encoded_id": "bePC0L0vQWY",
+              "name": "sceFontStyleFrameUnsetScale"
+            },
+            {
+              "id": 11186275503420746624,
+              "hex_id": "9B3DA24D8D0C2B80",
+              "encoded_id": "mz2iTY0MK4A",
+              "name": "sceFontSupportExternalFonts"
+            },
+            {
+              "id": 5387531574337511532,
+              "hex_id": "4AC45B6C2896A06C",
+              "encoded_id": "SsRbbCiWoGw",
+              "name": "sceFontSupportSystemFonts"
+            },
+            {
+              "id": 2376238979345074168,
+              "hex_id": "20FA18C3094CC7F8",
+              "encoded_id": "IPoYwwlMx-g",
+              "name": "sceFontTextCodesStepBack"
+            },
+            {
+              "id": 11697157052959244113,
+              "hex_id": "A254A65D8F973F51",
+              "encoded_id": "olSmXY+XP1E",
+              "name": "sceFontTextCodesStepNext"
+            },
+            {
+              "id": 11647000257437766921,
+              "hex_id": "A1A2750693761509",
+              "encoded_id": "oaJ1BpN2FQk",
+              "name": "sceFontTextSourceInit"
+            },
+            {
+              "id": 6129783775230523879,
+              "hex_id": "55115DDDD89179E7",
+              "encoded_id": "VRFd3diReec",
+              "name": "sceFontTextSourceRewind"
+            },
+            {
+              "id": 8657127985943275733,
+              "hex_id": "78244C09293DE8D5",
+              "encoded_id": "eCRMCSk96NU",
+              "name": "sceFontTextSourceSetDefaultFont"
+            },
+            {
+              "id": 4225513754734430444,
+              "hex_id": "3AA40A5F487908EC",
+              "encoded_id": "OqQKX0h5COw",
+              "name": "sceFontTextSourceSetWritingForm"
+            },
+            {
+              "id": 15350766905143867423,
+              "hex_id": "D508E12B1AEC381F",
+              "encoded_id": "1QjhKxrsOB8",
+              "name": "sceFontUnbindRenderer"
+            },
+            {
+              "id": 2301706284764506189,
+              "hex_id": "1FF14DABC8AC284D",
+              "encoded_id": "H-FNq8isKE0",
+              "name": "sceFontWordsFindWordCharacters"
+            },
+            {
+              "id": 9104270163642686295,
+              "hex_id": "7E58DD7A331C1B57",
+              "encoded_id": "fljdejMcG1c",
+              "name": "sceFontWritingGetRenderMetrics"
+            },
+            {
+              "id": 8952711487434467716,
+              "hex_id": "7C3E6BAA11172984",
+              "encoded_id": "fD5rqhEXKYQ",
+              "name": "sceFontWritingInit"
+            },
+            {
+              "id": 15555679578514090340,
+              "hex_id": "D7E0E028BD216964",
+              "encoded_id": "1+DgKL0haWQ",
+              "name": "sceFontWritingLineClear"
+            },
+            {
+              "id": 2666859005430566529,
+              "hex_id": "25029622C4BD8E81",
+              "encoded_id": "JQKWIsS9joE",
+              "name": "sceFontWritingLineGetOrderingSpace"
+            },
+            {
+              "id": 11409084976019908915,
+              "hex_id": "9E55365677E9A933",
+              "encoded_id": "nlU2VnfpqTM",
+              "name": "sceFontWritingLineGetRenderMetrics"
+            },
+            {
+              "id": 17894521376231675261,
+              "hex_id": "F8561C61E7EC557D",
+              "encoded_id": "+FYcYefsVX0",
+              "name": "sceFontWritingLineRefersRenderStep"
+            },
+            {
+              "id": 14060947569100307316,
+              "hex_id": "C3228550E59DBB74",
+              "encoded_id": "wyKFUOWdu3Q",
+              "name": "sceFontWritingLineWritesOrder"
+            },
+            {
+              "id": 6628619400012831177,
+              "hex_id": "5BFD9639710719C9",
+              "encoded_id": "W-2WOXEHGck",
+              "name": "sceFontWritingRefersRenderStep"
+            },
+            {
+              "id": 9188371934828510278,
+              "hex_id": "7F83A797B79F3C46",
+              "encoded_id": "f4Onl7efPEY",
+              "name": "sceFontWritingRefersRenderStepCharacter"
+            },
+            {
+              "id": 409996395227075456,
+              "hex_id": "05B0998C98B35380",
+              "encoded_id": "BbCZjJizU4A",
+              "name": "sceFontWritingSetMaskInvisible"
+            }
+          ]
+        },
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 406320615641613263,
+              "hex_id": "05A38A72783C83CF",
+              "encoded_id": "BaOKcng8g88",
+              "type": "Unknown11",
+              "name": "module_start"
+            },
+            {
+              "id": 3067176389404768116,
+              "hex_id": "2A90CCACF1EFB774",
+              "encoded_id": "KpDMrPHvt3Q",
+              "type": "Unknown11",
+              "name": "module_stop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 6349717562011184837,
+              "hex_id": "581EBA7AFBBC6EC5",
+              "encoded_id": "WB66evu8bsU",
+              "name": "sceKernelGetCompiledSdkVersion"
+            },
+            {
+              "id": 2623297511407571098,
+              "hex_id": "2467D330139D509A",
+              "encoded_id": "JGfTMBOdUJo",
+              "name": "sceKernelGetFsSandboxRandomWord"
+            },
+            {
+              "id": 16018922103450253604,
+              "hex_id": "DE4EA4C7FCCE3924",
+              "encoded_id": "3k6kx-zOOSQ",
+              "name": "sceKernelMlock"
+            },
+            {
+              "id": 14195918306765624009,
+              "hex_id": "C502087C9F3AD2C9",
+              "encoded_id": "xQIIfJ860sk",
+              "name": "sceKernelMunlock"
+            },
+            {
+              "id": 15436042836469058247,
+              "hex_id": "D637D72D15738AC7",
+              "encoded_id": "1jfXLRVzisc",
+              "name": "sceKernelUsleep"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

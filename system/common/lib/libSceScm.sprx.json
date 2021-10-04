@@ -1,0 +1,125 @@
+﻿{
+  "shared_object_name": "libSceScm.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceScm",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceScm",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 16667272735370400184,
+              "hex_id": "E74E0C3EEE4E51B8",
+              "encoded_id": "504MPu5OUbg",
+              "name": "sceSblACMgrCheckPlatformDLL"
+            },
+            {
+              "id": 10657598070619054503,
+              "hex_id": "93E764FA962321A7",
+              "encoded_id": "k+dk+pYjIac",
+              "name": "sceSblACMgrIsPlatformDLL"
+            },
+            {
+              "id": 14553943192744805891,
+              "hex_id": "C9F9FE3944C4C603",
+              "encoded_id": "yfn+OUTExgM",
+              "name": "sceSblRcMgrIsAllowLimitedUiInspector"
+            },
+            {
+              "id": 7947999624945570912,
+              "hex_id": "6E4CF78C6FD19460",
+              "encoded_id": "bkz3jG-RlGA",
+              "name": "sceSblRcMgrIsIntdevForPSM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 12064123588047262223,
+              "hex_id": "A76C607C1FF7D20F",
+              "encoded_id": "p2xgfB-30g8",
+              "name": "get_self_auth_info"
+            },
+            {
+              "id": 11714744756755613850,
+              "hex_id": "A2932249F4C9C89A",
+              "encoded_id": "opMiSfTJyJo",
+              "name": "sceKernelGetDebugMenuModeForRcmgr"
+            },
+            {
+              "id": 822308324908933217,
+              "hex_id": "0B696D10920B2061",
+              "encoded_id": "C2ltEJILIGE",
+              "name": "sceKernelGetPsmIntdevModeForRcmgr"
+            },
+            {
+              "id": 3607587661212454224,
+              "hex_id": "3210B9DD32A68D50",
+              "encoded_id": "MhC53TKmjVA",
+              "name": "sysctlbyname"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

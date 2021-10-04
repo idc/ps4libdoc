@@ -1,0 +1,774 @@
+﻿{
+  "shared_object_name": "libSceAppInstUtil.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceIpmi.prx",
+    "libSceLibcInternal.prx",
+    "libSceRegMgr.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceAppInstUtil",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAppInstUtil",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 17148952359801340917,
+              "hex_id": "EDFD514FEC0E43F5",
+              "encoded_id": "7f1RT+wOQ-U",
+              "name": "sceAppInstUtilAppAllowDownloadInstall"
+            },
+            {
+              "id": 17838387007377698716,
+              "hex_id": "F78EAE78ACB0EF9C",
+              "encoded_id": "946ueKyw75w",
+              "name": "sceAppInstUtilAppCancelableUnInstall"
+            },
+            {
+              "id": 7975490658641734284,
+              "hex_id": "6EAEA27F81C96A8C",
+              "encoded_id": "bq6if4HJaow",
+              "name": "sceAppInstUtilAppCancelableUnInstallByUser"
+            },
+            {
+              "id": 4509582387232558663,
+              "hex_id": "3E954149D45ACE47",
+              "encoded_id": "PpVBSdRazkc",
+              "name": "sceAppInstUtilAppCancelGetAllAppSize"
+            },
+            {
+              "id": 859022070197799647,
+              "hex_id": "0BEBDC05845C4ADF",
+              "encoded_id": "C+vcBYRcSt8",
+              "name": "sceAppInstUtilAppCancelMoveApps"
+            },
+            {
+              "id": 10862123509980272656,
+              "hex_id": "96BE03C846CB1810",
+              "encoded_id": "lr4DyEbLGBA",
+              "name": "sceAppInstUtilAppCancelUnInstall"
+            },
+            {
+              "id": 7601321455520356224,
+              "hex_id": "697D51971BD89780",
+              "encoded_id": "aX1RlxvYl4A",
+              "name": "sceAppInstUtilAppConvertAppDiscToDownload"
+            },
+            {
+              "id": 14397304308324768488,
+              "hex_id": "C7CD7FFCFCE61AE8",
+              "encoded_id": "x81--PzmGug",
+              "name": "sceAppInstUtilAppConvertAppDownloadToDisc"
+            },
+            {
+              "id": 553141365862715469,
+              "hex_id": "07AD27243ED2504D",
+              "encoded_id": "B60nJD7SUE0",
+              "name": "sceAppInstUtilAppDestroyMetadata"
+            },
+            {
+              "id": 12881580710011570076,
+              "hex_id": "B2C49167FDC3879C",
+              "encoded_id": "ssSRZ-3Dh5w",
+              "name": "sceAppInstUtilAppDestroyPkg"
+            },
+            {
+              "id": 10467764416070587588,
+              "hex_id": "9144F8469C5C94C4",
+              "encoded_id": "kUT4RpxclMQ",
+              "name": "sceAppInstUtilAppExists"
+            },
+            {
+              "id": 15610395565412333752,
+              "hex_id": "D8A3440F2FBC38B8",
+              "encoded_id": "2KNEDy+8OLg",
+              "name": "sceAppInstUtilAppGetAddcontInfo"
+            },
+            {
+              "id": 2571816479961177788,
+              "hex_id": "23B0ED766394DEBC",
+              "encoded_id": "I7DtdmOU3rw",
+              "name": "sceAppInstUtilAppGetAddcontInfoByContentId"
+            },
+            {
+              "id": 12588111545059669172,
+              "hex_id": "AEB1F4C16C4674B4",
+              "encoded_id": "rrH0wWxGdLQ",
+              "name": "sceAppInstUtilAppGetAddcontListTotalSize"
+            },
+            {
+              "id": 14837452558275790076,
+              "hex_id": "CDE9387D53BD44FC",
+              "encoded_id": "zek4fVO9RPw",
+              "name": "sceAppInstUtilAppGetAddcontNum"
+            },
+            {
+              "id": 13480969414841116255,
+              "hex_id": "BB160641EF82A65F",
+              "encoded_id": "uxYGQe+Cpl8",
+              "name": "sceAppInstUtilAppGetAllAppSize"
+            },
+            {
+              "id": 17628728042651663955,
+              "hex_id": "F4A5D2C0F8383E53",
+              "encoded_id": "9KXSwPg4PlM",
+              "name": "sceAppInstUtilAppGetAppInstallStatus"
+            },
+            {
+              "id": 18337259604540313738,
+              "hex_id": "FE7B087492BED08A",
+              "encoded_id": "-nsIdJK+0Io",
+              "name": "sceAppInstUtilAppGetAppInstallStatusByAppInfo"
+            },
+            {
+              "id": 15505472839744236084,
+              "hex_id": "D72E81656F6C2A34",
+              "encoded_id": "1y6BZW9sKjQ",
+              "name": "sceAppInstUtilAppGetAppOtherSize"
+            },
+            {
+              "id": 10343759378058498372,
+              "hex_id": "8F8C6A59CB4AD144",
+              "encoded_id": "j4xqWctK0UQ",
+              "name": "sceAppInstUtilAppGetCompilationDiscInfo"
+            },
+            {
+              "id": 3727485728392399434,
+              "hex_id": "33BAB0855A2ACA4A",
+              "encoded_id": "M7qwhVoqyko",
+              "name": "sceAppInstUtilAppGetCustomThemeInfo"
+            },
+            {
+              "id": 10807334389266237028,
+              "hex_id": "95FB5D5E0913C664",
+              "encoded_id": "lftdXgkTxmQ",
+              "name": "sceAppInstUtilAppGetInsertedDiscMasterDataId"
+            },
+            {
+              "id": 3060287714663378492,
+              "hex_id": "2A7853765F00AE3C",
+              "encoded_id": "KnhTdl8Arjw",
+              "name": "sceAppInstUtilAppGetInsertedDiscTitleId"
+            },
+            {
+              "id": 9554561881391256337,
+              "hex_id": "84989F68ACD05311",
+              "encoded_id": "hJifaKzQUxE",
+              "name": "sceAppInstUtilAppGetInsertedDiscTitleIdList"
+            },
+            {
+              "id": 1270295708090200263,
+              "hex_id": "11A0FF37586B70C7",
+              "encoded_id": "EaD-N1hrcMc",
+              "name": "sceAppInstUtilAppGetInstallAddcontFromDiscStatus"
+            },
+            {
+              "id": 17294208946668648179,
+              "hex_id": "F0015F68899136F3",
+              "encoded_id": "8AFfaImRNvM",
+              "name": "sceAppInstUtilAppGetIrremovableAppList"
+            },
+            {
+              "id": 12339333575574427542,
+              "hex_id": "AB3E1E82A92A1796",
+              "encoded_id": "qz4egqkqF5Y",
+              "name": "sceAppInstUtilAppGetMoveErrorAppList"
+            },
+            {
+              "id": 15702224596872428768,
+              "hex_id": "D9E98213AFFB7CE0",
+              "encoded_id": "2emCE6-7fOA",
+              "name": "sceAppInstUtilAppGetNoRelatedAddcontTitleList"
+            },
+            {
+              "id": 6885260975413740287,
+              "hex_id": "5F8D5C60A16542FF",
+              "encoded_id": "X41cYKFlQv8",
+              "name": "sceAppInstUtilAppGetSize"
+            },
+            {
+              "id": 10355762804552317853,
+              "hex_id": "8FB70F674F8B3B9D",
+              "encoded_id": "j7cPZ0+LO50",
+              "name": "sceAppInstUtilAppGetStoreCompilationDiscInfo"
+            },
+            {
+              "id": 18070429637521817147,
+              "hex_id": "FAC710039B2DBE3B",
+              "encoded_id": "+scQA5stvjs",
+              "name": "sceAppInstUtilAppInstallAll"
+            },
+            {
+              "id": 7908306714540757082,
+              "hex_id": "6DBFF30E8F09D05A",
+              "encoded_id": "bb-zDo8J0Fo",
+              "name": "sceAppInstUtilAppInstallCloudGame"
+            },
+            {
+              "id": 17229624461024482266,
+              "hex_id": "EF1BEC292CBED3DA",
+              "encoded_id": "7xvsKSy+09o",
+              "name": "sceAppInstUtilAppInstallGetLinkState"
+            },
+            {
+              "id": 12831042246178196674,
+              "hex_id": "B21104F0ED7B4CC2",
+              "encoded_id": "shEE8O17TMI",
+              "name": "sceAppInstUtilAppInstallMediaPlayer"
+            },
+            {
+              "id": 7967696987286427396,
+              "hex_id": "6E92F231FD285704",
+              "encoded_id": "bpLyMf0oVwQ",
+              "name": "sceAppInstUtilAppInstallPkg"
+            },
+            {
+              "id": 17562704139587182152,
+              "hex_id": "F3BB425D1F605E48",
+              "encoded_id": "87tCXR9gXkg",
+              "name": "sceAppInstUtilAppInstallPs4CloudGame"
+            },
+            {
+              "id": 13867502827873029834,
+              "hex_id": "C07344594918CECA",
+              "encoded_id": "wHNEWUkYzso",
+              "name": "sceAppInstUtilAppInstallRequestAddcontFromDisc"
+            },
+            {
+              "id": 506728703420577434,
+              "hex_id": "070843122CE0B69A",
+              "encoded_id": "BwhDEizgtpo",
+              "name": "sceAppInstUtilAppInstallRequestCompilationDiscApp"
+            },
+            {
+              "id": 15249207274296561062,
+              "hex_id": "D3A01138E2BFCDA6",
+              "encoded_id": "06AROOK-zaY",
+              "name": "sceAppInstUtilAppInstallSharePlayLink"
+            },
+            {
+              "id": 7423604956567978365,
+              "hex_id": "6705F1604510417D",
+              "encoded_id": "ZwXxYEUQQX0",
+              "name": "sceAppInstUtilAppInstallSharePlayLinkByUser"
+            },
+            {
+              "id": 6550310687346230753,
+              "hex_id": "5AE760DD77B785E1",
+              "encoded_id": "Wudg3Xe3heE",
+              "name": "sceAppInstUtilAppInstallTitleDir"
+            },
+            {
+              "id": 14792077768607440667,
+              "hex_id": "CD48045BD7CC9F1B",
+              "encoded_id": "zUgEW9fMnxs",
+              "name": "sceAppInstUtilAppIsInInstalling"
+            },
+            {
+              "id": 734990618891661661,
+              "hex_id": "0A333612E048315D",
+              "encoded_id": "CjM2EuBIMV0",
+              "name": "sceAppInstUtilAppIsInUpdating"
+            },
+            {
+              "id": 10271777099778473366,
+              "hex_id": "8E8CAED99C49BD96",
+              "encoded_id": "joyu2ZxJvZY",
+              "name": "sceAppInstUtilAppPrepareOverwritePkg"
+            },
+            {
+              "id": 3221796468337446034,
+              "hex_id": "2CB61ED171DC8C92",
+              "encoded_id": "LLYe0XHcjJI",
+              "name": "sceAppInstUtilAppProhibitDownloadInstall"
+            },
+            {
+              "id": 8952401489796402641,
+              "hex_id": "7C3D51B91DFE0DD1",
+              "encoded_id": "fD1RuR3+DdE",
+              "name": "sceAppInstUtilAppRecoverApp"
+            },
+            {
+              "id": 8783874086323576576,
+              "hex_id": "79E696F14B135F00",
+              "encoded_id": "eeaW8UsTXwA",
+              "name": "sceAppInstUtilAppRequestMoveApps"
+            },
+            {
+              "id": 18352829190865054587,
+              "hex_id": "FEB258E960EE6B7B",
+              "encoded_id": "-rJY6WDua3s",
+              "name": "sceAppInstUtilAppSetSavedataUploadStatus"
+            },
+            {
+              "id": 7359140897572131682,
+              "hex_id": "6620EBA7EBD61362",
+              "encoded_id": "ZiDrp+vWE2I",
+              "name": "sceAppInstUtilAppStoreCompilationDiscInfo"
+            },
+            {
+              "id": 5412785032887562689,
+              "hex_id": "4B1E134F2AD071C1",
+              "encoded_id": "Sx4TTyrQccE",
+              "name": "sceAppInstUtilAppUnInstall"
+            },
+            {
+              "id": 5824355676164461995,
+              "hex_id": "50D444A0F35015AB",
+              "encoded_id": "UNREoPNQFas",
+              "name": "sceAppInstUtilAppUnInstallAddcont"
+            },
+            {
+              "id": 6353699273256260694,
+              "hex_id": "582CDFD36018D456",
+              "encoded_id": "WCzf02AY1FY",
+              "name": "sceAppInstUtilAppUnInstallByUser"
+            },
+            {
+              "id": 5664814756887277004,
+              "hex_id": "4E9D770206A82DCC",
+              "encoded_id": "Tp13AgaoLcw",
+              "name": "sceAppInstUtilAppUnInstallForMultiInstall"
+            },
+            {
+              "id": 10468250222808750138,
+              "hex_id": "9146B21D4E6B583A",
+              "encoded_id": "kUayHU5rWDo",
+              "name": "sceAppInstUtilAppUnInstallPat"
+            },
+            {
+              "id": 6432798742615018479,
+              "hex_id": "5945E45FBD25CBEF",
+              "encoded_id": "WUXkX70ly+8",
+              "name": "sceAppInstUtilAppUnInstallTheme"
+            },
+            {
+              "id": 17376516457321793688,
+              "hex_id": "F125C9A738650898",
+              "encoded_id": "8SXJpzhlCJg",
+              "name": "sceAppInstUtilAppUnInstallTypes"
+            },
+            {
+              "id": 18427099157653768933,
+              "hex_id": "FFBA350D8CDA4AE5",
+              "encoded_id": "-7o1DYzaSuU",
+              "name": "sceAppInstUtilAppUpdateStartTime"
+            },
+            {
+              "id": 10035378857234270602,
+              "hex_id": "8B44D3E6A3EA098A",
+              "encoded_id": "i0TT5qPqCYo",
+              "name": "sceAppInstUtilCancelDataDiscCopy"
+            },
+            {
+              "id": 8000478281255360803,
+              "hex_id": "6F07689BC3741923",
+              "encoded_id": "bwdom8N0GSM",
+              "name": "sceAppInstUtilCheckAppSystemVer"
+            },
+            {
+              "id": 6457561821419531869,
+              "hex_id": "599DDE4350D5EE5D",
+              "encoded_id": "WZ3eQ1DV7l0",
+              "name": "sceAppInstUtilGetAddcontInstalledStatus"
+            },
+            {
+              "id": 3620883584179039312,
+              "hex_id": "323FF66F8008EC50",
+              "encoded_id": "Mj-2b4AI7FA",
+              "name": "sceAppInstUtilGetAppEmptySlot"
+            },
+            {
+              "id": 6609252297522087767,
+              "hex_id": "5BB8C7F280BD0757",
+              "encoded_id": "W7jH8oC9B1c",
+              "name": "sceAppInstUtilGetAppMoveProgressInfo"
+            },
+            {
+              "id": 13579770697462641195,
+              "hex_id": "BC7509802984F22B",
+              "encoded_id": "vHUJgCmE8is",
+              "name": "sceAppInstUtilGetAppSlotInfoList"
+            },
+            {
+              "id": 14522317180138458617,
+              "hex_id": "C989A28865B48DF9",
+              "encoded_id": "yYmiiGW0jfk",
+              "name": "sceAppInstUtilGetDataDiscCopyProgress"
+            },
+            {
+              "id": 18072612140917138786,
+              "hex_id": "FACED0FD46C72562",
+              "encoded_id": "+s7Q-UbHJWI",
+              "name": "sceAppInstUtilGetInsertedDiscRoleType"
+            },
+            {
+              "id": 3817345967501608703,
+              "hex_id": "34F9EFEEA9B406FF",
+              "encoded_id": "NPnv7qm0Bv8",
+              "name": "sceAppInstUtilGetInstallProgress"
+            },
+            {
+              "id": 10806846239183724550,
+              "hex_id": "95F9A165BCCFE006",
+              "encoded_id": "lfmhZbzP4AY",
+              "name": "sceAppInstUtilGetInstallProgressInfo"
+            },
+            {
+              "id": 4479524804541914718,
+              "hex_id": "3E2A781381459E5E",
+              "encoded_id": "Pip4E4FFnl4",
+              "name": "sceAppInstUtilGetMainAppTitleIdForSP"
+            },
+            {
+              "id": 4348174727691700227,
+              "hex_id": "3C57D1E091650803",
+              "encoded_id": "PFfR4JFlCAM",
+              "name": "sceAppInstUtilGetPrimaryAppSlot"
+            },
+            {
+              "id": 10875465273189590880,
+              "hex_id": "96ED6A0B978FE760",
+              "encoded_id": "lu1qC5eP52A",
+              "name": "sceAppInstUtilGetSubAppTitleIdForSP"
+            },
+            {
+              "id": 8935633770286349866,
+              "hex_id": "7C01BF9230E6FE2A",
+              "encoded_id": "fAG-kjDm-io",
+              "name": "sceAppInstUtilGetTitleIdFromPkg"
+            },
+            {
+              "id": 16685033575744774257,
+              "hex_id": "E78D25A2D3BBA071",
+              "encoded_id": "540lotO7oHE",
+              "name": "sceAppInstUtilInitialize"
+            },
+            {
+              "id": 5341008215611686469,
+              "hex_id": "4A1F12AC99FA3E45",
+              "encoded_id": "Sh8SrJn6PkU",
+              "name": "sceAppInstUtilJson"
+            },
+            {
+              "id": 18009747878167767916,
+              "hex_id": "F9EF7A468488EB6C",
+              "encoded_id": "+e96RoSI62w",
+              "name": "sceAppInstUtilRequestDataDiscCopy"
+            },
+            {
+              "id": 17974938133141822175,
+              "hex_id": "F973CEFF2D8A9ADF",
+              "encoded_id": "+XPO-y2Kmt8",
+              "name": "sceAppInstUtilRequestInstallDiscGame"
+            },
+            {
+              "id": 1240379522334363339,
+              "hex_id": "1136B69A8F688ECB",
+              "encoded_id": "ETa2mo9ojss",
+              "name": "sceAppInstUtilSetPrimaryAppSlot"
+            },
+            {
+              "id": 10426636665939421662,
+              "hex_id": "90B2DACE1361E9DE",
+              "encoded_id": "kLLazhNh6d4",
+              "name": "sceAppInstUtilTerminate"
+            },
+            {
+              "id": 7992567576739914470,
+              "hex_id": "6EEB4DDD56E322E6",
+              "encoded_id": "butN3VbjIuY",
+              "type": "Object",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 17215081135755774893,
+              "hex_id": "EEE8411564404BAD",
+              "encoded_id": "7uhBFWRAS60",
+              "name": "sceKernelClearEventFlag"
+            },
+            {
+              "id": 5813464972379181691,
+              "hex_id": "50AD939760D6527B",
+              "encoded_id": "UK2Tl2DWUns",
+              "name": "sceKernelClose"
+            },
+            {
+              "id": 12961308510551063348,
+              "hex_id": "B3DFD16B1BA4BB34",
+              "encoded_id": "s9-RaxukuzQ",
+              "name": "sceKernelCloseEventFlag"
+            },
+            {
+              "id": 15307142596818687567,
+              "hex_id": "D46DE51751A0D64F",
+              "encoded_id": "1G3lF1Gg1k8",
+              "name": "sceKernelOpen"
+            },
+            {
+              "id": 15488119338087069472,
+              "hex_id": "D6F0DA7A7989B720",
+              "encoded_id": "1vDaenmJtyA",
+              "name": "sceKernelOpenEventFlag"
+            },
+            {
+              "id": 724565714254637493,
+              "hex_id": "0A0E2CAD9E9329B5",
+              "encoded_id": "Cg4srZ6TKbU",
+              "name": "sceKernelRead"
+            },
+            {
+              "id": 2371658385778719648,
+              "hex_id": "20E9D2BC7CEABBA0",
+              "encoded_id": "IOnSvHzqu6A",
+              "name": "sceKernelSetEventFlag"
+            },
+            {
+              "id": 8745832147713755264,
+              "hex_id": "795F70003DAB8880",
+              "encoded_id": "eV9wAD2riIA",
+              "name": "sceKernelStat"
+            },
+            {
+              "id": 12854826477634635885,
+              "hex_id": "B2658492D8B2C86D",
+              "encoded_id": "smWEktiyyG0",
+              "name": "scePthreadMutexattrDestroy"
+            },
+            {
+              "id": 1713289937870576590,
+              "hex_id": "17C6D41F0006DBCE",
+              "encoded_id": "F8bUHwAG284",
+              "name": "scePthreadMutexattrInit"
+            },
+            {
+              "id": 9856827359800220910,
+              "hex_id": "88CA7C42913E5CEE",
+              "encoded_id": "iMp8QpE+XO4",
+              "name": "scePthreadMutexattrSettype"
+            },
+            {
+              "id": 15629729862101927441,
+              "hex_id": "D8E7F47FEDE68611",
+              "encoded_id": "2Of0f+3mhhE",
+              "name": "scePthreadMutexDestroy"
+            },
+            {
+              "id": 8244460636280417242,
+              "hex_id": "726A3544862F6BDA",
+              "encoded_id": "cmo1RIYva9o",
+              "name": "scePthreadMutexInit"
+            },
+            {
+              "id": 17672887709872455390,
+              "hex_id": "F542B5BCB6507EDE",
+              "encoded_id": "9UK1vLZQft4",
+              "name": "scePthreadMutexLock"
+            },
+            {
+              "id": 13149901319649172397,
+              "hex_id": "B67DD5943D211BAD",
+              "encoded_id": "tn3VlD0hG60",
+              "name": "scePthreadMutexUnlock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceIpmi",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceIpmi",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4276538226575468222,
+              "hex_id": "3B5950DBE768E6BE",
+              "encoded_id": "O1lQ2+do5r4",
+              "name": "_ZN4IPMI6Client6ConfigC1Ev"
+            },
+            {
+              "id": 15220780841409761909,
+              "hex_id": "D33B1388384CD275",
+              "encoded_id": "0zsTiDhM0nU",
+              "name": "_ZN4IPMI6Client6createEPPS0_PKNS0_6ConfigEPvS6_"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 14980096904033348633,
+              "hex_id": "CFE3FEC429D62C19",
+              "encoded_id": "z+P+xCnWLBk",
+              "name": "_ZdlPv"
+            },
+            {
+              "id": 8978464314348367017,
+              "hex_id": "7C99E9B955416CA9",
+              "encoded_id": "fJnpuVVBbKk",
+              "name": "_Znwm"
+            },
+            {
+              "id": 8736302346086039989,
+              "hex_id": "793D94B264DEC1B5",
+              "encoded_id": "eT2UsmTewbU",
+              "name": "_ZSt11_Xbad_allocv"
+            },
+            {
+              "id": 13043032518080565850,
+              "hex_id": "B50228F8620F925A",
+              "encoded_id": "tQIo+GIPklo",
+              "name": "_ZSt14_Xlength_errorPKc"
+            },
+            {
+              "id": 13008767002086125649,
+              "hex_id": "B4886CAA3D2AB051",
+              "encoded_id": "tIhsqj0qsFE",
+              "name": "free"
+            },
+            {
+              "id": 9297117245426667155,
+              "hex_id": "8105FEE060D08E93",
+              "encoded_id": "gQX+4GDQjpM",
+              "name": "malloc"
+            },
+            {
+              "id": 1006747189132769736,
+              "hex_id": "0DF8AF3C0AE1B9C8",
+              "encoded_id": "DfivPArhucg",
+              "name": "memcmp"
+            },
+            {
+              "id": 4860863683521237115,
+              "hex_id": "437541C425E1507B",
+              "encoded_id": "Q3VBxCXhUHs",
+              "name": "memcpy"
+            },
+            {
+              "id": 17941924494238559728,
+              "hex_id": "F8FE854461F82DF0",
+              "encoded_id": "+P6FRGH4LfA",
+              "name": "memmove"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            },
+            {
+              "id": 9640958307794899731,
+              "hex_id": "85CB90803E775313",
+              "encoded_id": "hcuQgD53UxM",
+              "name": "printf"
+            },
+            {
+              "id": 8698495712930102709,
+              "hex_id": "78B743C3A974FDB5",
+              "encoded_id": "eLdDw6l0-bU",
+              "name": "snprintf"
+            },
+            {
+              "id": 10341780252942172940,
+              "hex_id": "8F856258D1C4830C",
+              "encoded_id": "j4ViWNHEgww",
+              "name": "strlen"
+            },
+            {
+              "id": 7632249581959732014,
+              "hex_id": "69EB328EB1D55B2E",
+              "encoded_id": "aesyjrHVWy4",
+              "name": "strncmp"
+            },
+            {
+              "id": 16916178298454784681,
+              "hex_id": "EAC256896491BAA9",
+              "encoded_id": "6sJWiWSRuqk",
+              "name": "strncpy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceRegMgr",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceRegMgr",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 11022008199146638594,
+              "hex_id": "98F60A0F5D940D02",
+              "encoded_id": "mPYKD12UDQI",
+              "name": "sceRegMgrGetInt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
