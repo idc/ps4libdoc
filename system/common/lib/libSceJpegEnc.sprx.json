@@ -1,0 +1,113 @@
+﻿{
+  "shared_object_name": "libSceJpegEnc.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceJpegEnc",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceJpegEnc",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 3164597266801799154,
+              "hex_id": "2BEAE87288E4AFF2",
+              "encoded_id": "K+rocojkr-I",
+              "name": "sceJpegEncCreate"
+            },
+            {
+              "id": 10327583191380850733,
+              "hex_id": "8F52F231D68CF82D",
+              "encoded_id": "j1LyMdaM+C0",
+              "name": "sceJpegEncDelete"
+            },
+            {
+              "id": 4736331955553993795,
+              "hex_id": "41BAD4D1C5208443",
+              "encoded_id": "QbrU0cUghEM",
+              "name": "sceJpegEncEncode"
+            },
+            {
+              "id": 11792218630913874292,
+              "hex_id": "A3A6605DF15D5974",
+              "encoded_id": "o6ZgXfFdWXQ",
+              "name": "sceJpegEncQueryMemorySize"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 4860863683521237115,
+              "hex_id": "437541C425E1507B",
+              "encoded_id": "Q3VBxCXhUHs",
+              "name": "memcpy"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

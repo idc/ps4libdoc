@@ -1,0 +1,242 @@
+﻿{
+  "shared_object_name": "libSceMouse.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx",
+    "libSceMbus.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceMouse",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceMouse",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 8073216702113850117,
+              "hex_id": "7009D3D11C3F2305",
+              "encoded_id": "cAnT0Rw-IwU",
+              "name": "sceMouseClose"
+            },
+            {
+              "id": 7092240138760234164,
+              "hex_id": "626CB2D4749224B4",
+              "encoded_id": "Ymyy1HSSJLQ",
+              "name": "sceMouseConnectPort"
+            },
+            {
+              "id": 366426137534754793,
+              "hex_id": "0515CEA1742D6FE9",
+              "encoded_id": "BRXOoXQtb+k",
+              "name": "sceMouseDebugGetDeviceId"
+            },
+            {
+              "id": 6494624011188263495,
+              "hex_id": "5A218A20D0995A47",
+              "encoded_id": "WiGKINCZWkc",
+              "name": "sceMouseDeviceOpen"
+            },
+            {
+              "id": 8661568961955002677,
+              "hex_id": "7834131476E07935",
+              "encoded_id": "eDQTFHbgeTU",
+              "name": "sceMouseDisconnectDevice"
+            },
+            {
+              "id": 10129710181182094814,
+              "hex_id": "8C93F5BD83043DDE",
+              "encoded_id": "jJP1vYMEPd4",
+              "name": "sceMouseDisconnectPort"
+            },
+            {
+              "id": 4615996905505646140,
+              "hex_id": "400F50BA9CF7663C",
+              "encoded_id": "QA9Qupz3Zjw",
+              "name": "sceMouseGetDeviceInfo"
+            },
+            {
+              "id": 4813556743749539765,
+              "hex_id": "42CD305AE96097B5",
+              "encoded_id": "Qs0wWulgl7U",
+              "name": "sceMouseInit"
+            },
+            {
+              "id": 15300870303028642826,
+              "hex_id": "D4579C791E58840A",
+              "encoded_id": "1FeceR5YhAo",
+              "name": "sceMouseMbusInit"
+            },
+            {
+              "id": 5020019779993997041,
+              "hex_id": "45AAB16487FA0EF1",
+              "encoded_id": "RaqxZIf6DvE",
+              "name": "sceMouseOpen"
+            },
+            {
+              "id": 14396503183838918179,
+              "hex_id": "C7CAA75EA87FB623",
+              "encoded_id": "x8qnXqh-tiM",
+              "name": "sceMouseRead"
+            },
+            {
+              "id": 8266644632421308506,
+              "hex_id": "72B9057E9FDC985A",
+              "encoded_id": "crkFfp-cmFo",
+              "name": "sceMouseSetHandType"
+            },
+            {
+              "id": 9372787229178015176,
+              "hex_id": "8212D45366792DC8",
+              "encoded_id": "ghLUU2Z5Lcg",
+              "name": "sceMouseSetPointerSpeed"
+            },
+            {
+              "id": 16834470378734801258,
+              "hex_id": "E9A00D9DDA52D16A",
+              "encoded_id": "6aANndpS0Wo",
+              "name": "sceMouseSetProcessPrivilege"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 4465068684319409537,
+              "hex_id": "3DF71C4FBA944581",
+              "encoded_id": "PfccT7qURYE",
+              "name": "ioctl"
+            },
+            {
+              "id": 14042412343999313768,
+              "hex_id": "C2E0ABA081A3B768",
+              "encoded_id": "wuCroIGjt2g",
+              "name": "open"
+            },
+            {
+              "id": 6349717562011184837,
+              "hex_id": "581EBA7AFBBC6EC5",
+              "encoded_id": "WB66evu8bsU",
+              "name": "sceKernelGetCompiledSdkVersion"
+            },
+            {
+              "id": 8244460636280417242,
+              "hex_id": "726A3544862F6BDA",
+              "encoded_id": "cmo1RIYva9o",
+              "name": "scePthreadMutexInit"
+            },
+            {
+              "id": 17672887709872455390,
+              "hex_id": "F542B5BCB6507EDE",
+              "encoded_id": "9UK1vLZQft4",
+              "name": "scePthreadMutexLock"
+            },
+            {
+              "id": 13149901319649172397,
+              "hex_id": "B67DD5943D211BAD",
+              "encoded_id": "tn3VlD0hG60",
+              "name": "scePthreadMutexUnlock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceMbus",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceMbus",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 6443933265851639922,
+              "hex_id": "596D7329F368E872",
+              "encoded_id": "WW1zKfNo6HI",
+              "name": "sceMbusAddHandleByDeviceId"
+            },
+            {
+              "id": 792868487981323124,
+              "hex_id": "0B00D5B063BA5374",
+              "encoded_id": "CwDVsGO6U3Q",
+              "name": "sceMbusAddHandleByUserId"
+            },
+            {
+              "id": 13912700276837726893,
+              "hex_id": "C113D7306B643AAD",
+              "encoded_id": "wRPXMGtkOq0",
+              "name": "sceMbusInit"
+            },
+            {
+              "id": 18038804289069257005,
+              "hex_id": "FA56B4ED5EC4112D",
+              "encoded_id": "+la07V7EES0",
+              "name": "sceMbusRemoveHandle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
