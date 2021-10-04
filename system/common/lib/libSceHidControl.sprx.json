@@ -1,0 +1,216 @@
+﻿{
+  "shared_object_name": "libSceHidControl.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx",
+    "libSceMbus.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceHidControl",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceHidControl",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 4097299145219051293,
+              "hex_id": "38DC87DD394B0F1D",
+              "encoded_id": "ONyH3TlLDx0",
+              "name": "sceHidControlConnectHandle"
+            },
+            {
+              "id": 7591915573979988570,
+              "hex_id": "695BE6FDA7D5425A",
+              "encoded_id": "aVvm-afVQlo",
+              "name": "sceHidControlConnectPort"
+            },
+            {
+              "id": 6304053152759207671,
+              "hex_id": "577C7EF12F64D6F7",
+              "encoded_id": "V3x+8S9k1vc",
+              "name": "sceHidControlDisconnectDevice"
+            },
+            {
+              "id": 97777183616441602,
+              "hex_id": "015B5FD498989D02",
+              "encoded_id": "AVtf1JiYnQI",
+              "name": "sceHidControlDisconnectHandle"
+            },
+            {
+              "id": 11350750751689046719,
+              "hex_id": "9D85F7AB786C7ABF",
+              "encoded_id": "nYX3q3hser8",
+              "name": "sceHidControlDisconnectPort"
+            },
+            {
+              "id": 12856271731986904569,
+              "hex_id": "B26AA70658F9B5F9",
+              "encoded_id": "smqnBlj5tfk",
+              "name": "sceHidControlGetAuthInformation"
+            },
+            {
+              "id": 7658796498932182193,
+              "hex_id": "6A4982D675DBACB1",
+              "encoded_id": "akmC1nXbrLE",
+              "name": "sceHidControlGetBatteryState"
+            },
+            {
+              "id": 1934254739140110435,
+              "hex_id": "1AD7DA6FE78FE863",
+              "encoded_id": "Gtfab+eP6GM",
+              "name": "sceHidControlGetDeviceId"
+            },
+            {
+              "id": 13502261476030236204,
+              "hex_id": "BB61AB463F39462C",
+              "encoded_id": "u2GrRj85Riw",
+              "name": "sceHidControlGetDeviceInfo"
+            },
+            {
+              "id": 1295897240760388865,
+              "hex_id": "11FBF3ACACEE8D01",
+              "encoded_id": "EfvzrKzujQE",
+              "name": "sceHidControlGetDeviceName"
+            },
+            {
+              "id": 91294252608603885,
+              "hex_id": "014457A398C546ED",
+              "encoded_id": "AURXo5jFRu0",
+              "name": "sceHidControlGetJediExtensionUnitInfo"
+            },
+            {
+              "id": 7128461889587590124,
+              "hex_id": "62ED625203C733EC",
+              "encoded_id": "Yu1iUgPHM+w",
+              "name": "sceHidControlGetJediState"
+            },
+            {
+              "id": 4453908634779999895,
+              "hex_id": "3DCF764E361B5E97",
+              "encoded_id": "Pc92TjYbXpc",
+              "name": "sceHidControlGetSparkState"
+            },
+            {
+              "id": 7157807515561828563,
+              "hex_id": "6355A402FFAF20D3",
+              "encoded_id": "Y1WkAv+vINM",
+              "name": "sceHidControlInit"
+            },
+            {
+              "id": 2721268720935095079,
+              "hex_id": "25C3E37BD9B7CB27",
+              "encoded_id": "JcPje9m3yyc",
+              "name": "sceHidControlSetApplicationFocus"
+            },
+            {
+              "id": 2402931824053340177,
+              "hex_id": "2158EDC3402E4811",
+              "encoded_id": "IVjtw0AuSBE",
+              "name": "sceHidControlSetHandleState"
+            },
+            {
+              "id": 9596466486960007214,
+              "hex_id": "852D7F6CF631282E",
+              "encoded_id": "hS1-bPYxKC4",
+              "name": "sceHidControlSetJediAudioOutPath"
+            },
+            {
+              "id": 17976644425430662223,
+              "hex_id": "F979DEDC4F4CFC4F",
+              "encoded_id": "+Xne3E9M-E8",
+              "name": "sceHidControlSetJediVolumeGain"
+            },
+            {
+              "id": 13659389879689781815,
+              "hex_id": "BD8FE6B99B79A237",
+              "encoded_id": "vY-muZt5ojc",
+              "name": "sceHidControlSetProcessFocus"
+            },
+            {
+              "id": 15216068984331381713,
+              "hex_id": "D32A561F80E92BD1",
+              "encoded_id": "0ypWH4DpK9E",
+              "name": "sceHidControlSetRevokeList"
+            },
+            {
+              "id": 16935748387907191242,
+              "hex_id": "EB07DD6DEA9A41CA",
+              "encoded_id": "6wfdbeqaQco",
+              "name": "sceHidControlSetUserColor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 4465068684319409537,
+              "hex_id": "3DF71C4FBA944581",
+              "encoded_id": "PfccT7qURYE",
+              "name": "ioctl"
+            },
+            {
+              "id": 14042412343999313768,
+              "hex_id": "C2E0ABA081A3B768",
+              "encoded_id": "wuCroIGjt2g",
+              "name": "open"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
