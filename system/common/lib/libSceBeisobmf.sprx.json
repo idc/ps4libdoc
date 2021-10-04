@@ -1,0 +1,245 @@
+﻿{
+  "shared_object_name": "libSceBeisobmf.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceBeisobmf",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceBeisobmf",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 15122909101874840344,
+              "hex_id": "D1DF5DB41BC58318",
+              "encoded_id": "0d9dtBvFgxg",
+              "name": "isobmf_box_getchildbox"
+            },
+            {
+              "id": 10708525980141506264,
+              "hex_id": "949C53A48A604ED8",
+              "encoded_id": "lJxTpIpgTtg",
+              "name": "isobmf_box_getdiskoffset"
+            },
+            {
+              "id": 13420489499938962060,
+              "hex_id": "BA3F28186BB8BA8C",
+              "encoded_id": "uj8oGGu4uow",
+              "name": "isobmf_box_getflags32b"
+            },
+            {
+              "id": 11003316513593699094,
+              "hex_id": "98B3A2122FF12B16",
+              "encoded_id": "mLOiEi-xKxY",
+              "name": "isobmf_box_getmember_length"
+            },
+            {
+              "id": 7939543746243831938,
+              "hex_id": "6E2EECF8C189A882",
+              "encoded_id": "bi7s+MGJqII",
+              "name": "isobmf_box_getmember_ptr"
+            },
+            {
+              "id": 8059848533725403957,
+              "hex_id": "6FDA5589DC27DB35",
+              "encoded_id": "b9pVidwn2zU",
+              "name": "isobmf_box_getmember_type"
+            },
+            {
+              "id": 4864948483298118566,
+              "hex_id": "4383C4DEB58F4BA6",
+              "encoded_id": "Q4PE3rWPS6Y",
+              "name": "isobmf_box_getnextbox"
+            },
+            {
+              "id": 15958088919828661883,
+              "hex_id": "DD768552B07C067B",
+              "encoded_id": "3XaFUrB8Bns",
+              "name": "isobmf_box_getstate"
+            },
+            {
+              "id": 1677114533719362160,
+              "hex_id": "17464EC85DFCCA70",
+              "encoded_id": "F0ZOyF38ynA",
+              "name": "isobmf_box_gettype"
+            },
+            {
+              "id": 5769430285535061472,
+              "hex_id": "50112246E5B2A5E0",
+              "encoded_id": "UBEiRuWypeA",
+              "name": "isobmf_decoder_clear"
+            },
+            {
+              "id": 10063034273593312862,
+              "hex_id": "8BA7145B081C465E",
+              "encoded_id": "i6cUWwgcRl4",
+              "name": "isobmf_decoder_create"
+            },
+            {
+              "id": 5695198883321450003,
+              "hex_id": "4F096935BD938E13",
+              "encoded_id": "TwlpNb2TjhM",
+              "name": "isobmf_decoder_decode"
+            },
+            {
+              "id": 14265931919242795847,
+              "hex_id": "C5FAC57F145F9B47",
+              "encoded_id": "xfrFfxRfm0c",
+              "name": "isobmf_decoder_destroy"
+            },
+            {
+              "id": 13489900706190598331,
+              "hex_id": "BB35C1383FC820BB",
+              "encoded_id": "uzXBOD-IILs",
+              "name": "isobmf_decoder_get_decoder_tree"
+            },
+            {
+              "id": 2639754659795362865,
+              "hex_id": "24A24AE08748E431",
+              "encoded_id": "JKJK4IdI5DE",
+              "name": "isobmf_decoder_getquerydata"
+            },
+            {
+              "id": 15664665906846434629,
+              "hex_id": "D96412A5B6C10545",
+              "encoded_id": "2WQSpbbBBUU",
+              "name": "isobmf_decoder_next_disk_offset"
+            },
+            {
+              "id": 4773165104705638063,
+              "hex_id": "423DB05F98450EAF",
+              "encoded_id": "Qj2wX5hFDq8",
+              "name": "isobmf_decoder_query"
+            },
+            {
+              "id": 3915014980910241268,
+              "hex_id": "3654ED61EB7CD5F4",
+              "encoded_id": "NlTtYet81fQ",
+              "name": "isobmf_memmanager_set"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 12773322915817502956,
+              "hex_id": "B143F58416A8B8EC",
+              "encoded_id": "sUP1hBaouOw",
+              "name": "_Getpctype"
+            },
+            {
+              "id": 14868568335454751040,
+              "hex_id": "CE57C41FC166C940",
+              "encoded_id": "zlfEH8FmyUA",
+              "name": "_Stoul"
+            },
+            {
+              "id": 1006747189132769736,
+              "hex_id": "0DF8AF3C0AE1B9C8",
+              "encoded_id": "DfivPArhucg",
+              "name": "memcmp"
+            },
+            {
+              "id": 4860863683521237115,
+              "hex_id": "437541C425E1507B",
+              "encoded_id": "Q3VBxCXhUHs",
+              "name": "memcpy"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            },
+            {
+              "id": 10341780252942172940,
+              "hex_id": "8F856258D1C4830C",
+              "encoded_id": "j4ViWNHEgww",
+              "name": "strlen"
+            },
+            {
+              "id": 10410133101907995133,
+              "hex_id": "907838E6A3C2E9FD",
+              "encoded_id": "kHg45qPC6f0",
+              "name": "strncat"
+            },
+            {
+              "id": 7632249581959732014,
+              "hex_id": "69EB328EB1D55B2E",
+              "encoded_id": "aesyjrHVWy4",
+              "name": "strncmp"
+            },
+            {
+              "id": 16916178298454784681,
+              "hex_id": "EAC256896491BAA9",
+              "encoded_id": "6sJWiWSRuqk",
+              "name": "strncpy"
+            },
+            {
+              "id": 4856426907243348013,
+              "hex_id": "43657E8AABE3802D",
+              "encoded_id": "Q2V+iqvjgC0",
+              "name": "vsnprintf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

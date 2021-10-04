@@ -1,0 +1,106 @@
+﻿{
+  "shared_object_name": "ulobjmgr.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "ulobjmgr",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "ulobjmgr",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 319116225007466076,
+              "hex_id": "046DBA8411A2365C",
+              "encoded_id": "BG26hBGiNlw",
+              "name": null
+            },
+            {
+              "id": 2134513644819973454,
+              "hex_id": "1D9F50D9CFB8054E",
+              "encoded_id": "HZ9Q2c+4BU4",
+              "name": null
+            },
+            {
+              "id": 5361533695362307319,
+              "hex_id": "4A67FE7D435B94F7",
+              "encoded_id": "Smf+fUNblPc",
+              "name": null
+            },
+            {
+              "id": 5406440767322826313,
+              "hex_id": "4B07893BBB77A649",
+              "encoded_id": "SweJO7t3pkk",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 11006530361642092802,
+              "hex_id": "98BF0D0C7F3A8902",
+              "encoded_id": "mL8NDH86iQI",
+              "name": "sceKernelMapNamedFlexibleMemory"
+            },
+            {
+              "id": 8145075439958835433,
+              "hex_id": "71091EF54B8140E9",
+              "encoded_id": "cQke9UuBQOk",
+              "name": "sceKernelMunmap"
+            },
+            {
+              "id": 18261587567953912780,
+              "hex_id": "FD6E3123969523CC",
+              "encoded_id": "-W4xI5aVI8w",
+              "name": "sceKernelSetProcessProperty"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
