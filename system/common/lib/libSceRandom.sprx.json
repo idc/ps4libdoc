@@ -1,0 +1,107 @@
+﻿{
+  "shared_object_name": "libSceRandom.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceRandom",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceRandom",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 4363674822408447425,
+              "hex_id": "3C8EE32198F8A5C1",
+              "encoded_id": "PI7jIZj4pcE",
+              "name": "sceRandomGetRandomNumber"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 7894756526838107668,
+              "hex_id": "6D8FCF3BA261CE14",
+              "encoded_id": "bY-PO6JhzhQ",
+              "name": "close"
+            },
+            {
+              "id": 4465068684319409537,
+              "hex_id": "3DF71C4FBA944581",
+              "encoded_id": "PfccT7qURYE",
+              "name": "ioctl"
+            },
+            {
+              "id": 14042412343999313768,
+              "hex_id": "C2E0ABA081A3B768",
+              "encoded_id": "wuCroIGjt2g",
+              "name": "open"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 4860863683521237115,
+              "hex_id": "437541C425E1507B",
+              "encoded_id": "Q3VBxCXhUHs",
+              "name": "memcpy"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

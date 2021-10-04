@@ -1,0 +1,1312 @@
+﻿{
+  "shared_object_name": "libSceSystemService.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceIpmi.prx",
+    "libSceLibcInternal.prx",
+    "libSceMbus.prx",
+    "libSceRegMgr.prx",
+    "libSceRtc.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceSystemService",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAppMessaging",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 7662416569648432383,
+              "hex_id": "6A565F45DAF644FF",
+              "encoded_id": "alZfRdr2RP8",
+              "name": "sceAppMessagingClearEventFlag"
+            },
+            {
+              "id": 10135351315171913517,
+              "hex_id": "8CA800525E9C2F2D",
+              "encoded_id": "jKgAUl6cLy0",
+              "name": "sceAppMessagingReceiveMsg"
+            },
+            {
+              "id": 18103256483376160432,
+              "hex_id": "FB3BAFDB416C5EB0",
+              "encoded_id": "+zuv20FsXrA",
+              "name": "sceAppMessagingSendMsg"
+            },
+            {
+              "id": 2057024348692447146,
+              "hex_id": "1C8C04BF1E247FAA",
+              "encoded_id": "HIwEvx4kf6o",
+              "name": "sceAppMessagingSendMsgToShellCore"
+            },
+            {
+              "id": 16656619110155978647,
+              "hex_id": "E72832D483D48797",
+              "encoded_id": "5ygy1IPUh5c",
+              "name": "sceAppMessagingSendMsgToShellUI"
+            },
+            {
+              "id": 9645035213206064593,
+              "hex_id": "85DA0C6CC1480DD1",
+              "encoded_id": "hdoMbMFIDdE",
+              "name": "sceAppMessagingSetEventFlag"
+            },
+            {
+              "id": 9845809051570354742,
+              "hex_id": "88A3572AC52D3A36",
+              "encoded_id": "iKNXKsUtOjY",
+              "name": "sceAppMessagingTryGetEventFlag"
+            },
+            {
+              "id": 7301556959947628493,
+              "hex_id": "6554575EA8F59FCD",
+              "encoded_id": "ZVRXXqj1n80",
+              "name": "sceAppMessagingTryReceiveMsg"
+            }
+          ]
+        },
+        {
+          "name": "libSceLncUtil",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 16273087877004646088,
+              "hex_id": "E1D59F34A393D6C8",
+              "encoded_id": "4dWfNKOT1sg",
+              "name": "sceLncUtilActivateCdlg"
+            },
+            {
+              "id": 10357616905681966823,
+              "hex_id": "8FBDA5B2DEC116E7",
+              "encoded_id": "j72lst7BFuc",
+              "name": "sceLncUtilAddLocalProcess"
+            },
+            {
+              "id": 13497944547467774408,
+              "hex_id": "BB52550CFDBCC9C8",
+              "encoded_id": "u1JVDP28ycg",
+              "name": "sceLncUtilBlockAppSuspend"
+            },
+            {
+              "id": 16323893974607429405,
+              "hex_id": "E28A1F150B9D7F1D",
+              "encoded_id": "4oofFQudfx0",
+              "name": "sceLncUtilDeactivateCdlg"
+            },
+            {
+              "id": 12461684084880548639,
+              "hex_id": "ACF0CBA67E71A31F",
+              "encoded_id": "rPDLpn5xox8",
+              "name": "sceLncUtilGetAppFocusedAppId"
+            },
+            {
+              "id": 1086603961302389646,
+              "hex_id": "0F14648BB4F6138E",
+              "encoded_id": "DxRki7T2E44",
+              "name": "sceLncUtilGetAppStatus"
+            },
+            {
+              "id": 8296678666334729841,
+              "hex_id": "7323B94A12717671",
+              "encoded_id": "cyO5ShJxdnE",
+              "name": "sceLncUtilGetAppStatusListForShellUIReboot"
+            },
+            {
+              "id": 9460957927415782194,
+              "hex_id": "834C131BD2889B32",
+              "encoded_id": "g0wTG9KImzI",
+              "name": "sceLncUtilGetAppTitleId"
+            },
+            {
+              "id": 15277370945411523703,
+              "hex_id": "D4041FEE8F20A477",
+              "encoded_id": "1AQf7o8gpHc",
+              "name": "sceLncUtilGetAppType"
+            },
+            {
+              "id": 6585818521269844944,
+              "hex_id": "5B65870D4B7A3BD0",
+              "encoded_id": "W2WHDUt6O9A",
+              "name": "sceLncUtilGetCdlgStatus"
+            },
+            {
+              "id": 722086221952177261,
+              "hex_id": "0A055D97D4A9D46D",
+              "encoded_id": "CgVdl9Sp1G0",
+              "name": "sceLncUtilGetCoredumpState"
+            },
+            {
+              "id": 8493956520006519700,
+              "hex_id": "75E09873B89A0B94",
+              "encoded_id": "deCYc7iaC5Q",
+              "name": "sceLncUtilGetDbgExecutablePath"
+            },
+            {
+              "id": 14503970162687575386,
+              "hex_id": "C948740483DB855A",
+              "encoded_id": "yUh0BIPbhVo",
+              "name": "sceLncUtilGetEventForDaemon"
+            },
+            {
+              "id": 7414939542730076092,
+              "hex_id": "66E7283A636C6FBC",
+              "encoded_id": "ZucoOmNsb7w",
+              "name": "sceLncUtilGetEventForShellUI"
+            },
+            {
+              "id": 2095831145234373565,
+              "hex_id": "1D15E35288E51BBD",
+              "encoded_id": "HRXjUojlG70",
+              "name": "sceLncUtilGetParentSocket"
+            },
+            {
+              "id": 10441450491553891347,
+              "hex_id": "90E77BE6A0E5C413",
+              "encoded_id": "kOd75qDlxBM",
+              "name": "sceLncUtilGetResultKillApp"
+            },
+            {
+              "id": 3286284700092243658,
+              "hex_id": "2D9B3A85F3CC9ECA",
+              "encoded_id": "LZs6hfPMnso",
+              "name": "sceLncUtilGetResultLaunchAppByTitleId"
+            },
+            {
+              "id": 9220060539189138455,
+              "hex_id": "7FF43C35DDF71417",
+              "encoded_id": "f-Q8Nd33FBc",
+              "name": "sceLncUtilInitialize"
+            },
+            {
+              "id": 4549559138753664783,
+              "hex_id": "3F2347EE9E0B570F",
+              "encoded_id": "PyNH7p4LVw8",
+              "name": "sceLncUtilIsActiveCdlg"
+            },
+            {
+              "id": 13105941372345811422,
+              "hex_id": "B5E1A83D69C481DE",
+              "encoded_id": "teGoPWnEgd4",
+              "name": "sceLncUtilIsAppSuspended"
+            },
+            {
+              "id": 5304587386697269967,
+              "hex_id": "499DAE1F901BC2CF",
+              "encoded_id": "SZ2uH5Abws8",
+              "name": "sceLncUtilKillApp"
+            },
+            {
+              "id": 2457078038129014937,
+              "hex_id": "22194B752017F899",
+              "encoded_id": "IhlLdSAX+Jk",
+              "name": "sceLncUtilKillLocalProcess"
+            },
+            {
+              "id": 18047130215800088617,
+              "hex_id": "FA7449503FFBA829",
+              "encoded_id": "+nRJUD-7qCk",
+              "name": "sceLncUtilLaunchApp"
+            },
+            {
+              "id": 3354151354605113042,
+              "hex_id": "2E8C56E2CE220ED2",
+              "encoded_id": "LoxW4s4iDtI",
+              "name": "sceLncUtilLaunchByName2"
+            },
+            {
+              "id": 14054134879629399083,
+              "hex_id": "C30A513605BCD42B",
+              "encoded_id": "wwpRNgW81Cs",
+              "name": "sceLncUtilLoadExec"
+            },
+            {
+              "id": 4791347459957351637,
+              "hex_id": "427E4921123A64D5",
+              "encoded_id": "Qn5JIRI6ZNU",
+              "name": "sceLncUtilRegisterCdlgSharedMemoryName"
+            },
+            {
+              "id": 6300113620317006566,
+              "hex_id": "576E7FF54F986AE6",
+              "encoded_id": "V25-9U+YauY",
+              "name": "sceLncUtilRegisterDaemon"
+            },
+            {
+              "id": 7711497891104054416,
+              "hex_id": "6B04BE79856E5C90",
+              "encoded_id": "awS+eYVuXJA",
+              "name": "sceLncUtilRegisterShellUI"
+            },
+            {
+              "id": 10682508483563198112,
+              "hex_id": "943FE4DE10E196A0",
+              "encoded_id": "lD-k3hDhlqA",
+              "name": "sceLncUtilResumeApp"
+            },
+            {
+              "id": 13812778348323464500,
+              "hex_id": "BFB0D8B97D06E534",
+              "encoded_id": "v7DYuX0G5TQ",
+              "name": "sceLncUtilSetAppFocus"
+            },
+            {
+              "id": 6901793294549178121,
+              "hex_id": "5FC8186F22C6D709",
+              "encoded_id": "X8gYbyLG1wk",
+              "name": "sceLncUtilSetControllerFocus"
+            },
+            {
+              "id": 3789216419476393911,
+              "hex_id": "34960041E3F7CFB7",
+              "encoded_id": "NJYAQeP3z7c",
+              "name": "sceLncUtilSetControllerFocusPermission"
+            },
+            {
+              "id": 16136037718259139887,
+              "hex_id": "DFEEB8CFF724052F",
+              "encoded_id": "3+64z-ckBS8",
+              "name": "sceLncUtilStartKillApp"
+            },
+            {
+              "id": 12632296854748388039,
+              "hex_id": "AF4EEF0F848FDAC7",
+              "encoded_id": "r07vD4SP2sc",
+              "name": "sceLncUtilStartLaunchAppByTitleId"
+            },
+            {
+              "id": 7190602917474122981,
+              "hex_id": "63CA274188EEBCE5",
+              "encoded_id": "Y8onQYjuvOU",
+              "name": "sceLncUtilSuspendApp"
+            },
+            {
+              "id": 11663745092319915254,
+              "hex_id": "A1DDF25D426F2CF6",
+              "encoded_id": "od3yXUJvLPY",
+              "name": "sceLncUtilSystemReboot"
+            },
+            {
+              "id": 17986249059248289257,
+              "hex_id": "F99BFE396232B5E9",
+              "encoded_id": "+Zv+OWIytek",
+              "name": "sceLncUtilSystemShutdown"
+            },
+            {
+              "id": 3088735856848252353,
+              "hex_id": "2ADD64E5A073ADC1",
+              "encoded_id": "Kt1k5aBzrcE",
+              "name": "sceLncUtilSystemSuspend"
+            },
+            {
+              "id": 8082305432758285842,
+              "hex_id": "702A1DF81DC47612",
+              "encoded_id": "cCod+B3EdhI",
+              "name": "sceLncUtilTerminate"
+            },
+            {
+              "id": 9878185884016563739,
+              "hex_id": "89165DB98215D61B",
+              "encoded_id": "iRZduYIV1hs",
+              "name": "sceLncUtilUnblockAppSuspend"
+            },
+            {
+              "id": 7589776653187692710,
+              "hex_id": "69544DA759CE38A6",
+              "encoded_id": "aVRNp1nOOKY",
+              "name": "sceLncUtilUnregisterCdlgSharedMemoryName"
+            }
+          ]
+        },
+        {
+          "name": "libSceShellCoreUtil",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 11139979714191034643,
+              "hex_id": "9A992887256A0913",
+              "encoded_id": "mpkohyVqCRM",
+              "name": "sceShellCoreUtilActivateAbort"
+            },
+            {
+              "id": 14382362134647638405,
+              "hex_id": "C7986A2912B38985",
+              "encoded_id": "x5hqKRKziYU",
+              "name": "sceShellCoreUtilActivateInit"
+            },
+            {
+              "id": 10253361754916571223,
+              "hex_id": "8E4B42310360C857",
+              "encoded_id": "jktCMQNgyFc",
+              "name": "sceShellCoreUtilActivateIsActivated"
+            },
+            {
+              "id": 3536846533024487698,
+              "hex_id": "3115672EC9FF1912",
+              "encoded_id": "MRVnLsn-GRI",
+              "name": "sceShellCoreUtilActivateStart"
+            },
+            {
+              "id": 9923085812591280571,
+              "hex_id": "89B5E1F8C738C1BB",
+              "encoded_id": "ibXh+Mc4wbs",
+              "name": "sceShellCoreUtilActivateTerm"
+            },
+            {
+              "id": 14038639811418194096,
+              "hex_id": "C2D34487513D00B0",
+              "encoded_id": "wtNEh1E9ALA",
+              "name": "sceShellCoreUtilChangeRunLevel"
+            },
+            {
+              "id": 13820805629206101318,
+              "hex_id": "BFCD5D7E768C7D46",
+              "encoded_id": "v81dfnaMfUY",
+              "name": "sceShellCoreUtilChangeToStaffModeForIDU"
+            },
+            {
+              "id": 17676896147072169183,
+              "hex_id": "F550F363B9B534DF",
+              "encoded_id": "9VDzY7m1NN8",
+              "name": "sceShellCoreUtilCheckerAbort"
+            },
+            {
+              "id": 145823932292183419,
+              "hex_id": "020612180406B57B",
+              "encoded_id": "AgYSGAQGtXs",
+              "name": "sceShellCoreUtilCleanupCrashReport"
+            },
+            {
+              "id": 10923161503281728615,
+              "hex_id": "9796DD838B544C67",
+              "encoded_id": "l5bdg4tUTGc",
+              "name": "sceShellCoreUtilClearAppData"
+            },
+            {
+              "id": 17769331696272340766,
+              "hex_id": "F69959082466F71E",
+              "encoded_id": "9plZCCRm9x4",
+              "name": "sceShellCoreUtilEnterPowerLockSection"
+            },
+            {
+              "id": 15136246203727564031,
+              "hex_id": "D20EBFBA1E094CFF",
+              "encoded_id": "0g6-uh4JTP8",
+              "name": "sceShellCoreUtilExitMiniApp"
+            },
+            {
+              "id": 8564854412894622850,
+              "hex_id": "76DC79B5C1855482",
+              "encoded_id": "dtx5tcGFVII",
+              "name": "sceShellCoreUtilExitMiniAppWithValue"
+            },
+            {
+              "id": 12935443338617539342,
+              "hex_id": "B383ED2E7A7DCB0E",
+              "encoded_id": "s4PtLnp9yw4",
+              "name": "sceShellCoreUtilExtendShutdownTimer"
+            },
+            {
+              "id": 614109067222057563,
+              "hex_id": "0885C0F1651E025B",
+              "encoded_id": "CIXA8WUeAls",
+              "name": "sceShellCoreUtilFireCrashReport"
+            },
+            {
+              "id": 4738483514683620623,
+              "hex_id": "41C279A6AAC2FD0F",
+              "encoded_id": "QcJ5pqrC-Q8",
+              "name": "sceShellCoreUtilFormatHdd"
+            },
+            {
+              "id": 6378376889160951943,
+              "hex_id": "58848BFC91FFE887",
+              "encoded_id": "WISL-JH-6Ic",
+              "name": "sceShellCoreUtilGetAppData"
+            },
+            {
+              "id": 6329518034326517491,
+              "hex_id": "57D6F71DF375F6F3",
+              "encoded_id": "V9b3HfN19vM",
+              "name": "sceShellCoreUtilGetAppEnterButtonAssign"
+            },
+            {
+              "id": 13515013300252555869,
+              "hex_id": "BB8EF8FDB03BBA5D",
+              "encoded_id": "u474-bA7ul0",
+              "name": "sceShellCoreUtilGetAppLaunchedParamInt"
+            },
+            {
+              "id": 10601841219620978496,
+              "hex_id": "93214E6B149A3F40",
+              "encoded_id": "kyFOaxSaP0A",
+              "name": "sceShellCoreUtilGetAppLaunchedParamIntByBudgetType"
+            },
+            {
+              "id": 9193671017428950492,
+              "hex_id": "7F967B1487A81DDC",
+              "encoded_id": "f5Z7FIeoHdw",
+              "name": "sceShellCoreUtilGetAppLaunchedParamString"
+            },
+            {
+              "id": 8475160405308643366,
+              "hex_id": "759DD17C3CE09826",
+              "encoded_id": "dZ3RfDzgmCY",
+              "name": "sceShellCoreUtilGetAppLaunchedParamStringByBudgetType"
+            },
+            {
+              "id": 16573832819695518412,
+              "hex_id": "E602152338A982CC",
+              "encoded_id": "5gIVIzipgsw",
+              "name": "sceShellCoreUtilGetAutoPowerDownRemainingSeconds"
+            },
+            {
+              "id": 1371295808101877838,
+              "hex_id": "1307D245A3E5084E",
+              "encoded_id": "EwfSRaPlCE4",
+              "name": "sceShellCoreUtilGetCheckerString"
+            },
+            {
+              "id": 18236060061860880760,
+              "hex_id": "FD138001E9E7E178",
+              "encoded_id": "-ROAAenn4Xg",
+              "name": "sceShellCoreUtilGetCrashReportInfoForBoot"
+            },
+            {
+              "id": 13002233637115086727,
+              "hex_id": "B471369AAAE14787",
+              "encoded_id": "tHE2mqrhR4c",
+              "name": "sceShellCoreUtilGetDeviceStatus"
+            },
+            {
+              "id": 7918522013427856328,
+              "hex_id": "6DE43DD12C7A73C8",
+              "encoded_id": "beQ90Sx6c8g",
+              "name": "sceShellCoreUtilGetGpuLoadEmulationMode"
+            },
+            {
+              "id": 11443373249311434970,
+              "hex_id": "9ECF0757356A68DA",
+              "encoded_id": "ns8HVzVqaNo",
+              "name": "sceShellCoreUtilGetGpuLoadEmulationModeByAppId"
+            },
+            {
+              "id": 17832965269214185399,
+              "hex_id": "F77B6B6DE363C7B7",
+              "encoded_id": "93trbeNjx7c",
+              "name": "sceShellCoreUtilGetIDUMode"
+            },
+            {
+              "id": 14784923112769070528,
+              "hex_id": "CD2E993CB81025C0",
+              "encoded_id": "zS6ZPLgQJcA",
+              "name": "sceShellCoreUtilGetPsStoreIconState"
+            },
+            {
+              "id": 2154536119261938838,
+              "hex_id": "1DE6732F6C5B4496",
+              "encoded_id": "HeZzL2xbRJY",
+              "name": "sceShellCoreUtilGetRunLevel"
+            },
+            {
+              "id": 6376691224167977981,
+              "hex_id": "587E8EE21AE213FD",
+              "encoded_id": "WH6O4hriE-0",
+              "name": "sceShellCoreUtilGetSplashScreenState"
+            },
+            {
+              "id": 3738092701999708637,
+              "hex_id": "33E05F81D82C39DD",
+              "encoded_id": "M+BfgdgsOd0",
+              "name": "sceShellCoreUtilIsAppLaunched"
+            },
+            {
+              "id": 2917497599935007448,
+              "hex_id": "287D089C0D2E4AD8",
+              "encoded_id": "KH0InA0uStg",
+              "name": "sceShellCoreUtilIsNeededCrashReport"
+            },
+            {
+              "id": 15894126462979251897,
+              "hex_id": "DC9347CEB1039EB9",
+              "encoded_id": "3JNHzrEDnrk",
+              "name": "sceShellCoreUtilIsPowerSaveAlertRequested"
+            },
+            {
+              "id": 13778103880650478304,
+              "hex_id": "BF35A87ADC9A52E0",
+              "encoded_id": "vzWoetyaUuA",
+              "name": "sceShellCoreUtilIsTemperatureDanger"
+            },
+            {
+              "id": 2337881082882670615,
+              "hex_id": "2071D2755053C017",
+              "encoded_id": "IHHSdVBTwBc",
+              "name": "sceShellCoreUtilIsUsbMassStorageMounted"
+            },
+            {
+              "id": 1838916579651957548,
+              "hex_id": "198524E2DDBB332C",
+              "encoded_id": "GYUk4t27Myw",
+              "name": "sceShellCoreUtilLaunchByUri"
+            },
+            {
+              "id": 11259965882928998870,
+              "hex_id": "9C436F500B0029D6",
+              "encoded_id": "nENvUAsAKdY",
+              "name": "sceShellCoreUtilLeavePowerLockSection"
+            },
+            {
+              "id": 7505544517148655480,
+              "hex_id": "68290CF8E686BF78",
+              "encoded_id": "aCkM+OaGv3g",
+              "name": "sceShellCoreUtilMountAppRight"
+            },
+            {
+              "id": 6340607093824655501,
+              "hex_id": "57FE5C8ECFBD908D",
+              "encoded_id": "V-5cjs+9kI0",
+              "name": "sceShellCoreUtilNotificationCancelForIDU"
+            },
+            {
+              "id": 1704112087802469444,
+              "hex_id": "17A638EA42EA5C44",
+              "encoded_id": "F6Y46kLqXEQ",
+              "name": "sceShellCoreUtilNotificatonRequestedForIDU"
+            },
+            {
+              "id": 8183191485775482081,
+              "hex_id": "7190894CC6A60CE1",
+              "encoded_id": "cZCJTMamDOE",
+              "name": "sceShellCoreUtilPostPsmEventToShellUI"
+            },
+            {
+              "id": 17573228905004461807,
+              "hex_id": "F3E0A695076AEEEF",
+              "encoded_id": "8+CmlQdq7u8",
+              "name": "sceShellCoreUtilRequestEjectDevice"
+            },
+            {
+              "id": 17048396345817286795,
+              "hex_id": "EC9812267681C88B",
+              "encoded_id": "7JgSJnaByIs",
+              "name": "sceShellCoreUtilRequestShutdown"
+            },
+            {
+              "id": 14169626701072946730,
+              "hex_id": "C4A4A0692557D62A",
+              "encoded_id": "xKSgaSVX1io",
+              "name": "sceShellCoreUtilSetAppData"
+            },
+            {
+              "id": 3595817034143275643,
+              "hex_id": "31E6E88A85689A7B",
+              "encoded_id": "MeboioVomns",
+              "name": "sceShellCoreUtilSetGpuLoadEmulationMode"
+            },
+            {
+              "id": 14834338570114043750,
+              "hex_id": "CDDE285575860F66",
+              "encoded_id": "zd4oVXWGD2Y",
+              "name": "sceShellCoreUtilSetGpuLoadEmulationModeByAppId"
+            },
+            {
+              "id": 16210553493915046093,
+              "hex_id": "E0F77483F94610CD",
+              "encoded_id": "4Pd0g-lGEM0",
+              "name": "sceShellCoreUtilSetIDUMode"
+            },
+            {
+              "id": 9493372187025921329,
+              "hex_id": "83BF3BB4C040D531",
+              "encoded_id": "g787tMBA1TE",
+              "name": "sceShellCoreUtilSetPsStoreIconState"
+            },
+            {
+              "id": 2406191292667248774,
+              "hex_id": "2164823B6D11C086",
+              "encoded_id": "IWSCO20RwIY",
+              "name": "sceShellCoreUtilSetSkipUpdateCheck"
+            },
+            {
+              "id": 15634717720141167706,
+              "hex_id": "D8F9ACEE2084FC5A",
+              "encoded_id": "2Pms7iCE-Fo",
+              "name": "sceShellCoreUtilSetSplashScreenState"
+            },
+            {
+              "id": 10768032654492185192,
+              "hex_id": "956FBCA5D4D03268",
+              "encoded_id": "lW+8pdTQMmg",
+              "name": "sceShellCoreUtilShowCriticalErrorDialog"
+            },
+            {
+              "id": 15175821822573872283,
+              "hex_id": "D29B598AED23049B",
+              "encoded_id": "0ptZiu0jBJs",
+              "name": "sceShellCoreUtilShowErrorDialog"
+            },
+            {
+              "id": 8220834166868735774,
+              "hex_id": "7216451E719AF71E",
+              "encoded_id": "chZFHnGa9x4",
+              "name": "sceShellCoreUtilShowErrorDialogWithFormatArgs"
+            },
+            {
+              "id": 16849428326136997704,
+              "hex_id": "E9D531CA5FCCE748",
+              "encoded_id": "6dUxyl-M50g",
+              "name": "sceShellCoreUtilStartRebootTimer"
+            },
+            {
+              "id": 11235540635108928313,
+              "hex_id": "9BECA8ADDF226B39",
+              "encoded_id": "m+yord8iazk",
+              "name": "sceShellCoreUtilStartShutdownTimer"
+            },
+            {
+              "id": 10793576980705116190,
+              "hex_id": "95CA7D13BEC3001E",
+              "encoded_id": "lcp9E77DAB4",
+              "name": "sceShellCoreUtilTurnOffScreenSaver"
+            },
+            {
+              "id": 5754578370420807548,
+              "hex_id": "4FDC5E89F114177C",
+              "encoded_id": "T9xeifEUF3w",
+              "name": "sceShellCoreUtilUnmountAppRight"
+            }
+          ]
+        },
+        {
+          "name": "libSceSystemService",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 15221864026541504437,
+              "hex_id": "D33EECAEE94DB7B5",
+              "encoded_id": "0z7srulNt7U",
+              "name": "sceSystemServiceAcquireFb0"
+            },
+            {
+              "id": 15116750285477294324,
+              "hex_id": "D1C97C4AEC28B0F4",
+              "encoded_id": "0cl8SuwosPQ",
+              "name": "sceSystemServiceAddLocalProcess"
+            },
+            {
+              "id": 14363388741501012204,
+              "hex_id": "C75501F5BC0348EC",
+              "encoded_id": "x1UB9bwDSOw",
+              "name": "sceSystemServiceDisableMusicPlayer"
+            },
+            {
+              "id": 13228375401750204497,
+              "hex_id": "B794A15748D61051",
+              "encoded_id": "t5ShV0jWEFE",
+              "name": "sceSystemServiceGetAppStatus"
+            },
+            {
+              "id": 15455786209412871062,
+              "hex_id": "D67DFBAB506F7396",
+              "encoded_id": "1n37q1Bvc5Y",
+              "name": "sceSystemServiceGetDisplaySafeAreaInfo"
+            },
+            {
+              "id": 2618904117061897438,
+              "hex_id": "2458376B3E484CDE",
+              "encoded_id": "JFg3az5ITN4",
+              "name": "sceSystemServiceGetEventForDaemon"
+            },
+            {
+              "id": 16296752803892160511,
+              "hex_id": "E229B254CC57E7FF",
+              "encoded_id": "4imyVMxX5-8",
+              "name": "sceSystemServiceGetGpuLoadEmulationMode"
+            },
+            {
+              "id": 5819255093094397189,
+              "hex_id": "50C225ACE9463505",
+              "encoded_id": "UMIlrOlGNQU",
+              "name": "sceSystemServiceGetParentSocket"
+            },
+            {
+              "id": 12464339469358855603,
+              "hex_id": "ACFA3AB55F03F5B3",
+              "encoded_id": "rPo6tV8D9bM",
+              "name": "sceSystemServiceGetStatus"
+            },
+            {
+              "id": 6237017025922730601,
+              "hex_id": "568E55F0A0300A69",
+              "encoded_id": "Vo5V8KAwCmk",
+              "name": "sceSystemServiceHideSplashScreen"
+            },
+            {
+              "id": 4000433181726283472,
+              "hex_id": "378464C8987B16D0",
+              "encoded_id": "N4RkyJh7FtA",
+              "name": "sceSystemServiceKillApp"
+            },
+            {
+              "id": 16877900836428366003,
+              "hex_id": "EA3A59634594C0B3",
+              "encoded_id": "6jpZY0WUwLM",
+              "name": "sceSystemServiceKillLocalProcess"
+            },
+            {
+              "id": 8067027934380897061,
+              "hex_id": "6FF3D72A55ED3325",
+              "encoded_id": "b-PXKlXtMyU",
+              "name": "sceSystemServiceLaunchByName2"
+            },
+            {
+              "id": 2774334232417651488,
+              "hex_id": "26806A490B75CB20",
+              "encoded_id": "JoBqSQt1yyA",
+              "name": "sceSystemServiceLoadExec"
+            },
+            {
+              "id": 8899455020123048800,
+              "hex_id": "7B81373081004B60",
+              "encoded_id": "e4E3MIEAS2A",
+              "name": "sceSystemServiceNavigateToGoBack"
+            },
+            {
+              "id": 7344134239560108764,
+              "hex_id": "65EB9B2E13C38ADC",
+              "encoded_id": "ZeubLhPDitw",
+              "name": "sceSystemServiceNavigateToGoBackWithValue"
+            },
+            {
+              "id": 9050609017113226414,
+              "hex_id": "7D9A38F2E9FB2CAE",
+              "encoded_id": "fZo48un7LK4",
+              "name": "sceSystemServiceParamGetInt"
+            },
+            {
+              "id": 5386515830881985840,
+              "hex_id": "4AC0BF9BF4BD2530",
+              "encoded_id": "SsC-m-S9JTA",
+              "name": "sceSystemServiceParamGetString"
+            },
+            {
+              "id": 16978160687881356197,
+              "hex_id": "EB9E8B3104AB83A5",
+              "encoded_id": "656LMQSrg6U",
+              "name": "sceSystemServiceReceiveEvent"
+            },
+            {
+              "id": 17745241154098297686,
+              "hex_id": "F643C2CFB3ABFB56",
+              "encoded_id": "9kPCz7Or+1Y",
+              "name": "sceSystemServiceReenableMusicPlayer"
+            },
+            {
+              "id": 4480460283662357195,
+              "hex_id": "3E2DCAE3B5F0D2CB",
+              "encoded_id": "Pi3K47Xw0ss",
+              "name": "sceSystemServiceRegisterDaemon"
+            },
+            {
+              "id": 4209516463222426198,
+              "hex_id": "3A6B34EB9A880A56",
+              "encoded_id": "Oms065qIClY",
+              "name": "sceSystemServiceReleaseFb0"
+            },
+            {
+              "id": 923585295328068502,
+              "hex_id": "0CD13BEEC7CDC396",
+              "encoded_id": "DNE77sfNw5Y",
+              "name": "sceSystemServiceSetControllerFocusPermission"
+            },
+            {
+              "id": 8698042143972456847,
+              "hex_id": "78B5A73EE8DAF98F",
+              "encoded_id": "eLWnPuja+Y8",
+              "name": "sceSystemServiceSetGpuLoadEmulationMode"
+            },
+            {
+              "id": 13040120302758257651,
+              "hex_id": "B4F7D0536A43E3F3",
+              "encoded_id": "tPfQU2pD4-M",
+              "name": "sceSystemServiceShowDisplaySafeAreaSettings"
+            }
+          ]
+        },
+        {
+          "name": "libSceSystemServiceDbg",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 15073793417512779300,
+              "hex_id": "D130DF3FB4787E24",
+              "encoded_id": "0TDfP7R4fiQ",
+              "name": "sceSystemServiceGetDbgExecutablePath"
+            }
+          ]
+        },
+        {
+          "name": "libSceSystemServiceForShellCoreOnly",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 9240876843662818021,
+              "hex_id": "803E30876FA7BAE5",
+              "encoded_id": "gD4wh2+nuuU",
+              "name": "sceSystemServiceInitializeForShellCore"
+            }
+          ]
+        },
+        {
+          "name": "libSceSystemServicePartyVoice",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 16398779520764915256,
+              "hex_id": "E3942B16F524AE38",
+              "encoded_id": "45QrFvUkrjg",
+              "name": "sceSystemServiceDisablePartyVoice"
+            },
+            {
+              "id": 9605574692491901099,
+              "hex_id": "854DDB4A517638AB",
+              "encoded_id": "hU3bSlF2OKs",
+              "name": "sceSystemServiceReenablePartyVoice"
+            }
+          ]
+        },
+        {
+          "name": "libSceSystemServiceVoiceRecognition",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 8607407621345741928,
+              "hex_id": "7773A7A0AB4D8C68",
+              "encoded_id": "d3OnoKtNjGg",
+              "name": "sceSystemServiceDisableVoiceRecognition"
+            },
+            {
+              "id": 8356012574503592477,
+              "hex_id": "73F6852A19FBE21D",
+              "encoded_id": "c-aFKhn74h0",
+              "name": "sceSystemServiceReenableVoiceRecognition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 17215081135755774893,
+              "hex_id": "EEE8411564404BAD",
+              "encoded_id": "7uhBFWRAS60",
+              "name": "sceKernelClearEventFlag"
+            },
+            {
+              "id": 5813464972379181691,
+              "hex_id": "50AD939760D6527B",
+              "encoded_id": "UK2Tl2DWUns",
+              "name": "sceKernelClose"
+            },
+            {
+              "id": 12961308510551063348,
+              "hex_id": "B3DFD16B1BA4BB34",
+              "encoded_id": "s9-RaxukuzQ",
+              "name": "sceKernelCloseEventFlag"
+            },
+            {
+              "id": 2024672129836868848,
+              "hex_id": "1C1914932D8F64F0",
+              "encoded_id": "HBkUky2PZPA",
+              "name": "sceKernelCloseSema"
+            },
+            {
+              "id": 15550702909532972872,
+              "hex_id": "D7CF31E7B258A748",
+              "encoded_id": "188x57JYp0g",
+              "name": "sceKernelCreateSema"
+            },
+            {
+              "id": 5139292856809294191,
+              "hex_id": "47526F9FC6D2096F",
+              "encoded_id": "R1Jvn8bSCW8",
+              "name": "sceKernelDeleteSema"
+            },
+            {
+              "id": 15307142596818687567,
+              "hex_id": "D46DE51751A0D64F",
+              "encoded_id": "1G3lF1Gg1k8",
+              "name": "sceKernelOpen"
+            },
+            {
+              "id": 15488119338087069472,
+              "hex_id": "D6F0DA7A7989B720",
+              "encoded_id": "1vDaenmJtyA",
+              "name": "sceKernelOpenEventFlag"
+            },
+            {
+              "id": 3677267387217960623,
+              "hex_id": "33084734A7415EAF",
+              "encoded_id": "MwhHNKdBXq8",
+              "name": "sceKernelOpenSema"
+            },
+            {
+              "id": 17752032925555582496,
+              "hex_id": "F65BE3E438C76620",
+              "encoded_id": "9lvj5DjHZiA",
+              "name": "sceKernelPollEventFlag"
+            },
+            {
+              "id": 15522797538979791293,
+              "hex_id": "D76C0E1E4F32C1BD",
+              "encoded_id": "12wOHk8ywb0",
+              "name": "sceKernelPollSema"
+            },
+            {
+              "id": 724565714254637493,
+              "hex_id": "0A0E2CAD9E9329B5",
+              "encoded_id": "Cg4srZ6TKbU",
+              "name": "sceKernelRead"
+            },
+            {
+              "id": 2371658385778719648,
+              "hex_id": "20E9D2BC7CEABBA0",
+              "encoded_id": "IOnSvHzqu6A",
+              "name": "sceKernelSetEventFlag"
+            },
+            {
+              "id": 16270636446252183084,
+              "hex_id": "E1CCE9A47062AE2C",
+              "encoded_id": "4czppHBiriw",
+              "name": "sceKernelSignalSema"
+            },
+            {
+              "id": 18272368695409511548,
+              "hex_id": "FD947E846EDA0C7C",
+              "encoded_id": "-ZR+hG7aDHw",
+              "name": "sceKernelSleep"
+            },
+            {
+              "id": 8745832147713755264,
+              "hex_id": "795F70003DAB8880",
+              "encoded_id": "eV9wAD2riIA",
+              "name": "sceKernelStat"
+            },
+            {
+              "id": 15436042836469058247,
+              "hex_id": "D637D72D15738AC7",
+              "encoded_id": "1jfXLRVzisc",
+              "name": "sceKernelUsleep"
+            },
+            {
+              "id": 7428322917191339721,
+              "hex_id": "6716B45614154EC9",
+              "encoded_id": "Zxa0VhQVTsk",
+              "name": "sceKernelWaitSema"
+            },
+            {
+              "id": 12854826477634635885,
+              "hex_id": "B2658492D8B2C86D",
+              "encoded_id": "smWEktiyyG0",
+              "name": "scePthreadMutexattrDestroy"
+            },
+            {
+              "id": 1713289937870576590,
+              "hex_id": "17C6D41F0006DBCE",
+              "encoded_id": "F8bUHwAG284",
+              "name": "scePthreadMutexattrInit"
+            },
+            {
+              "id": 9856827359800220910,
+              "hex_id": "88CA7C42913E5CEE",
+              "encoded_id": "iMp8QpE+XO4",
+              "name": "scePthreadMutexattrSettype"
+            },
+            {
+              "id": 15629729862101927441,
+              "hex_id": "D8E7F47FEDE68611",
+              "encoded_id": "2Of0f+3mhhE",
+              "name": "scePthreadMutexDestroy"
+            },
+            {
+              "id": 8244460636280417242,
+              "hex_id": "726A3544862F6BDA",
+              "encoded_id": "cmo1RIYva9o",
+              "name": "scePthreadMutexInit"
+            },
+            {
+              "id": 17672887709872455390,
+              "hex_id": "F542B5BCB6507EDE",
+              "encoded_id": "9UK1vLZQft4",
+              "name": "scePthreadMutexLock"
+            },
+            {
+              "id": 13149901319649172397,
+              "hex_id": "B67DD5943D211BAD",
+              "encoded_id": "tn3VlD0hG60",
+              "name": "scePthreadMutexUnlock"
+            },
+            {
+              "id": 15530326864966798362,
+              "hex_id": "D786CE00200D4C1A",
+              "encoded_id": "14bOACANTBo",
+              "name": "scePthreadOnce"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceIpmi",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceIpmi",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 14593172943823650249,
+              "hex_id": "CA855D7976733DC9",
+              "encoded_id": "yoVdeXZzPck",
+              "name": "_ZN4IPMI6Client6Config14MsgQueueConfig20estimateMsgQueueSizeEmj"
+            },
+            {
+              "id": 5055425952416062612,
+              "hex_id": "46287B1E720CDC94",
+              "encoded_id": "Rih7HnIM3JQ",
+              "name": "_ZN4IPMI6Client6Config24estimateClientMemorySizeEv"
+            },
+            {
+              "id": 4276538226575468222,
+              "hex_id": "3B5950DBE768E6BE",
+              "encoded_id": "O1lQ2+do5r4",
+              "name": "_ZN4IPMI6Client6ConfigC1Ev"
+            },
+            {
+              "id": 15220780841409761909,
+              "hex_id": "D33B1388384CD275",
+              "encoded_id": "0zsTiDhM0nU",
+              "name": "_ZN4IPMI6Client6createEPPS0_PKNS0_6ConfigEPvS6_"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 14980096904033348633,
+              "hex_id": "CFE3FEC429D62C19",
+              "encoded_id": "z+P+xCnWLBk",
+              "name": "_ZdlPv"
+            },
+            {
+              "id": 8978464314348367017,
+              "hex_id": "7C99E9B955416CA9",
+              "encoded_id": "fJnpuVVBbKk",
+              "name": "_Znwm"
+            },
+            {
+              "id": 8736302346086039989,
+              "hex_id": "793D94B264DEC1B5",
+              "encoded_id": "eT2UsmTewbU",
+              "name": "_ZSt11_Xbad_allocv"
+            },
+            {
+              "id": 13043032518080565850,
+              "hex_id": "B50228F8620F925A",
+              "encoded_id": "tQIo+GIPklo",
+              "name": "_ZSt14_Xlength_errorPKc"
+            },
+            {
+              "id": 11759743805476159782,
+              "hex_id": "A33300AF6F01C126",
+              "encoded_id": "ozMAr28BwSY",
+              "name": "_ZSt14_Xout_of_rangePKc"
+            },
+            {
+              "id": 17505251230015073253,
+              "hex_id": "F2EF253F3504ABE5",
+              "encoded_id": "8u8lPzUEq+U",
+              "name": "memchr"
+            },
+            {
+              "id": 4860863683521237115,
+              "hex_id": "437541C425E1507B",
+              "encoded_id": "Q3VBxCXhUHs",
+              "name": "memcpy"
+            },
+            {
+              "id": 17941924494238559728,
+              "hex_id": "F8FE854461F82DF0",
+              "encoded_id": "+P6FRGH4LfA",
+              "name": "memmove"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            },
+            {
+              "id": 9640958307794899731,
+              "hex_id": "85CB90803E775313",
+              "encoded_id": "hcuQgD53UxM",
+              "name": "printf"
+            },
+            {
+              "id": 6993289136798851207,
+              "hex_id": "610D276AFA7E6087",
+              "encoded_id": "YQ0navp+YIc",
+              "name": "puts"
+            },
+            {
+              "id": 8698495712930102709,
+              "hex_id": "78B743C3A974FDB5",
+              "encoded_id": "eLdDw6l0-bU",
+              "name": "snprintf"
+            },
+            {
+              "id": 5328893492371373675,
+              "hex_id": "49F40865CAAFBE6B",
+              "encoded_id": "SfQIZcqvvms",
+              "name": "strlcpy"
+            },
+            {
+              "id": 10341780252942172940,
+              "hex_id": "8F856258D1C4830C",
+              "encoded_id": "j4ViWNHEgww",
+              "name": "strlen"
+            },
+            {
+              "id": 16916178298454784681,
+              "hex_id": "EAC256896491BAA9",
+              "encoded_id": "6sJWiWSRuqk",
+              "name": "strncpy"
+            },
+            {
+              "id": 16587723275794093056,
+              "hex_id": "E6336E6F0E2F9400",
+              "encoded_id": "5jNubw4vlAA",
+              "name": "strnlen"
+            },
+            {
+              "id": 4856426907243348013,
+              "hex_id": "43657E8AABE3802D",
+              "encoded_id": "Q2V+iqvjgC0",
+              "name": "vsnprintf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceMbus",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceMbus",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 16007833388508520274,
+              "hex_id": "DE273FA759B01F52",
+              "encoded_id": "3ic-p1mwH1I",
+              "name": "sceMbusAcquireControlWithStateFlag"
+            },
+            {
+              "id": 13912700276837726893,
+              "hex_id": "C113D7306B643AAD",
+              "encoded_id": "wRPXMGtkOq0",
+              "name": "sceMbusInit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceRegMgr",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceRegMgr",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 8405876926328534126,
+              "hex_id": "74A7AC873B76F46E",
+              "encoded_id": "dKeshzt29G4",
+              "name": "sceRegMgrNonSysGetInt"
+            },
+            {
+              "id": 911295783409758914,
+              "hex_id": "0CA592AFCF7332C2",
+              "encoded_id": "DKWSr89zMsI",
+              "name": "sceRegMgrNonSysGetStr"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
