@@ -1,0 +1,144 @@
+﻿{
+  "shared_object_name": "libSceJpegDec.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceJpegDec",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceJpegDec",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 2664010459697669895,
+              "hex_id": "24F8776608346707",
+              "encoded_id": "JPh3Zgg0Zwc",
+              "name": "sceJpegDecCreate"
+            },
+            {
+              "id": 15441946223652929824,
+              "hex_id": "D64CD04685848120",
+              "encoded_id": "1kzQRoWEgSA",
+              "name": "sceJpegDecDecode"
+            },
+            {
+              "id": 17825049987609692290,
+              "hex_id": "F75F4C85C70E8882",
+              "encoded_id": "919MhccOiII",
+              "name": "sceJpegDecDecodeWithInputControl"
+            },
+            {
+              "id": 2236166785189096066,
+              "hex_id": "1F0875D7E9B92A82",
+              "encoded_id": "Hwh11+m5KoI",
+              "name": "sceJpegDecDelete"
+            },
+            {
+              "id": 3254035041311256541,
+              "hex_id": "2D28A7A12407EFDD",
+              "encoded_id": "LSinoSQH790",
+              "name": "sceJpegDecParseHeader"
+            },
+            {
+              "id": 13317166741258317900,
+              "hex_id": "B8D014980359304C",
+              "encoded_id": "uNAUmANZMEw",
+              "name": "sceJpegDecQueryMemorySize"
+            }
+          ]
+        },
+        {
+          "name": "libSceJpegDec_jvm",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 17825049987609692290,
+              "hex_id": "F75F4C85C70E8882",
+              "encoded_id": "919MhccOiII",
+              "name": "sceJpegDecDecodeWithInputControl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 4860863683521237115,
+              "hex_id": "437541C425E1507B",
+              "encoded_id": "Q3VBxCXhUHs",
+              "name": "memcpy"
+            },
+            {
+              "id": 17941924494238559728,
+              "hex_id": "F8FE854461F82DF0",
+              "encoded_id": "+P6FRGH4LfA",
+              "name": "memmove"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

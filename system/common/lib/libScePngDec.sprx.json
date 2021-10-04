@@ -1,0 +1,156 @@
+﻿{
+  "shared_object_name": "libScePngDec.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libScePngDec",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libScePngDec",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 11190203707306658220,
+              "hex_id": "9B4B96FBCA45C9AC",
+              "encoded_id": "m0uW+8pFyaw",
+              "name": "scePngDecCreate"
+            },
+            {
+              "id": 6353934658148176478,
+              "hex_id": "582DB5E830F7125E",
+              "encoded_id": "WC216DD3El4",
+              "name": "scePngDecDecode"
+            },
+            {
+              "id": 8115486352698216434,
+              "hex_id": "709FFFD7101B8FF2",
+              "encoded_id": "cJ--1xAbj-I",
+              "name": "scePngDecDecodeWithInputControl"
+            },
+            {
+              "id": 4733563000844501647,
+              "hex_id": "41B0FE784344C28F",
+              "encoded_id": "QbD+eENEwo8",
+              "name": "scePngDecDelete"
+            },
+            {
+              "id": 6028200573366517156,
+              "hex_id": "53A8787B92513DA4",
+              "encoded_id": "U6h4e5JRPaQ",
+              "name": "scePngDecParseHeader"
+            },
+            {
+              "id": 18422866118852693125,
+              "hex_id": "FFAB2B2066CB4C85",
+              "encoded_id": "-6srIGbLTIU",
+              "name": "scePngDecQueryMemorySize"
+            }
+          ]
+        },
+        {
+          "name": "libScePngDec_jvm",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 8115486352698216434,
+              "hex_id": "709FFFD7101B8FF2",
+              "encoded_id": "cJ--1xAbj-I",
+              "name": "scePngDecDecodeWithInputControl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 10709856612502962333,
+              "hex_id": "94A10DD8879B809D",
+              "encoded_id": "lKEN2IebgJ0",
+              "name": "longjmp"
+            },
+            {
+              "id": 1006747189132769736,
+              "hex_id": "0DF8AF3C0AE1B9C8",
+              "encoded_id": "DfivPArhucg",
+              "name": "memcmp"
+            },
+            {
+              "id": 4860863683521237115,
+              "hex_id": "437541C425E1507B",
+              "encoded_id": "Q3VBxCXhUHs",
+              "name": "memcpy"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            },
+            {
+              "id": 9283103381505662001,
+              "hex_id": "80D435576BDF5C31",
+              "encoded_id": "gNQ1V2vfXDE",
+              "name": "setjmp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

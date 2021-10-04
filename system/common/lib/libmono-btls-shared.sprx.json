@@ -1,0 +1,1889 @@
+﻿{
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx",
+    "libSceRtc.prx",
+    "libSceSsl.prx"
+  ],
+  "modules": [
+    {
+      "name": "libmono-btls-shared",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libmono-btls-shared",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 6044574579778623548,
+              "hex_id": "53E2A48E060F983C",
+              "encoded_id": "U+KkjgYPmDw",
+              "name": "mono_btls_bio_flush"
+            },
+            {
+              "id": 14781542123915147007,
+              "hex_id": "CD22963EE86F76FF",
+              "encoded_id": "zSKWPuhvdv8",
+              "name": "mono_btls_bio_free"
+            },
+            {
+              "id": 15078462080331255579,
+              "hex_id": "D141755F79578F1B",
+              "encoded_id": "0UF1X3lXjxs",
+              "name": "mono_btls_bio_hexdump"
+            },
+            {
+              "id": 418711647319751202,
+              "hex_id": "05CF900659CFFA22",
+              "encoded_id": "Bc+QBlnP+iI",
+              "name": "mono_btls_bio_indent"
+            },
+            {
+              "id": 12310139996754717852,
+              "hex_id": "AAD6671AE9E4AC9C",
+              "encoded_id": "qtZnGunkrJw",
+              "name": "mono_btls_bio_mem_get_data"
+            },
+            {
+              "id": 16466086201747791415,
+              "hex_id": "E4834A28D0235E37",
+              "encoded_id": "5INKKNAjXjc",
+              "name": "mono_btls_bio_mem_new"
+            },
+            {
+              "id": 15508908197517980532,
+              "hex_id": "D73AB5D5FF33F374",
+              "encoded_id": "1zq11f8z83Q",
+              "name": "mono_btls_bio_mono_initialize"
+            },
+            {
+              "id": 7602970090886628412,
+              "hex_id": "69832D03F137843C",
+              "encoded_id": "aYMtA-E3hDw",
+              "name": "mono_btls_bio_mono_new"
+            },
+            {
+              "id": 11848530655315525689,
+              "hex_id": "A46E6FDAD4688039",
+              "encoded_id": "pG5v2tRogDk",
+              "name": "mono_btls_bio_print_errors"
+            },
+            {
+              "id": 18001336693804754510,
+              "hex_id": "F9D198590C6FE64E",
+              "encoded_id": "+dGYWQxv5k4",
+              "name": "mono_btls_bio_read"
+            },
+            {
+              "id": 5424124870421124252,
+              "hex_id": "4B465CD4D6D0149C",
+              "encoded_id": "S0Zc1NbQFJw",
+              "name": "mono_btls_bio_write"
+            },
+            {
+              "id": 1122927274958787544,
+              "hex_id": "0F957068348413D8",
+              "encoded_id": "D5VwaDSEE9g",
+              "name": "mono_btls_error_clear_error"
+            },
+            {
+              "id": 6549094720227383970,
+              "hex_id": "5AE30EF30F8A1AA2",
+              "encoded_id": "WuMO8w+KGqI",
+              "name": "mono_btls_error_get_error"
+            },
+            {
+              "id": 7632254779505749508,
+              "hex_id": "69EB3748D7B7AE04",
+              "encoded_id": "aes3SNe3rgQ",
+              "name": "mono_btls_error_get_error_line"
+            },
+            {
+              "id": 640939299693841661,
+              "hex_id": "08E512E5B0D6CCFD",
+              "encoded_id": "COUS5bDWzP0",
+              "name": "mono_btls_error_get_error_string_n"
+            },
+            {
+              "id": 7923987918062140505,
+              "hex_id": "6DF7A9074494BC59",
+              "encoded_id": "bfepB0SUvFk",
+              "name": "mono_btls_error_peek_error"
+            },
+            {
+              "id": 10940508144236652071,
+              "hex_id": "97D47E311F7E6627",
+              "encoded_id": "l9R+MR9+Zic",
+              "name": "mono_btls_error_peek_error_line"
+            },
+            {
+              "id": 11267842757477191196,
+              "hex_id": "9C5F6B49D062CE1C",
+              "encoded_id": "nF9rSdBizhw",
+              "name": "mono_btls_free"
+            },
+            {
+              "id": 16423363131739436234,
+              "hex_id": "E3EB81C0EC9374CA",
+              "encoded_id": "4+uBwOyTdMo",
+              "name": "mono_btls_key_assign_rsa_private_key"
+            },
+            {
+              "id": 7633944392223823174,
+              "hex_id": "69F137FA75961546",
+              "encoded_id": "afE3+nWWFUY",
+              "name": "mono_btls_key_free"
+            },
+            {
+              "id": 16903317798663183614,
+              "hex_id": "EA94A5FAF2DB5CFE",
+              "encoded_id": "6pSl+vLbXP4",
+              "name": "mono_btls_key_get_bits"
+            },
+            {
+              "id": 15381504738201099901,
+              "hex_id": "D57615108F76DE7D",
+              "encoded_id": "1XYVEI923n0",
+              "name": "mono_btls_key_get_bytes"
+            },
+            {
+              "id": 12371995778072912598,
+              "hex_id": "ABB2289C4AAB22D6",
+              "encoded_id": "q7IonEqrItY",
+              "name": "mono_btls_key_is_rsa"
+            },
+            {
+              "id": 18052701662967173333,
+              "hex_id": "FA881483E14310D5",
+              "encoded_id": "+ogUg+FDENU",
+              "name": "mono_btls_key_new"
+            },
+            {
+              "id": 17492385328928175214,
+              "hex_id": "F2C16FC72D04B46E",
+              "encoded_id": "8sFvxy0EtG4",
+              "name": "mono_btls_key_up_ref"
+            },
+            {
+              "id": 18020368457015471666,
+              "hex_id": "FA1535A2BA0FAE32",
+              "encoded_id": "+hU1oroPrjI",
+              "name": "mono_btls_pkcs12_add_cert"
+            },
+            {
+              "id": 12661584118637854979,
+              "hex_id": "AFB6FBAC05230103",
+              "encoded_id": "r7b7rAUjAQM",
+              "name": "mono_btls_pkcs12_free"
+            },
+            {
+              "id": 7895986037056919029,
+              "hex_id": "6D942D774A38D5F5",
+              "encoded_id": "bZQtd0o41fU",
+              "name": "mono_btls_pkcs12_get_cert"
+            },
+            {
+              "id": 14888009656575963550,
+              "hex_id": "CE9CD5E710CBB19E",
+              "encoded_id": "zpzV5xDLsZ4",
+              "name": "mono_btls_pkcs12_get_certs"
+            },
+            {
+              "id": 12161818670221528214,
+              "hex_id": "A8C775A4FD448C96",
+              "encoded_id": "qMd1pP1EjJY",
+              "name": "mono_btls_pkcs12_get_count"
+            },
+            {
+              "id": 6334173108696980696,
+              "hex_id": "57E780E1E9B71CD8",
+              "encoded_id": "V+eA4em3HNg",
+              "name": "mono_btls_pkcs12_get_private_key"
+            },
+            {
+              "id": 5651721329829930957,
+              "hex_id": "4E6EF29AFA02E7CD",
+              "encoded_id": "Tm7ymvoC580",
+              "name": "mono_btls_pkcs12_has_private_key"
+            },
+            {
+              "id": 1835108561369078906,
+              "hex_id": "19779D8384AE9C7A",
+              "encoded_id": "GXedg4SunHo",
+              "name": "mono_btls_pkcs12_import"
+            },
+            {
+              "id": 6699642449856396299,
+              "hex_id": "5CF9E94FD9D17C0B",
+              "encoded_id": "XPnpT9nRfAs",
+              "name": "mono_btls_pkcs12_new"
+            },
+            {
+              "id": 6799602398147595410,
+              "hex_id": "5E5D0A5AF37B4C92",
+              "encoded_id": "Xl0KWvN7TJI",
+              "name": "mono_btls_pkcs12_up_ref"
+            },
+            {
+              "id": 7096338036309342426,
+              "hex_id": "627B41D8944FB8DA",
+              "encoded_id": "YntB2JRPuNo",
+              "name": "mono_btls_ssl_accept"
+            },
+            {
+              "id": 7568211263891668054,
+              "hex_id": "6907B00BE15F7C56",
+              "encoded_id": "aQewC+FffFY",
+              "name": "mono_btls_ssl_add_chain_certificate"
+            },
+            {
+              "id": 13525916518510018618,
+              "hex_id": "BBB5B5690360C03A",
+              "encoded_id": "u7W1aQNgwDo",
+              "name": "mono_btls_ssl_close"
+            },
+            {
+              "id": 14162238781991484819,
+              "hex_id": "C48A612330DCFD93",
+              "encoded_id": "xIphIzDc-ZM",
+              "name": "mono_btls_ssl_connect"
+            },
+            {
+              "id": 9901484614531637230,
+              "hex_id": "896923CBEE275FEE",
+              "encoded_id": "iWkjy+4nX+4",
+              "name": "mono_btls_ssl_ctx_debug_printf"
+            },
+            {
+              "id": 16031078025189788730,
+              "hex_id": "DE79D48712020C3A",
+              "encoded_id": "3nnUhxICDDo",
+              "name": "mono_btls_ssl_ctx_free"
+            },
+            {
+              "id": 9207693850323090929,
+              "hex_id": "7FC84CC5BD0E7DF1",
+              "encoded_id": "f8hMxb0OffE",
+              "name": "mono_btls_ssl_ctx_get_ctx"
+            },
+            {
+              "id": 16991628761466475766,
+              "hex_id": "EBCE6455428514F6",
+              "encoded_id": "685kVUKFFPY",
+              "name": "mono_btls_ssl_ctx_initialize"
+            },
+            {
+              "id": 8274751888168720166,
+              "hex_id": "72D5D30032CA1726",
+              "encoded_id": "ctXTADLKFyY",
+              "name": "mono_btls_ssl_ctx_is_cipher_supported"
+            },
+            {
+              "id": 5725690738384470681,
+              "hex_id": "4F75BD63FB268299",
+              "encoded_id": "T3W9Y-smgpk",
+              "name": "mono_btls_ssl_ctx_is_debug_enabled"
+            },
+            {
+              "id": 10689171557198549486,
+              "hex_id": "945790E5CA0751EE",
+              "encoded_id": "lFeQ5coHUe4",
+              "name": "mono_btls_ssl_ctx_new"
+            },
+            {
+              "id": 13341416716796530702,
+              "hex_id": "B9263BD16D1D900E",
+              "encoded_id": "uSY70W0dkA4",
+              "name": "mono_btls_ssl_ctx_peek_store"
+            },
+            {
+              "id": 10744376498254638300,
+              "hex_id": "951BB17FBF85ECDC",
+              "encoded_id": "lRuxf7+F7Nw",
+              "name": "mono_btls_ssl_ctx_set_cert_select_callback"
+            },
+            {
+              "id": 2783078776665605366,
+              "hex_id": "269F7B66E91504F6",
+              "encoded_id": "Jp97ZukVBPY",
+              "name": "mono_btls_ssl_ctx_set_cert_verify_callback"
+            },
+            {
+              "id": 6608778416020238328,
+              "hex_id": "5BB718F45E27AFF8",
+              "encoded_id": "W7cY9F4nr-g",
+              "name": "mono_btls_ssl_ctx_set_ciphers"
+            },
+            {
+              "id": 13866416134297225893,
+              "hex_id": "C06F6801B8880AA5",
+              "encoded_id": "wG9oAbiICqU",
+              "name": "mono_btls_ssl_ctx_set_debug_bio"
+            },
+            {
+              "id": 12806278781457312771,
+              "hex_id": "B1B90AB37F62AC03",
+              "encoded_id": "sbkKs39irAM",
+              "name": "mono_btls_ssl_ctx_set_max_version"
+            },
+            {
+              "id": 10922292710348946948,
+              "hex_id": "9793C759ED2FFE04",
+              "encoded_id": "l5PHWe0v-gQ",
+              "name": "mono_btls_ssl_ctx_set_min_version"
+            },
+            {
+              "id": 4277786031012693318,
+              "hex_id": "3B5DBFBB03A3C546",
+              "encoded_id": "O12-uwOjxUY",
+              "name": "mono_btls_ssl_ctx_set_verify_param"
+            },
+            {
+              "id": 12353957354482609147,
+              "hex_id": "AB7212C28442ABFB",
+              "encoded_id": "q3ISwoRCq-s",
+              "name": "mono_btls_ssl_ctx_up_ref"
+            },
+            {
+              "id": 12176895585289431511,
+              "hex_id": "A8FD0604D432E9D7",
+              "encoded_id": "qP0GBNQy6dc",
+              "name": "mono_btls_ssl_destroy"
+            },
+            {
+              "id": 6664538700559861481,
+              "hex_id": "5C7D32A34EB6C6E9",
+              "encoded_id": "XH0yo062xuk",
+              "name": "mono_btls_ssl_get_cipher"
+            },
+            {
+              "id": 1374813870415859450,
+              "hex_id": "131451EE5A6ACEFA",
+              "encoded_id": "ExRR7lpqzvo",
+              "name": "mono_btls_ssl_get_ciphers"
+            },
+            {
+              "id": 501710792492251812,
+              "hex_id": "06F66F4EBE7AFAA4",
+              "encoded_id": "BvZvTr56+qQ",
+              "name": "mono_btls_ssl_get_error"
+            },
+            {
+              "id": 7901155350671987150,
+              "hex_id": "6DA68AEDE7FB11CE",
+              "encoded_id": "baaK7ef7Ec4",
+              "name": "mono_btls_ssl_get_peer_certificate"
+            },
+            {
+              "id": 17812793338073546179,
+              "hex_id": "F733C12A2D517DC3",
+              "encoded_id": "9zPBKi1RfcM",
+              "name": "mono_btls_ssl_get_server_name"
+            },
+            {
+              "id": 17635086994920138536,
+              "hex_id": "F4BC6A2FEB536728",
+              "encoded_id": "9LxqL+tTZyg",
+              "name": "mono_btls_ssl_get_version"
+            },
+            {
+              "id": 11833250850844564293,
+              "hex_id": "A43826F41EADDB45",
+              "encoded_id": "pDgm9B6t20U",
+              "name": "mono_btls_ssl_handshake"
+            },
+            {
+              "id": 15094849840162831868,
+              "hex_id": "D17BADF424C47DFC",
+              "encoded_id": "0Xut9CTEffw",
+              "name": "mono_btls_ssl_new"
+            },
+            {
+              "id": 17316767686061701380,
+              "hex_id": "F051847659ABB904",
+              "encoded_id": "8FGEdlmruQQ",
+              "name": "mono_btls_ssl_print_errors_cb"
+            },
+            {
+              "id": 14888085902922926540,
+              "hex_id": "CE9D1B3F8D38C9CC",
+              "encoded_id": "zp0bP404ycw",
+              "name": "mono_btls_ssl_read"
+            },
+            {
+              "id": 15413691556108070180,
+              "hex_id": "D5E86ECE17426D24",
+              "encoded_id": "1ehuzhdCbSQ",
+              "name": "mono_btls_ssl_set_bio"
+            },
+            {
+              "id": 2977168047995130864,
+              "hex_id": "29510690E16493F0",
+              "encoded_id": "KVEGkOFkk-A",
+              "name": "mono_btls_ssl_set_cipher_list"
+            },
+            {
+              "id": 9776086056730970976,
+              "hex_id": "87ABA27901194B60",
+              "encoded_id": "h6uieQEZS2A",
+              "name": "mono_btls_ssl_set_max_version"
+            },
+            {
+              "id": 15287869130177685157,
+              "hex_id": "D4296BF9ACE6A6A5",
+              "encoded_id": "1Clr+azmpqU",
+              "name": "mono_btls_ssl_set_min_version"
+            },
+            {
+              "id": 7424210655708603187,
+              "hex_id": "67081841972E6333",
+              "encoded_id": "ZwgYQZcuYzM",
+              "name": "mono_btls_ssl_set_server_name"
+            },
+            {
+              "id": 2999539861387384497,
+              "hex_id": "29A0819C979E96B1",
+              "encoded_id": "KaCBnJeelrE",
+              "name": "mono_btls_ssl_set_verify_param"
+            },
+            {
+              "id": 9203487700694077010,
+              "hex_id": "7FB95B4D368C0E52",
+              "encoded_id": "f7lbTTaMDlI",
+              "name": "mono_btls_ssl_use_certificate"
+            },
+            {
+              "id": 14678255611025876329,
+              "hex_id": "CBB3A3B5A194E569",
+              "encoded_id": "y7OjtaGU5Wk",
+              "name": "mono_btls_ssl_use_private_key"
+            },
+            {
+              "id": 17568498811279686899,
+              "hex_id": "F3CFD8964332BCF3",
+              "encoded_id": "88-YlkMyvPM",
+              "name": "mono_btls_ssl_write"
+            },
+            {
+              "id": 13218798553674983838,
+              "hex_id": "B7729B3F953EA99E",
+              "encoded_id": "t3KbP5U+qZ4",
+              "name": "mono_btls_x509_add_explicit_trust"
+            },
+            {
+              "id": 14245470706543897648,
+              "hex_id": "C5B21421C1C82C30",
+              "encoded_id": "xbIUIcHILDA",
+              "name": "mono_btls_x509_add_reject_object"
+            },
+            {
+              "id": 5264424494540729943,
+              "hex_id": "490EFE2F87F72E57",
+              "encoded_id": "SQ7+L4f3Llc",
+              "name": "mono_btls_x509_add_trust_object"
+            },
+            {
+              "id": 15971975057552686527,
+              "hex_id": "DDA7DAB112D3BDBF",
+              "encoded_id": "3afasRLTvb8",
+              "name": "mono_btls_x509_chain_add_cert"
+            },
+            {
+              "id": 2799523985714353937,
+              "hex_id": "26D9E83B84B09711",
+              "encoded_id": "JtnoO4SwlxE",
+              "name": "mono_btls_x509_chain_free"
+            },
+            {
+              "id": 11701122259523468666,
+              "hex_id": "A262BCB3284FFD7A",
+              "encoded_id": "omK8syhP-Xo",
+              "name": "mono_btls_x509_chain_from_certs"
+            },
+            {
+              "id": 15728748732043807641,
+              "hex_id": "DA47BDA326D8CB99",
+              "encoded_id": "2ke9oybYy5k",
+              "name": "mono_btls_x509_chain_get_cert"
+            },
+            {
+              "id": 7184930883141946401,
+              "hex_id": "63B600922168CC21",
+              "encoded_id": "Y7YAkiFozCE",
+              "name": "mono_btls_x509_chain_get_certs"
+            },
+            {
+              "id": 1786688000058216733,
+              "hex_id": "18CB97450FEC511D",
+              "encoded_id": "GMuXRQ-sUR0",
+              "name": "mono_btls_x509_chain_get_count"
+            },
+            {
+              "id": 4779226025153932055,
+              "hex_id": "425338BF9A9A2B17",
+              "encoded_id": "QlM4v5qaKxc",
+              "name": "mono_btls_x509_chain_new"
+            },
+            {
+              "id": 12112703811995216255,
+              "hex_id": "A818F7F0EF7EA97F",
+              "encoded_id": "qBj38O9+qX8",
+              "name": "mono_btls_x509_chain_peek_certs"
+            },
+            {
+              "id": 10252259553670538174,
+              "hex_id": "8E4757BEC9A323BE",
+              "encoded_id": "jkdXvsmjI74",
+              "name": "mono_btls_x509_chain_up_ref"
+            },
+            {
+              "id": 645764695050108330,
+              "hex_id": "08F6379198F33DAA",
+              "encoded_id": "CPY3kZjzPao",
+              "name": "mono_btls_x509_cmp"
+            },
+            {
+              "id": 7538869845931327738,
+              "hex_id": "689F722EA6A400FA",
+              "encoded_id": "aJ9yLqakAPo",
+              "name": "mono_btls_x509_crl_free"
+            },
+            {
+              "id": 1665739543153436551,
+              "hex_id": "171DE549FDFB6787",
+              "encoded_id": "Fx3lSf37Z4c",
+              "name": "mono_btls_x509_crl_from_data"
+            },
+            {
+              "id": 4208177495040624558,
+              "hex_id": "3A667322C7B087AE",
+              "encoded_id": "OmZzIsewh64",
+              "name": "mono_btls_x509_crl_get_by_cert"
+            },
+            {
+              "id": 4338249757337387994,
+              "hex_id": "3C348F2B550503DA",
+              "encoded_id": "PDSPK1UFA9o",
+              "name": "mono_btls_x509_crl_get_by_serial"
+            },
+            {
+              "id": 4915124606344476875,
+              "hex_id": "443607C9BBF1B8CB",
+              "encoded_id": "RDYHybvxuMs",
+              "name": "mono_btls_x509_crl_get_issuer"
+            },
+            {
+              "id": 11440316745068884197,
+              "hex_id": "9EC42B775BC8B0E5",
+              "encoded_id": "nsQrd1vIsOU",
+              "name": "mono_btls_x509_crl_get_last_update"
+            },
+            {
+              "id": 17121994549562750286,
+              "hex_id": "ED9D8B539CDCB54E",
+              "encoded_id": "7Z2LU5zctU4",
+              "name": "mono_btls_x509_crl_get_next_update"
+            },
+            {
+              "id": 15333715778182421476,
+              "hex_id": "D4CC4D423D5D9BE4",
+              "encoded_id": "1MxNQj1dm+Q",
+              "name": "mono_btls_x509_crl_get_revoked"
+            },
+            {
+              "id": 17360738706022287694,
+              "hex_id": "F0EDBBDF3AD5494E",
+              "encoded_id": "8O273zrVSU4",
+              "name": "mono_btls_x509_crl_get_revoked_count"
+            },
+            {
+              "id": 14081006894165797589,
+              "hex_id": "C369C92A76942AD5",
+              "encoded_id": "w2nJKnaUKtU",
+              "name": "mono_btls_x509_crl_get_version"
+            },
+            {
+              "id": 5089804432359188465,
+              "hex_id": "46A29E2A0EFA67F1",
+              "encoded_id": "RqKeKg76Z-E",
+              "name": "mono_btls_x509_crl_ref"
+            },
+            {
+              "id": 15951863189355613739,
+              "hex_id": "DD60670DDB2BCE2B",
+              "encoded_id": "3WBnDdsrzis",
+              "name": "mono_btls_x509_dup"
+            },
+            {
+              "id": 6235302798318193284,
+              "hex_id": "56883EDBE8C14A84",
+              "encoded_id": "Vog+2+jBSoQ",
+              "name": "mono_btls_x509_free"
+            },
+            {
+              "id": 9606585137279469420,
+              "hex_id": "85517248D417076C",
+              "encoded_id": "hVFySNQXB2w",
+              "name": "mono_btls_x509_from_data"
+            },
+            {
+              "id": 17585034908735497789,
+              "hex_id": "F40A98147A05E63D",
+              "encoded_id": "9AqYFHoF5j0",
+              "name": "mono_btls_x509_get_hash"
+            },
+            {
+              "id": 11989931709324757407,
+              "hex_id": "A664CB5D3F7E899F",
+              "encoded_id": "pmTLXT9+iZ8",
+              "name": "mono_btls_x509_get_issuer_name"
+            },
+            {
+              "id": 12282985280675916506,
+              "hex_id": "AA75EE08E40A2ADA",
+              "encoded_id": "qnXuCOQKKto",
+              "name": "mono_btls_x509_get_issuer_name_string"
+            },
+            {
+              "id": 13249160936992531246,
+              "hex_id": "B7DE79ACD56BE32E",
+              "encoded_id": "t955rNVr4y4",
+              "name": "mono_btls_x509_get_not_after"
+            },
+            {
+              "id": 5607822297013001239,
+              "hex_id": "4DD2FCAAE8F99C17",
+              "encoded_id": "TdL8quj5nBc",
+              "name": "mono_btls_x509_get_not_before"
+            },
+            {
+              "id": 1920922678194724366,
+              "hex_id": "1AA87CFF92C9DE0E",
+              "encoded_id": "Gqh8-5LJ3g4",
+              "name": "mono_btls_x509_get_pubkey"
+            },
+            {
+              "id": 8849703441905086260,
+              "hex_id": "7AD07664864DEF34",
+              "encoded_id": "etB2ZIZN7zQ",
+              "name": "mono_btls_x509_get_public_key"
+            },
+            {
+              "id": 2874353470096270152,
+              "hex_id": "27E3C14087FFE348",
+              "encoded_id": "J+PBQIf-40g",
+              "name": "mono_btls_x509_get_public_key_algorithm"
+            },
+            {
+              "id": 18000661665889690074,
+              "hex_id": "F9CF3269DD58A1DA",
+              "encoded_id": "+c8yad1Yodo",
+              "name": "mono_btls_x509_get_public_key_asn1"
+            },
+            {
+              "id": 18280005229608398558,
+              "hex_id": "FDAF9FE79B176EDE",
+              "encoded_id": "-a+f55sXbt4",
+              "name": "mono_btls_x509_get_public_key_parameters"
+            },
+            {
+              "id": 15069380066661193281,
+              "hex_id": "D121315462B15641",
+              "encoded_id": "0SExVGKxVkE",
+              "name": "mono_btls_x509_get_raw_data"
+            },
+            {
+              "id": 7949218148509995560,
+              "hex_id": "6E514BCA1006D228",
+              "encoded_id": "blFLyhAG0ig",
+              "name": "mono_btls_x509_get_serial_number"
+            },
+            {
+              "id": 13521338857838371569,
+              "hex_id": "BBA5720D552462F1",
+              "encoded_id": "u6VyDVUkYvE",
+              "name": "mono_btls_x509_get_signature_algorithm"
+            },
+            {
+              "id": 9375227088193757615,
+              "hex_id": "821B7F5D5868A1AF",
+              "encoded_id": "ght-XVhooa8",
+              "name": "mono_btls_x509_get_subject_key_identifier"
+            },
+            {
+              "id": 13420540329076611286,
+              "hex_id": "BA3F5653006A58D6",
+              "encoded_id": "uj9WUwBqWNY",
+              "name": "mono_btls_x509_get_subject_name"
+            },
+            {
+              "id": 8182448234269872037,
+              "hex_id": "718DE5510CAD8FA5",
+              "encoded_id": "cY3lUQytj6U",
+              "name": "mono_btls_x509_get_subject_name_string"
+            },
+            {
+              "id": 16169524511393720931,
+              "hex_id": "E065B0DF90982A63",
+              "encoded_id": "4GWw35CYKmM",
+              "name": "mono_btls_x509_get_version"
+            },
+            {
+              "id": 18007134976993029859,
+              "hex_id": "F9E631DB0E2E6EE3",
+              "encoded_id": "+eYx2w4ubuM",
+              "name": "mono_btls_x509_lookup_add_dir"
+            },
+            {
+              "id": 18324281395992941886,
+              "hex_id": "FE4CECD7EC75553E",
+              "encoded_id": "-kzs1+x1VT4",
+              "name": "mono_btls_x509_lookup_add_mono"
+            },
+            {
+              "id": 6574995794970229662,
+              "hex_id": "5B3F13D6F6E33B9E",
+              "encoded_id": "Wz8T1vbjO54",
+              "name": "mono_btls_x509_lookup_by_fingerprint"
+            },
+            {
+              "id": 3240313986152451653,
+              "hex_id": "2CF7E8670958CE45",
+              "encoded_id": "LPfoZwlYzkU",
+              "name": "mono_btls_x509_lookup_by_subject"
+            },
+            {
+              "id": 10657201931685064860,
+              "hex_id": "93E5FCB14DB1F09C",
+              "encoded_id": "k+X8sU2x8Jw",
+              "name": "mono_btls_x509_lookup_free"
+            },
+            {
+              "id": 5826884876768535734,
+              "hex_id": "50DD40EC5AE264B6",
+              "encoded_id": "UN1A7FriZLY",
+              "name": "mono_btls_x509_lookup_get_type"
+            },
+            {
+              "id": 17295100174220030490,
+              "hex_id": "F00489F99F2E721A",
+              "encoded_id": "8ASJ+Z8ucho",
+              "name": "mono_btls_x509_lookup_init"
+            },
+            {
+              "id": 3018173218590229872,
+              "hex_id": "29E2B48D24AB0570",
+              "encoded_id": "KeK0jSSrBXA",
+              "name": "mono_btls_x509_lookup_load_file"
+            },
+            {
+              "id": 1711377347484274444,
+              "hex_id": "17C008A159734F0C",
+              "encoded_id": "F8AIoVlzTww",
+              "name": "mono_btls_x509_lookup_mono_free"
+            },
+            {
+              "id": 5877895638631294462,
+              "hex_id": "51927AF0DF6FA5FE",
+              "encoded_id": "UZJ68N9vpf4",
+              "name": "mono_btls_x509_lookup_mono_init"
+            },
+            {
+              "id": 16785244434674781884,
+              "hex_id": "E8F12AE19CE48EBC",
+              "encoded_id": "6PEq4Zzkjrw",
+              "name": "mono_btls_x509_lookup_mono_method"
+            },
+            {
+              "id": 12251595839694936065,
+              "hex_id": "AA06698124AB9801",
+              "encoded_id": "qgZpgSSrmAE",
+              "name": "mono_btls_x509_lookup_mono_new"
+            },
+            {
+              "id": 14855375382887843582,
+              "hex_id": "CE28E5341E1CC6FE",
+              "encoded_id": "zijlNB4cxv4",
+              "name": "mono_btls_x509_lookup_new"
+            },
+            {
+              "id": 4664585258340598971,
+              "hex_id": "40BBEF9413EA44BB",
+              "encoded_id": "QLvvlBPqRLs",
+              "name": "mono_btls_x509_lookup_peek_lookup"
+            },
+            {
+              "id": 10794242429205427703,
+              "hex_id": "95CCDA4C8C3D35F7",
+              "encoded_id": "lczaTIw9Nfc",
+              "name": "mono_btls_x509_lookup_shutdown"
+            },
+            {
+              "id": 5365165578531282175,
+              "hex_id": "4A74E5AAF5829CFF",
+              "encoded_id": "SnTlqvWCnP8",
+              "name": "mono_btls_x509_lookup_up_ref"
+            },
+            {
+              "id": 16939283634822708038,
+              "hex_id": "EB146CB7BB31FB46",
+              "encoded_id": "6xRst7sx+0Y",
+              "name": "mono_btls_x509_name_copy"
+            },
+            {
+              "id": 167746443573609004,
+              "hex_id": "0253F4806D8A422C",
+              "encoded_id": "AlP0gG2KQiw",
+              "name": "mono_btls_x509_name_free"
+            },
+            {
+              "id": 10436151325595561590,
+              "hex_id": "90D4A85668586E76",
+              "encoded_id": "kNSoVmhYbnY",
+              "name": "mono_btls_x509_name_from_data"
+            },
+            {
+              "id": 13267915748792337320,
+              "hex_id": "B8211B13BC9403A8",
+              "encoded_id": "uCEbE7yUA6g",
+              "name": "mono_btls_x509_name_from_name"
+            },
+            {
+              "id": 1198370451585833830,
+              "hex_id": "10A1779394191B66",
+              "encoded_id": "EKF3k5QZG2Y",
+              "name": "mono_btls_x509_name_get_entry_count"
+            },
+            {
+              "id": 11700820189621944497,
+              "hex_id": "A261A9F8072280B1",
+              "encoded_id": "omGp+AcigLE",
+              "name": "mono_btls_x509_name_get_entry_oid"
+            },
+            {
+              "id": 8751964796542708549,
+              "hex_id": "7975399CD0A6EB45",
+              "encoded_id": "eXU5nNCm60U",
+              "name": "mono_btls_x509_name_get_entry_oid_data"
+            },
+            {
+              "id": 10184978437155716247,
+              "hex_id": "8D584FED1FADFC97",
+              "encoded_id": "jVhP7R+t-Jc",
+              "name": "mono_btls_x509_name_get_entry_type"
+            },
+            {
+              "id": 13390128218054524693,
+              "hex_id": "B9D34AAB9E12FF15",
+              "encoded_id": "udNKq54S-xU",
+              "name": "mono_btls_x509_name_get_entry_value"
+            },
+            {
+              "id": 10898820023526282929,
+              "hex_id": "974063112532D6B1",
+              "encoded_id": "l0BjESUy1rE",
+              "name": "mono_btls_x509_name_get_raw_data"
+            },
+            {
+              "id": 14555303052444350543,
+              "hex_id": "C9FED302471AB84F",
+              "encoded_id": "yf7TAkcauE8",
+              "name": "mono_btls_x509_name_hash"
+            },
+            {
+              "id": 3647224928937957059,
+              "hex_id": "329D8BBFC14BD6C3",
+              "encoded_id": "Mp2Lv8FL1sM",
+              "name": "mono_btls_x509_name_hash_old"
+            },
+            {
+              "id": 10943752460239583885,
+              "hex_id": "97E004E14E633A8D",
+              "encoded_id": "l+AE4U5jOo0",
+              "name": "mono_btls_x509_name_peek_name"
+            },
+            {
+              "id": 14116299297255129943,
+              "hex_id": "C3E72B6B63FD0357",
+              "encoded_id": "w+cra2P9A1c",
+              "name": "mono_btls_x509_name_print_bio"
+            },
+            {
+              "id": 3716907990010373340,
+              "hex_id": "33951C1FB76124DC",
+              "encoded_id": "M5UcH7dhJNw",
+              "name": "mono_btls_x509_name_print_string"
+            },
+            {
+              "id": 2684969813576727869,
+              "hex_id": "2542EDD1E2E33D3D",
+              "encoded_id": "JULt0eLjPT0",
+              "name": "mono_btls_x509_print"
+            },
+            {
+              "id": 2248865088640104543,
+              "hex_id": "1F3592E2142BB85F",
+              "encoded_id": "HzWS4hQruF8",
+              "name": "mono_btls_x509_revoked_free"
+            },
+            {
+              "id": 17170744340107026432,
+              "hex_id": "EE4ABD00B920E000",
+              "encoded_id": "7kq9ALkg4AA",
+              "name": "mono_btls_x509_revoked_get_reason"
+            },
+            {
+              "id": 11177124387741690973,
+              "hex_id": "9B1D1F6965B2EC5D",
+              "encoded_id": "mx0faWWy7F0",
+              "name": "mono_btls_x509_revoked_get_revocation_date"
+            },
+            {
+              "id": 15932479480794595891,
+              "hex_id": "DD1B89AC83F64233",
+              "encoded_id": "3RuJrIP2QjM",
+              "name": "mono_btls_x509_revoked_get_sequence"
+            },
+            {
+              "id": 2450329253900615846,
+              "hex_id": "22015179597E80A6",
+              "encoded_id": "IgFReVl+gKY",
+              "name": "mono_btls_x509_revoked_get_serial_number"
+            },
+            {
+              "id": 1059492268665046337,
+              "hex_id": "0EB4129ADC0D8541",
+              "encoded_id": "DrQSmtwNhUE",
+              "name": "mono_btls_x509_revoked_new"
+            },
+            {
+              "id": 17504640290281414184,
+              "hex_id": "F2ECF999B736DE28",
+              "encoded_id": "8uz5mbc23ig",
+              "name": "mono_btls_x509_store_add_cert"
+            },
+            {
+              "id": 13400419385406201964,
+              "hex_id": "B9F7DA6EBC65206C",
+              "encoded_id": "uffabrxlIGw",
+              "name": "mono_btls_x509_store_add_orbis_certs"
+            },
+            {
+              "id": 11708613342950312024,
+              "hex_id": "A27D59CCEEF3C858",
+              "encoded_id": "on1ZzO7zyFg",
+              "name": "mono_btls_x509_store_ctx_free"
+            },
+            {
+              "id": 12421903971169999702,
+              "hex_id": "AC6377D9039A1B56",
+              "encoded_id": "rGN32QOaG1Y",
+              "name": "mono_btls_x509_store_ctx_from_ptr"
+            },
+            {
+              "id": 4915466420700556913,
+              "hex_id": "44373EAA9737AE71",
+              "encoded_id": "RDc+qpc3rnE",
+              "name": "mono_btls_x509_store_ctx_get_by_subject"
+            },
+            {
+              "id": 7923923677551279951,
+              "hex_id": "6DF76E9A1BC03F4F",
+              "encoded_id": "bfdumhvAP08",
+              "name": "mono_btls_x509_store_ctx_get_chain"
+            },
+            {
+              "id": 343810322665158842,
+              "hex_id": "04C575AAB891B8BA",
+              "encoded_id": "BMV1qriRuLo",
+              "name": "mono_btls_x509_store_ctx_get_current_cert"
+            },
+            {
+              "id": 2988951397564545656,
+              "hex_id": "297AE375BEBDFA78",
+              "encoded_id": "KXrjdb69+ng",
+              "name": "mono_btls_x509_store_ctx_get_current_issuer"
+            },
+            {
+              "id": 7993843665042440058,
+              "hex_id": "6EEFD675CCDC7F7A",
+              "encoded_id": "bu-Wdczcf3o",
+              "name": "mono_btls_x509_store_ctx_get_error"
+            },
+            {
+              "id": 221636546822774641,
+              "hex_id": "03136943DA9D9F71",
+              "encoded_id": "AxNpQ9qdn3E",
+              "name": "mono_btls_x509_store_ctx_get_error_depth"
+            },
+            {
+              "id": 7402484257761432570,
+              "hex_id": "66BAE8365F4A93FA",
+              "encoded_id": "ZrroNl9Kk-o",
+              "name": "mono_btls_x509_store_ctx_get_foo"
+            },
+            {
+              "id": 16369640362365872005,
+              "hex_id": "E32CA52DF3B6E785",
+              "encoded_id": "4yylLfO254U",
+              "name": "mono_btls_x509_store_ctx_get_untrusted"
+            },
+            {
+              "id": 10045223308121801013,
+              "hex_id": "8B67CD607A130135",
+              "encoded_id": "i2fNYHoTATU",
+              "name": "mono_btls_x509_store_ctx_get_verify_param"
+            },
+            {
+              "id": 10174211685897332738,
+              "hex_id": "8D320F9F7F89E802",
+              "encoded_id": "jTIPn3+J6AI",
+              "name": "mono_btls_x509_store_ctx_init"
+            },
+            {
+              "id": 5390511885749598460,
+              "hex_id": "4ACEF1FFFBA038FC",
+              "encoded_id": "Ss7x--ugOPw",
+              "name": "mono_btls_x509_store_ctx_new"
+            },
+            {
+              "id": 2208613186618348356,
+              "hex_id": "1EA691FDD2A15344",
+              "encoded_id": "HqaR-dKhU0Q",
+              "name": "mono_btls_x509_store_ctx_set_param"
+            },
+            {
+              "id": 18088644584036478645,
+              "hex_id": "FB07C66953C9AEB5",
+              "encoded_id": "+wfGaVPJrrU",
+              "name": "mono_btls_x509_store_ctx_up_ref"
+            },
+            {
+              "id": 10556465277550824323,
+              "hex_id": "9280193D48298B83",
+              "encoded_id": "koAZPUgpi4M",
+              "name": "mono_btls_x509_store_ctx_verify_cert"
+            },
+            {
+              "id": 15442013824212608506,
+              "hex_id": "D64D0DC200DD25FA",
+              "encoded_id": "1k0NwgDdJfo",
+              "name": "mono_btls_x509_store_free"
+            },
+            {
+              "id": 6640542146348399837,
+              "hex_id": "5C27F1E6251B3CDD",
+              "encoded_id": "XCfx5iUbPN0",
+              "name": "mono_btls_x509_store_from_ctx"
+            },
+            {
+              "id": 6646515704338793325,
+              "hex_id": "5C3D2AD17F2B436D",
+              "encoded_id": "XD0q0X8rQ20",
+              "name": "mono_btls_x509_store_from_ssl_ctx"
+            },
+            {
+              "id": 1039737136972990074,
+              "hex_id": "0E6DE36AD50E867A",
+              "encoded_id": "Dm3jatUOhno",
+              "name": "mono_btls_x509_store_from_store"
+            },
+            {
+              "id": 8949813549674560610,
+              "hex_id": "7C3420015A547C62",
+              "encoded_id": "fDQgAVpUfGI",
+              "name": "mono_btls_x509_store_get_count"
+            },
+            {
+              "id": 9561191966834456440,
+              "hex_id": "84B02D6FBC7C7778",
+              "encoded_id": "hLAtb7x8d3g",
+              "name": "mono_btls_x509_store_load_locations"
+            },
+            {
+              "id": 112311311821994647,
+              "hex_id": "018F028B05687A97",
+              "encoded_id": "AY8CiwVoepc",
+              "name": "mono_btls_x509_store_new"
+            },
+            {
+              "id": 10022345976573963825,
+              "hex_id": "8B168690A5C1AE31",
+              "encoded_id": "ixaGkKXBrjE",
+              "name": "mono_btls_x509_store_peek_store"
+            },
+            {
+              "id": 7465819132956630509,
+              "hex_id": "679BEAF22131DDED",
+              "encoded_id": "Z5vq8iEx3e0",
+              "name": "mono_btls_x509_store_set_default_paths"
+            },
+            {
+              "id": 12658992006429237194,
+              "hex_id": "AFADC628DDB95FCA",
+              "encoded_id": "r63GKN25X8o",
+              "name": "mono_btls_x509_store_up_ref"
+            },
+            {
+              "id": 1980323862116210270,
+              "hex_id": "1B7B860F75AA965E",
+              "encoded_id": "G3uGD3Wqll4",
+              "name": "mono_btls_x509_up_ref"
+            },
+            {
+              "id": 18043737383829560832,
+              "hex_id": "FA683B8CFF98DE00",
+              "encoded_id": "+mg7jP+Y3gA",
+              "name": "mono_btls_x509_verify_param_add_host"
+            },
+            {
+              "id": 6392643758630118026,
+              "hex_id": "58B73BA0F8C4228A",
+              "encoded_id": "WLc7oPjEIoo",
+              "name": "mono_btls_x509_verify_param_can_modify"
+            },
+            {
+              "id": 9738467840374899434,
+              "hex_id": "8725FCE77A1C82EA",
+              "encoded_id": "hyX853ocguo",
+              "name": "mono_btls_x509_verify_param_copy"
+            },
+            {
+              "id": 3123317040767885790,
+              "hex_id": "2B58404CEFE4E1DE",
+              "encoded_id": "K1hATO-k4d4",
+              "name": "mono_btls_x509_verify_param_free"
+            },
+            {
+              "id": 2336856987807365857,
+              "hex_id": "206E2F0C9925BAE1",
+              "encoded_id": "IG4vDJkluuE",
+              "name": "mono_btls_x509_verify_param_from_store_ctx"
+            },
+            {
+              "id": 2290857461833347303,
+              "hex_id": "1FCAC2B95BA130E7",
+              "encoded_id": "H8rCuVuhMOc",
+              "name": "mono_btls_x509_verify_param_get_depth"
+            },
+            {
+              "id": 4169086529481998969,
+              "hex_id": "39DB921C1BA40279",
+              "encoded_id": "OduSHBukAnk",
+              "name": "mono_btls_x509_verify_param_get_flags"
+            },
+            {
+              "id": 13479822551066360909,
+              "hex_id": "BB11F330E79C3C4D",
+              "encoded_id": "uxHzMOecPE0",
+              "name": "mono_btls_x509_verify_param_get_mono_flags"
+            },
+            {
+              "id": 14007253170335205734,
+              "hex_id": "C263C28B78CB4966",
+              "encoded_id": "wmPCi3jLSWY",
+              "name": "mono_btls_x509_verify_param_get_peername"
+            },
+            {
+              "id": 10808772773718217382,
+              "hex_id": "96007992036352A6",
+              "encoded_id": "lgB5kgNjUqY",
+              "name": "mono_btls_x509_verify_param_lookup"
+            },
+            {
+              "id": 12312717991802792688,
+              "hex_id": "AADF8FC728F76AF0",
+              "encoded_id": "qt+Pxyj3avA",
+              "name": "mono_btls_x509_verify_param_new"
+            },
+            {
+              "id": 7058301208298247417,
+              "hex_id": "61F41F8D6E53D4F9",
+              "encoded_id": "YfQfjW5T1Pk",
+              "name": "mono_btls_x509_verify_param_peek_param"
+            },
+            {
+              "id": 11578224809536486629,
+              "hex_id": "A0AE1E1EC6097CE5",
+              "encoded_id": "oK4eHsYJfOU",
+              "name": "mono_btls_x509_verify_param_set_depth"
+            },
+            {
+              "id": 10463164702521813076,
+              "hex_id": "9134A0DC5837E854",
+              "encoded_id": "kTSg3Fg36FQ",
+              "name": "mono_btls_x509_verify_param_set_flags"
+            },
+            {
+              "id": 14738367858461069030,
+              "hex_id": "CC89337AE49B4EE6",
+              "encoded_id": "zIkzeuSbTuY",
+              "name": "mono_btls_x509_verify_param_set_host"
+            },
+            {
+              "id": 3942374256141067381,
+              "hex_id": "36B6207F94EEE475",
+              "encoded_id": "NrYgf5Tu5HU",
+              "name": "mono_btls_x509_verify_param_set_mono_flags"
+            },
+            {
+              "id": 8668962728650305474,
+              "hex_id": "784E57ABEC4D6FC2",
+              "encoded_id": "eE5Xq+xNb8I",
+              "name": "mono_btls_x509_verify_param_set_name"
+            },
+            {
+              "id": 9021067576192445528,
+              "hex_id": "7D31452A35BEAC58",
+              "encoded_id": "fTFFKjW+rFg",
+              "name": "mono_btls_x509_verify_param_set_purpose"
+            },
+            {
+              "id": 10468381346867682862,
+              "hex_id": "9147295F015F9E2E",
+              "encoded_id": "kUcpXwFfni4",
+              "name": "mono_btls_x509_verify_param_set_time"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 17588531036976227154,
+              "hex_id": "F41703CA43E6A352",
+              "encoded_id": "9BcDykPmo1I",
+              "name": "__error"
+            },
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 7894756526838107668,
+              "hex_id": "6D8FCF3BA261CE14",
+              "encoded_id": "bY-PO6JhzhQ",
+              "name": "close"
+            },
+            {
+              "id": 6724714590754579785,
+              "hex_id": "5D52FC4A8DD02549",
+              "encoded_id": "XVL8So3QJUk",
+              "name": "connect"
+            },
+            {
+              "id": 17471211133811067289,
+              "hex_id": "F27635F5B2A88999",
+              "encoded_id": "8nY19bKoiZk",
+              "name": "fcntl"
+            },
+            {
+              "id": 16784639565416636374,
+              "hex_id": "E8EF04C183A01FD6",
+              "encoded_id": "6O8EwYOgH9Y",
+              "name": "getsockopt"
+            },
+            {
+              "id": 11515475305845857647,
+              "hex_id": "9FCF2FC770B99D6F",
+              "encoded_id": "n88vx3C5nW8",
+              "name": "gettimeofday"
+            },
+            {
+              "id": 4465068684319409537,
+              "hex_id": "3DF71C4FBA944581",
+              "encoded_id": "PfccT7qURYE",
+              "name": "ioctl"
+            },
+            {
+              "id": 4264496148144546025,
+              "hex_id": "3B2E88A7082D60E9",
+              "encoded_id": "Oy6IpwgtYOk",
+              "name": "lseek"
+            },
+            {
+              "id": 356133688235278714,
+              "hex_id": "04F13DB3DBD0417A",
+              "encoded_id": "BPE9s9vQQXo",
+              "name": "mmap"
+            },
+            {
+              "id": 14042412343999313768,
+              "hex_id": "C2E0ABA081A3B768",
+              "encoded_id": "wuCroIGjt2g",
+              "name": "open"
+            },
+            {
+              "id": 15272435764381927214,
+              "hex_id": "D3F297692EF4C72E",
+              "encoded_id": "0-KXaS70xy4",
+              "name": "pthread_getspecific"
+            },
+            {
+              "id": 11143325178894110333,
+              "hex_id": "9AA50B35D8A64E7D",
+              "encoded_id": "mqULNdimTn0",
+              "name": "pthread_key_create"
+            },
+            {
+              "id": 17040814278730468538,
+              "hex_id": "EC7D224CE7224CBA",
+              "encoded_id": "7H0iTOciTLo",
+              "name": "pthread_mutex_lock"
+            },
+            {
+              "id": 15681410368750643352,
+              "hex_id": "D99F8FA58E826898",
+              "encoded_id": "2Z+PpY6CaJg",
+              "name": "pthread_mutex_unlock"
+            },
+            {
+              "id": 7459131625041866765,
+              "hex_id": "678428B15B80B00D",
+              "encoded_id": "Z4QosVuAsA0",
+              "name": "pthread_once"
+            },
+            {
+              "id": 15532622001334371869,
+              "hex_id": "D78EF56A33F3C61D",
+              "encoded_id": "1471ajPzxh0",
+              "name": "pthread_rwlock_destroy"
+            },
+            {
+              "id": 14615328873691710654,
+              "hex_id": "CAD4142CDFE784BE",
+              "encoded_id": "ytQULN-nhL4",
+              "name": "pthread_rwlock_init"
+            },
+            {
+              "id": 9829366424534037645,
+              "hex_id": "8868ECAF5580B48D",
+              "encoded_id": "iGjsr1WAtI0",
+              "name": "pthread_rwlock_rdlock"
+            },
+            {
+              "id": 1299723502371635914,
+              "hex_id": "12098BA3A11682CA",
+              "encoded_id": "EgmLo6EWgso",
+              "name": "pthread_rwlock_unlock"
+            },
+            {
+              "id": 12720788494854403942,
+              "hex_id": "B08951BD0AAC3766",
+              "encoded_id": "sIlRvQqsN2Y",
+              "name": "pthread_rwlock_wrlock"
+            },
+            {
+              "id": 6535721125781227779,
+              "hex_id": "5AB38BBC7534C903",
+              "encoded_id": "WrOLvHU0yQM",
+              "name": "pthread_setspecific"
+            },
+            {
+              "id": 189259624450299762,
+              "hex_id": "02A062A02DAF1772",
+              "encoded_id": "AqBioC2vF3I",
+              "name": "read"
+            },
+            {
+              "id": 1386881698613172097,
+              "hex_id": "133F318E8F541781",
+              "encoded_id": "Ez8xjo9UF4E",
+              "name": "recv"
+            },
+            {
+              "id": 9048750230857881788,
+              "hex_id": "7D939E64838498BC",
+              "encoded_id": "fZOeZIOEmLw",
+              "name": "send"
+            },
+            {
+              "id": 8961114956027555162,
+              "hex_id": "7C5C469311766D5A",
+              "encoded_id": "fFxGkxF2bVo",
+              "name": "setsockopt"
+            },
+            {
+              "id": 5569723902435005387,
+              "hex_id": "4D4BA2612DA413CB",
+              "encoded_id": "TUuiYS2kE8s",
+              "name": "shutdown"
+            },
+            {
+              "id": 1416004810935616485,
+              "hex_id": "13A6A8DF8C0FC3E5",
+              "encoded_id": "E6ao34wPw+U",
+              "name": "stat"
+            },
+            {
+              "id": 1503674960825947487,
+              "hex_id": "14DE2068F9AE155F",
+              "encoded_id": "FN4gaPmuFV8",
+              "name": "write"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 1203776007593012051,
+              "hex_id": "10B4ABE6A9B82B53",
+              "encoded_id": "ELSr5qm4K1M",
+              "name": "__umodti3"
+            },
+            {
+              "id": 12773322915817502956,
+              "hex_id": "B143F58416A8B8EC",
+              "encoded_id": "sUP1hBaouOw",
+              "name": "_Getpctype"
+            },
+            {
+              "id": 15484044714981158149,
+              "hex_id": "D6E260A15AB76D05",
+              "encoded_id": "1uJgoVq3bQU",
+              "name": "_Getptolower"
+            },
+            {
+              "id": 2287874432227194072,
+              "hex_id": "1FC029ACA799B4D8",
+              "encoded_id": "H8AprKeZtNg",
+              "type": "Object",
+              "name": "_Stderr"
+            },
+            {
+              "id": 14868568335454751040,
+              "hex_id": "CE57C41FC166C940",
+              "encoded_id": "zlfEH8FmyUA",
+              "name": "_Stoul"
+            },
+            {
+              "id": 3509893966030264529,
+              "hex_id": "30B5A5F7448558D1",
+              "encoded_id": "MLWl90SFWNE",
+              "name": "_ZdaPv"
+            },
+            {
+              "id": 14980096904033348633,
+              "hex_id": "CFE3FEC429D62C19",
+              "encoded_id": "z+P+xCnWLBk",
+              "name": "_ZdlPv"
+            },
+            {
+              "id": 9644938409774083380,
+              "hex_id": "85D9B461F31AED34",
+              "encoded_id": "hdm0YfMa7TQ",
+              "name": "_Znam"
+            },
+            {
+              "id": 8978464314348367017,
+              "hex_id": "7C99E9B955416CA9",
+              "encoded_id": "fJnpuVVBbKk",
+              "name": "_Znwm"
+            },
+            {
+              "id": 8736302346086039989,
+              "hex_id": "793D94B264DEC1B5",
+              "encoded_id": "eT2UsmTewbU",
+              "name": "_ZSt11_Xbad_allocv"
+            },
+            {
+              "id": 13043032518080565850,
+              "hex_id": "B50228F8620F925A",
+              "encoded_id": "tQIo+GIPklo",
+              "name": "_ZSt14_Xlength_errorPKc"
+            },
+            {
+              "id": 11759743805476159782,
+              "hex_id": "A33300AF6F01C126",
+              "encoded_id": "ozMAr28BwSY",
+              "name": "_ZSt14_Xout_of_rangePKc"
+            },
+            {
+              "id": 3410492990919936764,
+              "hex_id": "2F54814E40BE0AFC",
+              "encoded_id": "L1SBTkC+Cvw",
+              "name": "abort"
+            },
+            {
+              "id": 3885208454647715652,
+              "hex_id": "35EB0881399F1744",
+              "encoded_id": "NesIgTmfF0Q",
+              "name": "bsearch"
+            },
+            {
+              "id": 6767324374406357486,
+              "hex_id": "5DEA5DA9E85561EE",
+              "encoded_id": "XepdqehVYe4",
+              "name": "closedir"
+            },
+            {
+              "id": 13440794502107408237,
+              "hex_id": "BA874B632522A76D",
+              "encoded_id": "uodLYyUip20",
+              "name": "fclose"
+            },
+            {
+              "id": 3393185602567584709,
+              "hex_id": "2F170453E202BBC5",
+              "encoded_id": "LxcEU+ICu8U",
+              "name": "feof"
+            },
+            {
+              "id": 35028812122715950,
+              "hex_id": "007C7284DF7A772E",
+              "encoded_id": "AHxyhN96dy4",
+              "name": "ferror"
+            },
+            {
+              "id": 3551302583555959982,
+              "hex_id": "3148C2E256C7ACAE",
+              "encoded_id": "MUjC4lbHrK4",
+              "name": "fflush"
+            },
+            {
+              "id": 3014033626538555500,
+              "hex_id": "29D3FF9D42E9B86C",
+              "encoded_id": "KdP-nULpuGw",
+              "name": "fgets"
+            },
+            {
+              "id": 14260101637949278365,
+              "hex_id": "C5E60EE2EEEEC89D",
+              "encoded_id": "xeYO4u7uyJ0",
+              "name": "fopen"
+            },
+            {
+              "id": 9076987528548799568,
+              "hex_id": "7DF7F010B5CD5450",
+              "encoded_id": "fffwELXNVFA",
+              "name": "fprintf"
+            },
+            {
+              "id": 7607350068041153804,
+              "hex_id": "6992BC94D7A2FD0C",
+              "encoded_id": "aZK8lNei-Qw",
+              "name": "fputc"
+            },
+            {
+              "id": 4807128009684791677,
+              "hex_id": "42B659749F17B17D",
+              "encoded_id": "QrZZdJ8XsX0",
+              "name": "fputs"
+            },
+            {
+              "id": 10786259999654564973,
+              "hex_id": "95B07E52566A546D",
+              "encoded_id": "lbB+UlZqVG0",
+              "name": "fread"
+            },
+            {
+              "id": 12466338725556587288,
+              "hex_id": "AD0155057A7F0B18",
+              "encoded_id": "rQFVBXp-Cxg",
+              "name": "fseek"
+            },
+            {
+              "id": 4732424424179322620,
+              "hex_id": "41ACF2F0B9974EFC",
+              "encoded_id": "Qazy8LmXTvw",
+              "name": "ftell"
+            },
+            {
+              "id": 3646896666160666298,
+              "hex_id": "329C61321F1016BA",
+              "encoded_id": "MpxhMh8QFro",
+              "name": "fwrite"
+            },
+            {
+              "id": 12855191684865155219,
+              "hex_id": "B266D0BA47F16093",
+              "encoded_id": "smbQukfxYJM",
+              "name": "getenv"
+            },
+            {
+              "id": 15449488844140847968,
+              "hex_id": "D6679C3FB4602360",
+              "encoded_id": "1mecP7RgI2A",
+              "name": "gmtime"
+            },
+            {
+              "id": 12879400297537642419,
+              "hex_id": "B2BCD25526CA9FB3",
+              "encoded_id": "srzSVSbKn7M",
+              "name": "isxdigit"
+            },
+            {
+              "id": 17505251230015073253,
+              "hex_id": "F2EF253F3504ABE5",
+              "encoded_id": "8u8lPzUEq+U",
+              "name": "memchr"
+            },
+            {
+              "id": 1006747189132769736,
+              "hex_id": "0DF8AF3C0AE1B9C8",
+              "encoded_id": "DfivPArhucg",
+              "name": "memcmp"
+            },
+            {
+              "id": 4860863683521237115,
+              "hex_id": "437541C425E1507B",
+              "encoded_id": "Q3VBxCXhUHs",
+              "name": "memcpy"
+            },
+            {
+              "id": 17941924494238559728,
+              "hex_id": "F8FE854461F82DF0",
+              "encoded_id": "+P6FRGH4LfA",
+              "name": "memmove"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            },
+            {
+              "id": 7723090915660690320,
+              "hex_id": "6B2DEE44E4007390",
+              "encoded_id": "ay3uROQAc5A",
+              "name": "opendir"
+            },
+            {
+              "id": 18679746226492010,
+              "hex_id": "00425D215653126A",
+              "encoded_id": "AEJdIVZTEmo",
+              "name": "qsort"
+            },
+            {
+              "id": 10891659692523644807,
+              "hex_id": "9726F2C8AB4FE787",
+              "encoded_id": "lybyyKtP54c",
+              "name": "readdir"
+            },
+            {
+              "id": 3281495863605921663,
+              "hex_id": "2D8A371A1225077F",
+              "encoded_id": "LYo3GhIlB38",
+              "name": "sceLibcMspaceCalloc"
+            },
+            {
+              "id": 18309935921099156372,
+              "hex_id": "FE19F5B5C547AB94",
+              "encoded_id": "-hn1tcVHq5Q",
+              "name": "sceLibcMspaceCreate"
+            },
+            {
+              "id": 6221370388246927130,
+              "hex_id": "5656BF67E797971A",
+              "encoded_id": "Vla-Z+eXlxo",
+              "name": "sceLibcMspaceFree"
+            },
+            {
+              "id": 4078263436944350802,
+              "hex_id": "3898E6FD03881E52",
+              "encoded_id": "OJjm-QOIHlI",
+              "name": "sceLibcMspaceMalloc"
+            },
+            {
+              "id": 9378790567228429553,
+              "hex_id": "82282854766F54F1",
+              "encoded_id": "gigoVHZvVPE",
+              "name": "sceLibcMspaceRealloc"
+            },
+            {
+              "id": 15346355108179245418,
+              "hex_id": "D4F934A99406796A",
+              "encoded_id": "1Pk0qZQGeWo",
+              "name": "sscanf"
+            },
+            {
+              "id": 98695067700224284,
+              "hex_id": "015EA2A4235AE11C",
+              "encoded_id": "AV6ipCNa4Rw",
+              "name": "strcasecmp"
+            },
+            {
+              "id": 3372683538974546596,
+              "hex_id": "2ECE2DCF38629AA4",
+              "encoded_id": "Ls4tzzhimqQ",
+              "name": "strcat"
+            },
+            {
+              "id": 11654877136638287869,
+              "hex_id": "A1BE71016E259FFD",
+              "encoded_id": "ob5xAW4ln-0",
+              "name": "strchr"
+            },
+            {
+              "id": 4248854281417786081,
+              "hex_id": "3AF6F675224E02E1",
+              "encoded_id": "Ovb2dSJOAuE",
+              "name": "strcmp"
+            },
+            {
+              "id": 10531195335984674552,
+              "hex_id": "9226525C859DF6F8",
+              "encoded_id": "kiZSXIWd9vg",
+              "name": "strcpy"
+            },
+            {
+              "id": 4937838664264317477,
+              "hex_id": "4486BA1A75A9FA25",
+              "encoded_id": "RIa6GnWp+iU",
+              "name": "strerror"
+            },
+            {
+              "id": 10341780252942172940,
+              "hex_id": "8F856258D1C4830C",
+              "encoded_id": "j4ViWNHEgww",
+              "name": "strlen"
+            },
+            {
+              "id": 11924365291420761001,
+              "hex_id": "A57BDB0DF721BBA9",
+              "encoded_id": "pXvbDfchu6k",
+              "name": "strncasecmp"
+            },
+            {
+              "id": 7632249581959732014,
+              "hex_id": "69EB328EB1D55B2E",
+              "encoded_id": "aesyjrHVWy4",
+              "name": "strncmp"
+            },
+            {
+              "id": 16916178298454784681,
+              "hex_id": "EAC256896491BAA9",
+              "encoded_id": "6sJWiWSRuqk",
+              "name": "strncpy"
+            },
+            {
+              "id": 13887207423665328580,
+              "hex_id": "C0B9459301BD51C4",
+              "encoded_id": "wLlFkwG9UcQ",
+              "name": "time"
+            },
+            {
+              "id": 4856426907243348013,
+              "hex_id": "43657E8AABE3802D",
+              "encoded_id": "Q2V+iqvjgC0",
+              "name": "vsnprintf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceRtc",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceRtc",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 14767114266067083476,
+              "hex_id": "CCEF542F7A8820D4",
+              "encoded_id": "zO9UL3qIINQ",
+              "name": "sceRtcGetCurrentNetworkTick"
+            },
+            {
+              "id": 493890337628429833,
+              "hex_id": "06DAA6A534571E09",
+              "encoded_id": "BtqmpTRXHgk",
+              "name": "sceRtcGetTime_t"
+            },
+            {
+              "id": 13395852000943872332,
+              "hex_id": "B9E7A06BABF7194C",
+              "encoded_id": "ueega6v3GUw",
+              "name": "sceRtcSetTick"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceSsl",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceSsl",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 12145024791003842093,
+              "hex_id": "A88BCBB34818C62D",
+              "encoded_id": "qIvLs0gYxi0",
+              "name": "sceSslFreeCaCerts"
+            },
+            {
+              "id": 5492087694599139766,
+              "hex_id": "4C37D0A8EFE031B6",
+              "encoded_id": "TDfQqO-gMbY",
+              "name": "sceSslGetCaCerts"
+            },
+            {
+              "id": 9645115084556819323,
+              "hex_id": "85DA551140C55B7B",
+              "encoded_id": "hdpVEUDFW3s",
+              "name": "sceSslInit"
+            },
+            {
+              "id": 15036800365681966471,
+              "hex_id": "D0AD7243A2EFFD87",
+              "encoded_id": "0K1yQ6Lv-Yc",
+              "name": "sceSslTerm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
