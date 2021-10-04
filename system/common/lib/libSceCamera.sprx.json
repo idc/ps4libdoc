@@ -1,0 +1,840 @@
+﻿{
+  "shared_object_name": "libSceCamera.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx",
+    "libSceMbus.prx",
+    "libSceRegMgr.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceCamera",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceCamera",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 4762815258610848148,
+              "hex_id": "4218EB3E444F5194",
+              "encoded_id": "QhjrPkRPUZQ",
+              "name": "sceCameraAccGetData"
+            },
+            {
+              "id": 5789983356916114515,
+              "hex_id": "505A272FBC68A453",
+              "encoded_id": "UFonL7xopFM",
+              "name": "sceCameraAudioClose"
+            },
+            {
+              "id": 9099035879626365626,
+              "hex_id": "7E4644EC7BA9DABA",
+              "encoded_id": "fkZE7Hup2ro",
+              "name": "sceCameraAudioGetData"
+            },
+            {
+              "id": 9654383773441257700,
+              "hex_id": "85FB42E40D42F0E4",
+              "encoded_id": "hftC5A1C8OQ",
+              "name": "sceCameraAudioGetData2"
+            },
+            {
+              "id": 1016311677933910952,
+              "hex_id": "0E1AAA162054FBA8",
+              "encoded_id": "DhqqFiBU+6g",
+              "name": "sceCameraAudioOpen"
+            },
+            {
+              "id": 14061713513705923349,
+              "hex_id": "C3253DF045C06315",
+              "encoded_id": "wyU98EXAYxU",
+              "name": "sceCameraAudioReset"
+            },
+            {
+              "id": 7154603584467997012,
+              "hex_id": "634A420DA8F39154",
+              "encoded_id": "Y0pCDajzkVQ",
+              "name": "sceCameraChangeAppModuleState"
+            },
+            {
+              "id": 4090602368287882266,
+              "hex_id": "38C4BD2E572BBC1A",
+              "encoded_id": "OMS9LlcrvBo",
+              "name": "sceCameraClose"
+            },
+            {
+              "id": 14905375341388473657,
+              "hex_id": "CEDA87E6A353A539",
+              "encoded_id": "ztqH5qNTpTk",
+              "name": "sceCameraCloseByHandle"
+            },
+            {
+              "id": 11246045221227076183,
+              "hex_id": "9C11FA8B6B381A57",
+              "encoded_id": "nBH6i2s4Glc",
+              "name": "sceCameraDeviceOpen"
+            },
+            {
+              "id": 15112752398153646992,
+              "hex_id": "D1BB483C3E618390",
+              "encoded_id": "0btIPD5hg5A",
+              "name": "sceCameraGetAttribute"
+            },
+            {
+              "id": 11549686564497331047,
+              "hex_id": "A048BABCCFF71367",
+              "encoded_id": "oEi6vM-3E2c",
+              "name": "sceCameraGetAutoExposureGain"
+            },
+            {
+              "id": 12192318629405942701,
+              "hex_id": "A933D1321E1E63AD",
+              "encoded_id": "qTPRMh4eY60",
+              "name": "sceCameraGetAutoWhiteBalance"
+            },
+            {
+              "id": 9543186428789048705,
+              "hex_id": "8470357EB94CC581",
+              "encoded_id": "hHA1frlMxYE",
+              "name": "sceCameraGetCalibData"
+            },
+            {
+              "id": 16494608341900426603,
+              "hex_id": "E4E89EE5102B7D6B",
+              "encoded_id": "5Oie5RArfWs",
+              "name": "sceCameraGetCalibDataFromDevice"
+            },
+            {
+              "id": 4933141352701380808,
+              "hex_id": "447609EC628E48C8",
+              "encoded_id": "RHYJ7GKOSMg",
+              "name": "sceCameraGetCalibrationData"
+            },
+            {
+              "id": 7325850367145064637,
+              "hex_id": "65AAA6184B58B8BD",
+              "encoded_id": "ZaqmGEtYuL0",
+              "name": "sceCameraGetConfig"
+            },
+            {
+              "id": 7754149323106492619,
+              "hex_id": "6B9C45B9E31920CB",
+              "encoded_id": "a5xFueMZIMs",
+              "name": "sceCameraGetContrast"
+            },
+            {
+              "id": 13171131953103311841,
+              "hex_id": "B6C942BA4A8513E1",
+              "encoded_id": "tslCukqFE+E",
+              "name": "sceCameraGetDefectivePixelCancellation"
+            },
+            {
+              "id": 946753224817715743,
+              "hex_id": "0D238B0AB7372A1F",
+              "encoded_id": "DSOLCrc3Kh8",
+              "name": "sceCameraGetDeviceConfig"
+            },
+            {
+              "id": 11523239720017944355,
+              "hex_id": "9FEAC578FD575F23",
+              "encoded_id": "n+rFeP1XXyM",
+              "name": "sceCameraGetDeviceConfigWithoutHandle"
+            },
+            {
+              "id": 10174267587789920437,
+              "hex_id": "8D3242772BFD18B5",
+              "encoded_id": "jTJCdyv9GLU",
+              "name": "sceCameraGetDeviceID"
+            },
+            {
+              "id": 18193931992426296722,
+              "hex_id": "FC7DD4C0642F3592",
+              "encoded_id": "-H3UwGQvNZI",
+              "name": "sceCameraGetDeviceIDWithoutOpen"
+            },
+            {
+              "id": 6456597935450553819,
+              "hex_id": "599A719D200CFDDB",
+              "encoded_id": "WZpxnSAM-ds",
+              "name": "sceCameraGetDeviceInfo"
+            },
+            {
+              "id": 4157434565924858329,
+              "hex_id": "39B22CB5EEE1A9D9",
+              "encoded_id": "ObIste7hqdk",
+              "name": "sceCameraGetExposureGain"
+            },
+            {
+              "id": 11175696327121382077,
+              "hex_id": "9B180C991FB52ABD",
+              "encoded_id": "mxgMmR+1Kr0",
+              "name": "sceCameraGetFrameData"
+            },
+            {
+              "id": 6438513432806734119,
+              "hex_id": "595A31DABC06B927",
+              "encoded_id": "WVox2rwGuSc",
+              "name": "sceCameraGetGamma"
+            },
+            {
+              "id": 14893988962232291873,
+              "hex_id": "CEB2140CA671D221",
+              "encoded_id": "zrIUDKZx0iE",
+              "name": "sceCameraGetHue"
+            },
+            {
+              "id": 6820157505408779132,
+              "hex_id": "5EA6111DCE1AC37C",
+              "encoded_id": "XqYRHc4aw3w",
+              "name": "sceCameraGetLensCorrection"
+            },
+            {
+              "id": 535564021539196111,
+              "hex_id": "076EB4A3DA52CCCF",
+              "encoded_id": "B260o9pSzM8",
+              "name": "sceCameraGetMmapConnectedCount"
+            },
+            {
+              "id": 5817625710266180325,
+              "hex_id": "50BC5BC2A89862E5",
+              "encoded_id": "ULxbwqiYYuU",
+              "name": "sceCameraGetProductInfo"
+            },
+            {
+              "id": 11698701884026554763,
+              "hex_id": "A25A23619298898B",
+              "encoded_id": "olojYZKYiYs",
+              "name": "sceCameraGetRegister"
+            },
+            {
+              "id": 9632085154755296014,
+              "hex_id": "85AC0A6A4F80BB0E",
+              "encoded_id": "hawKak+Auw4",
+              "name": "sceCameraGetRegistryInfo"
+            },
+            {
+              "id": 4985712048809342145,
+              "hex_id": "4530CEB165AA74C1",
+              "encoded_id": "RTDOsWWqdME",
+              "name": "sceCameraGetSaturation"
+            },
+            {
+              "id": 8332057285748874615,
+              "hex_id": "73A169F4CD445D77",
+              "encoded_id": "c6Fp9M1EXXc",
+              "name": "sceCameraGetSharpness"
+            },
+            {
+              "id": 2309491317749603121,
+              "hex_id": "200CF61E06505B31",
+              "encoded_id": "IAz2HgZQWzE",
+              "name": "sceCameraGetVrCaptureInfo"
+            },
+            {
+              "id": 2125270057838294214,
+              "hex_id": "1D7E79DB8139B4C6",
+              "encoded_id": "HX5524E5tMY",
+              "name": "sceCameraGetWhiteBalance"
+            },
+            {
+              "id": 15206931742825125538,
+              "hex_id": "D309DFD9AEB416A2",
+              "encoded_id": "0wnf2a60FqI",
+              "name": "sceCameraInitializeRegistryCalibData"
+            },
+            {
+              "id": 12081459289260515726,
+              "hex_id": "A7A9F73698B7618E",
+              "encoded_id": "p6n3Npi3YY4",
+              "name": "sceCameraIsAttached"
+            },
+            {
+              "id": 13909329989633926906,
+              "hex_id": "C107DDEE47D166FA",
+              "encoded_id": "wQfd7kfRZvo",
+              "name": "sceCameraIsConfigChangeDone"
+            },
+            {
+              "id": 6012399790115407764,
+              "hex_id": "537055C109764794",
+              "encoded_id": "U3BVwQl2R5Q",
+              "name": "sceCameraIsValidFrameData"
+            },
+            {
+              "id": 322566883490789217,
+              "hex_id": "0479FCDF1AC5F761",
+              "encoded_id": "BHn83xrF92E",
+              "name": "sceCameraOpen"
+            },
+            {
+              "id": 8736051136683577890,
+              "hex_id": "793CB03925AC1222",
+              "encoded_id": "eTywOSWsEiI",
+              "name": "sceCameraOpenByModuleId"
+            },
+            {
+              "id": 12046893614418894432,
+              "hex_id": "A72F29EA465C1E60",
+              "encoded_id": "py8p6kZcHmA",
+              "name": "sceCameraRemoveAppModuleFocus"
+            },
+            {
+              "id": 10347209351456187577,
+              "hex_id": "8F98AC15522564B9",
+              "encoded_id": "j5isFVIlZLk",
+              "name": "sceCameraSetAppModuleFocus"
+            },
+            {
+              "id": 8539921654159667189,
+              "hex_id": "7683E57F7DDA6FF5",
+              "encoded_id": "doPlf33ab-U",
+              "name": "sceCameraSetAttribute"
+            },
+            {
+              "id": 17843679325951861737,
+              "hex_id": "F7A17BCE9D57A3E9",
+              "encoded_id": "96F7zp1Xo+k",
+              "name": "sceCameraSetAttributeInternal"
+            },
+            {
+              "id": 14552429688079913562,
+              "hex_id": "C9F49DB300DA125A",
+              "encoded_id": "yfSdswDaElo",
+              "name": "sceCameraSetAutoExposureGain"
+            },
+            {
+              "id": 14736494734669609703,
+              "hex_id": "CC828BE246657AE7",
+              "encoded_id": "zIKL4kZleuc",
+              "name": "sceCameraSetAutoWhiteBalance"
+            },
+            {
+              "id": 3189433530375940160,
+              "hex_id": "2C4324E5C4C72840",
+              "encoded_id": "LEMk5cTHKEA",
+              "name": "sceCameraSetCalibData"
+            },
+            {
+              "id": 6129321646180012900,
+              "hex_id": "550FB9900AAC1364",
+              "encoded_id": "VQ+5kAqsE2Q",
+              "name": "sceCameraSetConfig"
+            },
+            {
+              "id": 17862557627501613998,
+              "hex_id": "F7E48D85B72D93AE",
+              "encoded_id": "9+SNhbctk64",
+              "name": "sceCameraSetConfigInternal"
+            },
+            {
+              "id": 16009817370822629016,
+              "hex_id": "DE2E4C133AC2D698",
+              "encoded_id": "3i5MEzrC1pg",
+              "name": "sceCameraSetContrast"
+            },
+            {
+              "id": 13684443346006444984,
+              "hex_id": "BDE8E8B84BAC0BB8",
+              "encoded_id": "vejouEusC7g",
+              "name": "sceCameraSetDebugStop"
+            },
+            {
+              "id": 10145476171467381624,
+              "hex_id": "8CCBF8D32D80DB78",
+              "encoded_id": "jMv40y2A23g",
+              "name": "sceCameraSetDefectivePixelCancellation"
+            },
+            {
+              "id": 13566099302664707746,
+              "hex_id": "BC44777083011EA2",
+              "encoded_id": "vER3cIMBHqI",
+              "name": "sceCameraSetDefectivePixelCancellationInternal"
+            },
+            {
+              "id": 13979257203832449198,
+              "hex_id": "C2004C5C9240E8AE",
+              "encoded_id": "wgBMXJJA6K4",
+              "name": "sceCameraSetExposureGain"
+            },
+            {
+              "id": 10224553597856262477,
+              "hex_id": "8DE4E953432A294D",
+              "encoded_id": "jeTpU0MqKU0",
+              "name": "sceCameraSetForceActivate"
+            },
+            {
+              "id": 10813433734393623230,
+              "hex_id": "961108B07CC1F2BE",
+              "encoded_id": "lhEIsHzB8r4",
+              "name": "sceCameraSetGamma"
+            },
+            {
+              "id": 4651943900447168918,
+              "hex_id": "408F06549532D996",
+              "encoded_id": "QI8GVJUy2ZY",
+              "name": "sceCameraSetHue"
+            },
+            {
+              "id": 3149629258487415223,
+              "hex_id": "2BB5BB1F8651C1B7",
+              "encoded_id": "K7W7H4ZRwbc",
+              "name": "sceCameraSetLensCorrection"
+            },
+            {
+              "id": 8680327358771550900,
+              "hex_id": "7876B7BE11AEDAB4",
+              "encoded_id": "eHa3vhGu2rQ",
+              "name": "sceCameraSetLensCorrectionInternal"
+            },
+            {
+              "id": 10749297585521836945,
+              "hex_id": "952D2D33A9FE4391",
+              "encoded_id": "lS0tM6n+Q5E",
+              "name": "sceCameraSetProcessFocus"
+            },
+            {
+              "id": 3842155116035008442,
+              "hex_id": "355213B8AF3767BA",
+              "encoded_id": "NVITuK83Z7o",
+              "name": "sceCameraSetProcessFocusByHandle"
+            },
+            {
+              "id": 17350344972672755216,
+              "hex_id": "F0C8CED39AA4E610",
+              "encoded_id": "8MjO05qk5hA",
+              "name": "sceCameraSetRegister"
+            },
+            {
+              "id": 7863993633554550130,
+              "hex_id": "6D22848B63F3CD72",
+              "encoded_id": "bSKEi2PzzXI",
+              "name": "sceCameraSetSaturation"
+            },
+            {
+              "id": 4611347738161817283,
+              "hex_id": "3FFECC55FCEFA6C3",
+              "encoded_id": "P-7MVfzvpsM",
+              "name": "sceCameraSetSharpness"
+            },
+            {
+              "id": 15947895710488732131,
+              "hex_id": "DD524EA732A821E3",
+              "encoded_id": "3VJOpzKoIeM",
+              "name": "sceCameraSetTrackerMode"
+            },
+            {
+              "id": 11417886367053725439,
+              "hex_id": "9E747B2802033EFF",
+              "encoded_id": "nnR7KAIDPv8",
+              "name": "sceCameraSetUacModeInternal"
+            },
+            {
+              "id": 14021871776737153090,
+              "hex_id": "C297B217027E5042",
+              "encoded_id": "wpeyFwJ+UEI",
+              "name": "sceCameraSetVideoSync"
+            },
+            {
+              "id": 17396110867610237404,
+              "hex_id": "F16B66AA613879DC",
+              "encoded_id": "8WtmqmE4edw",
+              "name": "sceCameraSetVideoSyncInternal"
+            },
+            {
+              "id": 10627596964684183293,
+              "hex_id": "937CCF21C80536FD",
+              "encoded_id": "k3zPIcgFNv0",
+              "name": "sceCameraSetWhiteBalance"
+            },
+            {
+              "id": 17602971569724566645,
+              "hex_id": "F44A5160CCBBAC75",
+              "encoded_id": "9EpRYMy7rHU",
+              "name": "sceCameraStart"
+            },
+            {
+              "id": 8123444609189114397,
+              "hex_id": "70BC45D50B47721D",
+              "encoded_id": "cLxF1QtHch0",
+              "name": "sceCameraStartByHandle"
+            },
+            {
+              "id": 15595264925149035491,
+              "hex_id": "D86D82D2799DFBE3",
+              "encoded_id": "2G2C0nmd++M",
+              "name": "sceCameraStop"
+            },
+            {
+              "id": 17977607211785350968,
+              "hex_id": "F97D4A8279F76F38",
+              "encoded_id": "+X1Kgnn3bzg",
+              "name": "sceCameraStopByHandle"
+            }
+          ]
+        },
+        {
+          "name": "libSceMbus",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 406320615641613263,
+              "hex_id": "05A38A72783C83CF",
+              "encoded_id": "BaOKcng8g88",
+              "type": "Unknown11",
+              "name": "module_start"
+            },
+            {
+              "id": 3067176389404768116,
+              "hex_id": "2A90CCACF1EFB774",
+              "encoded_id": "KpDMrPHvt3Q",
+              "type": "Unknown11",
+              "name": "module_stop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 17588531036976227154,
+              "hex_id": "F41703CA43E6A352",
+              "encoded_id": "9BcDykPmo1I",
+              "name": "__error"
+            },
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 7894756526838107668,
+              "hex_id": "6D8FCF3BA261CE14",
+              "encoded_id": "bY-PO6JhzhQ",
+              "name": "close"
+            },
+            {
+              "id": 9944825931330880253,
+              "hex_id": "8A031E7E9E1202FD",
+              "encoded_id": "igMefp4SAv0",
+              "name": "get_authinfo"
+            },
+            {
+              "id": 12064123588047262223,
+              "hex_id": "A76C607C1FF7D20F",
+              "encoded_id": "p2xgfB-30g8",
+              "name": "get_self_auth_info"
+            },
+            {
+              "id": 2198554145645331479,
+              "hex_id": "1E82D558D6A70417",
+              "encoded_id": "HoLVWNanBBc",
+              "name": "getpid"
+            },
+            {
+              "id": 11515475305845857647,
+              "hex_id": "9FCF2FC770B99D6F",
+              "encoded_id": "n88vx3C5nW8",
+              "name": "gettimeofday"
+            },
+            {
+              "id": 4465068684319409537,
+              "hex_id": "3DF71C4FBA944581",
+              "encoded_id": "PfccT7qURYE",
+              "name": "ioctl"
+            },
+            {
+              "id": 5003435491549754024,
+              "hex_id": "456FC611FA67B2A8",
+              "encoded_id": "RW-GEfpnsqg",
+              "name": "kevent"
+            },
+            {
+              "id": 11393412255154065151,
+              "hex_id": "9E1D8814C80A4EFF",
+              "encoded_id": "nh2IFMgKTv8",
+              "name": "kqueue"
+            },
+            {
+              "id": 356133688235278714,
+              "hex_id": "04F13DB3DBD0417A",
+              "encoded_id": "BPE9s9vQQXo",
+              "name": "mmap"
+            },
+            {
+              "id": 5953977018159319363,
+              "hex_id": "52A0C68D7039C943",
+              "encoded_id": "UqDGjXA5yUM",
+              "name": "munmap"
+            },
+            {
+              "id": 14042412343999313768,
+              "hex_id": "C2E0ABA081A3B768",
+              "encoded_id": "wuCroIGjt2g",
+              "name": "open"
+            },
+            {
+              "id": 189259624450299762,
+              "hex_id": "02A062A02DAF1772",
+              "encoded_id": "AqBioC2vF3I",
+              "name": "read"
+            },
+            {
+              "id": 12481146837059120256,
+              "hex_id": "AD35F0EB9C662C80",
+              "encoded_id": "rTXw65xmLIA",
+              "name": "sceKernelAllocateDirectMemory"
+            },
+            {
+              "id": 6349717562011184837,
+              "hex_id": "581EBA7AFBBC6EC5",
+              "encoded_id": "WB66evu8bsU",
+              "name": "sceKernelGetCompiledSdkVersion"
+            },
+            {
+              "id": 8018425812813558665,
+              "hex_id": "6F472BCB16933389",
+              "encoded_id": "b0cryxaTM4k",
+              "name": "sceKernelGetUtokenUseSoftwagnerForAcmgr"
+            },
+            {
+              "id": 9649119049899402794,
+              "hex_id": "85E88EA714B5662A",
+              "encoded_id": "heiOpxS1Zio",
+              "name": "sceKernelGetVrCaptureSize"
+            },
+            {
+              "id": 3874949813024601220,
+              "hex_id": "35C6965317CC3484",
+              "encoded_id": "NcaWUxfMNIQ",
+              "name": "sceKernelMapNamedDirectMemory"
+            },
+            {
+              "id": 8145075439958835433,
+              "hex_id": "71091EF54B8140E9",
+              "encoded_id": "cQke9UuBQOk",
+              "name": "sceKernelMunmap"
+            },
+            {
+              "id": 3466514657598696255,
+              "hex_id": "301B88B6F6DAEB3F",
+              "encoded_id": "MBuItvba6z8",
+              "name": "sceKernelReleaseDirectMemory"
+            },
+            {
+              "id": 892564695714737557,
+              "hex_id": "0C6306DC9B21AD95",
+              "encoded_id": "DGMG3JshrZU",
+              "name": "sceKernelSetVirtualRangeName"
+            },
+            {
+              "id": 15629729862101927441,
+              "hex_id": "D8E7F47FEDE68611",
+              "encoded_id": "2Of0f+3mhhE",
+              "name": "scePthreadMutexDestroy"
+            },
+            {
+              "id": 8244460636280417242,
+              "hex_id": "726A3544862F6BDA",
+              "encoded_id": "cmo1RIYva9o",
+              "name": "scePthreadMutexInit"
+            },
+            {
+              "id": 17672887709872455390,
+              "hex_id": "F542B5BCB6507EDE",
+              "encoded_id": "9UK1vLZQft4",
+              "name": "scePthreadMutexLock"
+            },
+            {
+              "id": 13149901319649172397,
+              "hex_id": "B67DD5943D211BAD",
+              "encoded_id": "tn3VlD0hG60",
+              "name": "scePthreadMutexUnlock"
+            },
+            {
+              "id": 15530326864966798362,
+              "hex_id": "D786CE00200D4C1A",
+              "encoded_id": "14bOACANTBo",
+              "name": "scePthreadOnce"
+            },
+            {
+              "id": 4740986691889438045,
+              "hex_id": "41CB5E4706EC9D5D",
+              "encoded_id": "QcteRwbsnV0",
+              "name": "usleep"
+            },
+            {
+              "id": 1503674960825947487,
+              "hex_id": "14DE2068F9AE155F",
+              "encoded_id": "FN4gaPmuFV8",
+              "name": "write"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 7410933385659480828,
+              "hex_id": "66D8ECA64250FAFC",
+              "encoded_id": "ZtjspkJQ+vw",
+              "name": "_FSin"
+            },
+            {
+              "id": 8081115055188988140,
+              "hex_id": "7025E353BD99D0EC",
+              "encoded_id": "cCXjU72Z0Ow",
+              "name": "_Sin"
+            },
+            {
+              "id": 1006747189132769736,
+              "hex_id": "0DF8AF3C0AE1B9C8",
+              "encoded_id": "DfivPArhucg",
+              "name": "memcmp"
+            },
+            {
+              "id": 4860863683521237115,
+              "hex_id": "437541C425E1507B",
+              "encoded_id": "Q3VBxCXhUHs",
+              "name": "memcpy"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            },
+            {
+              "id": 1210251972074528922,
+              "hex_id": "10CBADC1A437E09A",
+              "encoded_id": "EMutwaQ34Jo",
+              "name": "perror"
+            },
+            {
+              "id": 17631772472041858455,
+              "hex_id": "F4B0A3A56C90E597",
+              "encoded_id": "9LCjpWyQ5Zc",
+              "name": "pow"
+            },
+            {
+              "id": 9640958307794899731,
+              "hex_id": "85CB90803E775313",
+              "encoded_id": "hcuQgD53UxM",
+              "name": "printf"
+            },
+            {
+              "id": 6993289136798851207,
+              "hex_id": "610D276AFA7E6087",
+              "encoded_id": "YQ0navp+YIc",
+              "name": "puts"
+            },
+            {
+              "id": 13887207423665328580,
+              "hex_id": "C0B9459301BD51C4",
+              "encoded_id": "wLlFkwG9UcQ",
+              "name": "time"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceMbus",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceMbus",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 8735389704879606798,
+              "hex_id": "793A56A78DF40C0E",
+              "encoded_id": "eTpWp430DA4",
+              "name": "sceMbusAcquireControlWithState2"
+            },
+            {
+              "id": 16007833388508520274,
+              "hex_id": "DE273FA759B01F52",
+              "encoded_id": "3ic-p1mwH1I",
+              "name": "sceMbusAcquireControlWithStateFlag"
+            },
+            {
+              "id": 792868487981323124,
+              "hex_id": "0B00D5B063BA5374",
+              "encoded_id": "CwDVsGO6U3Q",
+              "name": "sceMbusAddHandleByUserId"
+            },
+            {
+              "id": 13912700276837726893,
+              "hex_id": "C113D7306B643AAD",
+              "encoded_id": "wRPXMGtkOq0",
+              "name": "sceMbusInit"
+            },
+            {
+              "id": 3664320419186472640,
+              "hex_id": "32DA4801C0D1F6C0",
+              "encoded_id": "MtpIAcDR9sA",
+              "name": "sceMbusRemoveCameraAppModuleFocus"
+            },
+            {
+              "id": 18038804289069257005,
+              "hex_id": "FA56B4ED5EC4112D",
+              "encoded_id": "+la07V7EES0",
+              "name": "sceMbusRemoveHandle"
+            },
+            {
+              "id": 7780064514408509496,
+              "hex_id": "6BF857748EF0F038",
+              "encoded_id": "a-hXdI7w8Dg",
+              "name": "sceMbusSetCameraAppModuleFocus"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,741 @@
+﻿{
+  "shared_object_name": "libSceAudio3d.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceAudioOut.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceAudio3d",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAudio3d",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 11932655116773350816,
+              "hex_id": "A5994E9B5685DDA0",
+              "encoded_id": "pZlOm1aF3aA",
+              "name": "sceAudio3dAudioOutClose"
+            },
+            {
+              "id": 13385028545947672890,
+              "hex_id": "B9C12C8BADACA13A",
+              "encoded_id": "ucEsi62soTo",
+              "name": "sceAudio3dAudioOutOpen"
+            },
+            {
+              "id": 17065833114859873715,
+              "hex_id": "ECD604CC9F5225B3",
+              "encoded_id": "7NYEzJ9SJbM",
+              "name": "sceAudio3dAudioOutOutput"
+            },
+            {
+              "id": 2142684706807032737,
+              "hex_id": "1DBC58636EE52BA1",
+              "encoded_id": "HbxYY27lK6E",
+              "name": "sceAudio3dAudioOutOutputs"
+            },
+            {
+              "id": 17785049262725649066,
+              "hex_id": "F6D130134195D2AA",
+              "encoded_id": "9tEwE0GV0qo",
+              "name": "sceAudio3dBedWrite"
+            },
+            {
+              "id": 14158772924060479354,
+              "hex_id": "C47E10F5420B2F7A",
+              "encoded_id": "xH4Q9UILL3o",
+              "name": "sceAudio3dBedWrite2"
+            },
+            {
+              "id": 10877754800335005781,
+              "hex_id": "96F58C5BABC4A855",
+              "encoded_id": "lvWMW6vEqFU",
+              "name": "sceAudio3dCreateSpeakerArray"
+            },
+            {
+              "id": 17445179561029436168,
+              "hex_id": "F219BA61DA108308",
+              "encoded_id": "8hm6YdoQgwg",
+              "name": "sceAudio3dDeleteSpeakerArray"
+            },
+            {
+              "id": 2481381391468156930,
+              "hex_id": "226FA33A86B95802",
+              "encoded_id": "Im+jOoa5WAI",
+              "name": "sceAudio3dGetDefaultOpenParameters"
+            },
+            {
+              "id": 10397310466667217362,
+              "hex_id": "904AAAC8392681D2",
+              "encoded_id": "kEqqyDkmgdI",
+              "name": "sceAudio3dGetSpeakerArrayMemorySize"
+            },
+            {
+              "id": 18238808533160881209,
+              "hex_id": "FD1D43BA416AEC39",
+              "encoded_id": "-R1DukFq7Dk",
+              "name": "sceAudio3dGetSpeakerArrayMixCoefficients"
+            },
+            {
+              "id": 5935937329698858124,
+              "hex_id": "5260AF8D29AE648C",
+              "encoded_id": "UmCvjSmuZIw",
+              "name": "sceAudio3dInitialize"
+            },
+            {
+              "id": 10154963473451001699,
+              "hex_id": "8CEDAD79CE1D2763",
+              "encoded_id": "jO2tec4dJ2M",
+              "name": "sceAudio3dObjectReserve"
+            },
+            {
+              "id": 16351593021037897189,
+              "hex_id": "E2EC8737DAB865E5",
+              "encoded_id": "4uyHN9q4ZeU",
+              "name": "sceAudio3dObjectSetAttributes"
+            },
+            {
+              "id": 15309408194987927596,
+              "hex_id": "D475F1A3FFB5A82C",
+              "encoded_id": "1HXxo-+1qCw",
+              "name": "sceAudio3dObjectUnreserve"
+            },
+            {
+              "id": 10884402800509544159,
+              "hex_id": "970D2AADD4A366DF",
+              "encoded_id": "lw0qrdSjZt8",
+              "name": "sceAudio3dPortAdvance"
+            },
+            {
+              "id": 4261929419268797737,
+              "hex_id": "3B256A39E54DB529",
+              "encoded_id": "OyVqOeVNtSk",
+              "name": "sceAudio3dPortClose"
+            },
+            {
+              "id": 5796500512760386121,
+              "hex_id": "50714E815373D249",
+              "encoded_id": "UHFOgVNz0kk",
+              "name": "sceAudio3dPortCreate"
+            },
+            {
+              "id": 3679271867313978006,
+              "hex_id": "330F66450B567A96",
+              "encoded_id": "Mw9mRQtWepY",
+              "name": "sceAudio3dPortDestroy"
+            },
+            {
+              "id": 7269280137808462641,
+              "hex_id": "64E1ABC562E04331",
+              "encoded_id": "ZOGrxWLgQzE",
+              "name": "sceAudio3dPortFlush"
+            },
+            {
+              "id": 13302812532733446452,
+              "hex_id": "B89D158467310934",
+              "encoded_id": "uJ0VhGcxCTQ",
+              "name": "sceAudio3dPortFreeState"
+            },
+            {
+              "id": 17694703256719649018,
+              "hex_id": "F59036DC86B8E8FA",
+              "encoded_id": "9ZA23Ia46Po",
+              "name": "sceAudio3dPortGetAttributesSupported"
+            },
+            {
+              "id": 5208448646577540546,
+              "hex_id": "48482072D21E4DC2",
+              "encoded_id": "SEggctIeTcI",
+              "name": "sceAudio3dPortGetList"
+            },
+            {
+              "id": 9102861515078589900,
+              "hex_id": "7E53DC51A5D55DCC",
+              "encoded_id": "flPcUaXVXcw",
+              "name": "sceAudio3dPortGetParameters"
+            },
+            {
+              "id": 7036455968700015699,
+              "hex_id": "61A6836C3C0AA453",
+              "encoded_id": "YaaDbDwKpFM",
+              "name": "sceAudio3dPortGetQueueLevel"
+            },
+            {
+              "id": 622030309906773456,
+              "hex_id": "08A1E5456D84F5D0",
+              "encoded_id": "CKHlRW2E9dA",
+              "name": "sceAudio3dPortGetState"
+            },
+            {
+              "id": 9878076341297723121,
+              "hex_id": "8915FA189B3DB6F1",
+              "encoded_id": "iRX6GJs9tvE",
+              "name": "sceAudio3dPortGetStatus"
+            },
+            {
+              "id": 6764621231041370368,
+              "hex_id": "5DE0C32B4C495900",
+              "encoded_id": "XeDDK0xJWQA",
+              "name": "sceAudio3dPortOpen"
+            },
+            {
+              "id": 6072366771256287638,
+              "hex_id": "54456167DA9DE196",
+              "encoded_id": "VEVhZ9qd4ZY",
+              "name": "sceAudio3dPortPush"
+            },
+            {
+              "id": 18346776534933806051,
+              "hex_id": "FE9CD80D9A339BE3",
+              "encoded_id": "-pzYDZozm+M",
+              "name": "sceAudio3dPortQueryDebug"
+            },
+            {
+              "id": 7111002930214647960,
+              "hex_id": "62AF5B7D4434B898",
+              "encoded_id": "Yq9bfUQ0uJg",
+              "name": "sceAudio3dPortSetAttribute"
+            },
+            {
+              "id": 4752237718083827853,
+              "hex_id": "41F35706B299788D",
+              "encoded_id": "QfNXBrKZeI0",
+              "name": "sceAudio3dReportRegisterHandler"
+            },
+            {
+              "id": 12018971067577076560,
+              "hex_id": "A6CBF681B8A10B50",
+              "encoded_id": "psv2gbihC1A",
+              "name": "sceAudio3dReportUnregisterHandler"
+            },
+            {
+              "id": 14431247833007270750,
+              "hex_id": "C8461771B0062B5E",
+              "encoded_id": "yEYXcbAGK14",
+              "name": "sceAudio3dSetGpuRenderer"
+            },
+            {
+              "id": 119105587757798309,
+              "hex_id": "01A725E6A91153A5",
+              "encoded_id": "Aacl5qkRU6U",
+              "name": "sceAudio3dStrError"
+            },
+            {
+              "id": 6443898225181320999,
+              "hex_id": "596D534B68B3E727",
+              "encoded_id": "WW1TS2iz5yc",
+              "name": "sceAudio3dTerminate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 17588531036976227154,
+              "hex_id": "F41703CA43E6A352",
+              "encoded_id": "9BcDykPmo1I",
+              "name": "__error"
+            },
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 3808714225574690525,
+              "hex_id": "34DB4568A25B3EDD",
+              "encoded_id": "NNtFaKJbPt0",
+              "name": "_close"
+            },
+            {
+              "id": 13938540633701904132,
+              "hex_id": "C16FA4DB57266F04",
+              "encoded_id": "wW+k21cmbwQ",
+              "name": "_ioctl"
+            },
+            {
+              "id": 16847380206313241909,
+              "hex_id": "E9CDEB09513F7D35",
+              "encoded_id": "6c3rCVE-fTU",
+              "name": "_open"
+            },
+            {
+              "id": 7894756526838107668,
+              "hex_id": "6D8FCF3BA261CE14",
+              "encoded_id": "bY-PO6JhzhQ",
+              "name": "close"
+            },
+            {
+              "id": 11143045153538653503,
+              "hex_id": "9AA40C875CCF3D3F",
+              "encoded_id": "mqQMh1zPPT8",
+              "name": "fstat"
+            },
+            {
+              "id": 9952394493739172371,
+              "hex_id": "8A1E020FDFE08213",
+              "encoded_id": "ih4CD9-gghM",
+              "name": "ftruncate"
+            },
+            {
+              "id": 2198554145645331479,
+              "hex_id": "1E82D558D6A70417",
+              "encoded_id": "HoLVWNanBBc",
+              "name": "getpid"
+            },
+            {
+              "id": 356133688235278714,
+              "hex_id": "04F13DB3DBD0417A",
+              "encoded_id": "BPE9s9vQQXo",
+              "name": "mmap"
+            },
+            {
+              "id": 5953977018159319363,
+              "hex_id": "52A0C68D7039C943",
+              "encoded_id": "UqDGjXA5yUM",
+              "name": "munmap"
+            },
+            {
+              "id": 12961308510551063348,
+              "hex_id": "B3DFD16B1BA4BB34",
+              "encoded_id": "s9-RaxukuzQ",
+              "name": "sceKernelCloseEventFlag"
+            },
+            {
+              "id": 1120452288367944406,
+              "hex_id": "0F8CA56B7BF1E2D6",
+              "encoded_id": "D4yla3vx4tY",
+              "name": "sceKernelError"
+            },
+            {
+              "id": 6349717562011184837,
+              "hex_id": "581EBA7AFBBC6EC5",
+              "encoded_id": "WB66evu8bsU",
+              "name": "sceKernelGetCompiledSdkVersion"
+            },
+            {
+              "id": 16185282098015116692,
+              "hex_id": "E09DAC5099AE1D94",
+              "encoded_id": "4J2sUJmuHZQ",
+              "name": "sceKernelGetProcessTime"
+            },
+            {
+              "id": 15488119338087069472,
+              "hex_id": "D6F0DA7A7989B720",
+              "encoded_id": "1vDaenmJtyA",
+              "name": "sceKernelOpenEventFlag"
+            },
+            {
+              "id": 892564695714737557,
+              "hex_id": "0C6306DC9B21AD95",
+              "encoded_id": "DGMG3JshrZU",
+              "name": "sceKernelSetVirtualRangeName"
+            },
+            {
+              "id": 15436042836469058247,
+              "hex_id": "D637D72D15738AC7",
+              "encoded_id": "1jfXLRVzisc",
+              "name": "sceKernelUsleep"
+            },
+            {
+              "id": 2682950751421492020,
+              "hex_id": "253BC17E58586B34",
+              "encoded_id": "JTvBflhYazQ",
+              "name": "sceKernelWaitEventFlag"
+            },
+            {
+              "id": 12854826477634635885,
+              "hex_id": "B2658492D8B2C86D",
+              "encoded_id": "smWEktiyyG0",
+              "name": "scePthreadMutexattrDestroy"
+            },
+            {
+              "id": 1713289937870576590,
+              "hex_id": "17C6D41F0006DBCE",
+              "encoded_id": "F8bUHwAG284",
+              "name": "scePthreadMutexattrInit"
+            },
+            {
+              "id": 15299202181391823268,
+              "hex_id": "D451AF5348BDB1A4",
+              "encoded_id": "1FGvU0i9saQ",
+              "name": "scePthreadMutexattrSetprotocol"
+            },
+            {
+              "id": 15629729862101927441,
+              "hex_id": "D8E7F47FEDE68611",
+              "encoded_id": "2Of0f+3mhhE",
+              "name": "scePthreadMutexDestroy"
+            },
+            {
+              "id": 8244460636280417242,
+              "hex_id": "726A3544862F6BDA",
+              "encoded_id": "cmo1RIYva9o",
+              "name": "scePthreadMutexInit"
+            },
+            {
+              "id": 17672887709872455390,
+              "hex_id": "F542B5BCB6507EDE",
+              "encoded_id": "9UK1vLZQft4",
+              "name": "scePthreadMutexLock"
+            },
+            {
+              "id": 13149901319649172397,
+              "hex_id": "B67DD5943D211BAD",
+              "encoded_id": "tn3VlD0hG60",
+              "name": "scePthreadMutexUnlock"
+            },
+            {
+              "id": 297136898404751312,
+              "hex_id": "041FA46F4F1397D0",
+              "encoded_id": "BB+kb08Tl9A",
+              "name": "scePthreadRwlockDestroy"
+            },
+            {
+              "id": 16808208326300721712,
+              "hex_id": "E942C06B47EAE230",
+              "encoded_id": "6ULAa0fq4jA",
+              "name": "scePthreadRwlockInit"
+            },
+            {
+              "id": 4260232425772934925,
+              "hex_id": "3B1F62D1CECBE70D",
+              "encoded_id": "Ox9i0c7L5w0",
+              "name": "scePthreadRwlockRdlock"
+            },
+            {
+              "id": 17924181641358915289,
+              "hex_id": "F8BF7C3C86C6B6D9",
+              "encoded_id": "+L98PIbGttk",
+              "name": "scePthreadRwlockUnlock"
+            },
+            {
+              "id": 11143961164264897026,
+              "hex_id": "9AA74DA2BAC1FA02",
+              "encoded_id": "mqdNorrB+gI",
+              "name": "scePthreadRwlockWrlock"
+            },
+            {
+              "id": 5745926612841376591,
+              "hex_id": "4FBDA1CFA7DFAB4F",
+              "encoded_id": "T72hz6ffq08",
+              "name": "scePthreadYield"
+            },
+            {
+              "id": 4819511752298666084,
+              "hex_id": "42E2586762951864",
+              "encoded_id": "QuJYZ2KVGGQ",
+              "name": "shm_open"
+            },
+            {
+              "id": 13039517879819975625,
+              "hex_id": "B4F5AC6CE5063BC9",
+              "encoded_id": "tPWsbOUGO8k",
+              "name": "shm_unlink"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceAudioOut",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAudioOut",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2539845388209583643,
+              "hex_id": "233F57EC84A5761B",
+              "encoded_id": "Iz9X7ISldhs",
+              "name": "sceAudioOutA3dControl"
+            },
+            {
+              "id": 17660101376691033098,
+              "hex_id": "F51548A2870E540A",
+              "encoded_id": "9RVIoocOVAo",
+              "name": "sceAudioOutA3dExit"
+            },
+            {
+              "id": 11507436762887305953,
+              "hex_id": "9FB2A0C44F2B3AE1",
+              "encoded_id": "n7KgxE8rOuE",
+              "name": "sceAudioOutA3dInit"
+            },
+            {
+              "id": 12925330622647764060,
+              "hex_id": "B35FFFB84F66045C",
+              "encoded_id": "s1--uE9mBFw",
+              "name": "sceAudioOutClose"
+            },
+            {
+              "id": 2733983342446843552,
+              "hex_id": "25F10F5D5C6116A0",
+              "encoded_id": "JfEPXVxhFqA",
+              "name": "sceAudioOutInit"
+            },
+            {
+              "id": 8810008103102099142,
+              "hex_id": "7A436FB13DB6AEC6",
+              "encoded_id": "ekNvsT22rsY",
+              "name": "sceAudioOutOpen"
+            },
+            {
+              "id": 4675912263065579838,
+              "hex_id": "40E42D6DE0EAB13E",
+              "encoded_id": "QOQtbeDqsT4",
+              "name": "sceAudioOutOutput"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 4884838955533752875,
+              "hex_id": "43CA6F2629945A2B",
+              "encoded_id": "Q8pvJimUWis",
+              "name": "__isfinitef"
+            },
+            {
+              "id": 8081115055188988140,
+              "hex_id": "7025E353BD99D0EC",
+              "encoded_id": "cCXjU72Z0Ow",
+              "name": "_Sin"
+            },
+            {
+              "id": 15764203456816291713,
+              "hex_id": "DAC5B3858A851F81",
+              "encoded_id": "2sWzhYqFH4E",
+              "type": "Object",
+              "name": "_Stdout"
+            },
+            {
+              "id": 3509893966030264529,
+              "hex_id": "30B5A5F7448558D1",
+              "encoded_id": "MLWl90SFWNE",
+              "name": "_ZdaPv"
+            },
+            {
+              "id": 14980096904033348633,
+              "hex_id": "CFE3FEC429D62C19",
+              "encoded_id": "z+P+xCnWLBk",
+              "name": "_ZdlPv"
+            },
+            {
+              "id": 9644938409774083380,
+              "hex_id": "85D9B461F31AED34",
+              "encoded_id": "hdm0YfMa7TQ",
+              "name": "_Znam"
+            },
+            {
+              "id": 8978464314348367017,
+              "hex_id": "7C99E9B955416CA9",
+              "encoded_id": "fJnpuVVBbKk",
+              "name": "_Znwm"
+            },
+            {
+              "id": 17058713839736710020,
+              "hex_id": "ECBCB9DB368BE384",
+              "encoded_id": "7Ly52zaL44Q",
+              "name": "asin"
+            },
+            {
+              "id": 2109612726250896440,
+              "hex_id": "1D46D998E9D3FC38",
+              "encoded_id": "HUbZmOnT-Dg",
+              "name": "atan2"
+            },
+            {
+              "id": 13440794502107408237,
+              "hex_id": "BA874B632522A76D",
+              "encoded_id": "uodLYyUip20",
+              "name": "fclose"
+            },
+            {
+              "id": 3551302583555959982,
+              "hex_id": "3148C2E256C7ACAE",
+              "encoded_id": "MUjC4lbHrK4",
+              "name": "fflush"
+            },
+            {
+              "id": 3014033626538555500,
+              "hex_id": "29D3FF9D42E9B86C",
+              "encoded_id": "KdP-nULpuGw",
+              "name": "fgets"
+            },
+            {
+              "id": 14260101637949278365,
+              "hex_id": "C5E60EE2EEEEC89D",
+              "encoded_id": "xeYO4u7uyJ0",
+              "name": "fopen"
+            },
+            {
+              "id": 9076987528548799568,
+              "hex_id": "7DF7F010B5CD5450",
+              "encoded_id": "fffwELXNVFA",
+              "name": "fprintf"
+            },
+            {
+              "id": 7607350068041153804,
+              "hex_id": "6992BC94D7A2FD0C",
+              "encoded_id": "aZK8lNei-Qw",
+              "name": "fputc"
+            },
+            {
+              "id": 13008767002086125649,
+              "hex_id": "B4886CAA3D2AB051",
+              "encoded_id": "tIhsqj0qsFE",
+              "name": "free"
+            },
+            {
+              "id": 3646896666160666298,
+              "hex_id": "329C61321F1016BA",
+              "encoded_id": "MpxhMh8QFro",
+              "name": "fwrite"
+            },
+            {
+              "id": 4860863683521237115,
+              "hex_id": "437541C425E1507B",
+              "encoded_id": "Q3VBxCXhUHs",
+              "name": "memcpy"
+            },
+            {
+              "id": 17941924494238559728,
+              "hex_id": "F8FE854461F82DF0",
+              "encoded_id": "+P6FRGH4LfA",
+              "name": "memmove"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            },
+            {
+              "id": 8166333405883286967,
+              "hex_id": "7154A4F72F1445B7",
+              "encoded_id": "cVSk9y8URbc",
+              "name": "posix_memalign"
+            },
+            {
+              "id": 9640958307794899731,
+              "hex_id": "85CB90803E775313",
+              "encoded_id": "hcuQgD53UxM",
+              "name": "printf"
+            },
+            {
+              "id": 8698495712930102709,
+              "hex_id": "78B743C3A974FDB5",
+              "encoded_id": "eLdDw6l0-bU",
+              "name": "snprintf"
+            },
+            {
+              "id": 15346355108179245418,
+              "hex_id": "D4F934A99406796A",
+              "encoded_id": "1Pk0qZQGeWo",
+              "name": "sscanf"
+            },
+            {
+              "id": 98695067700224284,
+              "hex_id": "015EA2A4235AE11C",
+              "encoded_id": "AV6ipCNa4Rw",
+              "name": "strcasecmp"
+            },
+            {
+              "id": 11654877136638287869,
+              "hex_id": "A1BE71016E259FFD",
+              "encoded_id": "ob5xAW4ln-0",
+              "name": "strchr"
+            },
+            {
+              "id": 10341780252942172940,
+              "hex_id": "8F856258D1C4830C",
+              "encoded_id": "j4ViWNHEgww",
+              "name": "strlen"
+            },
+            {
+              "id": 7632249581959732014,
+              "hex_id": "69EB328EB1D55B2E",
+              "encoded_id": "aesyjrHVWy4",
+              "name": "strncmp"
+            },
+            {
+              "id": 17807468441440187541,
+              "hex_id": "F720D63311057495",
+              "encoded_id": "9yDWMxEFdJU",
+              "name": "strrchr"
+            },
+            {
+              "id": 13702395469551725152,
+              "hex_id": "BE28B014C68D6A60",
+              "encoded_id": "viiwFMaNamA",
+              "name": "strstr"
+            },
+            {
+              "id": 11058995181982134520,
+              "hex_id": "9979718662CD30F8",
+              "encoded_id": "mXlxhmLNMPg",
+              "name": "strtol"
+            },
+            {
+              "id": 4856426907243348013,
+              "hex_id": "43657E8AABE3802D",
+              "encoded_id": "Q2V+iqvjgC0",
+              "name": "vsnprintf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
