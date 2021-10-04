@@ -1,0 +1,63 @@
+﻿{
+  "shared_object_name": "libSceConvertKeycode.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceIpmi.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceConvertKeycode",
+      "version_major": 1,
+      "version_minor": 0,
+      "libraries": [
+        {
+          "name": "libSceConvertKeycode",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 4769736866080590270,
+              "hex_id": "4231826896D189BE",
+              "encoded_id": "QjGCaJbRib4",
+              "name": "sceConvertKeycodeGetCharacter"
+            },
+            {
+              "id": 13585996847837593171,
+              "hex_id": "BC8B2826C2EFBE53",
+              "encoded_id": "vIsoJsLvvlM",
+              "name": "sceConvertKeycodeGetVirtualKeycode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
