@@ -1,0 +1,303 @@
+﻿{
+  "shared_object_name": "libSceAudiodecCpu.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceAudiodecCpuAlac.prx",
+    "libSceAudiodecCpuDdp.prx",
+    "libSceAudiodecCpuDts.prx",
+    "libSceAudiodecCpuDtsHdLbr.prx",
+    "libSceAudiodecCpuDtsHdMa.prx",
+    "libSceAudiodecCpuFlac.prx",
+    "libSceAudiodecCpuHevag.prx",
+    "libSceAudiodecCpuLpcm.prx",
+    "libSceAudiodecCpuM4aac.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceAudiodecCpu",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAudiodecCpu",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 9512932102646122161,
+              "hex_id": "8404B9587EA1C6B1",
+              "encoded_id": "hAS5WH6hxrE",
+              "name": "sceAudiodecCpuClearContext"
+            },
+            {
+              "id": 10747087935367659703,
+              "hex_id": "952553896579C0B7",
+              "encoded_id": "lSVTiWV5wLc",
+              "name": "sceAudiodecCpuDecode"
+            },
+            {
+              "id": 9642607877215229679,
+              "hex_id": "85D16CC68DCC16EF",
+              "encoded_id": "hdFsxo3MFu8",
+              "name": "sceAudiodecCpuInitDecoder"
+            },
+            {
+              "id": 753848486857640882,
+              "hex_id": "0A763534699D8BB2",
+              "encoded_id": "CnY1NGmdi7I",
+              "name": "sceAudiodecCpuInternalClearContext"
+            },
+            {
+              "id": 18395167721867254681,
+              "hex_id": "FF48C394CDA11B99",
+              "encoded_id": "-0jDlM2hG5k",
+              "name": "sceAudiodecCpuInternalDecode"
+            },
+            {
+              "id": 3046787923542451110,
+              "hex_id": "2A485D7950B2A3A6",
+              "encoded_id": "KkhdeVCyo6Y",
+              "name": "sceAudiodecCpuInternalInitDecoder"
+            },
+            {
+              "id": 5173503001729033830,
+              "hex_id": "47CBF991D679E666",
+              "encoded_id": "R8v5kdZ55mY",
+              "name": "sceAudiodecCpuInternalQueryMemSize"
+            },
+            {
+              "id": 10579226843967658853,
+              "hex_id": "92D0F6C370F81B65",
+              "encoded_id": "ktD2w3D4G2U",
+              "name": "sceAudiodecCpuQueryMemSize"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceAudiodecCpuAlac",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAudiodecCpuAlac",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 7224334908691135572,
+              "hex_id": "6441FE52C2FD3C54",
+              "encoded_id": "ZEH+UsL9PFQ",
+              "type": "Object",
+              "name": "audiodeccpuinternal_core_ops_alac2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceAudiodecCpuDdp",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAudiodecCpuDdp",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 14315048971510461608,
+              "hex_id": "C6A94531F933B4A8",
+              "encoded_id": "xqlFMfkztKg",
+              "type": "Object",
+              "name": "audiodeccpuinternal_core_ops_ddp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceAudiodecCpuDts",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAudiodecCpuDts",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 10610948949852519077,
+              "hex_id": "9341A9D9C5C37AA5",
+              "encoded_id": "k0Gp2cXDeqU",
+              "type": "Object",
+              "name": "audiodeccpuinternal_core_ops_dts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceAudiodecCpuDtsHdLbr",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAudiodecCpuDtsHdLbr",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 11321248330383002714,
+              "hex_id": "9D1D275FBA768C5A",
+              "encoded_id": "nR0nX7p2jFo",
+              "type": "Object",
+              "name": "audiodeccpuinternal_core_ops_dts_hd_lbr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceAudiodecCpuDtsHdMa",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAudiodecCpuDtsHdMa",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2196310632406887614,
+              "hex_id": "1E7ADCE23506ACBE",
+              "encoded_id": "Hnrc4jUGrL4",
+              "type": "Object",
+              "name": "audiodeccpuinternal_core_ops_dts_hd_ma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceAudiodecCpuFlac",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAudiodecCpuFlac",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 6505693214448683476,
+              "hex_id": "5A48DD8288E209D4",
+              "encoded_id": "WkjdgojiCdQ",
+              "type": "Object",
+              "name": "audiodeccpuinternal_core_ops_flac2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceAudiodecCpuHevag",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAudiodecCpuHevag",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 10772671697699919013,
+              "hex_id": "958037D53F4ED4A5",
+              "encoded_id": "lYA31T9O1KU",
+              "type": "Object",
+              "name": "audiodeccpuinternal_core_ops_hevag2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceAudiodecCpuLpcm",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAudiodecCpuLpcm",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 16091473250027691516,
+              "hex_id": "DF5065AA2499DDFC",
+              "encoded_id": "31BlqiSZ3fw",
+              "type": "Object",
+              "name": "audiodeccpuinternal_core_ops_lpcm_bd2"
+            },
+            {
+              "id": 4523512446324752664,
+              "hex_id": "3EC6BE9A743EC118",
+              "encoded_id": "Psa+mnQ+wRg",
+              "type": "Object",
+              "name": "audiodeccpuinternal_core_ops_lpcm_dvd2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceAudiodecCpuM4aac",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAudiodecCpuM4aac",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 9960637246951777821,
+              "hex_id": "8A3B4ACD6915E61D",
+              "encoded_id": "ijtKzWkV5h0",
+              "type": "Object",
+              "name": "audiodeccpuinternal_core_ops_m4aac2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
