@@ -3,17 +3,31 @@ PS4 library documentation.
 
 ## See also
 * [ps4_nid_resolver_ida](https://github.com/Thunder07/ps4_nid_resolver_ida), a plugin for IDA which makes use of ps4libdoc.
+* [ps4_module_loader](https://github.com/SocraticBliss/ps4_module_loader), a plugin for IDA which has its own list of symbols ([`aerolib.csv`](https://github.com/SocraticBliss/ps4_module_loader/blob/master/aerolib.csv)).
 
 ## Available versions
+* [1.05](https://github.com/idc/ps4libdoc/tree/1.05)
 * [1.06](https://github.com/idc/ps4libdoc/tree/1.06)
 * [1.76](https://github.com/idc/ps4libdoc/tree/1.76)
+* [2.00](https://github.com/idc/ps4libdoc/tree/2.00)
 * [2.57](https://github.com/idc/ps4libdoc/tree/2.57)
+* [3.00](https://github.com/idc/ps4libdoc/tree/3.00)
 * [3.55](https://github.com/idc/ps4libdoc/tree/3.55)
 * [3.70](https://github.com/idc/ps4libdoc/tree/3.70)
+* [4.00](https://github.com/idc/ps4libdoc/tree/4.00)
 * [4.05](https://github.com/idc/ps4libdoc/tree/4.05)
 * [4.55](https://github.com/idc/ps4libdoc/tree/4.55)
+* [4.74](https://github.com/idc/ps4libdoc/tree/4.74)
+* [5.00](https://github.com/idc/ps4libdoc/tree/5.00)
 * [5.05](https://github.com/idc/ps4libdoc/tree/5.05)
+* [5.56](https://github.com/idc/ps4libdoc/tree/5.56)
+* [6.72](https://github.com/idc/ps4libdoc/tree/6.72)
+* [6.80 (beta 2)](https://github.com/idc/ps4libdoc/tree/6.80_beta2)
 * [7.00](https://github.com/idc/ps4libdoc/tree/7.00)
+* [7.55](https://github.com/idc/ps4libdoc/tree/7.55)
+* [8.00](https://github.com/idc/ps4libdoc/tree/8.00)
+* [8.52](https://github.com/idc/ps4libdoc/tree/8.52)
+* [9.00](https://github.com/idc/ps4libdoc/tree/9.00)
 
 ## Other
 * [misc](https://github.com/idc/ps4libdoc/tree/misc), for things that fall outside of system versions.
