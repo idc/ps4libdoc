@@ -1,0 +1,297 @@
+﻿{
+  "shared_object_name": "libSceKeyboard.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx",
+    "libSceMbus.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceKeyboard",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceDbgKeyboard",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 1535548281841136605,
+              "hex_id": "154F5D06D29A33DD",
+              "encoded_id": "FU9dBtKaM90",
+              "name": "sceDbgKeyboardClose"
+            },
+            {
+              "id": 16959611228474769694,
+              "hex_id": "EB5CA48E71F7011E",
+              "encoded_id": "61ykjnH3AR4",
+              "name": "sceDbgKeyboardGetKey2Char"
+            },
+            {
+              "id": 7862040819834229811,
+              "hex_id": "6D1B947883D71433",
+              "encoded_id": "bRuUeIPXFDM",
+              "name": "sceDbgKeyboardInit"
+            },
+            {
+              "id": 5495700374683618206,
+              "hex_id": "4C44A65F90FF8B9E",
+              "encoded_id": "TESmX5D-i54",
+              "name": "sceDbgKeyboardOpen"
+            },
+            {
+              "id": 13593798625577347313,
+              "hex_id": "BCA6DFD3B1BB28F1",
+              "encoded_id": "vKbf07G7KPE",
+              "name": "sceDbgKeyboardRead"
+            },
+            {
+              "id": 2059010236302784246,
+              "hex_id": "1C9312E69BB876F6",
+              "encoded_id": "HJMS5pu4dvY",
+              "name": "sceDbgKeyboardReadState"
+            }
+          ]
+        },
+        {
+          "name": "libSceKeyboard",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 15039100854390703319,
+              "hex_id": "D0B59E8BE73B44D7",
+              "encoded_id": "0LWei+c7RNc",
+              "name": "sceKeyboardClose"
+            },
+            {
+              "id": 8119027341722256577,
+              "hex_id": "70AC9459D10A04C1",
+              "encoded_id": "cKyUWdEKBME",
+              "name": "sceKeyboardConnectPort"
+            },
+            {
+              "id": 12268313365960595224,
+              "hex_id": "AA41CE018B421718",
+              "encoded_id": "qkHOAYtCFxg",
+              "name": "sceKeyboardDebugGetDeviceId"
+            },
+            {
+              "id": 15154618444020227442,
+              "hex_id": "D250052EA6689D72",
+              "encoded_id": "0lAFLqZonXI",
+              "name": "sceKeyboardDeviceOpen"
+            },
+            {
+              "id": 1014676330888980429,
+              "hex_id": "0E14DABF38A267CD",
+              "encoded_id": "DhTavziiZ80",
+              "name": "sceKeyboardDisconnectDevice"
+            },
+            {
+              "id": 2150955548922713724,
+              "hex_id": "1DD9BAACED31967C",
+              "encoded_id": "Hdm6rO0xlnw",
+              "name": "sceKeyboardDisconnectPort"
+            },
+            {
+              "id": 6687893538653591499,
+              "hex_id": "5CD02BBD4B13D7CB",
+              "encoded_id": "XNArvUsT18s",
+              "name": "sceKeyboardGetConnection"
+            },
+            {
+              "id": 17548749908717887662,
+              "hex_id": "F389AF10914C60AE",
+              "encoded_id": "84mvEJFMYK4",
+              "name": "sceKeyboardGetDeviceInfo"
+            },
+            {
+              "id": 14478872423860122912,
+              "hex_id": "C8EF49C1D461B520",
+              "encoded_id": "yO9JwdRhtSA",
+              "name": "sceKeyboardGetKey2Char"
+            },
+            {
+              "id": 13954214179087980941,
+              "hex_id": "C1A753DD0042198D",
+              "encoded_id": "wadT3QBCGY0",
+              "name": "sceKeyboardInit"
+            },
+            {
+              "id": 16947793864945271347,
+              "hex_id": "EB32A8BA169B8233",
+              "encoded_id": "6zKouhabgjM",
+              "name": "sceKeyboardMbusInit"
+            },
+            {
+              "id": 2062519558083472146,
+              "hex_id": "1C9F8A9C41DC6B12",
+              "encoded_id": "HJ+KnEHcaxI",
+              "name": "sceKeyboardOpen"
+            },
+            {
+              "id": 14350398162020855679,
+              "hex_id": "C726DB18C0ABEF7F",
+              "encoded_id": "xybbGMCr738",
+              "name": "sceKeyboardRead"
+            },
+            {
+              "id": 16751777543403823011,
+              "hex_id": "E87A44EBC6F35FA3",
+              "encoded_id": "6HpE68bzX6M",
+              "name": "sceKeyboardReadState"
+            },
+            {
+              "id": 10278441640161324769,
+              "hex_id": "8EA45C36D6662EE1",
+              "encoded_id": "jqRcNtZmLuE",
+              "name": "sceKeyboardSetProcessFocus"
+            },
+            {
+              "id": 3121059552984417671,
+              "hex_id": "2B503B209A79C587",
+              "encoded_id": "K1A7IJp5xYc",
+              "name": "sceKeyboardSetProcessPrivilege"
+            },
+            {
+              "id": 10934356882183129907,
+              "hex_id": "97BEA3A6D1DF8B33",
+              "encoded_id": "l76jptHfizM",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 4465068684319409537,
+              "hex_id": "3DF71C4FBA944581",
+              "encoded_id": "PfccT7qURYE",
+              "name": "ioctl"
+            },
+            {
+              "id": 14042412343999313768,
+              "hex_id": "C2E0ABA081A3B768",
+              "encoded_id": "wuCroIGjt2g",
+              "name": "open"
+            },
+            {
+              "id": 8244460636280417242,
+              "hex_id": "726A3544862F6BDA",
+              "encoded_id": "cmo1RIYva9o",
+              "name": "scePthreadMutexInit"
+            },
+            {
+              "id": 17672887709872455390,
+              "hex_id": "F542B5BCB6507EDE",
+              "encoded_id": "9UK1vLZQft4",
+              "name": "scePthreadMutexLock"
+            },
+            {
+              "id": 13149901319649172397,
+              "hex_id": "B67DD5943D211BAD",
+              "encoded_id": "tn3VlD0hG60",
+              "name": "scePthreadMutexUnlock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceMbus",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceMbus",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 6443933265851639922,
+              "hex_id": "596D7329F368E872",
+              "encoded_id": "WW1zKfNo6HI",
+              "name": "sceMbusAddHandleByDeviceId"
+            },
+            {
+              "id": 792868487981323124,
+              "hex_id": "0B00D5B063BA5374",
+              "encoded_id": "CwDVsGO6U3Q",
+              "name": "sceMbusAddHandleByUserId"
+            },
+            {
+              "id": 13912700276837726893,
+              "hex_id": "C113D7306B643AAD",
+              "encoded_id": "wRPXMGtkOq0",
+              "name": "sceMbusInit"
+            },
+            {
+              "id": 18038804289069257005,
+              "hex_id": "FA56B4ED5EC4112D",
+              "encoded_id": "+la07V7EES0",
+              "name": "sceMbusRemoveHandle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

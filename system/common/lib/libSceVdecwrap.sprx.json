@@ -1,0 +1,218 @@
+﻿{
+  "shared_object_name": "libSceVdecwrap.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx",
+    "libSceVdecCore.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceVdecwrap",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceVdecwrap",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 7860982058067820123,
+              "hex_id": "6D17D18854D9FE5B",
+              "encoded_id": "bRfRiFTZ-ls",
+              "name": "sceVdecwrapCreateDecoder"
+            },
+            {
+              "id": 14303250046173207812,
+              "hex_id": "C67F5A2297BE5D04",
+              "encoded_id": "xn9aIpe+XQQ",
+              "name": "sceVdecwrapDeleteDecoder"
+            },
+            {
+              "id": 15201184303459017297,
+              "hex_id": "D2F57495ACEB2251",
+              "encoded_id": "0vV0lazrIlE",
+              "name": "sceVdecwrapFlushDecodeOutput"
+            },
+            {
+              "id": 12653741093149610693,
+              "hex_id": "AF9B1E7B58F212C5",
+              "encoded_id": "r5see1jyEsU",
+              "name": "sceVdecwrapGetDecodeOutput"
+            },
+            {
+              "id": 7703697351668380218,
+              "hex_id": "6AE907ECE74FB23A",
+              "encoded_id": "aukH7OdPsjo",
+              "name": "sceVdecwrapMapDirectMemory"
+            },
+            {
+              "id": 6930615309765909939,
+              "hex_id": "602E7DE77D7B1DB3",
+              "encoded_id": "YC595317HbM",
+              "name": "sceVdecwrapQueryDecoderMemoryInfo"
+            },
+            {
+              "id": 18423434521667563981,
+              "hex_id": "FFAD3015FEA9F1CD",
+              "encoded_id": "-60wFf6p8c0",
+              "name": "sceVdecwrapQueryFrameBufferInfo"
+            },
+            {
+              "id": 4022492726176251458,
+              "hex_id": "37D2C3D28753FE42",
+              "encoded_id": "N9LD0odT-kI",
+              "name": "sceVdecwrapResetDecoder"
+            },
+            {
+              "id": 14100418860041554947,
+              "hex_id": "C3AEC03EF8FECC03",
+              "encoded_id": "w67APvj+zAM",
+              "name": "sceVdecwrapSetDecodeInput"
+            },
+            {
+              "id": 3906896610252488960,
+              "hex_id": "363815C474470100",
+              "encoded_id": "NjgVxHRHAQA",
+              "name": "sceVdecwrapSyncDecode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            },
+            {
+              "id": 9640958307794899731,
+              "hex_id": "85CB90803E775313",
+              "encoded_id": "hcuQgD53UxM",
+              "name": "printf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceVdecCore",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceVdecCore",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 14012260366377013870,
+              "hex_id": "C2758C90262FD26E",
+              "encoded_id": "wnWMkCYv0m4",
+              "name": "sceVdecCoreCreateDecoder"
+            },
+            {
+              "id": 1100099532888615899,
+              "hex_id": "0F4456B253662BDB",
+              "encoded_id": "D0RWslNmK9s",
+              "name": "sceVdecCoreDeleteDecoder"
+            },
+            {
+              "id": 8019885157706027875,
+              "hex_id": "6F4C5B0F4C7ED363",
+              "encoded_id": "b0xbD0x+02M",
+              "name": "sceVdecCoreFlushDecodeOutput"
+            },
+            {
+              "id": 3137610358359097063,
+              "hex_id": "2B8B07FF45947EE7",
+              "encoded_id": "K4sH-0WUfuc",
+              "name": "sceVdecCoreGetDecodeOutput"
+            },
+            {
+              "id": 17115294515424144778,
+              "hex_id": "ED85BDAE5A0C2D8A",
+              "encoded_id": "7YW9rloMLYo",
+              "name": "sceVdecCoreMapMemoryBlock"
+            },
+            {
+              "id": 5986824775234683992,
+              "hex_id": "53157969DC5F0458",
+              "encoded_id": "UxV5adxfBFg",
+              "name": "sceVdecCoreQueryFrameBufferInfo"
+            },
+            {
+              "id": 7406298418077962065,
+              "hex_id": "66C8752BC6130F51",
+              "encoded_id": "Zsh1K8YTD1E",
+              "name": "sceVdecCoreQueryInstanceSize"
+            },
+            {
+              "id": 11266317263832093482,
+              "hex_id": "9C59FFDC2590132A",
+              "encoded_id": "nFn-3CWQEyo",
+              "name": "sceVdecCoreResetDecoder"
+            },
+            {
+              "id": 1696145197101953998,
+              "hex_id": "1789EB11F8BF33CE",
+              "encoded_id": "F4nrEfi-M84",
+              "name": "sceVdecCoreSetDecodeInput"
+            },
+            {
+              "id": 4263872057878765643,
+              "hex_id": "3B2C510BB193E04B",
+              "encoded_id": "OyxRC7GT4Es",
+              "name": "sceVdecCoreSyncDecode"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

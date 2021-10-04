@@ -1,0 +1,161 @@
+﻿{
+  "shared_object_name": "libSceZlib.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceZlib",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceZlib",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 16894900275817608060,
+              "hex_id": "EA76BE49AFC1F37C",
+              "encoded_id": "6na+Sa-B83w",
+              "name": "sceZlibFinalize"
+            },
+            {
+              "id": 15699790298541744547,
+              "hex_id": "D9E0DC1870B461A3",
+              "encoded_id": "2eDcGHC0YaM",
+              "name": "sceZlibGetResult"
+            },
+            {
+              "id": 5527794521628983124,
+              "hex_id": "4CB6ABD4750BBF54",
+              "encoded_id": "TLar1HULv1Q",
+              "name": "sceZlibInflate"
+            },
+            {
+              "id": 11193139068476525214,
+              "hex_id": "9B5604ADD2170A9E",
+              "encoded_id": "m1YErdIXCp4",
+              "name": "sceZlibInitialize"
+            },
+            {
+              "id": 13267346753477704523,
+              "hex_id": "B81F159430F87B4B",
+              "encoded_id": "uB8VlDD4e0s",
+              "name": "sceZlibWaitForDone"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 17588531036976227154,
+              "hex_id": "F41703CA43E6A352",
+              "encoded_id": "9BcDykPmo1I",
+              "name": "__error"
+            },
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            },
+            {
+              "id": 4465068684319409537,
+              "hex_id": "3DF71C4FBA944581",
+              "encoded_id": "PfccT7qURYE",
+              "name": "ioctl"
+            },
+            {
+              "id": 6084524581721067763,
+              "hex_id": "547092DEB09DD0F3",
+              "encoded_id": "VHCS3rCd0PM",
+              "name": "sceKernelAddReadEvent"
+            },
+            {
+              "id": 5813464972379181691,
+              "hex_id": "50AD939760D6527B",
+              "encoded_id": "UK2Tl2DWUns",
+              "name": "sceKernelClose"
+            },
+            {
+              "id": 1099895446604211106,
+              "hex_id": "0F439D14C8E9E3A2",
+              "encoded_id": "D0OdFMjp46I",
+              "name": "sceKernelCreateEqueue"
+            },
+            {
+              "id": 10273101738085114881,
+              "hex_id": "8E91639A0002E401",
+              "encoded_id": "jpFjmgAC5AE",
+              "name": "sceKernelDeleteEqueue"
+            },
+            {
+              "id": 10592944380180505501,
+              "hex_id": "9301B2CA3A21239D",
+              "encoded_id": "kwGyyjohI50",
+              "name": "sceKernelGetEventData"
+            },
+            {
+              "id": 15307142596818687567,
+              "hex_id": "D46DE51751A0D64F",
+              "encoded_id": "1G3lF1Gg1k8",
+              "name": "sceKernelOpen"
+            },
+            {
+              "id": 9168357056915475053,
+              "hex_id": "7F3C8C2ACF648A6D",
+              "encoded_id": "fzyMKs9kim0",
+              "name": "sceKernelWaitEqueue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

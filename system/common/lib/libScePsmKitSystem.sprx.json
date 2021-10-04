@@ -1,0 +1,113 @@
+﻿{
+  "shared_object_name": "libScePsmKitSystem.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceLibcInternal.prx",
+    "libSceSystemService.prx"
+  ],
+  "modules": [
+    {
+      "name": "libScePsmKitSystem",
+      "version_major": 0,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libScePsmKitSystem",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 85068400845884878,
+              "hex_id": "012E394286078DCE",
+              "encoded_id": "AS45QoYHjc4",
+              "name": "_Z5dummyv"
+            },
+            {
+              "id": 15700069162115042706,
+              "hex_id": "D9E1D9B86CEE8D92",
+              "encoded_id": "2eHZuGzujZI",
+              "name": "scePsmKitFontConfigGetFont"
+            },
+            {
+              "id": 5046482130984543282,
+              "hex_id": "4608B4C2BEB0A432",
+              "encoded_id": "Rgi0wr6wpDI",
+              "name": "scePsmKitFontConfigGetFontPath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2623297511407571098,
+              "hex_id": "2467D330139D509A",
+              "encoded_id": "JGfTMBOdUJo",
+              "name": "sceKernelGetFsSandboxRandomWord"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 15880793502959808828,
+              "hex_id": "DC63E98D0740313C",
+              "encoded_id": "3GPpjQdAMTw",
+              "name": "__cxa_guard_acquire"
+            },
+            {
+              "id": 17775740718153119521,
+              "hex_id": "F6B01E00D4F6B721",
+              "encoded_id": "9rAeANT2tyE",
+              "name": "__cxa_guard_release"
+            },
+            {
+              "id": 4860863683521237115,
+              "hex_id": "437541C425E1507B",
+              "encoded_id": "Q3VBxCXhUHs",
+              "name": "memcpy"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            },
+            {
+              "id": 10341780252942172940,
+              "hex_id": "8F856258D1C4830C",
+              "encoded_id": "j4ViWNHEgww",
+              "name": "strlen"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
