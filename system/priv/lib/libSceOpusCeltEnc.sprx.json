@@ -1,0 +1,206 @@
+﻿{
+  "shared_object_name": "libSceOpusCeltEnc.prx",
+  "shared_object_names": [
+    "libkernel.prx",
+    "libSceAjm.prx",
+    "libSceLibcInternal.prx"
+  ],
+  "modules": [
+    {
+      "name": "libSceOpusCeltEnc",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceOpusCeltEnc",
+          "version": 1,
+          "is_export": true,
+          "symbols": [
+            {
+              "id": 707964030802476311,
+              "hex_id": "09D33188F9BC3D17",
+              "encoded_id": "CdMxiPm8PRc",
+              "name": "sceOpusCeltEncCreate"
+            },
+            {
+              "id": 6732175637316189187,
+              "hex_id": "5D6D7E12D3C53C03",
+              "encoded_id": "XW1+EtPFPAM",
+              "name": "sceOpusCeltEncCtl"
+            },
+            {
+              "id": 8995001358939590965,
+              "hex_id": "7CD4AA1411C01135",
+              "encoded_id": "fNSqFBHAETU",
+              "name": "sceOpusCeltEncDestroy"
+            },
+            {
+              "id": 13155745040166800731,
+              "hex_id": "B692986972BFCD5B",
+              "encoded_id": "tpKYaXK-zVs",
+              "name": "sceOpusCeltEncEncode"
+            },
+            {
+              "id": 18246988376435370686,
+              "hex_id": "FD3A53406E1CAABE",
+              "encoded_id": "-TpTQG4cqr4",
+              "name": "sceOpusCeltEncEncodeFloat"
+            },
+            {
+              "id": 5863875113766908828,
+              "hex_id": "5160AB590B54739C",
+              "encoded_id": "UWCrWQtUc5w",
+              "name": "sceOpusCeltEncEncodeFloatWithPriority"
+            },
+            {
+              "id": 175515272725588825,
+              "hex_id": "026F8E35EB76EB59",
+              "encoded_id": "Am+ONet261k",
+              "name": "sceOpusCeltEncEncodeWithPriority"
+            },
+            {
+              "id": 6452567681430785847,
+              "hex_id": "598C201E7CD90F37",
+              "encoded_id": "WYwgHnzZDzc",
+              "name": "sceOpusCeltEncGetSize"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libkernel",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libkernel",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 4246298716624633464,
+              "hex_id": "3AEDE22F569BBE78",
+              "encoded_id": "Ou3iL1abvng",
+              "name": "__stack_chk_fail"
+            },
+            {
+              "id": 9204107242627281749,
+              "hex_id": "7FBB8EC58F663355",
+              "encoded_id": "f7uOxY9mM1U",
+              "type": "Object",
+              "name": "__stack_chk_guard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceAjm",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceAjm",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 8530084243668145791,
+              "hex_id": "7660F26CDFFF167F",
+              "encoded_id": "dmDybN--Fn8",
+              "name": "sceAjmBatchJobControlBufferRa"
+            },
+            {
+              "id": 1322691838721532539,
+              "hex_id": "125B25382A4E227B",
+              "encoded_id": "ElslOCpOIns",
+              "name": "sceAjmBatchJobRunBufferRa"
+            },
+            {
+              "id": 8958051717620898155,
+              "hex_id": "7C5164934C5F196B",
+              "encoded_id": "fFFkk0xfGWs",
+              "name": "sceAjmBatchStartBuffer"
+            },
+            {
+              "id": 18348487849989554310,
+              "hex_id": "FEA2EC7C3032C086",
+              "encoded_id": "-qLsfDAywIY",
+              "name": "sceAjmBatchWait"
+            },
+            {
+              "id": 3493574960162296555,
+              "hex_id": "307BABEAA0AC52EB",
+              "encoded_id": "MHur6qCsUus",
+              "name": "sceAjmFinalize"
+            },
+            {
+              "id": 8529739046756504302,
+              "hex_id": "765FB87874B352EE",
+              "encoded_id": "dl+4eHSzUu4",
+              "name": "sceAjmInitialize"
+            },
+            {
+              "id": 223495170982273183,
+              "hex_id": "031A03AC8369E09F",
+              "encoded_id": "AxoDrINp4J8",
+              "name": "sceAjmInstanceCreate"
+            },
+            {
+              "id": 5022318120677461530,
+              "hex_id": "45B2DBB8ABFCCE1A",
+              "encoded_id": "RbLbuKv8zho",
+              "name": "sceAjmInstanceDestroy"
+            },
+            {
+              "id": 4861479765544443822,
+              "hex_id": "43777216EC069FAE",
+              "encoded_id": "Q3dyFuwGn64",
+              "name": "sceAjmModuleRegister"
+            },
+            {
+              "id": 6498346500183423138,
+              "hex_id": "5A2EC3B652D5F8A2",
+              "encoded_id": "Wi7DtlLV+KI",
+              "name": "sceAjmModuleUnregister"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libSceLibcInternal",
+      "version_major": 1,
+      "version_minor": 1,
+      "libraries": [
+        {
+          "name": "libSceLibcInternal",
+          "version": 1,
+          "is_export": false,
+          "symbols": [
+            {
+              "id": 2262984834435268711,
+              "hex_id": "1F67BCB7949C4067",
+              "encoded_id": "H2e8t5ScQGc",
+              "name": "__cxa_finalize"
+            },
+            {
+              "id": 17524849461551964383,
+              "hex_id": "F334C5BC120020DF",
+              "encoded_id": "8zTFvBIAIN8",
+              "name": "memset"
+            },
+            {
+              "id": 7295283892122268634,
+              "hex_id": "653E0E0C3D93B3DA",
+              "encoded_id": "ZT4ODD2Ts9o",
+              "type": "Object",
+              "name": "Need_sceLibcInternal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
