@@ -2677,58 +2677,58 @@
           "is_export": false,
           "symbols": [
             {
-              "id": 204291392660954228,
-              "hex_id": "02D5C9F07239DC74",
-              "encoded_id": "AtXJ8HI53HQ",
-              "name": null
-            },
-            {
-              "id": 2070940513415346056,
-              "hex_id": "1CBD756CB5163788",
-              "encoded_id": "HL11bLUWN4g",
-              "name": null
+              "id": 4230690006133497447,
+              "hex_id": "3AB66E253A61DE67",
+              "encoded_id": "OrZuJTph3mc",
+              "name": "sceNpRemotePlaySessionSignalingCreateJoinSession"
             },
             {
               "id": 2387871728080225717,
               "hex_id": "21236CAF696B85B5",
               "encoded_id": "ISNsr2lrhbU",
-              "name": null
-            },
-            {
-              "id": 4230690006133497447,
-              "hex_id": "3AB66E253A61DE67",
-              "encoded_id": "OrZuJTph3mc",
-              "name": null
-            },
-            {
-              "id": 5634368745344027252,
-              "hex_id": "4E314C858FCB4A74",
-              "encoded_id": "TjFMhY-LSnQ",
-              "name": null
-            },
-            {
-              "id": 6667144098579750902,
-              "hex_id": "5C86743BCE301FF6",
-              "encoded_id": "XIZ0O84wH-Y",
-              "name": null
+              "name": "sceNpRemotePlaySessionSignalingGetConnectionStatus"
             },
             {
               "id": 9573714492229813501,
               "hex_id": "84DCAA9B625E04FD",
               "encoded_id": "hNyqm2JeBP0",
-              "name": null
+              "name": "sceNpRemotePlaySessionSignalingGetCustomProperty"
             },
             {
-              "id": 14939752373061378729,
-              "hex_id": "CF54A9A10C9F62A9",
-              "encoded_id": "z1SpoQyfYqk",
-              "name": null
+              "id": 2070940513415346056,
+              "hex_id": "1CBD756CB5163788",
+              "encoded_id": "HL11bLUWN4g",
+              "name": "sceNpRemotePlaySessionSignalingGetLocalNetInfo"
+            },
+            {
+              "id": 204291392660954228,
+              "hex_id": "02D5C9F07239DC74",
+              "encoded_id": "AtXJ8HI53HQ",
+              "name": "sceNpRemotePlaySessionSignalingGetMemoryInfo"
+            },
+            {
+              "id": 6667144098579750902,
+              "hex_id": "5C86743BCE301FF6",
+              "encoded_id": "XIZ0O84wH-Y",
+              "name": "sceNpRemotePlaySessionSignalingInitialize"
             },
             {
               "id": 18148142581247926955,
               "hex_id": "FBDB2786506C62AB",
               "encoded_id": "+9snhlBsYqs",
-              "name": null
+              "name": "sceNpRemotePlaySessionSignalingJoinSession"
+            },
+            {
+              "id": 5634368745344027252,
+              "hex_id": "4E314C858FCB4A74",
+              "encoded_id": "TjFMhY-LSnQ",
+              "name": "sceNpRemotePlaySessionSignalingLeaveSession"
+            },
+            {
+              "id": 14939752373061378729,
+              "hex_id": "CF54A9A10C9F62A9",
+              "encoded_id": "z1SpoQyfYqk",
+              "name": "sceNpRemotePlaySessionSignalingTerminate"
             }
           ]
         }
@@ -2885,6 +2885,12 @@
               "name": "scePadSetLightBar"
             },
             {
+              "id": 14531000564232450438,
+              "hex_id": "C9A87C064E137186",
+              "encoded_id": "yah8Bk4TcYY",
+              "name": "scePadSetShareButtonMaskForRemotePlay"
+            },
+            {
               "id": 13561126417996807106,
               "hex_id": "BC32CCA092DD7BC2",
               "encoded_id": "vDLMoJLde8I",
@@ -2895,12 +2901,6 @@
               "hex_id": "C8556739D1B1BD96",
               "encoded_id": "yFVnOdGxvZY",
               "name": "scePadSetVibration"
-            },
-            {
-              "id": 14531000564232450438,
-              "hex_id": "C9A87C064E137186",
-              "encoded_id": "yah8Bk4TcYY",
-              "name": null
             }
           ]
         }
@@ -3123,28 +3123,28 @@
           "is_export": false,
           "symbols": [
             {
+              "id": 1086836614102535017,
+              "hex_id": "0F15382468784B69",
+              "encoded_id": "DxU4JGh4S2k",
+              "name": "sceRemoteplayGetOperationStatus"
+            },
+            {
               "id": 10616304295136606415,
               "hex_id": "9354B082431238CF",
               "encoded_id": "k1SwgkMSOM8",
               "name": "sceRemoteplayInitialize"
             },
             {
-              "id": 1086836614102535017,
-              "hex_id": "0F15382468784B69",
-              "encoded_id": "DxU4JGh4S2k",
-              "name": null
+              "id": 18246413696025507789,
+              "hex_id": "FD384895386C37CD",
+              "encoded_id": "-ThIlThsN80",
+              "name": "sceRemoteplayServerLock"
             },
             {
               "id": 15105019942448735458,
               "hex_id": "D19FCF9B9AD924E2",
               "encoded_id": "0Z-Pm5rZJOI",
-              "name": null
-            },
-            {
-              "id": 18246413696025507789,
-              "hex_id": "FD384895386C37CD",
-              "encoded_id": "-ThIlThsN80",
-              "name": null
+              "name": "sceRemoteplayServerUnLock"
             }
           ]
         }
